@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 2
+technology_group = chinese
+religion = buddhism
+primary_culture = tibetan
+capital = 4458
+add_accepted_culture = gondi
+1444.11.11= {
+	monarch = {
+		name = "Chöden"
+		dynasty = "Tsédong"
+		adm = 6
+		dip = 3
+		mil = 4
+		birth_date = 1410.12.17
+		religion = buddhism
+		culture = tibetan
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Mingda"
+		dynasty = "Orsini"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = GDW
+		birth_date = 1401.11.12
+		death_date = 1461.11.12
+		female = yes
+		religion = vajrayana
+		culture = khalkha
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = pious_personality
+	heir = {
+		name = "Zenji"
+		monarch_name = "Zenji"
+		dynasty = "Tsédong"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1428.6.29
+		death_date = 1493.6.29
+		claim = 89
+		religion = mahayana
+		culture = tibetan
+	}
+	add_heir_personality = secretive_personality
+	add_heir_personality = silver_tongue_personality
+}
+1444.11.11= {
+	add_prestige = 82
+	add_treasury = 82
+}

@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 181 215 25 }
+revolutionary_colors = { 10 5 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abdul-Gafur #0" = 0
+	"Abram #0" = 0
+	"Abu-Bakr #1" = 10
+	"Adnan #1" = 10
+	"Amr #0" = 0
+	"Andali #0" = -1
+	"Aydahis #0" = 0
+	"Azmera #1" = 10
+	"Berta #2" = 10
+	"Burhanaddin #0" = 0
+	"Getachew #0" = 0
+	"Geteye #1" = 10
+	"Hakim #0" = 0
+	"Hakym #1" = 10
+	"Haweeya #1" = -1
+	"Hussayn #0" = 0
+	"Isman #1" = 10
+	"Jalaaladdin #1" = 10
+	"Kedafu #1" = 10
+	"Mahdi #0" = 0
+	"Mekonnen #1" = 10
+	"Omer #0" = 0
+	"Sa'adaddin #1" = 10
+	"Sabah #0" = 0
+	"Sadiq #0" = 0
+	"Samir #0" = 0
+	"Semer #1" = 10
+	"Shararah #0" = -1
+	"Suhaila #0" = -1
+	"Tefere #2" = 10
+	"Zaia #0" = 0
+}
+leader_names = {
+	"Abdelrashid"
+	"Barré"
+	"Bol"
+	"Deng"
+	"Lemn"
+	"Leta"
+	"Semer"
+	"Teka"
+	"Tsige"
+	"Yagoub"
+}
+ship_names = {
+	"Asayita"
+	"Aura"
+	"Awash"
+	"Berahle"
+	"Chifra"
+	"Dallol"
+	"Dubti"
+	"Dulecha"
+	"Elidar"
+	"Ewa"
+	"Gewane"
+	"Koneba"
+	"Mille"
+	"Semera"
+	"Simurobi"
+	"Yalo"
+}

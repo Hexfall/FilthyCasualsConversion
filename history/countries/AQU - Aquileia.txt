@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = converted_dynamic_faith_112
+primary_culture = venetian
+capital = 4738
+1444.11.11= {
+	monarch = {
+		name = "Seburg"
+		dynasty = "Mancini"
+		adm = 5
+		dip = 2
+		mil = 4
+		birth_date = 1393.1.30
+		female = yes
+		religion = converted_dynamic_faith_112
+		culture = venetian
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = industrious_personality
+	heir = {
+		name = "Engelschalk"
+		monarch_name = "Engelschalk"
+		dynasty = "Mancini"
+		adm = 5
+		dip = 5
+		mil = 3
+		birth_date = 1429.7.6
+		death_date = 1494.7.6
+		claim = 89
+		religion = converted_dynamic_faith_112
+		culture = italian
+	}
+	add_heir_personality = cruel_personality
+	add_heir_personality = fierce_negotiator_personality
+}
+1444.11.11= {
+	add_prestige = 79
+	add_treasury = 65
+}

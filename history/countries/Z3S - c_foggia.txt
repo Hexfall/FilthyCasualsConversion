@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = converted_dynamic_faith_112
+primary_culture = dynamic-greek-culture-num3
+capital = 2985
+fixed_capital = 2985
+add_accepted_culture = dynamic-greek-culture-num2
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	add_prestige = 93
+	add_treasury = 69
+}

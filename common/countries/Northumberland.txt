@@ -1,0 +1,143 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 83 149 105 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Beatrice #0" = -1
+	"Cynegyth #1" = -1
+	"Cytelbearn #1" = 10
+	"Eadwin #1" = 10
+	"Ealhred #1" = 10
+	"Edward #1" = 10
+	"Eirikr #2" = 10
+	"Guthmund #1" = 10
+	"Guy #4" = 10
+	"Hereberht #1" = 10
+	"Joanna #1" = -1
+	"John #0" = 0
+	"Maud #0" = -1
+	"Morcar #1" = 10
+	"Olafr Cuarán #2" = 10
+	"Peter #0" = 0
+	"Philippa #0" = -1
+	"Roger #1" = 10
+	"Siward #1" = 10
+	"Thomas #1" = 10
+	"Tostig #1" = 10
+	"Wihtburh #1" = -1
+	"William #1" = 10
+	"Ælfflæd #1" = -1
+	"Ælla #1" = 10
+	"Æthelmær #1" = 10
+	"Æthelwald #1" = 10
+}
+leader_names = {
+	"Armstrong"
+	"Atkinson"
+	"Ball"
+	"Bell"
+	"Birkett"
+	"Braithwaite"
+	"Burdon"
+	"Carlisle"
+	"Carr"
+	"Cavendish"
+	"Charlton"
+	"Dacre"
+	"Dixon"
+	"Dodd"
+	"Elliott"
+	"Featherstonehaugh"
+	"Fenwick"
+	"Graham"
+	"Grey"
+	"Hall"
+	"Heron"
+	"Hodgson"
+	"Hume"
+	"Lambton"
+	"Liddell"
+	"Lowther"
+	"Lumley"
+	"Marley"
+	"Milburn"
+	"Musgrave"
+	"Neville"
+	"Percy"
+	"Radcliffe"
+	"Robinson"
+	"Robson"
+	"Scott"
+	"Shafto"
+	"Swinburne"
+	"Todhunter"
+	"Tyson"
+}
+ship_names = {
+	"Aethelfrith"
+	"Alnwick"
+	"Bamburgh"
+	"Bede"
+	"Bernicia"
+	"Berwick"
+	"Blackadder"
+	"Borderer"
+	"Bowes"
+	"Carlisle"
+	"Cheviot"
+	"Cumberland"
+	"Derwent"
+	"Durham"
+	"Eden"
+	"Hadrian"
+	"Helvellyn"
+	"Jarrow"
+	"Lindisfarne"
+	"Morpeth"
+	"Newcastle"
+	"Northumbria"
+	"Penrith"
+	"Percy"
+	"Reiver"
+	"Rheged"
+	"Scafell"
+	"Shap"
+	"Skiddaw"
+	"Solway"
+	"St Cuthbert"
+	"St Edwin"
+	"St Oswald"
+	"Sunderland"
+	"Tees"
+	"Tweed"
+	"Tyne"
+	"Wear"
+	"Westmorland"
+	"Windermere"
+}

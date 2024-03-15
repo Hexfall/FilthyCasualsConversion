@@ -1,0 +1,84 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 16 142 49 }
+historical_idea_groups = {
+	defensive_ideas
+	maritime_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abd ar-Rahman #1" = 10
+	"Abdul-Gafur #0" = 0
+	"Abdul-Madjid #1" = 10
+	"Alam #2" = 10
+	"Ancelma #0" = -1
+	"Burhanaddin #1" = 10
+	"Charlotte #0" = -1
+	"Fadl #0" = 0
+	"Guibourc #0" = -1
+	"Is'mail #0" = 0
+	"Lutolf #1" = 10
+	"Muhammad #1" = 10
+	"Muslihiddin #1" = 10
+	"Najib #1" = 10
+	"Pons #0" = 0
+	"Saaman #0" = -1
+	"Shujah #1" = 10
+	"Suhail #1" = 10
+	"Toustain #0" = 0
+	"Yagana #0" = -1
+	"Yu'fir #2" = 10
+	"Yusuf #0" = 0
+}
+leader_names = {
+	"Ali"
+	"Ibrahim"
+	"Issa"
+	"Jomaa"
+	"Khalil"
+	"Mansour"
+	"Saab"
+	"Saad"
+	"Saleh"
+	"Shammas"
+}
+ship_names = {
+	"Al-Kawd"
+	"Ali ibn Rasul"
+	"At-Tubah"
+	"Dhubab"
+	"Ibb"
+	"Jabal Kharaz"
+	"Jabal Thamar"
+	"Jabal al-Hasha"
+	"Malik al-Mujahid"
+	"Mansur Umar"
+	"Mawiyah"
+	"Musaymir"
+	"Muzaffar Yusuf"
+	"Qa'tabah"
+	"Shaykh Uthman"
+	"Ta'izz"
+	"Wadi Bana"
+	"Whaqra"
+	"Zabid"
+	"Zaizz"
+}

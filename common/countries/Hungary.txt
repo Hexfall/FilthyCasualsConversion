@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 152 85 92 }
+revolutionary_colors = { 5 0 10 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Alajos #0" = 0
+	"Ambrus #1" = 10
+	"Anastazja #0" = -1
+	"András #1" = 10
+	"Anele #0" = -1
+	"Antanas #1" = 10
+	"Birute #0" = -1
+	"Béla #2" = 10
+	"Csilla #0" = -1
+	"Csongor #1" = 10
+	"Ete #1" = 10
+	"Gintaras #0" = 0
+	"Géza #2" = 10
+	"Imre #2" = 10
+	"István #1" = 10
+	"Jacek #0" = 0
+	"Jaunutis #0" = 0
+	"Jenõ #1" = 10
+	"Jenö #1" = 10
+	"Katarina #0" = -1
+	"Kenna #0" = -1
+	"Kálmán #1" = 10
+	"László #1" = 10
+	"Márton #1" = 10
+	"Pihl #0" = 0
+	"Péter #2" = 10
+	"Roze #0" = -1
+	"Salamon #1" = 10
+	"Saul #1" = 10
+	"Sulislaw #0" = 0
+	"Svarnas #1" = 10
+	"Sámuel #1" = 10
+	"Taksony #1" = 10
+	"Tibor #1" = 10
+	"Tivadar #1" = 10
+	"Tétény #1" = 10
+	"Zoltán #1" = 10
+	"Zsófia #0" = -1
+	"Ágnes #1" = -1
+	"Álmos #1" = 10
+	"Árpád #1" = 10
+}
+leader_names = {
+	"Alvinczy"
+	"Andrássy"
+	"Batthyány"
+	"Beleznay"
+	"Benovský"
+	"Bethlen"
+	"Bocskay"
+	"Báthory"
+	"Csák"
+	"Dessewffy"
+	"Esterházy"
+	"Festetics"
+	"Frangepán"
+	"Garay"
+	"Hadik"
+	"Horthy"
+	"Hunyadi"
+	"Kemeny"
+	"Kinizsi"
+	"Kán"
+	"Károlyi"
+	"Lackovic'"
+	"Losonci"
+	"Milványi"
+	"Mészáros"
+	"Nadasdy"
+	"Ozoray"
+	"Rozgonyi"
+	"Rákóczi"
+	"Széchenyi"
+	"Teleki"
+	"Thököly"
+	"Zichy"
+	"Zrinski"
+	"Zápolya"
+	"de Kovats"
+	"Šubic'"
+}
+ship_names = {
+	"Aranybulla"
+	"Arpad"
+	"Hunyadi Matyas"
+	"Kalman"
+	"Karoly Robert"
+	"Laszlo"
+	"Magyar"
+	"Nagy Lajos"
+	"Sigismund"
+	"Szent Istvan kiraly"
+}

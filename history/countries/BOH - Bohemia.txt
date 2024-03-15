@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = dynamic-bavarian-czech-culture-num1
+capital = 266
+1444.11.11= {
+	monarch = {
+		name = "Adelheid"
+		dynasty = "Rurikid-Ulm"
+		adm = 5
+		dip = 5
+		mil = 4
+		birth_date = 1376.6.19
+		female = yes
+		religion = catholic
+		culture = dynamic-bavarian-czech-culture-num1
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = drunkard_personality
+	queen = {
+		name = "Rainer"
+		dynasty = "Faucoi"
+		adm = 6
+		dip = 2
+		mil = 6
+		country_of_origin = BOH
+		birth_date = 1400.12.2
+		death_date = 1460.12.2
+		religion = catholic
+		culture = occitain
+	}
+	add_queen_personality = architectural_visionary_personality
+	add_queen_personality = fierce_negotiator_personality
+	heir = {
+		name = "Hroznata"
+		monarch_name = "Hroznata"
+		dynasty = "Rurikid-Ulm"
+		adm = 5
+		dip = 6
+		mil = 4
+		birth_date = 1422.9.26
+		death_date = 1487.9.26
+		claim = 89
+		religion = catholic
+		culture = dynamic-bavarian-czech-culture-num1
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = righteous_personality
+}
+1444.11.11= {
+	add_prestige = 123
+	add_treasury = 64
+}

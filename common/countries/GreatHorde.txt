@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 193 179 127 }
+revolutionary_colors = { 6 7 8 }
+historical_idea_groups = {
+	expansion_ideas
+	offensive_ideas
+	administrative_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Altunopa #0" = 0
+	"Atrak #1" = 10
+	"Berthold #0" = 0
+	"Chval #0" = 0
+	"Claudia #0" = -1
+	"Diviš #1" = 10
+	"Dobrawa #0" = -1
+	"Drzislav #0" = 0
+	"Egenenaca #0" = 0
+	"Elisabeth #0" = -1
+	"Euphrosyne #0" = -1
+	"Eustachy #0" = 0
+	"Gertrude #0" = -1
+	"Hemma #0" = -1
+	"Heník #0" = 0
+	"Jirík #1" = 10
+	"Kutan #0" = 0
+	"Lancelot #0" = 0
+	"Margarethe #0" = -1
+	"Richgard #0" = -1
+	"Rose #0" = -1
+	"Stephan #0" = 0
+	"Sándor #0" = 0
+	"Tetr #1" = 10
+	"Záštita #1" = 10
+	"Swietopelk #0" = 0
+}
+leader_names = {
+	"Bayangge"
+	"Boke Temur"
+	"Bora Chinua"
+	"Chinuagene"
+	"Delger Bayar"
+	"Koke Burilgi"
+	"Nasange"
+	"Qutlugh Vachir"
+	"Qutughqan"
+	"Shria Gan"
+	"Suren Chinua"
+	"Surenchar"
+	"Temur-chi"
+	"Toluilun"
+}
+ship_names = {
+	"Abdallah"
+	"Baraq"
+	"Batu"
+	"Berdi Beg"
+	"Berke"
+	"Dawlat Berdi"
+	"Ediguh"
+	"Jabbar Berdi"
+	"Jalal ad-Din"
+	"Jani Beg"
+	"Karim Berdi"
+	"Kebek"
+	"Khidr"
+	"Mamai Khan"
+	"Mengu-Timur"
+	"Muhammad Bolak"
+	"Nawruz Beg"
+	"Nogai Khan"
+	"Polad Khan"
+	"Qulpa"
+	"Sartaq"
+	"Sayud Ahmad"
+	"Shadi Beg"
+	"Talabuga"
+	"Temür"
+	"Temür Qutlugh"
+	"Timur Khwaja"
+	"Tini Beg"
+	"Tokhta"
+	"Toqtamish"
+	"Tuda-Mengu"
+	"Ulaghchi"
+	"Ulugh Muhammad"
+	"Öz Beg"
+}

@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = sub_saharan
+religion = converted_dynamic_faith_111
+primary_culture = aka
+capital = 1138
+add_accepted_culture = dynamic-aka-culture-num1
+add_accepted_culture = dynamic-aka-mali-culture-num1
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Kessie"
+		dynasty = "Wusutid"
+		adm = 3
+		dip = 2
+		mil = 3
+		birth_date = 1402.4.24
+		female = yes
+		religion = converted_dynamic_faith_111
+		culture = aka
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Touri"
+		dynasty = "Ife"
+		adm = 3
+		dip = 4
+		mil = 2
+		country_of_origin = Z03
+		birth_date = 1409.5.7
+		death_date = 1469.5.7
+		religion = converted_dynamic_faith_111
+		culture = dynamic-berber-soninke-culture-num1
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Kontar"
+		monarch_name = "Kontar"
+		dynasty = "Wusutid"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1426.8.6
+		death_date = 1491.8.6
+		claim = 89
+		religion = converted_dynamic_faith_111
+		culture = aka
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = strict_personality
+}
+1444.11.11= {
+	add_prestige = 95
+	add_treasury = 54
+}

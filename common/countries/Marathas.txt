@@ -1,0 +1,152 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 67 124 181 }
+revolutionary_colors = { 6 8 6 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	defensive_ideas
+	quality_ideas
+	trade_ideas
+	economic_ideas
+	spy_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Achyutadeva #0" = 0
+	"Amoghavarsha #0" = 0
+	"Amutrao #1" = 10
+	"Aparajita #0" = 0
+	"Aparâcita #0" = 0
+	"Avraaham #0" = 0
+	"Cekarâcacêkaran #0" = 0
+	"Chandena #0" = -1
+	"Chinnambike #0" = -1
+	"Dantidurga #0" = 0
+	"Eccumantai #0" = -1
+	"Ekoji #0" = 0
+	"Gamakamba #0" = -1
+	"Gulnar #0" = -1
+	"Harirao #0" = 0
+	"Jagaraya #0" = 0
+	"Jhanjha #2" = 10
+	"Jira #0" = -1
+	"Jivajirao #0" = 0
+	"Kanchani #0" = -1
+	"Khottiga #0" = 0
+	"Krishnadevaraya #0" = 0
+	"Languli #0" = 0
+	"Lunavarman #1" = 10
+	"Mailaladevi #0" = -1
+	"Mallikarjuna #0" = 0
+	"Mangalesi #0" = 0
+	"Moropant #1" = 10
+	"Mârapanmar #0" = 0
+	"Nârpattennâyirapattan #3" = 10
+	"Pertal #0" = -1
+	"Raahelamma #0" = -1
+	"Revakanimmadi #0" = -1
+	"Rudramadevi #0" = -1
+	"Rudramba #0" = -1
+	"Samyukta #0" = -1
+	"Sangappai #0" = -1
+	"Shevanti #0" = -1
+	"Shuchi-Verma #1" = 10
+	"Soddhala #0" = 0
+	"Somesvara #1" = 10
+	"Soyarabai #0" = -1
+	"Sunita #0" = -1
+	"Tryambakrao #1" = 10
+	"Tundaka #0" = -1
+	"Udayaraja #0" = 0
+	"Varakunavarman #0" = 0
+	"Venattadikal #0" = 0
+	"Vinayaditya #0" = 0
+	"Viraiyâccilai #0" = -1
+	"Viravijaya #0" = 0
+	"Virupaksha #0" = 0
+	"Zheng #0" = -1
+}
+leader_names = {
+	"Aher"
+	"Bhat"
+	"Bhoit"
+	"Bhonsle"
+	"Chavan"
+	"Dabhad"
+	"Gaikwad"
+	"Gujar"
+	"Holkar"
+	"Jadhav"
+	"Jagtap"
+	"Kadam"
+	"Kate"
+	"Kaushal"
+	"Khursh"
+	"Krishnamma"
+	"Lolaksi"
+	"Malusare"
+	"Maruthi"
+	"Moit"
+	"Moray"
+	"Nagaraj"
+	"Narsala"
+	"Nikam"
+	"Nimbalk"
+	"Palkar"
+	"Pawar"
+	"Ramiah"
+	"Rane"
+	"Satavahana"
+	"Sawant"
+	"Shinde"
+	"Shirke"
+	"Yadava"
+}
+ship_names = {
+	"Agni"
+	"Bhim"
+	"Brahma"
+	"Devi"
+	"Durga"
+	"Ganesh"
+	"Gayatri"
+	"Hanumaun"
+	"Indra"
+	"Jalsena"
+	"Kala Jahazi"
+	"Kali"
+	"Krishna"
+	"Kubera"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Shiva"
+	"Sita"
+	"Soma"
+	"Surya"
+	"Varuna"
+	"Vayu"
+	"Vishnu"
+	"Yama"
+}

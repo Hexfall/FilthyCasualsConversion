@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 248 125 125 }
+revolutionary_colors = { 15 1 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Antavas #0" = 0
+	"Arina #0" = -1
+	"Audra #0" = -1
+	"Brailo #0" = 0
+	"Budrys #0" = 0
+	"Butavas #0" = 0
+	"Butvydas #0" = 0
+	"Danute #0" = -1
+	"Eeri #0" = 0
+	"Gedivilas #0" = 0
+	"Gintautas #3" = 10
+	"Girdenis #0" = 0
+	"Heli #0" = -1
+	"Henry #0" = 0
+	"Hurmas #1" = 10
+	"Hurmetõiv #0" = 0
+	"Hüvameel #0" = 0
+	"Ihalemb #0" = 0
+	"Ilvelemb #1" = 10
+	"Kalle #0" = 0
+	"Karuvald #0" = 0
+	"Kyros #0" = 0
+	"Laima #0" = -1
+	"Laine #0" = -1
+	"Lembit #0" = 0
+	"Meelis #0" = 0
+	"Meigo #1" = 10
+	"Minigaila #1" = 10
+	"Otelemb #0" = 0
+	"Rimantas #0" = 0
+	"Rimvydas #0" = 0
+	"Sirje #0" = -1
+	"Sutemeel #1" = 10
+	"Tarvet #0" = 0
+	"Tovtivilas #0" = 0
+	"Tõivulemb #0" = 0
+	"Veli #0" = 0
+	"Vilivald #0" = 0
+	"Virmantas #1" = 10
+	"Õigemeel #0" = 0
+}
+leader_names = {
+	"Aminoff"
+	"Armfelt"
+	"Bielke"
+	"Bonde"
+	"Carpelan"
+	"Fleming"
+	"Furuhjelm"
+	"Horn"
+	"Mannerheim"
+	"Paijkull"
+	"Rehbinder"
+	"Schulman"
+	"Soop"
+	"Tott"
+	"Wrede"
+}
+ship_names = {
+	"Arensburg"
+	"Hapsal"
+	"Maria"
+	"Narva"
+	"Pernau"
+	"Reval"
+	"Toompea"
+	"Weissenstein"
+	"Wesenberg"
+	"Ösel"
+}

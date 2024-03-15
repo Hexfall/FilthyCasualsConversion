@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = sub_saharan
+religion = catholic
+primary_culture = dynamic-aka-nupe-culture-num1
+capital = 2293
+fixed_capital = 2293
+add_accepted_culture = hausa
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Fadima"
+		dynasty = "Habe"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1392.2.27
+		female = yes
+		religion = catholic
+		culture = dynamic-aka-nupe-culture-num1
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Yaqub"
+		dynasty = "Barcanid"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Z53
+		birth_date = 1391.1.25
+		death_date = 1451.1.25
+		religion = sunni
+		culture = zaghawa
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Yaqub"
+		monarch_name = "Yaqub"
+		dynasty = "Barcanid"
+		adm = 3
+		dip = 6
+		mil = 6
+		birth_date = 1409.3.25
+		death_date = 1474.3.25
+		claim = 89
+		religion = catholic
+		culture = zaghawa
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = tolerant_personality
+}
+1444.11.11= {
+	add_prestige = 71
+	add_treasury = 55
+}

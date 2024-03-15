@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_113
+primary_culture = dynamic-bedouin_arabic-outremer-culture-num1
+capital = 4286
+mercantilism = 15
+1444.11.11= {
+	monarch = {
+		name = "Muzaffaraddin"
+		dynasty = "d'Oriental"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1421.11.13
+		religion = converted_dynamic_faith_113
+		culture = dynamic-bedouin_arabic-outremer-culture-num1
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Afeerah"
+		dynasty = "Sukhinpalid"
+		adm = 4
+		dip = 4
+		mil = 4
+		country_of_origin = OMA
+		birth_date = 1406.5.26
+		death_date = 1466.5.26
+		female = yes
+		religion = converted_dynamic_faith_113
+		culture = sindhi
+	}
+	add_queen_personality = expansionist_personality
+	add_queen_personality = intricate_web_weaver_personality
+	heir = {
+		name = "Guy"
+		monarch_name = "Guy"
+		dynasty = "d'Oriental"
+		adm = 0
+		dip = 1
+		mil = 0
+		birth_date = 1443.5.8
+		death_date = 1508.5.8
+		claim = 89
+		religion = converted_dynamic_faith_113
+		culture = dynamic-bedouin_arabic-outremer-culture-num1
+	}
+	add_heir_personality = bold_fighter_personality
+	add_heir_personality = inspiring_leader_personality
+}
+1444.11.11= {
+	add_prestige = 76
+	add_treasury = 63
+}

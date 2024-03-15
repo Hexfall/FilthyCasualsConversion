@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = eastern
+religion = converted_dynamic_faith_110
+primary_culture = dynamic-estonian-lithuanian-culture-num1
+capital = 36
+1444.11.11= {
+	monarch = {
+		name = "Gintautas III"
+		dynasty = "Palemonaitis"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 1416.6.13
+		religion = converted_dynamic_faith_110
+		culture = dynamic-estonian-lithuanian-culture-num1
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+	queen = {
+		name = "Laima"
+		dynasty = "Palemonaitis"
+		adm = 3
+		dip = 3
+		mil = 2
+		country_of_origin = EST
+		birth_date = 1407.7.13
+		death_date = 1467.7.13
+		female = yes
+		religion = converted_dynamic_faith_110
+		culture = dynamic-estonian-lithuanian-culture-num1
+	}
+	add_queen_personality = craven_personality
+	add_queen_personality = infertile_personality
+	heir = {
+		name = "Gintautas"
+		monarch_name = "Gintautas IV"
+		dynasty = "Palemonaitis"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1436.6.4
+		death_date = 1501.6.4
+		claim = 89
+		religion = converted_dynamic_faith_110
+		culture = dynamic-estonian-lithuanian-culture-num1
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = naive_personality
+}
+1444.11.11= {
+	add_prestige = 96
+	add_treasury = 60
+}

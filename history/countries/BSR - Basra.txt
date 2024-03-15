@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = catholic
+primary_culture = dynamic-bedouin_arabic-culture-num3
+capital = 408
+add_accepted_culture = dynamic-oghuz-culture-num2
+1444.11.11= {
+	monarch = {
+		name = "Amir II"
+		dynasty = "Arishid"
+		adm = 5
+		dip = 5
+		mil = 4
+		birth_date = 1392.7.21
+		religion = catholic
+		culture = dynamic-bedouin_arabic-culture-num3
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = fertile_personality
+	queen = {
+		name = "Najela"
+		dynasty = "de Saint-Gilles"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = BSR
+		birth_date = 1378.10.18
+		death_date = 1438.10.18
+		female = yes
+		religion = catholic
+		culture = dynamic-bedouin_arabic-culture-num3
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = kind_hearted_personality
+	heir = {
+		name = "André"
+		monarch_name = "André"
+		dynasty = "Arishid"
+		adm = 6
+		dip = 4
+		mil = 5
+		birth_date = 1412.12.29
+		death_date = 1477.12.29
+		claim = 89
+		religion = catholic
+		culture = dynamic-bedouin_arabic-culture-num3
+	}
+	add_heir_personality = greedy_personality
+	add_heir_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 82
+	add_treasury = 75
+}

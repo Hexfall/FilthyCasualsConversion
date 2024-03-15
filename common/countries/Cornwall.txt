@@ -1,0 +1,168 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 155 56 0 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Adalbert #1" = 10
+	"Alain #0" = 0
+	"Amédée #1" = 10
+	"Bledrig #1" = 10
+	"Cadfan #1" = 10
+	"Cadwy #1" = 10
+	"Caradog #1" = 10
+	"Cawrdolli #1" = 10
+	"Clemen #1" = 10
+	"Conan #1" = 10
+	"Culmin #1" = 10
+	"Custennin #2" = 10
+	"Cynan Meiriadog #1" = 10
+	"Cynfawr #1" = 10
+	"Donual #1" = 10
+	"Dumnarth #2" = 10
+	"Dynod #1" = 10
+	"Eadberht #2" = 10
+	"Erbin #1" = 10
+	"Eudes #1" = 10
+	"Ferverdyn #1" = 10
+	"García #0" = 0
+	"Geoffrey #0" = 0
+	"Geraint #2" = 10
+	"Gereint #1" = 10
+	"Gisèle #0" = -1
+	"Gwrfawr #1" = 10
+	"Hernam #1" = 10
+	"Hopkin #1" = 10
+	"Hoël #2" = 10
+	"Isabel #1" = -1
+	"Iudhael #2" = 10
+	"Leofhelm #1" = 10
+	"Marthe #0" = -1
+	"Meurig #1" = 10
+	"Mordaf #1" = 10
+	"Nicholas #0" = 0
+	"Oswallt #1" = 10
+	"Petroc #1" = 10
+	"Simon #2" = 10
+	"Tudwal #1" = 10
+	"William #1" = 10
+}
+leader_names = {
+	"Arthur"
+	"Audley"
+	"Boscawen"
+	"Carew"
+	"Chynoweth"
+	"Clemow"
+	"Collett"
+	"Connor"
+	"Cornish"
+	"Curnow"
+	"Davy"
+	"Drake"
+	"Drew"
+	"Endean"
+	"Flamank"
+	"Furze"
+	"Gwynn"
+	"Hale"
+	"Innes"
+	"Jago"
+	"James"
+	"Jenner"
+	"Jolley"
+	"Joseph"
+	"Keverne"
+	"Lanyon"
+	"Locke"
+	"Lyon"
+	"Menhenick"
+	"Oates"
+	"Pascoe"
+	"Penberthy"
+	"Pendennis"
+	"Penhaligon"
+	"Pentreath"
+	"Pethick"
+	"Polwin"
+	"Quintrell"
+	"Roscarrock"
+	"Rosewarne"
+	"St Aubyn"
+	"Sweet"
+	"Trehearne"
+	"Trelawny"
+	"Trescothick"
+	"Trevelyan"
+	"Trevithick"
+	"Tyrell"
+	"Warren"
+	"Weekes"
+}
+ship_names = {
+	"Arthur"
+	"Bodmin"
+	"Bolster"
+	"Brutus"
+	"Chough"
+	"Corineus"
+	"Cormoran"
+	"Cornishman"
+	"Dumnonia"
+	"Excalibur"
+	"Falmouth"
+	"Galahad"
+	"Gawain"
+	"Guinevere"
+	"Hal-an-Tow"
+	"Helston"
+	"Kernow"
+	"King Mark"
+	"Lancelot"
+	"Launceston"
+	"Lizard"
+	"Lostwithiel"
+	"Lyonesse"
+	"Marazion"
+	"Mousehole"
+	"Pendragon"
+	"Penzance"
+	"Porthleven"
+	"Restormel"
+	"Scillonian"
+	"St Ives"
+	"St Michael"
+	"St Petroc"
+	"St Pirin"
+	"Stannary"
+	"Tamar"
+	"Tintagel"
+	"Trelawny"
+	"Truro"
+	"Whitsand"
+}

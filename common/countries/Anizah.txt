@@ -1,0 +1,83 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 143 222 169 }
+revolutionary_colors = { 1 0 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	administrative_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Anfòs #1" = 10
+	"Arda #0" = -1
+	"Arnoul #0" = 0
+	"Bernart #0" = 0
+	"Brancaléon #0" = 0
+	"Caterina #1" = -1
+	"Dominica #0" = -1
+	"Fernand #0" = 0
+	"Filibert #0" = 0
+	"Gualon #0" = 0
+	"Guillelme-Jourdain #0" = 0
+	"Helyes #0" = 0
+	"Hodradus #0" = 0
+	"Héraclius #0" = 0
+	"Jaqueline #0" = -1
+	"Majid #1" = 10
+	"Maria #2" = -1
+	"Nicétas #0" = 0
+	"Payen #0" = 0
+	"Plaisance #0" = -1
+	"Rainald #0" = 0
+	"Sadiya #0" = -1
+	"Sancho #1" = 10
+	"Sulayman #1" = 10
+	"Tancred #0" = 0
+	"Théodora #0" = -1
+	"Ulric #0" = 0
+	"Wulfran #1" = 10
+	"Édouard #0" = 0
+}
+leader_names = {
+	"Al-Wa'ili"
+	"Al-doughman"
+	"Al-frrejah"
+	"Al-ga' 'a' 'gaah"
+	"Al-kwakbah"
+	"Al-murre"
+	"Banu Bakr"
+	"Banu Hanifa"
+	"Rabi`ah"
+	"Ruwallah"
+}
+ship_names = {
+	"Ad-Dahna"
+	"Ad-Dilam"
+	"Al-Armah"
+	"Al-Bayad"
+	"Ar-Riyad"
+	"Jabal Tuwayo"
+	"Nafüd Ad-Dahy"
+	"Nafüd As-Sirrah"
+	"Nafüd Qunayfidahah"
+	"Nafüd Shuqayyiqah"
+	"Shaqra"
+}

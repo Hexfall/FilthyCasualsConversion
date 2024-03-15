@@ -1,0 +1,98 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 213 51 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aldimir #0" = 0
+	"Alexios #3" = 10
+	"Aniketos #1" = 10
+	"Asen #0" = 0
+	"Berbat #0" = 0
+	"Budimir #1" = 10
+	"Chasna #0" = -1
+	"Christophoros #1" = 10
+	"Chrysanthos #1" = 10
+	"Chrysaphios #1" = 10
+	"Dmitar #0" = 0
+	"Dobroslav #1" = 10
+	"Iakobos #0" = 0
+	"Jagoda #0" = -1
+	"Jovanka #0" = -1
+	"Keratza #0" = -1
+	"Ljudevit #0" = 0
+	"Michael #2" = 10
+	"Mihovil #0" = 0
+	"Milka #0" = -1
+	"Miroslav #0" = 0
+	"Mislav #1" = 10
+	"Mudra #0" = -1
+	"Pavlina #0" = -1
+	"Porin #0" = 0
+	"Radoslav #1" = 10
+	"Rastko #0" = 0
+	"Ratomir #0" = 0
+	"Theodoros #0" = 0
+	"Theophylaktos #1" = 10
+	"Tihomir #0" = 0
+	"Violante #0" = -1
+	"Vladimir #1" = 10
+	"Ysabel #0" = -1
+	"Zvonimir #1" = 10
+}
+leader_names = {
+	"Angelus"
+	"Asan"
+	"Branas"
+	"Cantacuzene"
+	"Comnenus"
+	"Ducas"
+	"Mavros"
+	"Notaras"
+	"Palaeologus"
+	"Phocas"
+	"Raoul"
+	"Spagnoli"
+	"Sphrantzes"
+	"Tocco"
+	"Zaccaria"
+}
+ship_names = {
+	"Agios Kyprianos"
+	"Areopoli"
+	"Elika"
+	"Geronlimenas"
+	"Gytheio"
+	"Kardamyli"
+	"Kokkala"
+	"Kotronas"
+	"Skoutari"
+	"Vathia"
+}

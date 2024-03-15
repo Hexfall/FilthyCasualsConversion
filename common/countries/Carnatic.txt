@@ -1,0 +1,112 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 232 79 142 }
+revolutionary_colors = { 0 10 0 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	defensive_ideas
+	humanist_ideas
+	aristocracy_ideas
+	diplomatic_ideas
+	trade_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ahavamalla #1" = 10
+	"Akkadevi #0" = -1
+	"Amoghavarsha #3" = 10
+	"Anekonda #0" = 0
+	"Aparâcita #0" = 0
+	"Bijjabbe #0" = -1
+	"Chamekamba #0" = -1
+	"Chandaladevi #0" = -1
+	"Chandrabbalabbe #0" = -1
+	"Dantidurga #1" = 10
+	"Dhruva #1" = 10
+	"Govinda #3" = 10
+	"Harihara #0" = 0
+	"Hariharamba #0" = -1
+	"Hariyadevi #0" = -1
+	"Indra #6" = 10
+	"Jagaraya #0" = 0
+	"Jayasimha #1" = 10
+	"Karka #1" = 10
+	"Khottiga #1" = 10
+	"Kirtivarman #2" = 10
+	"Krishna #3" = 10
+	"Madhava #0" = 0
+	"Mallugi #2" = 10
+	"Mangalesa #1" = 10
+	"Mariamma #0" = -1
+	"Obayamma #0" = -1
+	"Pammava #0" = -1
+	"Pertal #0" = -1
+	"Praudharaya #0" = 0
+	"Pulakesi #2" = 10
+	"Ramabai #0" = -1
+	"Ramaraya #0" = 0
+	"Ramadeva #0" = 0
+	"Sadashiva #0" = 0
+	"Sangappai #1" = -1
+	"Satyasraya #1" = 10
+	"Singhana #3" = 10
+	"Somesvara #2" = 10
+	"Tailapa #1" = 10
+	"Thirumalambike #0" = -1
+	"Veeraballala #2" = 10
+	"Vijayaditya #1" = 10
+	"Vikramaditya #3" = 10
+	"Vinayaditya #1" = 10
+	"Viranarasimha #0" = 0
+}
+leader_names = {
+	"Bahadur"
+	"Chetty"
+	"Khader"
+	"Khan"
+	"Khan Wallajah"
+	"Mudaliar"
+	"Rajapopalachari"
+	"Reddy"
+	"Saluva"
+	"Sastri"
+	"Thondaiman"
+	"ul Umra"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Ganga"
+	"Gayatri"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sita"
+	"Spiti"
+	"Yamuna"
+}

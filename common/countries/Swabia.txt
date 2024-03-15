@@ -1,0 +1,166 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 225 98 87 }
+revolutionary_colors = { 8 8 1 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Anselm #0" = 0
+	"August #0" = 10
+	"Bruno #0" = 0
+	"Christian Eberhard #0" = 10
+	"Christoph #0" = 20
+	"David #0" = 0
+	"Dieter #0" = 0
+	"Eberhard #0" = 60
+	"Emanuel #0" = 0
+	"Ernst #0" = 0
+	"Ferdinand #0" = 0
+	"Florian #0" = 0
+	"Franz #0" = 0
+	"Friedrich #2" = 100
+	"Friedrich Achilles #0" = 10
+	"Friedrich Eugen #0" = 20
+	"Friedrich Ludwig #0" = 15
+	"Gabriel #0" = 0
+	"Gabriella #0" = -1
+	"Georg #0" = 15
+	"Georg Friedrich #0" = 10
+	"Gottlieb #0" = 0
+	"Gustav #0" = 0
+	"Hans #0" = 0
+	"Hartmann #0" = 0
+	"Heinrich #1" = 100
+	"Henggi #0" = 0
+	"Joachim #0" = 0
+	"Joachim Friedrich #0" = 10
+	"Johan Jacob #0" = 60
+	"Johann #0" = 0
+	"Johann Friedrich #0" = 20
+	"Johannes #0" = 0
+	"Joseph #0" = 40
+	"Juliane #0" = -1
+	"Julius Friedrich #0" = 10
+	"Karl #0" = 20
+	"Karl Eugen #0" = 20
+	"Konrad #0" = 0
+	"Kreszenz #0" = 0
+	"Ludwig #0" = 50
+	"Ludwig Eugen #0" = 20
+	"Magnus #0" = 10
+	"Manfred #0" = 0
+	"Maximilian #0" = 10
+	"Michael #0" = 0
+	"Paul #0" = 10
+	"Philipp Friedrich #0" = 10
+	"Raimund #0" = 0
+	"Raphael #0" = 0
+	"Renata #0" = -1
+	"Rudolf #0" = 0
+	"Siegbert #0" = 0
+	"Sieglinde #0" = -1
+	"Thekla #0" = -1
+	"Tobias #0" = 0
+	"Ulrich #0" = 60
+	"Ulrike #0" = -1
+	"Wilhelm #0" = 20
+	"Wilhelm Ludwig #0" = 20
+}
+leader_names = {
+	"Beich"
+	"Breitmayer"
+	"Buchner"
+	"Börner"
+	"Börrner"
+	"Danhauser"
+	"Gohl"
+	"Gute"
+	"Helber"
+	"Henke"
+	"Hummelberger"
+	"Humpis"
+	"Kircher"
+	"Klein"
+	"Knapp"
+	"Kopp"
+	"Meck"
+	"Merkel"
+	"Ortlieb"
+	"Pfeilsticker"
+	"Roether"
+	"Schupp"
+	"Stütz"
+	"Susenbrot"
+	"Sülzle"
+	"Veit"
+	"Vietz"
+	"Vogel"
+	"Weber"
+	"Wieland"
+	"Wurst"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Balingen"
+	"Breisgau"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Gräfin Mechthild"
+	"Kaiser Friedrich I"
+	"Kaiser Friedrich II"
+	"Kaiser Heinrich VI"
+	"Kempten"
+	"Konstanz"
+	"König Arnulf"
+	"Lindau"
+	"Marbach"
+	"Memmingen"
+	"Mindel"
+	"Mömpelgard"
+	"Neuffen"
+	"Oettingen"
+	"Otto"
+	"Ravensburg"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Stuttgart"
+	"Tassilo III"
+	"Wirtemberg"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Dritte Schwäbische Armee"
+	"Erste Schwäbische Armee"
+	"Zweite Schwäbische Armee"
+}

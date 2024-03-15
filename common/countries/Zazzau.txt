@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 138 22 59 }
+revolutionary_colors = { 0 8 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quantity_ideas
+	religious_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Afolabi #1" = 10
+	"Azubuike #1" = 10
+	"Cena #0" = -1
+	"Chisom #1" = -1
+	"Dala #1" = 10
+	"Ehigiator #0" = 0
+	"Ewuntomah #0" = 0
+	"Fadima #1" = -1
+	"Fenenu #0" = 0
+	"Garin #1" = 10
+	"Gumus #0" = -1
+	"Gyanamachi #1" = 10
+	"Ieremias #0" = 0
+	"Iôannês #0" = 0
+	"Jebba #1" = 10
+	"Nefa #1" = 10
+	"Nkemdilim #1" = 10
+	"Nkiruka #0" = -1
+	"Nwachukwu #0" = 0
+	"Onyeka #0" = -1
+	"Sachi #1" = 10
+	"Sunkuru #1" = 10
+	"Thoma #0" = 0
+	"Tsoede #3" = 10
+	"Uchendu #0" = 0
+	"Unoka #1" = 10
+	"Uzoma #1" = 10
+	"Wari #1" = 10
+	"Yalla #0" = -1
+	"Zagula #1" = 10
+	"Zimada #1" = 10
+	"Ösung #0" = 0
+}
+leader_names = {
+	"Aluko"
+	"Bakara"
+	"Balewa"
+	"Bandele"
+	"Diore"
+	"Kanu"
+	"Kountché"
+	"Kuti"
+	"Mamami"
+	"Saibou"
+}
+ship_names = {
+	"babban dutse"
+	"fure"
+	"gajimare"
+	"hazo"
+	"iska"
+	"itace"
+	"rairayi"
+	"rana"
+	"ruwa"
+	"saiwa"
+	"sama"
+	"tauraro"
+	"teku"
+	"wata"
+}

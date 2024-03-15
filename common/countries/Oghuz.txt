@@ -1,0 +1,66 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 235 35 35 }
+revolutionary_colors = { 10 0 8 }
+historical_idea_groups = {
+	horde_ideas
+	economic_ideas
+	quantity_ideas
+	spy_ideas
+	offensive_ideas
+	administrative_ideas
+	quality_ideas
+	trade_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Ahmet #0" = 0
+	"Alp Arslan #1" = 10
+	"Arbuz #0" = 0
+	"Arthamukh #0" = 0
+	"Banda #0" = 0
+	"Baytas #1" = 10
+	"Begluk #1" = 10
+	"Cher #0" = 0
+	"Chet #0" = -1
+	"Eldeçyuk #1" = 10
+	"Farrin #0" = -1
+	"Gundes #0" = -1
+	"Hamgari #1" = 10
+	"Ipekel #0" = -1
+	"Itlar #1" = 10
+	"Jamshid #0" = 0
+	"Konrád #0" = 0
+	"Kopulch #0" = 0
+	"Kurush #1" = 10
+	"Lavor #0" = 0
+	"Menggei #1" = 10
+	"Miwnay #1" = -1
+	"Nawchirth #0" = 0
+	"Ovlur #1" = 10
+	"Parvin #0" = -1
+	"Pulad #0" = 0
+	"Roxana #0" = -1
+	"Shafnoshak #0" = 0
+	"Sicgan #0" = 0
+	"Tarkhun #0" = 0
+	"Tishtrya #1" = 10
+	"Toholjo #0" = 0
+	"Tribhuvanapida #0" = 0
+	"Umay #0" = -1
+	"Upach #0" = -1
+	"Varzakk #0" = 0
+	"Wakhushu #0" = 0
+}

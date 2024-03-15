@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 1
+technology_group = indian
+religion = sunni
+primary_culture = hindustani_proper
+capital = 4516
+religious_school = hanafi_school
+add_accepted_culture = zhangzhung
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Nawid"
+		dynasty = "Mahi"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1413.11.4
+		religion = sunni
+		culture = hindustani_proper
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = intricate_web_weaver_personality
+	queen = {
+		name = "Nadzieja"
+		dynasty = "Dunin-Szprotawa"
+		adm = 5
+		dip = 4
+		mil = 4
+		country_of_origin = Z29
+		birth_date = 1401.8.16
+		death_date = 1461.8.16
+		female = yes
+		religion = sunni
+		culture = polish
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = righteous_personality
+	heir = {
+		name = "Surgandha"
+		monarch_name = "Surgandha"
+		dynasty = "Mahi"
+		adm = 5
+		dip = 5
+		mil = 6
+		birth_date = 1416.11.19
+		death_date = 1481.11.19
+		claim = 89
+		religion = sunni
+		culture = hindustani_proper
+	}
+	add_heir_personality = embezzler_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 54
+	add_treasury = 64
+}

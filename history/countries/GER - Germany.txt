@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = saxon
+capital = 53
+1444.11.11= {
+	monarch = {
+		name = "Rodelinda"
+		dynasty = "Jimena"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1420.5.23
+		female = yes
+		religion = catholic
+		culture = saxon
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = infertile_personality
+	queen = {
+		name = "Theodwin"
+		dynasty = "Lodzia"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = GER
+		birth_date = 1424.12.23
+		death_date = 1484.12.23
+		religion = catholic
+		culture = saxon
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Hartmann"
+		monarch_name = "Hartmann"
+		dynasty = "Hohenzollern-Düren"
+		adm = 2
+		dip = 3
+		mil = 4
+		birth_date = 1438.2.21
+		death_date = 1503.2.21
+		claim = 89
+		religion = catholic
+		culture = dynamic-franconian-culture-num1
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = free_thinker_personality
+}
+1444.11.11= {
+	add_prestige = 93
+	add_treasury = 78
+}

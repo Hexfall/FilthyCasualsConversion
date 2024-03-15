@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = schlesian
+capital = 264
+1444.11.11= {
+	monarch = {
+		name = "Dietpold"
+		dynasty = "Rurikid-Ulm"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1414.2.25
+		religion = catholic
+		culture = schlesian
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Isobel"
+		dynasty = "Þórshöfn"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = SIL
+		birth_date = 1411.7.4
+		death_date = 1471.7.4
+		female = yes
+		religion = catholic
+		culture = dynamic-norwegian-scottish-culture-num1
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = intricate_web_weaver_personality
+	heir = {
+		name = "Dietpold"
+		monarch_name = "Dietpold"
+		dynasty = "Rurikid-Ulm"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 1434.9.1
+		death_date = 1499.9.1
+		claim = 89
+		religion = catholic
+		culture = polish
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = strict_personality
+}
+1444.11.11= {
+	add_prestige = 72
+	add_treasury = 38
+}

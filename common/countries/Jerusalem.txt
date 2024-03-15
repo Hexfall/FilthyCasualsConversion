@@ -1,0 +1,133 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 211 230 211 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alberade #0" = -1
+	"Ali #0" = 0
+	"Anna #0" = -1
+	"Ansald #0" = 0
+	"Bhavanaga #0" = -1
+	"Biljana #0" = -1
+	"Boethios #0" = 0
+	"Bonne #0" = -1
+	"Bonyak #0" = 0
+	"Chrysanthos #0" = 0
+	"Constans #0" = 0
+	"Emmeline #0" = -1
+	"Florine #0" = -1
+	"Frederi #3" = 10
+	"Guillelme-Jourdain #0" = 0
+	"Halil #0" = 0
+	"Hermengarde #0" = -1
+	"Imamaddin #0" = 0
+	"Isman #0" = 0
+	"Joette #0" = -1
+	"Juliane #0" = -1
+	"Machaire #0" = 0
+	"Marsile #0" = 0
+	"Martin #0" = 0
+	"Milon #0" = 0
+	"Nicéphore #0" = 0
+	"Nyawela #0" = -1
+	"Olric #0" = 0
+	"Raoul #1" = 10
+	"Ribaldus #0" = 0
+	"Robèrt #1" = 10
+	"Rose #0" = -1
+	"Rotres #0" = 0
+	"Sabine #0" = -1
+	"Sheib #0" = 0
+	"Thomasse #1" = -1
+	"Tyfainne #0" = -1
+	"Uc #0" = 0
+	"Ugues #1" = 10
+	"Urbain #0" = 0
+	"Šapur #0" = 0
+}
+leader_names = {
+	"Arenberg"
+	"Bragadin"
+	"Crispo"
+	"Doria"
+	"Douglas"
+	"Duncan"
+	"Fadrigue"
+	"Hagedorn"
+	"Le Tellier"
+	"Lusignans"
+	"Maxwell"
+	"Melissinos"
+	"Minucci"
+	"Paleologi Montferrato"
+	"Pallavicini"
+	"Paradisi"
+	"Petrucci"
+	"Pico"
+	"Pignatelli"
+	"Plethon"
+	"Rendis"
+	"Saraceno"
+	"Sauerzapff"
+	"Schrüder"
+	"Selkirk"
+	"Stichsenstein"
+	"Sulerzycki"
+	"Tocco"
+	"dalla Rosa"
+	"de La Barthe"
+	"de La Ferrandie"
+	"de La Galissonière"
+	"de La Mothe"
+	"de La Motte d'Airan"
+	"de La Porte"
+	"de Lhéry"
+	"de Luynes"
+	"della Rovere"
+	"di Paesana"
+}
+ship_names = {
+	"Absolution"
+	"Avenger"
+	"Baldwin's Gate"
+	"Crusader"
+	"God Will Know His Own"
+	"Guardian"
+	"Hammer of God"
+	"Paladin"
+	"Pilgrim"
+	"Purifier"
+	"The Cleansing"
+	"The Faithful"
+	"The Grail"
+	"The Holy Cross"
+	"The Rapture"
+	"The Scourge"
+	"True Believer"
+	"Vindicator"
+}

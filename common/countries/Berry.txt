@@ -1,0 +1,167 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 85 65 215 }
+revolutionary_colors = { 5 8 13 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_carabinier
+	french_caracolle
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Angelbert #4" = 10
+	"Arnold #0" = 0
+	"Dàvi #0" = 0
+	"Ebles #0" = 0
+	"Eslonza #0" = -1
+	"Fadrique #0" = 0
+	"Gerardo #0" = 0
+	"Gotruda #0" = -1
+	"Guiomar #0" = -1
+	"Herbert #0" = 0
+	"Ioanna #0" = -1
+	"Louis #1" = 10
+	"Raymond #0" = 0
+	"Richard #1" = 10
+	"Robert #3" = 10
+	"Roger #0" = 0
+	"Sarrazine #0" = -1
+	"Vellido #0" = 0
+	"Yves #0" = 0
+	"Álvaro #0" = 0
+	"Étienne #1" = 10
+	"Étiennette #1" = -1
+}
+leader_names = {
+	"Beaufort de Pothemont"
+	"Bellot de Ferreux"
+	"Cauchon de Vercinay"
+	"Clausse"
+	"Pérignon"
+	"d'Alenduy"
+	"d'Artigoity"
+	"d'Arzillières"
+	"d'Espinoy"
+	"de Balatier"
+	"de Balayne"
+	"de Baleine"
+	"de Beaurepaire"
+	"de Brancourt"
+	"de Brienne"
+	"de Broye"
+	"de Bruce"
+	"de Charbogne"
+	"de Chassy"
+	"de Châtillon"
+	"de Coucy"
+	"de Courtenay"
+	"de Croy"
+	"de Crécy"
+	"de Failly"
+	"de Grandpré"
+	"de Grignon"
+	"de Houx"
+	"de Joigny"
+	"de Joinville"
+	"de La Fontaine"
+	"de Lalaing"
+	"de Lantages"
+	"de Lavisé"
+	"de Lezines"
+	"de Loménie"
+	"de Plancy"
+	"de Rethel"
+	"de Roucy"
+	"de Rumigny"
+	"de Saint Belin"
+	"de Saint Cheron"
+	"de Sergine"
+	"de Vauclerois"
+	"de Vergy"
+	"de Verrières"
+	"de Villeprouvée"
+	"du Châtelet"
+	"du Hamel"
+	"du Prat"
+}
+ship_names = {
+	"Athis"
+	"Bel-Air"
+	"Boultan"
+	"Bouy"
+	"Chavenay"
+	"Combert"
+	"Court-sur-Couffy"
+	"Courtaumont"
+	"Cumières"
+	"Fontenelle"
+	"Gizaucourt"
+	"Isse"
+	"Jippé"
+	"Jonchery"
+	"Jâlons"
+	"La Cheppe"
+	"La Croisée"
+	"La Grande Romanie"
+	"La Grossemasse"
+	"La Presle"
+	"La Salle"
+	"La Veuve"
+	"Lagery"
+	"Laval-sur-Tourbe"
+	"Le Breuil"
+	"Le Grand-Essart"
+	"Le Moncet"
+	"Les Cruzis"
+	"Livry-Louvercy"
+	"Louvois"
+	"Minaucourt-le-Mesnil"
+	"Montflambert"
+	"Montigny"
+	"Moussy"
+	"Neuville-en-Châlois"
+	"Passy-Grigny"
+	"Raday"
+	"Saint Hilaire"
+	"Saint Imoges"
+	"Saint Jean sur Tourbe"
+	"Seigneur-Klou"
+	"Souain-Perthes"
+	"Suippes"
+	"Tauxières-Mutry"
+	"Toubiotte"
+	"Vadenay"
+	"Valmy"
+	"Vaudemange"
+	"Vraux"
+	"Wargemoulin"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Châlons"
+	"Armée de Reims"
+	"Armée de Troyes"
+	"Armée de la Marne"
+	"Armée du Pays d'Othe"
+}

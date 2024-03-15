@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = western
+religion = converted_dynamic_faith_113
+primary_culture = outremer
+capital = 385
+add_accepted_culture = dynamic-outremer-culture-num3
+1444.11.11= {
+	monarch = {
+		name = "Josselin"
+		dynasty = "d'Oriental"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1389.10.11
+		religion = converted_dynamic_faith_113
+		culture = outremer
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	queen = {
+		name = "Raymond"
+		dynasty = "de Gourri"
+		adm = 5
+		dip = 5
+		mil = 4
+		country_of_origin = HED
+		birth_date = 1417.12.29
+		death_date = 1477.12.29
+		female = yes
+		religion = catholic
+		culture = outremer
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = silver_tongue_personality
+	heir = {
+		name = "Guillelme-Jourdain"
+		monarch_name = "Guillelme-Jourdain"
+		dynasty = "d'Oriental"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1444.8.27
+		death_date = 1509.8.27
+		claim = 89
+		religion = catholic
+		culture = outremer
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 66
+	add_treasury = 45
+}

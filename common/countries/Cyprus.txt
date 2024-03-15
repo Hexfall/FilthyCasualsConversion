@@ -1,0 +1,70 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 245 200 30 }
+revolutionary_colors = { 8 0 16 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Anscatinus #0" = 0
+	"Augustin #0" = 0
+	"Frederi #1" = 10
+	"Geldemar #0" = 0
+	"Gulnar #1" = -1
+	"Gédéon #0" = 0
+	"Jehan #0" = 0
+	"Poitevine #1" = -1
+	"Poppo #0" = 0
+	"Raymond #0" = -1
+	"Thomasse #1" = -1
+	"Tiburge #0" = -1
+}
+leader_names = {
+	"Bragadin"
+	"Crispo"
+	"Doria"
+	"Fadrigue"
+	"Lusignans"
+	"Melissinos"
+	"Plethon"
+	"Rendis"
+	"Saraceno"
+	"Tocco"
+}
+ship_names = {
+	"Agios Georgios"
+	"Kato Yialla"
+	"Lachi"
+	"Leivadi"
+	"Lempa"
+	"Maa"
+	"Maurvoll"
+	"Pakhyammos"
+	"Pomos"
+	"Symvoulos"
+}

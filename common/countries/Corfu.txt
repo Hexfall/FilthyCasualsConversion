@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 211 172 185 }
+revolutionary_colors = { 4 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aikaterine #1" = -1
+	"Akakios #0" = 0
+	"Aldimir #0" = 0
+	"Andronikos #0" = 0
+	"Branimir #0" = 0
+	"Georgia #0" = -1
+	"Ioannes #1" = 10
+	"Ioannikios #1" = 10
+	"Ioseph #1" = 10
+	"Ioulia #0" = -1
+	"Ivan #0" = 0
+	"Jelena #0" = -1
+	"Kosmin #1" = 10
+	"Leon #1" = 10
+	"Loukas #1" = 10
+	"Mihailo #0" = 0
+	"Nikephoros #1" = 10
+	"Nikolaos #1" = 10
+	"Ninoslav #0" = 0
+	"Philotheos #1" = 10
+	"Polykarpos #0" = 0
+	"Romanos #1" = 10
+	"Songul #0" = -1
+	"Teodosije #0" = 0
+	"Theodoros #2" = 10
+	"Theoktistos #0" = 0
+	"Thomas #1" = 10
+	"Vellido #0" = 0
+	"Vukasin #0" = 0
+}
+leader_names = {
+	"Balbi"
+	"Bouas"
+	"Capodistria"
+	"Fadrigue"
+	"Flamburiari"
+	"Gentilini"
+	"Giallina"
+	"Giorgio"
+	"Kourkoumelis"
+	"Marmora"
+	"Minotto"
+	"Pieri"
+	"Prosalendi"
+	"Soranzo"
+	"Sordina"
+	"Spathas"
+	"Theotokis"
+	"Tocco"
+	"Voulgaris"
+	"Zorzi"
+}
+ship_names = {
+	"Akra Agiou Andreou"
+	"Akra Gerogompos"
+	"Akra Liakas"
+	"Akra Mounta"
+	"Kaplos Lagana"
+	"Kefallonia"
+	"Kolpos Argostolion"
+	"Kolpos Myrtou"
+	"Prothumos Zakynthou"
+	"Steno Ithoakis"
+}

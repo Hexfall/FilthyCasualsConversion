@@ -1,0 +1,79 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 40 75 175 }
+revolutionary_colors = { 4 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	quantity_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	shaybani
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Bachman #1" = 10
+	"Esfandyar #1" = 10
+	"Etrek #1" = 10
+	"Faraz #2" = 10
+	"Gertrude #0" = -1
+	"Girgen #0" = 0
+	"Gzi #0" = 0
+	"Harghasun #0" = 0
+	"Ishaq #1" = 10
+	"Kavoos #1" = 10
+	"Koza #1" = 10
+	"Muhammad #1" = 10
+	"Navvaba #0" = -1
+	"Pagzman #0" = 0
+	"Qutlugh #0" = 0
+	"Rangraj #0" = 0
+	"Sevenç #2" = 10
+	"Shadan #1" = 10
+	"Sulayman #1" = 10
+	"Uzluk #1" = 10
+	"Yeldem #0" = -1
+	"Çilbu #1" = 10
+	"Özlem #0" = -1
+}
+leader_names = {
+	"Alim"
+	"Bachi"
+	"Bahadur"
+	"Erdeni"
+	"Khudayar"
+	"Malla"
+	"Murad"
+	"Quli"
+	"Tura"
+}
+ship_names = {
+	"Alajskij Chrebet"
+	"Amu Darja"
+	"Besharik"
+	"Fergana"
+	"Khamza"
+	"Khavakend"
+	"Kuva"
+	"Kuvasay"
+	"Margilan"
+	"Nar"
+	"Rishdan"
+	"Syr Darja"
+	"Uzeravsan"
+}

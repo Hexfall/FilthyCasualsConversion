@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 224 74 54 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abd al-Rashid #1" = 10
+	"Ali #1" = 10
+	"Ariyan #0" = -1
+	"Barha #1" = 10
+	"Behrad #0" = 0
+	"Darab #0" = 0
+	"Devi #0" = -1
+	"Eldeçyuk #0" = 0
+	"Euphemios #0" = 0
+	"Farrukhzad #1" = 10
+	"Fatima #0" = -1
+	"Gholam #1" = 10
+	"Ismail #1" = 10
+	"Jason #0" = 0
+	"Jimofuta #1" = 10
+	"Kaikhusraw #1" = 10
+	"Kalasa #0" = 0
+	"Kaspar #0" = 0
+	"Kubasar #0" = 0
+	"Kâvus #0" = 0
+	"Lakan #1" = 10
+	"Mahmud #1" = 10
+	"Mardansina #1" = 10
+	"Masud #1" = 10
+	"Mawdud #1" = 10
+	"Morad #0" = 0
+	"Muhammad #1" = 10
+	"Musud #1" = 10
+	"Musa Yabghu #1" = 10
+	"Nastaran #0" = -1
+	"Nazhin #0" = -1
+	"Paiman #2" = 10
+	"Qara-Arslan Böri #2" = 10
+	"Qubad #1" = 10
+	"Ramacandra #0" = 0
+	"Rumofuda #2" = 10
+	"Rutbil #2" = 10
+	"Rajadeva #0" = 0
+	"Sabuktigin #1" = 10
+	"Salar #1" = 10
+	"Shihyu #1" = 10
+	"Sirma #0" = -1
+	"Talib #0" = 0
+	"Torterelle #0" = -1
+	"Turhan #1" = 10
+	"Turaj #1" = 10
+	"Vishtasb #0" = 0
+	"Ya'qub #1" = 10
+	"Yasaman #0" = -1
+	"Zarrinkamar #0" = 0
+	"Zia #0" = 0
+}
+leader_names = {
+	"Ali"
+	"Bali"
+	"Karawi"
+	"Khan"
+	"Mirza"
+	"Nawaz"
+	"Quli"
+	"Tadj"
+	"Wali"
+	"Zaman"
+}
+ship_names = {
+	"Badam"
+	"Bardeskan"
+	"Dasht"
+	"Deyhuk"
+	"Germi"
+	"Jandaq"
+	"Khvor"
+	"Kondor"
+	"Tabas"
+	"Torud"
+}

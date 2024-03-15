@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 2
+technology_group = chinese
+religion = vajrayana
+primary_culture = tibetan
+capital = 676
+1444.11.11= {
+	monarch = {
+		name = "Tsünmo"
+		dynasty = "Janak"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1411.9.15
+		female = yes
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Sotan"
+		dynasty = "Mikemote"
+		adm = 2
+		dip = 3
+		mil = 3
+		country_of_origin = GUG
+		birth_date = 1399.7.23
+		death_date = 1459.7.23
+		religion = vajrayana
+		culture = uyghur
+	}
+	add_queen_personality = righteous_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Bönsung"
+		monarch_name = "Bönsung"
+		dynasty = "Janak"
+		adm = 3
+		dip = 5
+		mil = 4
+		birth_date = 1433.3.22
+		death_date = 1498.3.22
+		claim = 89
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_heir_personality = careful_personality
+	add_heir_personality = scholar_personality
+}
+1444.11.11= {
+	add_prestige = 86
+	add_treasury = 38
+}

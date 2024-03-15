@@ -1,0 +1,79 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 166 72 57 }
+revolutionary_colors = { 13 0 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Andreas #1" = 10
+	"Arunas #1" = 10
+	"Ermesinda #1" = -1
+	"Frederi #1" = 10
+	"Garsias #1" = 10
+	"Gavrilo #1" = 10
+	"Gintautas #0" = 0
+	"Ivan #0" = 0
+	"Kaido #0" = 0
+	"Kasjan #0" = 0
+	"Krsto #0" = 0
+	"Matija #1" = 10
+	"Miriti #1" = -1
+	"Nikola #1" = 10
+	"Theodora #1" = -1
+	"Urmas #0" = 0
+	"Vingoldas #1" = 10
+	"Vitaca #0" = -1
+	"Vuk #1" = 10
+	"Vytautas #0" = 0
+}
+leader_names = {
+	"Bojovic"
+	"Drascovic"
+	"Gingic"
+	"Hracovec"
+	"Jovanovic"
+	"Lazarevic"
+	"Marcovic"
+	"Obilic"
+	"Obrenovic"
+	"Pertrovic"
+	"Postek"
+	"Putnik"
+}
+ship_names = {
+	"Bosnia"
+	"Duklja"
+	"Milutin"
+	"Pagania"
+	"Raska"
+	"Stefan Dusan"
+	"Stefan Nemanja"
+	"Stefan Prvovencani"
+	"Travunia"
+	"Zahumlje"
+}

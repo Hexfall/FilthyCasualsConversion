@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 1
+technology_group = indian
+religion = sunni
+primary_culture = kashmiri
+capital = 451
+religious_school = hanafi_school
+add_accepted_culture = afghani
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Kanhaiya"
+		dynasty = "Burundai"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1412.1.18
+		religion = sunni
+		culture = kashmiri
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = pious_personality
+	queen = {
+		name = "Maharani"
+		dynasty = "Jaidasid"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z1L
+		birth_date = 1413.10.10
+		death_date = 1473.10.10
+		female = yes
+		religion = sunni
+		culture = avadhi
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Rajadeva"
+		monarch_name = "Rajadeva"
+		dynasty = "Burundai"
+		adm = 4
+		dip = 2
+		mil = 4
+		birth_date = 1430.12.5
+		death_date = 1495.12.5
+		claim = 89
+		religion = sunni
+		culture = kashmiri
+	}
+	add_heir_personality = secretive_personality
+	add_heir_personality = silver_tongue_personality
+}
+1444.11.11= {
+	add_prestige = 74
+	add_treasury = 55
+}

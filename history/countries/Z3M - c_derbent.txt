@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = catholic
+primary_culture = azerbaijani
+capital = 425
+fixed_capital = 425
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Farroukh"
+		dynasty = "Derbentid"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1410.4.12
+		religion = catholic
+		culture = azerbaijani
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = martial_educator_personality
+	queen = {
+		name = "Naça"
+		dynasty = "Atbulut"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Z3M
+		birth_date = 1412.5.26
+		death_date = 1472.5.26
+		female = yes
+		religion = catholic
+		culture = khazar
+	}
+	add_queen_personality = loose_lips_personality
+	add_queen_personality = sinner_personality
+	heir = {
+		name = "Maziar"
+		monarch_name = "Maziar II"
+		dynasty = "Derbentid"
+		adm = 5
+		dip = 6
+		mil = 6
+		birth_date = 1429.11.19
+		death_date = 1494.11.19
+		claim = 89
+		religion = catholic
+		culture = persian
+	}
+	add_heir_personality = drunkard_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 64
+	add_treasury = 65
+}

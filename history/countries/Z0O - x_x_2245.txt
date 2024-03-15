@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = dynamic-franconian-culture-num1
+capital = 1873
+add_accepted_culture = swabian
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Katharina"
+		dynasty = "Hohenzollern"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1421.10.28
+		female = yes
+		religion = catholic
+		culture = dynamic-franconian-culture-num1
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Jan"
+		dynasty = "de Boulogne"
+		adm = 5
+		dip = 4
+		mil = 6
+		country_of_origin = Z0O
+		birth_date = 1424.4.15
+		death_date = 1484.4.15
+		religion = catholic
+		culture = dutch
+	}
+	add_queen_personality = expansionist_personality
+	add_queen_personality = infertile_personality
+	heir = {
+		name = "Engelbert"
+		monarch_name = "Engelbert"
+		dynasty = "Hohenzollern"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1394.11.7
+		death_date = 1459.11.7
+		claim = 89
+		religion = catholic
+		culture = dynamic-franconian-culture-num1
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = pious_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 61
+}

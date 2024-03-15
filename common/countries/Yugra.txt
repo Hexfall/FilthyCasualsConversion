@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 76 41 39 }
+revolutionary_colors = { 0 5 15 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	expansion_ideas
+	quantity_ideas
+	economic_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Apskhih #0" = 0
+	"Batoya #0" = 0
+	"Biur #0" = 0
+	"Dilu #0" = 0
+	"Dokya #1" = 10
+	"Dristar #1" = 10
+	"Günther #0" = 0
+	"Irkhan #0" = 0
+	"Isperikh #1" = 10
+	"Itlar #1" = 10
+	"Kharaton #1" = 10
+	"Kotrag #0" = 0
+	"Këlyamal #0" = -1
+	"Mel'shay #1" = -1
+	"Nulzyava #1" = -1
+	"Ostro #0" = 0
+	"Pakhtiyar #0" = 0
+	"Rassate #1" = 10
+	"Rugila #1" = 10
+	"Sanal'ka #1" = -1
+	"Sartäç #1" = 10
+	"Sektev #1" = 10
+	"Setyamka #1" = 10
+	"Sezema #0" = 0
+	"Shujah #0" = 0
+	"Timër #0" = 0
+	"Timërpälat #1" = 10
+	"Tingiz #0" = 0
+	"Toktu #0" = 0
+	"Tundava #1" = -1
+	"Vinekh #1" = 10
+	"Zyryan #1" = 10
+}
+leader_names = {
+	"Burmatov"
+	"Cheskidov"
+	"Dozmorov"
+	"Ichetkin"
+	"Kachesov"
+	"Kanev"
+	"Kochev"
+	"Koinov"
+	"Kolegov"
+	"Kudymov"
+	"Kychanov"
+	"Kykin"
+	"Kynev"
+	"Kynkurogov"
+	"Kyrnyshev"
+	"Kyrov"
+	"Kysov"
+	"Lyurov"
+	"Michkin"
+	"Moshev"
+	"Oshev"
+	"Oshkokov"
+	"Porsin"
+	"Purtov"
+	"Rakin"
+	"Rochev"
+	"Ruchev"
+	"Syuzev"
+	"Vilesov"
+	"Volegov"
+	"Yusev"
+	"Zerov"
+	"Zyrianov"
+}
+ship_names = {
+	"Baseg"
+	"Cherdyn"
+	"Iskor"
+	"Kama"
+	"Koleg"
+	"Kolva"
+	"Kudym-Osha"
+	"Pelym"
+	"Pokcha"
+	"Rateg"
+	"Shudeg"
+	"Sysola"
+	"Uros"
+	"Uzheg"
+	"Vilgort"
+	"Vishera"
+	"Voleg"
+	"Vychegda"
+	"Yazva"
+	"Yus"
+}

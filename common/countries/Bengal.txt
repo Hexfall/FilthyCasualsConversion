@@ -1,0 +1,127 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 36 109 194 }
+revolutionary_colors = { 9 5 9 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	humanist_ideas
+	quantity_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Amrapali #0" = -1
+	"Balaban #0" = 0
+	"Bijjabbe #0" = -1
+	"Bönchung #0" = 0
+	"Gandharavati #0" = -1
+	"Ganeshwar Singh #0" = 0
+	"Gang Dev #0" = 0
+	"Guilhèm #0" = 0
+	"Hmauk #0" = 0
+	"Kyansittha #0" = 0
+	"Kyaswa #0" = 0
+	"Léon #0" = 0
+	"Maga #0" = -1
+	"Mibaya #0" = -1
+	"Minkhaung #0" = 0
+	"Narathu #0" = 0
+	"Pontarika #0" = 0
+	"Pyit #0" = 0
+	"Sajang #0" = -1
+	"Salin Mibaya #0" = -1
+	"Seburg #0" = -1
+	"Sithu #0" = 0
+	"Sreykeo #0" = -1
+	"Tannet #0" = 0
+	"Tarabya #0" = 0
+	"Thandar #0" = -1
+	"Thang #0" = 0
+	"Thiri #0" = -1
+	"Vanamalavarmadeva #0" = 0
+	"Wareru #0" = 0
+	"Wimala #0" = 0
+	"Zein #0" = 0
+}
+leader_names = {
+	"Azad"
+	"Bose"
+	"Chodhury"
+	"Das"
+	"Debshikdar"
+	"Ganesha"
+	"Ganguly"
+	"Ghosh"
+	"Karani"
+	"Khan"
+	"Majumdar"
+	"Mukerjhee"
+	"Pal"
+	"Roy"
+	"Saraswoti"
+	"Sarkar"
+	"Sen"
+	"Shahi"
+	"Shaikh"
+	"Suri"
+	"Thakur"
+	"Waddedar"
+	"Zamindar"
+	"ad-Daula"
+}
+ship_names = {
+	"Abu Bakr"
+	"Ali Khan"
+	"Bhagirathi"
+	"Brahmaputra"
+	"Chingri Mach"
+	"Chittagong"
+	"Durbar"
+	"Durdasha"
+	"Fatima"
+	"Ganga"
+	"Hilsa Mach"
+	"Hooghly"
+	"Ilish Mach"
+	"Jalangi"
+	"Jasmine"
+	"Kali Meghana"
+	"Kali Nauk"
+	"Kolkata"
+	"Lal Nauk"
+	"Machli"
+	"Malda"
+	"Meghna"
+	"Mongla"
+	"Murshidabad"
+	"Nauk-i-Islam"
+	"Nawaber Nauk"
+	"Nil Nauk"
+	"Nil Sagor"
+	"Osman"
+	"Padma"
+	"Rui Mach"
+	"Sagorer Bahini"
+	"Shaheed"
+	"Sheikher Nauk"
+	"Sonar Bangladesh"
+	"Sunderboner Bahini"
+	"Sunderboner Nauk"
+	"Tasleema"
+}

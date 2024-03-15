@@ -1,0 +1,112 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 60 123 65 }
+revolutionary_colors = { 9 6 4 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	economic_ideas
+	religious_ideas
+	diplomatic_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Aggabodhi #1" = 10
+	"Agibuti #0" = 0
+	"Albrecht #0" = 0
+	"Anitalli #0" = -1
+	"Anuridi #0" = -1
+	"Apsaradevi #0" = -1
+	"Avirada #0" = 0
+	"Ayasmantha #0" = 0
+	"Bhutivarman #0" = 0
+	"Bohodevi #0" = -1
+	"Butadata #0" = -1
+	"Butisamana #0" = 0
+	"Dausprungas #0" = 0
+	"Devarakita #0" = -1
+	"Dhamika #1" = -1
+	"Dhruvasvamini #0" = -1
+	"Diganaguli #0" = 0
+	"Digasumana #0" = 0
+	"Gamakamba #0" = -1
+	"Jhotiya #0" = -1
+	"Kakanvati #0" = -1
+	"Kanadasika #0" = -1
+	"Kittivarma #0" = 0
+	"Kiur #0" = 0
+	"Lakshmi #0" = -1
+	"Lilavati #0" = -1
+	"Mahanaga #0" = 0
+	"Mahasena #3" = 10
+	"Maka #1" = -1
+	"Manavanna #0" = 0
+	"Narendra #0" = 0
+	"Nirmala #0" = 0
+	"Nugaya #0" = -1
+	"Paduma #0" = -1
+	"Payang #0" = -1
+	"Pratha #0" = -1
+	"Radhabai #0" = -1
+	"Rajasinha #1" = 10
+	"Rattaraja #0" = 0
+	"Rohaka #0" = 0
+	"Râcatêviyâr #0" = -1
+	"Sadhatissa #1" = 10
+	"Sena #1" = 10
+	"Seneya #0" = -1
+	"Shakrasingh Dev #0" = 0
+	"Sidata #0" = 0
+	"Sinhabahu #0" = 0
+	"Sirijunga #0" = 0
+	"Siva #0" = 0
+	"Suriguta #0" = -1
+	"Udaya #1" = 10
+	"Vepali #0" = 0
+	"Vikramabahu #1" = 10
+	"Viranarasimha #0" = 0
+	"Viranarendra #3" = 10
+}
+leader_names = {
+	"Atapattu"
+	"Chandana"
+	"Jayaratne"
+	"Jayawardene"
+	"Kalpage"
+	"Pushpakumara"
+	"Ranga"
+	"Ratnayake"
+	"Thilakaratne"
+	"Tillekaratne"
+}
+ship_names = {
+	"Anaradhapura"
+	"Anula"
+	"Jaffna"
+	"Kandy"
+	"Mahaweli"
+	"Mannar"
+	"Nil Manel"
+	"Palk"
+	"Pidurutalagala"
+	"Siddhartha"
+	"Sigiriya"
+	"Sinharaja"
+	"Sirimavo"
+	"Sri Maha Bodhi"
+	"Sri Pada"
+}

@@ -1,0 +1,79 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 215 185 }
+revolutionary_colors = { 1 0 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	influence_ideas
+	diplomatic_ideas
+	quantity_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Akbar #1" = 10
+	"Burhanaddin #1" = 10
+	"Christophe #0" = 0
+	"Emma #0" = -1
+	"Francés #2" = 10
+	"Frederi #0" = 0
+	"Guillelme-Jourdain #0" = 0
+	"Hafiz #1" = 10
+	"Hercule #0" = 0
+	"Hodradus #0" = 0
+	"Izzaddin #2" = 10
+	"Jaqueline #0" = -1
+	"Lot #1" = 10
+	"Musa #1" = 10
+	"Neelab #0" = -1
+	"Payen #0" = 0
+	"Ptolémée #1" = 10
+	"Qawurd #1" = 10
+	"Raimon #1" = 10
+	"Raymond #0" = -1
+	"Rohart #0" = 0
+	"Sedila #0" = -1
+	"Théodoric #0" = 0
+	"Uways #2" = 10
+}
+leader_names = {
+	"Abbas"
+	"Chammas"
+	"Farhat"
+	"Hammoud"
+	"Ibrahim"
+	"Khalil"
+	"Mansour"
+	"Saleh"
+	"Taleb"
+	"Youssef"
+}
+ship_names = {
+	"Harrat Al-Buqum"
+	"Harrat Al-Kishb"
+	"Harrat Hadan"
+	"Harrat Khaybar"
+	"Harrat Kurama"
+	"Harrat Nawasif"
+	"Harrat Rahat"
+	"Harrat al-Unayyir"
+	"Hijaz"
+	"Jabal Abu Hasan"
+	"Jabal Baydan"
+	"Jabal Sawda"
+	"Jabal al-Jurayrah"
+	"Jeddah"
+	"Mecca"
+	"Medina"
+}

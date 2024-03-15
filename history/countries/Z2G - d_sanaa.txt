@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = catholic
+primary_culture = yemeni_culture
+capital = 2346
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Nasr"
+		dynasty = "Nasrid"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1387.5.25
+		religion = catholic
+		culture = yemeni_culture
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = tolerant_personality
+	heir = {
+		name = "Raoul"
+		monarch_name = "Raoul"
+		dynasty = "d'Oriental"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1414.11.3
+		death_date = 1479.11.3
+		claim = 89
+		religion = converted_dynamic_faith_113
+		culture = outremer
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 22
+}

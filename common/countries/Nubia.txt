@@ -1,0 +1,93 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 81 58 223 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abdullah #0" = 0
+	"Abu-Bakr #1" = 10
+	"Adeer #0" = 0
+	"Adnan #0" = 0
+	"Amr #1" = 10
+	"Androus #0" = 0
+	"Barakat #0" = 0
+	"Chrissa #1" = -1
+	"Gabrielkouda #0" = 0
+	"Genseoua #0" = -1
+	"Hemene #0" = -1
+	"Hussayn #0" = 0
+	"Ibrahim #0" = 0
+	"Irir #0" = 0
+	"Isman #1" = 10
+	"Iôannês #0" = 0
+	"Jawdat #1" = 10
+	"Jiofo #0" = 0
+	"Kelile #0" = 0
+	"Magol #0" = -1
+	"Malik #0" = 0
+	"Mariankouda #1" = 10
+	"Marianos #0" = 0
+	"Mouses #0" = 0
+	"Mukhtar #2" = 10
+	"Murshid #0" = 0
+	"Nabila #0" = -1
+	"Nafissa #0" = -1
+	"Nassir #1" = 10
+	"Pamin #0" = 0
+	"Rafiqa #0" = -1
+	"Rasa #0" = -1
+	"Siciid #0" = 0
+	"Theipisthe #1" = -1
+	"Tirsakouni #1" = 10
+	"Touma #1" = 10
+	"Umar #0" = 0
+	"Waris #0" = -1
+	"Yayyo #0" = 0
+}
+leader_names = {
+	"Abboud"
+	"Fung"
+	"Garang"
+	"Kayra"
+	"Keira"
+	"Kelueljang"
+	"Lugor"
+	"Nuer"
+	"Shol"
+	"Taha"
+}
+ship_names = {
+	"Amenirdis"
+	"Amon"
+	"Apedemak"
+	"Arensnuphis"
+	"Bes"
+	"Dedwen"
+	"Khnum"
+	"Mandulis"
+	"Mut"
+	"Taweret"
+	"Tefnut"
+}

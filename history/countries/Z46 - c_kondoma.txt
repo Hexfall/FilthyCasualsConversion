@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 1
+technology_group = nomad_group
+religion = sunni
+primary_culture = dynamic-kirgiz-culture-num1
+capital = 480
+fixed_capital = 480
+religious_school = hanafi_school
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Uzur"
+		dynasty = "Hokhot"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1370.4.27
+		religion = sunni
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = silver_tongue_personality
+	queen = {
+		name = "Vahide"
+		dynasty = "Saifuddin"
+		adm = 4
+		dip = 2
+		mil = 4
+		country_of_origin = Z46
+		birth_date = 1384.3.5
+		death_date = 1444.3.5
+		female = yes
+		religion = sunni
+		culture = turko_iranian
+	}
+	add_queen_personality = fertile_personality
+	add_queen_personality = naive_personality
+	heir = {
+		name = "Kubasar"
+		monarch_name = "Kubasar"
+		dynasty = "Hokhot"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1421.1.1
+		death_date = 1486.1.1
+		claim = 89
+		religion = sunni
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = malevolent_personality
+}
+1444.11.11= {
+	add_prestige = 59
+	add_treasury = 64
+}

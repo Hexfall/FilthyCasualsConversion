@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = georgian
+capital = 1070
+add_accepted_culture = dynamic-ostyaki-kirgiz-culture-num1
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Vakhtang"
+		dynasty = "Bagratuni"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1415.7.30
+		religion = orthodox
+		culture = georgian
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = kind_hearted_personality
+	queen = {
+		name = "Rusudan"
+		dynasty = "Bagratuni"
+		adm = 2
+		dip = 3
+		mil = 4
+		country_of_origin = Z0R
+		birth_date = 1409.12.7
+		death_date = 1469.12.7
+		female = yes
+		religion = orthodox
+		culture = georgian
+	}
+	add_queen_personality = secretive_personality
+	add_queen_personality = silver_tongue_personality
+	heir = {
+		name = "Vakhtang"
+		monarch_name = "Vakhtang"
+		dynasty = "Bagratuni"
+		adm = 4
+		dip = 2
+		mil = 4
+		birth_date = 1435.2.7
+		death_date = 1500.2.7
+		claim = 89
+		religion = orthodox
+		culture = georgian
+	}
+	add_heir_personality = bold_fighter_personality
+	add_heir_personality = cruel_personality
+}
+1444.11.11= {
+	add_prestige = 74
+	add_treasury = 57
+}

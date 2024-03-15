@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 2
+technology_group = nomad_group
+religion = sunni
+primary_culture = buryat
+capital = 1055
+religious_school = hanafi_school
+1444.11.11= {
+	monarch = {
+		name = "Ligdan II"
+		dynasty = "Abazaj"
+		adm = 4
+		dip = 2
+		mil = 4
+		birth_date = 1395.1.14
+		religion = sunni
+		culture = buryat
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = righteous_personality
+	queen = {
+		name = "Samar"
+		dynasty = "Abazaj"
+		adm = 5
+		dip = 2
+		mil = 4
+		country_of_origin = BRT
+		birth_date = 1424.3.31
+		death_date = 1484.3.31
+		female = yes
+		religion = sunni
+		culture = buryat
+	}
+	add_queen_personality = conqueror_personality
+	add_queen_personality = martial_educator_personality
+	heir = {
+		name = "Joichi"
+		monarch_name = "Joichi III"
+		dynasty = "Abazaj"
+		adm = 6
+		dip = 4
+		mil = 6
+		birth_date = 1414.4.30
+		death_date = 1479.4.30
+		claim = 89
+		religion = sunni
+		culture = buryat
+	}
+	add_heir_personality = fertile_personality
+	add_heir_personality = righteous_personality
+}
+1444.11.11= {
+	add_prestige = 71
+	add_treasury = 50
+}

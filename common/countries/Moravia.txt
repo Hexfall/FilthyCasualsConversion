@@ -1,0 +1,147 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 232 149 18 }
+revolutionary_colors = { 5 13 0 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	administrative_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam #0" = 0
+	"Arnošt #0" = 0
+	"Beatrix #0" = -1
+	"Beneš #0" = 0
+	"Borivoj #1" = 10
+	"Bretislav #1" = 10
+	"Chval #0" = 0
+	"Csilla #0" = -1
+	"Dalibor #1" = 10
+	"Danuta #0" = -1
+	"Doubravka #1" = -1
+	"Drahomíra #0" = -1
+	"Eberhard #1" = 10
+	"Ermengau #0" = 0
+	"Jan #2" = 10
+	"Jaromír #0" = 0
+	"Jindrich #1" = 10
+	"Johanka #0" = -1
+	"Klementia #0" = -1
+	"Konstancja #0" = -1
+	"Mlada #0" = -1
+	"Mojmír #2" = 10
+	"Ojír #2" = 10
+	"Otakar #0" = 0
+	"Predslav #1" = 10
+	"Premysl #0" = 0
+	"Radka #0" = -1
+	"Robert #1" = 10
+	"Rostislav #2" = 10
+	"Slavomír #1" = 10
+	"Sobeslav #0" = 0
+	"Svatopluk #1" = 10
+	"Tas #0" = 0
+	"Tista #1" = 10
+	"Udo #0" = 0
+	"Vilém #0" = 0
+	"Vladislav #1" = 10
+	"Walpurga #0" = -1
+	"Šárka #0" = -1
+}
+leader_names = {
+	"Berka"
+	"Capek"
+	"Harant"
+	"Haugvicové z Biskupic"
+	"Jiskra"
+	"Kaspar"
+	"Kolowrat"
+	"Komenský"
+	"Mansfeld"
+	"Petrasch"
+	"Pilchramb"
+	"Purkyne"
+	"Píka"
+	"Reiner"
+	"Schwarzenberg"
+	"Sokol"
+	"Syrový"
+	"Thurn"
+	"Velen"
+	"Veliký"
+	"Zajíc"
+	"Zelezný"
+	"z Boskovic"
+	"z Brandýsa"
+	"z Ditrichštejna"
+	"z Falkensteina"
+	"z Husi"
+	"z Kunštátu a Podebrad"
+	"z Lichtenštejna"
+	"z Nostic"
+	"z Otradovic"
+	"z Pardubic"
+	"z Pernštejna"
+	"z Polzic"
+	"z Rozmberka"
+	"z Rozmitálu"
+	"z Vartemberka"
+	"z Veleslavína"
+	"ze Lvovic"
+	"ze Svamberka"
+	"ze Zerotína"
+	"Žerotínové"
+}
+ship_names = {
+	"Bystrý"
+	"Cechy"
+	"Ctirad"
+	"Hvezda"
+	"Jan Hus"
+	"Jan Zizka"
+	"Kníze Bretislav"
+	"Král Boleslav"
+	"Král Karel"
+	"Král Premysl"
+	"Libuse"
+	"Morava"
+	"Nejsvetejsí Trojice"
+	"Neporazitelný"
+	"Odvázný"
+	"Orel"
+	"Panna Maria Vitezná"
+	"Premysl Orac"
+	"Prokop Holý"
+	"Rychlý"
+	"Sipka"
+	"Slezsko"
+	"Sokol"
+	"Svatá Anezká"
+	"Svatá Ludmila"
+	"Svatý Jan Nepomucký"
+	"Svatý Jirí"
+	"Svatý Mikulás"
+	"Svatý Vaclav"
+}
+preferred_religion = protestant

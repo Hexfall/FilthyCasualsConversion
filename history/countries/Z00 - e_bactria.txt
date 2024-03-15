@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 3
+technology_group = muslim
+religion = sunni
+primary_culture = tajik
+capital = 4325
+religious_school = hanafi_school
+add_accepted_culture = dynamic-tajik-uyghur-culture-num1
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Kozel"
+		dynasty = "Ghaznavid"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1422.9.7
+		religion = sunni
+		culture = tajik
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Tahminah"
+		dynasty = "Orsini"
+		adm = 4
+		dip = 1
+		mil = 2
+		country_of_origin = Z00
+		birth_date = 1404.3.26
+		death_date = 1464.3.26
+		female = yes
+		religion = sunni
+		culture = dynamic-uzbehk-tajik-culture-num1
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Arslan"
+		monarch_name = "Arslan"
+		dynasty = "Ghaznavid"
+		adm = 1
+		dip = 0
+		mil = 2
+		birth_date = 1441.6.29
+		death_date = 1506.6.29
+		claim = 89
+		religion = sunni
+		culture = dynamic-tajik-uyghur-culture-num1
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = naive_personality
+}
+1444.11.11= {
+	add_prestige = 74
+	add_treasury = 67
+}

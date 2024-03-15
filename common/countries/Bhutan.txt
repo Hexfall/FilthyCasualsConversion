@@ -1,0 +1,83 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 93 180 76 }
+revolutionary_colors = { 8 0 6 }
+historical_idea_groups = {
+	religious_ideas
+	economic_ideas
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Aktsom #1" = 10
+	"Bizhan #0" = -1
+	"Choden #1" = -1
+	"Choeje #0" = 0
+	"Dasho #0" = 0
+	"Dhendup #0" = 0
+	"Domchu #0" = 0
+	"Drigum #0" = 0
+	"Drongmo #0" = -1
+	"Gongzim #0" = 0
+	"Gonpo #1" = 10
+	"Jamyang #0" = 0
+	"Jitari #0" = 0
+	"Lhendup #0" = 0
+	"Minjur #0" = 0
+	"Mipham #0" = 0
+	"Muné #1" = 10
+	"Nidup #1" = 10
+	"Ome #0" = -1
+	"Pelri #1" = 10
+	"Ratnavati #0" = -1
+	"Rinchen #0" = 0
+	"Riumel #0" = 0
+	"Sidi #0" = -1
+	"Tangbi #0" = 0
+	"Tenzin #1" = 10
+	"Thinley #0" = 0
+	"Tshering #0" = 0
+	"Tshoki #1" = 10
+	"Wangpo #0" = 0
+	"Yab #0" = 0
+}
+leader_names = {
+	"Chomphel"
+	"Gyaltshen"
+	"Gyamtsho"
+	"Lhopi"
+	"Peljor"
+	"Phuntsho"
+	"Rabgye"
+	"Tshering"
+	"Wangchuk"
+	"Wangpo"
+}
+ship_names = {
+	"Chhu"
+	"Dng Chu"
+	"Manas Chu"
+	"Mangde Chu"
+	"Mo Chu"
+	"Pa Chu"
+	"Pho Chu"
+	"Punaka"
+	"Sangkosh"
+	"Thimbu"
+	"Tongsa Chu"
+	"Towang Chu"
+}

@@ -1,0 +1,99 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 233 88 88 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	quantity_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Anitalli #0" = -1
+	"Ariñcaya #2" = 10
+	"Arulmolivarman #1" = 10
+	"Atirâjêntira #1" = 10
+	"Avinita #0" = 0
+	"Bijjabbe #1" = -1
+	"Chamekamba #1" = -1
+	"Chellava #0" = -1
+	"Cuntara #1" = 10
+	"Danamava #0" = 0
+	"Eticho #0" = 0
+	"Fakihah #0" = -1
+	"Imran #0" = 0
+	"Irâcarâca #1" = 10
+	"Irâcâtirâca #1" = 10
+	"Irâcêntira #2" = 10
+	"Josselin #0" = 0
+	"Kaapayanayaka #0" = 0
+	"Kambarasa #1" = 10
+	"Kammanayaka #1" = 10
+	"Kanavati #0" = -1
+	"Kantarâtitta #1" = 10
+	"Kittisena #0" = 0
+	"Mahakala #0" = 0
+	"Parântaka #1" = 10
+	"Rajanayaka #0" = 0
+	"Saktivarman #3" = 10
+	"Somaditya #1" = 10
+	"Suketuvarman #1" = 10
+	"Uttama #1" = 10
+	"Vuppadeva #0" = 0
+	"Vîrarâcêntira #3" = 10
+}
+leader_names = {
+	"Chetty"
+	"Dalawa"
+	"Mudaliar"
+	"Nayak"
+	"Rajapopalachari"
+	"Saluva"
+	"Saraf"
+	"Sastri"
+	"Senji"
+	"Thondaiman"
+}
+ship_names = {
+	"Amirtha"
+	"Amman"
+	"Arul"
+	"Chellam"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Iniya"
+	"Kaveri"
+	"Lakshmi"
+	"Madhu"
+	"Meenakshi"
+	"Nalini"
+	"Palar"
+	"Parvati"
+	"Pennar"
+	"Ponnaiyar"
+	"Ponni"
+	"Radha"
+	"Ratri"
+	"Sarasvati"
+	"Sita"
+	"Tamarai"
+	"Vaigai"
+}

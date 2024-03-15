@@ -1,0 +1,107 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 95 139 214 }
+revolutionary_colors = { 4 0 4 }
+historical_idea_groups = {
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ahu #0" = -1
+	"Asi #1" = 10
+	"Bozorg #0" = 0
+	"Budh #1" = 10
+	"Charat #1" = 10
+	"Faraz #1" = 10
+	"Ferdows #1" = 10
+	"Furuzan #0" = -1
+	"Ghazal #0" = -1
+	"Govinda #2" = 10
+	"Gunga #1" = 10
+	"Jiera #0" = -1
+	"Kamran #0" = 0
+	"Kishan #0" = -1
+	"Mohan #1" = 10
+	"Muhammad #1" = 10
+	"Pihu #0" = -1
+	"Pore #0" = -1
+	"Prabhavatigupta #0" = -1
+	"Rajpal #1" = 10
+	"Ramadeva #0" = 0
+	"Sadri #0" = 0
+	"Samgramapida #1" = 10
+	"Tumen #0" = 0
+	"Ubayd #1" = 10
+	"Udayaraja #1" = 10
+	"Yeke #0" = 0
+}
+leader_names = {
+	"Bahadur"
+	"Bhalla"
+	"Bhatia"
+	"Das"
+	"Dev"
+	"Gahunia"
+	"Gobind"
+	"Granth"
+	"Hoora"
+	"Jhol"
+	"Jhotti"
+	"Krishan"
+	"Lohaar"
+	"Munshi"
+	"Parikh"
+	"Parmanand"
+	"Patel"
+	"Patidar"
+	"Rai"
+	"Sayid"
+	"Shah"
+	"Shergill"
+	"Singh"
+	"Sodhi"
+	"Sohal"
+	"Udasi"
+	"Zamindar"
+}
+ship_names = {
+	"Beas"
+	"Chenab"
+	"Devi"
+	"Gayatri"
+	"Guru"
+	"Indus"
+	"Jalsena"
+	"Jhelum"
+	"Lakshmi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Ravi"
+	"Sagar"
+	"Sarasvati"
+	"Sita"
+	"Sutlej"
+}

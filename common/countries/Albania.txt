@@ -1,0 +1,126 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 181 0 20 }
+revolutionary_colors = { 4 1 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Antonija #0" = -1
+	"Ausonia #0" = -1
+	"Bagrat #1" = 10
+	"Basileios #1" = 10
+	"Dragutin #0" = 0
+	"Euphrosyne #1" = -1
+	"García #0" = 0
+	"Gavrilo #1" = 10
+	"Ilija #0" = 0
+	"Jagoda #0" = -1
+	"Jelena #0" = -1
+	"Josif #0" = 0
+	"Jovan #0" = 0
+	"Kale #1" = -1
+	"Kasjan #1" = 10
+	"Kyriake #0" = -1
+	"Leon #1" = 10
+	"Loukas #1" = 10
+	"Malkhazi #1" = 10
+	"Manthos #1" = 10
+	"Michael #1" = 10
+	"Mihailo #0" = 0
+	"Narses #1" = 10
+	"Nikephoros #1" = 10
+	"Pavlina #0" = -1
+	"Porphyrios #0" = 0
+	"Teodosije #0" = 0
+	"Theodoulos #2" = 10
+	"Thomas #2" = 10
+	"Tihomir #0" = 0
+	"Ulrike #0" = -1
+	"Vladimir #0" = 0
+	"Vlastimir #0" = 0
+	"Vukasin #0" = 0
+	"Zvonimir #0" = 0
+}
+leader_names = {
+	"Alia"
+	"Arianit"
+	"Badera"
+	"Balsha"
+	"Bua"
+	"Cervota"
+	"Chani"
+	"Comneniates"
+	"Corbajram"
+	"Dosti"
+	"Duka"
+	"Dukagjini"
+	"Elezi"
+	"Fakaj"
+	"Faqemiri"
+	"Gecaj"
+	"Gjika"
+	"Gjokaj"
+	"Gojcin"
+	"Golemi"
+	"Hajdaraga"
+	"Halili"
+	"Hamza"
+	"Hoxha"
+	"Kastrioti"
+	"Losha"
+	"Musaki"
+	"Sguros"
+	"Shehu"
+	"Shpata"
+	"Spani"
+	"Thopia"
+	"Toptani"
+	"Useni"
+	"Vata"
+	"Veseli"
+	"Vishanj"
+	"Xhaferi"
+	"Xhumba"
+	"Ymeri"
+	"Zenevisi"
+	"Ziberi"
+	"Zogu"
+	"Çarçani"
+}
+ship_names = {
+	"Bishti i Palles"
+	"Gjiri i Drinit"
+	"Gjiri i Rondonit"
+	"Jube"
+	"Kalaja e Turres"
+	"Kepi i Rodonit"
+	"Kyrekuq"
+	"Shengjin"
+	"Shetaj"
+	"Velipoje"
+}

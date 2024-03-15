@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dynamic-outremer-culture-num3
+capital = 384
+fixed_capital = 384
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	add_prestige = 81
+	add_treasury = 71
+}

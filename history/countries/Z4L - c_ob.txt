@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+government_rank = 1
+technology_group = eastern
+religion = sunni
+primary_culture = dynamic-ostyaki-culture-num1
+capital = 4688
+fixed_capital = 4688
+religious_school = hanbali_school
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Nuyanza IV"
+		dynasty = "Hokhot"
+		adm = 3
+		dip = 4
+		mil = 6
+		birth_date = 1393.3.20
+		religion = sunni
+		culture = dynamic-ostyaki-culture-num1
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Chechama"
+		dynasty = "Orsini"
+		adm = 0
+		dip = 3
+		mil = 1
+		country_of_origin = Z4L
+		birth_date = 1406.11.4
+		death_date = 1466.11.4
+		female = yes
+		religion = sunni
+		culture = dynamic-ostyaki-culture-num1
+	}
+	add_queen_personality = careful_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Kuaz"
+		monarch_name = "Kuaz II"
+		dynasty = "Hokhot"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1435.3.26
+		death_date = 1500.3.26
+		claim = 89
+		religion = sunni
+		culture = dynamic-ostyaki-culture-num1
+	}
+	add_heir_personality = cruel_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 62
+	add_treasury = 62
+}

@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 150 0 25 }
+revolutionary_colors = { 13 0 5 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hussar
+	african_mossi_horsemen
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	ethiopian_guerilla_warfare
+	ethiopian_gunpowder_warfare
+	ethiopian_mountain_warfare
+	westernized_ethiopian
+}
+monarch_names = {
+	"Abdul-Gafur #0" = 0
+	"Abdulah #2" = 10
+	"Abram #0" = 0
+	"Amr #0" = 0
+	"Andali #0" = -1
+	"Aydahis #0" = 0
+	"Azmera #0" = 0
+	"Bla #2" = 10
+	"Burhanaddin #0" = 0
+	"Canab #1" = -1
+	"Egya #1" = 10
+	"Eionmnne #1" = -1
+	"Fenuku #1" = 10
+	"Getachew #0" = 0
+	"Hakim #0" = 0
+	"Hoase #2" = 10
+	"Hussayn #0" = 0
+	"Isman #1" = 10
+	"Kurake #1" = -1
+	"Mahdi #0" = 0
+	"Omer #0" = 0
+	"Sabah #0" = 0
+	"Sabir #1" = 10
+	"Sadiq #0" = 0
+	"Samir #0" = 0
+	"Shararah #0" = -1
+	"Suhaila #0" = -1
+	"Talha #1" = 10
+	"Wofa #1" = 10
+	"Zaia #0" = 0
+}
+leader_names = {
+	"Benesho"
+	"Bosho"
+	"Chara"
+	"CharaGera"
+	"Eneara"
+	"Gofa"
+	"Gomma"
+	"Gonga"
+	"Hinaro"
+	"Hio"
+	"Konta"
+	"Kullo"
+	"Maji"
+	"Masongo"
+	"Mato"
+	"Minje"
+	"Nao"
+	"She"
+	"Shewo"
+	"Uba"
+}
+ship_names = {
+	"Kedus Harbe"
+	"Lalibela"
+	"Mara Takla"
+	"Na'akueto La'ab"
+	"Seyum"
+	"Shewa"
+	"Tatadum"
+	"Tigray"
+	"Yekuno Amlak"
+	"Yetbarak"
+	"Yodit"
+}

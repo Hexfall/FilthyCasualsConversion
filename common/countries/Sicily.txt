@@ -1,0 +1,195 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 73 152 76 }
+revolutionary_colors = { 10 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	religious_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abdallah #2" = 10
+	"Ahmad #3" = 10
+	"Aldimir #0" = 0
+	"Ali Abu'l Qasim #1" = 10
+	"Asen #0" = 0
+	"Berbat #0" = 0
+	"Chasna #0" = -1
+	"Clàudia #1" = -1
+	"Dmitar #0" = 0
+	"Elpidios #1" = 10
+	"Ferant #1" = 10
+	"Filbert #1" = 10
+	"Hassan #2" = 10
+	"Iakobos #0" = 0
+	"Ivan #1" = 10
+	"Jabir #1" = 10
+	"Jafar #2" = 10
+	"Jaffar #1" = 10
+	"Jagoda #0" = -1
+	"Jovanka #0" = -1
+	"Juan #1" = 10
+	"Kasjan #1" = 10
+	"Keratza #0" = -1
+	"Khafaja #1" = 10
+	"Ljudevit #0" = 0
+	"Mihovil #0" = 0
+	"Milka #0" = -1
+	"Miroslav #0" = 0
+	"Mudra #0" = -1
+	"Muhammad #1" = 10
+	"Pavlina #0" = -1
+	"Porin #0" = 0
+	"Rastko #0" = 0
+	"Ratomir #0" = 0
+	"Sanciu #1" = 10
+	"Sawada #1" = 10
+	"Sibylla #1" = -1
+	"Theodoros #0" = 0
+	"Tihomir #0" = 0
+	"Violante #0" = -1
+	"Vladimir #0" = 0
+	"Ysabel #0" = -1
+	"Yusuf #1" = 10
+	"Zoran #1" = 10
+}
+leader_names = {
+	"Asmondo"
+	"Barbiano Belgioioso"
+	"Carafa"
+	"Castagna"
+	"Cattaneo"
+	"Ciaja"
+	"Cialdini"
+	"Colonna"
+	"Coppola"
+	"Corleone"
+	"Crescimanno"
+	"Damiani"
+	"Farini"
+	"Felice"
+	"Filangieri"
+	"Gaetani dell'Aquila"
+	"Gonzaga"
+	"La Masa"
+	"Lamoral"
+	"Mazzini"
+	"Orsini"
+	"Paruta"
+	"Pignatelli"
+	"Pilo"
+	"Platamonte"
+	"Riso"
+	"Rizzi"
+	"Ruffo"
+	"Ruggiero"
+	"Sanseverino"
+	"Santapace"
+	"Serra"
+	"Settimo"
+	"Sfondrati"
+	"Speciale"
+	"Spinola"
+	"Tanucci"
+	"Tassoni"
+	"Trivulcio"
+	"Ventimiglia"
+	"Zannoni"
+	"d'Agnesi"
+	"d'Austria"
+	"d'Este"
+	"de Gattinara"
+	"de Martino"
+	"de Podio"
+	"de' Medici"
+	"di Aragona"
+	"di Borbone"
+	"di Gesualdo"
+	"di Marzano"
+}
+ship_names = {
+	"Agatobles"
+	"Altavilla"
+	"Apollo"
+	"Archimede"
+	"Audaze"
+	"Borbone"
+	"Calabria"
+	"Capitana"
+	"Diana"
+	"Disttrutore"
+	"Drago"
+	"Ercole"
+	"Etna"
+	"Federigo Barbarossa"
+	"Folgorante"
+	"Fulminante"
+	"Generoso"
+	"Guiscardo"
+	"Hohenstaufen"
+	"Idra"
+	"Invencibile"
+	"Jupiter"
+	"L'Aretusa"
+	"Maria Inmacolata"
+	"Marte"
+	"Mercurio"
+	"Messaggero"
+	"Minerva"
+	"Napoli"
+	"Navigante"
+	"Nettuno"
+	"Palinuro"
+	"Partenope"
+	"Pegaso"
+	"Peloro"
+	"Plutone"
+	"Puglia"
+	"Purissima Concezione"
+	"Re Carlo"
+	"Re Federigo"
+	"Re Ferrante"
+	"Regina dei Mari"
+	"S.Francesco d'Assisi"
+	"Saetta"
+	"San Antonio"
+	"San Carlo"
+	"San Ferdinando"
+	"San Vito"
+	"Sannita"
+	"Sant'Agata"
+	"Sant'Agatone"
+	"Santa Amalia"
+	"Santa Helena"
+	"Santa Lucia"
+	"Santa Wenfrida"
+	"Sibilla"
+	"Sicilia"
+	"Sirena"
+	"Tancredi"
+	"Veloce"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

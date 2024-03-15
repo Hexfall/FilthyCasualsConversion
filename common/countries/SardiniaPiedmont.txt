@@ -1,0 +1,170 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 97 209 251 }
+revolutionary_colors = { 0 5 13 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelaide #3" = -1
+	"Agilolf #1" = 10
+	"Anselmo #0" = 0
+	"Ardoino #1" = 10
+	"Arioald #1" = 10
+	"Aripert #1" = 10
+	"Bernabò #0" = 0
+	"Bernardino #0" = 0
+	"Chindyapa #0" = -1
+	"Edda #0" = -1
+	"Enrico #1" = 10
+	"Garipald #1" = 10
+	"Giacinta #1" = -1
+	"Giorgio #0" = 0
+	"Gottschalk #1" = 10
+	"Guido #0" = 0
+	"Hamelin #1" = 10
+	"Hermann #1" = 10
+	"Ioulia #0" = -1
+	"Joan #1" = 10
+	"Lazar #0" = 0
+	"Magnus #1" = 10
+	"Mahaut #1" = -1
+	"Melissa #0" = -1
+	"Merigo #0" = 0
+	"Oddon #1" = 10
+	"Olderico Manfredi #2" = 10
+	"Ostisio #0" = 0
+	"Ottone #1" = 10
+	"Pierre #1" = 10
+	"Ponce #1" = 10
+	"Raginpert #1" = 10
+	"Ricciarda #1" = -1
+	"Ubaldo #1" = 10
+	"Valentina #0" = -1
+	"Vincenzo #0" = 0
+	"Étiennette #1" = -1
+}
+leader_names = {
+	"Alfieri"
+	"Arborio Mella"
+	"Asinari"
+	"Balbo"
+	"Benso"
+	"Boncompagni Ludovisi"
+	"Borromeo"
+	"Bosco"
+	"Botta"
+	"Broglia"
+	"Cacherano"
+	"Cafasso"
+	"Carignano"
+	"Casati"
+	"Chiodo"
+	"Cisa Asinari"
+	"Cottolengo"
+	"Delitalia"
+	"Doria di Cirié"
+	"Facchinetti de Nuce"
+	"Ferrero-Fiesco"
+	"Gaetani dell'Aquila"
+	"Galletti"
+	"Gioberti"
+	"Homo dei Moura"
+	"Lascaris"
+	"Ludovisi"
+	"Luserna Campiglione"
+	"Micca"
+	"Ossorio"
+	"Pallavicini"
+	"Pignatelli"
+	"Solaro"
+	"Taparelli"
+	"Tassoni"
+	"Trivulzio"
+	"Vico"
+	"d'Acaja"
+	"d'Appiani d'Aragona"
+	"d'Attalaya"
+	"d'Incisa"
+	"d'Ottaiano"
+	"de Bette"
+	"de Maretta"
+	"de Tutavila"
+	"del Carreto"
+	"del Marco"
+	"del Vasto"
+	"della Torre"
+	"di Busca"
+	"di Cardé"
+	"di Cavour"
+	"di Challant"
+	"di Luserna"
+	"di Paesana"
+	"di Savoia"
+}
+ship_names = {
+	"Aguila"
+	"Alceste"
+	"Aurora"
+	"Azzardoso"
+	"Beata Margherita"
+	"Bella Genovese"
+	"Beroldo"
+	"Capitana"
+	"Carlo"
+	"Carloforte"
+	"Colombo"
+	"Commerce di Genova"
+	"Cristina"
+	"Daino"
+	"Diana"
+	"Eridano"
+	"Euridice"
+	"Falco"
+	"Felice"
+	"Generoso"
+	"Haute Combe"
+	"Maria Teresa"
+	"Neireide"
+	"Patrona"
+	"Prima"
+	"Regina"
+	"Rondinella"
+	"San Carlo"
+	"San Michele"
+	"San Vittore"
+	"San Vittorio"
+	"Santa Anna"
+	"Santa Barbara"
+	"Santa Teresa"
+	"Staffetta"
+	"Tirsi"
+	"Tritone"
+	"Veloce"
+	"Vigilante"
+	"Vittorio Emanuele"
+	"Zeffiro"
+}

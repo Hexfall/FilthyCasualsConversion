@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = outremer
+capital = 4272
+1444.11.11= {
+	monarch = {
+		name = "Wulfran"
+		dynasty = "de Rouergue"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1388.11.15
+		religion = catholic
+		culture = outremer
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Sadiya"
+		dynasty = "Barlais"
+		adm = 4
+		dip = 4
+		mil = 4
+		country_of_origin = ANZ
+		birth_date = 1399.6.1
+		death_date = 1459.6.1
+		female = yes
+		religion = catholic
+		culture = outremer
+	}
+	add_queen_personality = drunkard_personality
+	add_queen_personality = fierce_negotiator_personality
+	heir = {
+		name = "Dominica"
+		monarch_name = "Dominica"
+		dynasty = "de Rouergue"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1416.7.27
+		death_date = 1481.7.27
+		female = yes
+		claim = 89
+		religion = catholic
+		culture = outremer
+	}
+	add_heir_personality = fertile_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11= {
+	add_prestige = 90
+	add_treasury = 72
+}

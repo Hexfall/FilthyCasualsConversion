@@ -1,3 +1,11 @@
+march=
+{
+	first="KOJ"
+	second="CYP"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
 dependency=
 {
 	subject_type="tributary_state"

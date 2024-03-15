@@ -1,0 +1,7 @@
+# Castilian guarantee on PAP
+guarantee = {
+	first = CAS
+	second = PAP
+	start_date = 1444.1.1
+	end_date = 1447.12.12
+}

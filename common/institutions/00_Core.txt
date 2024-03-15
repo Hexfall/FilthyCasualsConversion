@@ -271,6 +271,7 @@ renaissance = {
 	can_start = {
 		is_year = 1450
 		is_institution_enabled = feudalism
+		region = mashriq_region
 		development = 21
 		is_state = yes
 		NOT = { province_id = 126 }
@@ -282,7 +283,7 @@ renaissance = {
 			is_year = 1475
 		}
 	}
-	start_chance = 5		#in 100 for when a province can_start
+	start_chance = 50		#in 100 for when a province can_start
 	
 	
 	on_start = institution_events.2
@@ -331,25 +332,41 @@ renaissance = {
 			factor = 0.05
 			scale = yes
 			development = 10
-			any_province = {
-				has_province_modifier = "birthplace_of_the_renaissance"
-				continent = PREV
+			OR = {
+				has_port = yes
+				province_has_center_of_trade_of_level = 1
+			}
+			OR = {
+				trade_company_region = trade_company_aleppo
+				trade_company_region = trade_company_constantinople
+				trade_company_region = trade_company_ragusa
+				trade_company_region = trade_company_venice
+				trade_company_region = trade_company_genua
+				trade_company_region = trade_company_valencia
+				trade_company_region = trade_company_tunis
+				area = palestine_area
+				area = delta_area
+				area = cyrenaica_area
+				area = bahari_area
+				area = toledo_area
+				area = upper_andalucia_area
+				area = northern_morocco_area
+				area = algiers_area
+				area = barbary_coast_area
 			}
 		}
 		modifier = {
 			factor = 0.05
 			scale = yes
 			development = 20
-			any_province = {
-				has_province_modifier = "birthplace_of_the_renaissance"
-				continent = PREV
-			}
+			religion_group = christian
+			province_has_center_of_trade_of_level = 2
 		}
 		modifier = {
 			factor = 0.1
 			scale = yes
 			is_year = 1500
-			development = 5
+			development = 10
 		}
 		modifier = {
 			factor = 0.5

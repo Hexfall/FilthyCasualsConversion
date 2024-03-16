@@ -6,7 +6,7 @@ age_of_discovery = {
 	}
 
 	religious_conflicts = yes
-	papacy = 1.0
+	papacy = 1.25
 
 
 	objectives = {
@@ -262,14 +262,16 @@ age_of_reformation = {
 
 	can_start = {
 		AND = {
-			is_religion_enabled = protestant
-			is_year = 1490 #10 years before 1600, when Global Trade Can Spawn
+			any_country = {
+				is_colonial_nation = yes
+			}
+			is_year = 1490
 		}
 	}
 
 
 	religious_conflicts = yes
-	papacy = 1.25
+	papacy = 1.00
 
 	objectives = {
 		obj_discover_america = {

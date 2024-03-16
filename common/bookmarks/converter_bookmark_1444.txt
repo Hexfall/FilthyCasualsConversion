@@ -3,4 +3,14 @@ bookmark =
 	name = CK3A_NAME
 	desc = CK3A_DESC
 	date = "1444.11.11"
+
+	center = 1766 # Kosovo
+
+	country = CAS
+	country = ENG
+	country = BOH
+	country = Z01
+	country = Z0I
+	country = ETH
+	country = KOJ
 }

@@ -1,0 +1,26 @@
+namespace = papacy_events
+
+country_event = {
+	id = papacy_events.99
+	title = papacy_events.99.t
+	desc = papacy_events.99.d
+	picture = RELIGION_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PAP
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = papacy_events.99.a
+		ai_chance = {
+			factor = 1
+		}
+		add_reform_desire = 2.5
+	}
+}

@@ -1,11 +1,10 @@
 government = monarchy
-add_government_reform = english_monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = converted_dynamic_faith_113
-primary_culture = outremer
+primary_culture = dynamic-outremer-culture-num3
 capital = 385
-add_accepted_culture = dynamic-outremer-culture-num3
 1444.11.11= {
 	monarch = {
 		name = "Josselin"
@@ -15,7 +14,7 @@ add_accepted_culture = dynamic-outremer-culture-num3
 		mil = 5
 		birth_date = 1389.10.11
 		religion = converted_dynamic_faith_113
-		culture = outremer
+		culture = dynamic-outremer-culture-num3
 	}
 	add_ruler_personality = architectural_visionary_personality
 	add_ruler_personality = obsessive_perfectionist_personality
@@ -44,8 +43,8 @@ add_accepted_culture = dynamic-outremer-culture-num3
 		birth_date = 1444.8.27
 		death_date = 1509.8.27
 		claim = 89
-		religion = catholic
-		culture = outremer
+		religion = converted_dynamic_faith_113
+		culture = dynamic-outremer-culture-num3
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = tactical_genius_personality

@@ -965,7 +965,7 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.75
+		factor = 1
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -988,32 +988,77 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { adm_tech = 6 } # Won't take as first idea.
-		}
-		modifier = {
-			factor = 0
 			is_emperor_of_china = yes
 			NOT = { is_year = 1575 } # Let's give the Europeans a chance
-			NOT = {
-				any_owned_province = {
-					any_province = {
-						has_province_modifier = "birthplace_of_the_renaissance"
-						continent = PREV
+		}
+		modifier = { # Very likely, if bordering Norwegian Sea or North Atlantic areas
+			factor = 100
+			OR = {
+				AND = {
+					num_of_ports = 5
+					any_owned_province = {
+						has_port = yes
+						sea_zone = {
+							area = north_atlantic_area
+						}
+					}
+				}
+				AND = {
+					num_of_ports = 3
+					any_owned_province = {
+						has_port = yes
+						sea_zone = {
+							area = norwegian_sea_area
+						}
 					}
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_ports = 1 }
-			NOT = { 
-				any_owned_province = { 
+		modifier = { # More likely if in North Sea
+			factor = 3
+			num_of_ports = 3
+			any_owned_province = {
+				has_port = yes
+				sea_zone = {
+					area = north_sea_area
+					area = bay_of_biscay_area
+				}
+			}
+		}
+		modifier = { # Less likely, if only ports are in eastern med, Baltic or Red Sea
+			factor = 0.5
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+					sea_zone = {
+						OR = {
+							NOT = { region = mediterrenean_region }
+							province_id = 1293 #Gibraltar
+							province_id = 1294 #Almeria
+						}
+						NOT = { area = red_sea_area }
+						NOT = { area = baltic_area }
+					}
+				}
+			}
+			NOT = {
+				any_owned_province = {
 					is_in_capital_area = yes
 					has_empty_adjacent_province = yes
 				}
 			}
 		}
-		modifier = {
+		modifier = { # Don't pick explo, if you don't have any ports, or neighboring uncolonized provinces
+			factor = 0
+			NOT = { num_of_ports = 1 }
+			NOT = { 
+				any_owned_province = {
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = { # Less likely if you don't have at least 3 ports, or an uncolonized neighboring province
 			factor = 0.1
 			NOT = { num_of_ports = 3 }
 			NOT = {
@@ -1023,96 +1068,21 @@ exploration_ideas = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0.1
-			NOT = { is_year = 1600 } # Let's give the initial colonizers a chance
-			NOT = {
-				any_owned_province = {
-					is_state = yes
-					any_province = {
-						has_province_modifier = "birthplace_of_the_renaissance"
-						continent = PREV
-					}
-				}
-			}
-		}
-		modifier = {
+		modifier = { # Too late
 			factor = 0.01
 			is_year = 1650
 		}
-		modifier = {
+		modifier = { # Have renaissance before picking explo
 			factor = 0.1
 			NOT = { has_institution = renaissance }
-			NOT = { is_year = 1490 }
-		}
-		modifier = { # One Super Aggressive Colonizer (Portugal Analogue)
-			factor = 50
-			num_of_ports = 6
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
-				}
-			}
-			NOT = {
-				any_country = {
-					has_idea_group = exploration_ideas
-				}
-			}
-		}
-		modifier = { # Aggressive Colonizers (Europe)
-			factor = 10
-			num_of_ports = 5
-			capital_scope = {
-				OR = {
-					region = iberia_region
-					region = british_isles_region
-				}
-			}
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
-				}
-			}
 		}
 		modifier = { # Aggressive Colonizers (Asia)
 			factor = 10
 			num_of_ports = 5
 			capital_scope = {
 				OR = {
-					region = coromandel_region
-					region = bengal_region
-					region = malaya_region
-					region = south_china_region
-				}
-			}
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
-				}
-			}
-		}
-		modifier = { # Aggressive Colonizers (Africa)
-			factor = 10
-			num_of_ports = 5
-			capital_scope = {
-				OR = {
-					region = horn_of_africa_region
-					region = guinea_region
-					region = maghreb_region
-					region = east_africa_region
-				}
-			}
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
+					region = japan_region
+					region = korea_region
 				}
 			}
 		}
@@ -1129,73 +1099,28 @@ exploration_ideas = {
 					region = baltic_region
 				}
 			}
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
-				}
-			}
-		}
-		modifier = { # Secondary Colonizers (Asia)
-			factor = 6
-			num_of_ports = 5
-			capital_scope = {
-				OR = {
-					region = arabia_region
-					region = persia_region
-					region = khorasan_region
-					region = hindusthan_region
-					region = west_india_region
-					region = deccan_region
-					region = burma_region
-					region = indo_china_region
-					region = indonesia_region
-					region = moluccas_region					
-					region = north_china_region
-					region = japan_region
-					region = korea_region
-				}
-			}
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
-				}
-			}
-		}
-		modifier = { # Secondary Colonizers (Africa)
-			factor = 6
-			num_of_ports = 5
-			capital_scope = {
-				OR = {
-					region = egypt_region
-					region = sahel_region
-					region = niger_region
-					region = kongo_region
-					region = central_africa_region
-					region = south_africa_region
-				}
-			}
-			any_owned_province = {
-				is_state = yes
-				any_province = {
-					has_province_modifier = "birthplace_of_the_renaissance"
-					continent = PREV
-				}
-			}
 		}
 		modifier = {
 			factor = 10
 			technology_group = high_american
-			num_of_ports = 6
 		}
 		modifier = {
-			factor = 3
-			technology_group = polynesian_tech
-			num_of_ports = 3
-			has_institution = new_world_i
+			factor = 0.1
+			capital_scope = {
+				NOT = {
+					region = france_region
+					region = iberia_region
+					region = british_isles_region
+					region = low_countries_region
+					region = japan_region
+					region = korea_region
+				}
+			}
+			NOT = { technology_group = high_american }
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 5
 		}
 		modifier = {
 			factor = 2.0

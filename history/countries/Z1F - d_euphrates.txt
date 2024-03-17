@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = english_monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = outremer
+primary_culture = dynamic-outremer-culture-num2
 capital = 406
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1413.3.2
 		religion = catholic
-		culture = outremer
+		culture = dynamic-outremer-culture-num2
 	}
 	add_ruler_personality = malevolent_personality
 	add_ruler_personality = obsessive_perfectionist_personality
@@ -30,7 +30,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1479.11.3
 		claim = 89
 		religion = converted_dynamic_faith_113
-		culture = outremer
+		culture = dynamic-outremer-culture-num2
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = midas_touched_personality

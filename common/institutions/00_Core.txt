@@ -332,27 +332,12 @@ renaissance = {
 			factor = 0.05
 			scale = yes
 			development = 10
-			OR = {
-				has_port = yes
-				province_has_center_of_trade_of_level = 1
-			}
-			OR = {
-				trade_company_region = trade_company_aleppo
-				trade_company_region = trade_company_constantinople
-				trade_company_region = trade_company_ragusa
-				trade_company_region = trade_company_venice
-				trade_company_region = trade_company_genua
-				trade_company_region = trade_company_valencia
-				trade_company_region = trade_company_tunis
-				area = palestine_area
-				area = delta_area
-				area = cyrenaica_area
-				area = bahari_area
-				area = toledo_area
-				area = upper_andalucia_area
-				area = northern_morocco_area
-				area = algiers_area
-				area = barbary_coast_area
+			has_port = yes
+			sea_zone = {
+				OR = {
+					area = western_mediterrenean_area
+					area = eastern_mediterrenean_area
+				}
 			}
 		}
 		modifier = {

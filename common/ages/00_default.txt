@@ -6,282 +6,14 @@ age_of_discovery = {
 	}
 
 	religious_conflicts = yes
-	papacy = 1.0
-
-
-	objectives = {
-		obj_discover_america = {
-			allow = {
-				capital_scope = {
-					OR = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = obj_discover_america_tooltip
-					OR = {
-						north_america = { has_discovered = ROOT }
-						south_america = { has_discovered = ROOT }
-						new_world = { has_discovered = ROOT }
-					}
-				}
-		}
-		obj_100_development = {
-			allow = {
-				capital_scope = {
-					NOT = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
-				}
-			}
-			total_development = 100
-
-		}
-		
-		
-		
-	
-		obj_5_centers_of_trade = {
-			calc_true_if = {
-				all_owned_province = {
-					OR = {
-						province_has_center_of_trade_of_level = 2
-						province_has_center_of_trade_of_level = 3
-					}
-					controlled_by = owner
-					is_core = ROOT
-				}
-				amount = 5
-			}
-		}
-		obj_30_development_city = {
-			custom_trigger_tooltip = {
-				tooltip = obj_30_development_city_tooltip
-				any_owned_province = {
-					exclude_from_progress = {
-						is_core = ROOT
-						controlled_by = owner
-					}
-					development_discounting_tribal = 30
-				}
-			}
-		}
-		obj_renaissance = {
-	 		has_institution = renaissance
-	 		all_state_province = {
-	 			renaissance = 100
-	 		}
-		}
-
-		obj_two_unions = {
-			allow = {
-				religion_group = christian
-			}
-			personal_union  = 2
-		}
-
-		obj_many_vassals = {
-			allow = {
-				NOT = { religion_group = christian }
-			}
-			vassal = 5
-		}
-
-		obj_two_continents = {
-			num_of_continents = 2
-		}
-
-		obj_humiliate_rival = {
-			custom_trigger_tooltip = {
-				tooltip = obj_humiliate_rival_tooltip
-				has_country_flag = humiliated_rival
-			}
-		}
-	}		
-	
-	abilities = {
-		ab_allow_feudal_de_jure_law = {
-			effect = {
-				custom_tooltip = feudal_de_jure_law
-				set_country_flag = feudal_de_jure_law
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
-		ab_justified_wars = {
-			modifier = {
-				ae_impact = -0.1
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
-
-		ab_transfer_vassal_wargoal = {
-			modifier = {
-				can_transfer_vassal_wargoal = yes
-				can_chain_claim = yes
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
-		ab_free_war_taxes = {
-			modifier = {
-				war_taxes_cost_modifier = -1.0
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
-
-		ab_cavalry_armies = {
-			modifier = {
-				cav_to_inf_ratio = 0.2
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		ab_colony_boost_development = {
-			modifier = {
-				colony_development_boost = 1
-			}
-			ai_will_do = {
-				factor = 10
-				modifier = {
-					factor = 0
-					NOT = { num_of_colonists = 1 }
-				}
-			}
-		}
-
-		ab_attack_bonus_in_capital_terrain = {
-			modifier = {
-				attack_bonus_in_capital_terrain = 1
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
-		ab_ottoman_siege_ability = {
-			allow = {
-				OR = {
-					tag = TUR
-					AND = {
-						technology_group = ottoman
-						government_rank = 2
-					}
-				}
-			}
-			modifier = {
-				leader_siege = 1 
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-
-		ab_portugal_colonial_growth = {
-
-			allow = {
-				OR = {
-					tag = POR
-					AND = {
-						has_idea_group = exploration_ideas
-						num_of_total_ports = 15
-					}
-				}
-			}
-			modifier = {
-				global_colonial_growth = 50
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_denmark_reduced_lib_desire = {
-
-			allow = {
-				OR = {
-					tag = DAN
-					personal_union = 2
-				}
-			}
-			modifier = {
-				reduced_liberty_desire = 30
-			}
-			ai_will_do = {
-				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
-			}
-		}
-		ab_venice_ship_trade = {
-
-			allow = {
-				OR = {
-					tag = VEN
-					AND = {
-						OR = {
-							has_reform = merchants_reform
-							has_reform = venice_merchants_reform
-						}
-						government_rank = 2
-					}
-				}
-			}
-			modifier = {
-				global_ship_trade_power = 0.5
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-	}
-}
-
-age_of_reformation = {
-	start = 1530
-
-	can_start = {
-		OR = {
-			is_religion_enabled = protestant
-			is_year = 1590 #10 years before 1600, when Global Trade Can Spawn
-		}
-	}
-
-
-	religious_conflicts = yes
 	papacy = 1.25
+
 
 	objectives = {
 		obj_christian_convert = {
-			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-				religion = hussite
-				religion = cathar
-				religion = waldensian
-				religion = lollard
+			AND = {
+				NOT = { religion = catholic }
+				religion_group = christian
 			}
 		}
 
@@ -519,6 +251,274 @@ age_of_reformation = {
 			}
 		}
 
+	}
+}
+
+
+
+
+age_of_reformation = {
+	start = 1500
+
+	can_start = {
+		AND = {
+			any_country = {
+				is_colonial_nation = yes
+			}
+			is_year = 1490
+		}
+	}
+
+
+	religious_conflicts = yes
+	papacy = 1.00
+
+	objectives = {
+		obj_discover_america = {
+			allow = {
+				capital_scope = {
+					OR = {
+						continent = europe
+						continent = asia
+						continent = africa
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = obj_discover_america_tooltip
+					OR = {
+						north_america = { has_discovered = ROOT }
+						south_america = { has_discovered = ROOT }
+						new_world = { has_discovered = ROOT }
+					}
+				}
+		}
+		obj_100_development = {
+			allow = {
+				capital_scope = {
+					NOT = {
+						continent = europe
+						continent = asia
+						continent = africa
+					}
+				}
+			}
+			total_development = 100
+
+		}
+
+
+
+
+		obj_5_centers_of_trade = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						province_has_center_of_trade_of_level = 2
+						province_has_center_of_trade_of_level = 3
+					}
+					controlled_by = owner
+					is_core = ROOT
+				}
+				amount = 5
+			}
+		}
+		obj_30_development_city = {
+			custom_trigger_tooltip = {
+				tooltip = obj_30_development_city_tooltip
+				any_owned_province = {
+					exclude_from_progress = {
+						is_core = ROOT
+						controlled_by = owner
+					}
+					development_discounting_tribal = 30
+				}
+			}
+		}
+		obj_renaissance = {
+	 		has_institution = renaissance
+	 		all_state_province = {
+	 			renaissance = 100
+	 		}
+		}
+
+		obj_two_unions = {
+			allow = {
+				religion_group = christian
+			}
+			personal_union  = 2
+		}
+
+		obj_many_vassals = {
+			allow = {
+				NOT = { religion_group = christian }
+			}
+			vassal = 5
+		}
+
+		obj_two_continents = {
+			num_of_continents = 2
+		}
+
+		obj_humiliate_rival = {
+			custom_trigger_tooltip = {
+				tooltip = obj_humiliate_rival_tooltip
+				has_country_flag = humiliated_rival
+			}
+		}
+	}
+
+	abilities = {
+		ab_allow_feudal_de_jure_law = {
+			effect = {
+				custom_tooltip = feudal_de_jure_law
+				set_country_flag = feudal_de_jure_law
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_justified_wars = {
+			modifier = {
+				ae_impact = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+
+		ab_transfer_vassal_wargoal = {
+			modifier = {
+				can_transfer_vassal_wargoal = yes
+				can_chain_claim = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_free_war_taxes = {
+			modifier = {
+				war_taxes_cost_modifier = -1.0
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+
+		ab_cavalry_armies = {
+			modifier = {
+				cav_to_inf_ratio = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_colony_boost_development = {
+			modifier = {
+				colony_development_boost = 1
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_colonists = 1 }
+				}
+			}
+		}
+
+		ab_attack_bonus_in_capital_terrain = {
+			modifier = {
+				attack_bonus_in_capital_terrain = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_ottoman_siege_ability = {
+			allow = {
+				OR = {
+					tag = TUR
+					AND = {
+						technology_group = ottoman
+						government_rank = 2
+					}
+				}
+			}
+			modifier = {
+				leader_siege = 1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+
+		ab_portugal_colonial_growth = {
+
+			allow = {
+				OR = {
+					tag = POR
+					AND = {
+						has_idea_group = exploration_ideas
+						num_of_total_ports = 15
+					}
+				}
+			}
+			modifier = {
+				global_colonial_growth = 50
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_denmark_reduced_lib_desire = {
+
+			allow = {
+				OR = {
+					tag = DAN
+					personal_union = 2
+				}
+			}
+			modifier = {
+				reduced_liberty_desire = 30
+			}
+			ai_will_do = {
+				factor = 100
+				modifier = {
+					factor = 0
+					NOT = {
+						any_subject_country = {
+							liberty_desire = 20
+						}
+					}
+				}
+			}
+		}
+		ab_venice_ship_trade = {
+
+			allow = {
+				OR = {
+					tag = VEN
+					AND = {
+						OR = {
+							has_reform = merchants_reform
+							has_reform = venice_merchants_reform
+						}
+						government_rank = 2
+					}
+				}
+			}
+			modifier = {
+				global_ship_trade_power = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 	}
 }
 

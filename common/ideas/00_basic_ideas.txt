@@ -984,6 +984,10 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0
+			NOT = { adm_tech = 6 } # Won't take as first idea.
+		}
+		modifier = {
+			factor = 0
 			is_emperor_of_china = yes
 			NOT = { is_year = 1575 } # Let's give the Europeans a chance
 			NOT = {

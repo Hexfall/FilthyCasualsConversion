@@ -930,6 +930,10 @@ exploration_ideas = {
 	category = DIP
 	important = yes
 
+	trigger = {
+		adm_tech = 7
+	}
+
 	bonus = {
 		cb_on_primitives = yes
 	}

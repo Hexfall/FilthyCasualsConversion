@@ -1,0 +1,13 @@
+﻿l_english:
+ jerusalem:0 "Jerusalem"
+ ceylon:0 "Ceylon"
+ east_india:0 "Andhra"
+ trade_company_jerusalem:0 "Jerusalem Charter"
+ TRADE_COMPANY_JERUSALEM_Root_Culture_GetName:0 "[Root.Culture.GetName] Jerusalem Company"
+ TRADE_COMPANY_JERUSALEM_Asia_Trade_Company:0 "Jerusalem Company"
+ trade_company_ceylon:0 "Madras Charter"
+ TRADE_COMPANY_CEYLON_Root_Culture_GetName:0 "[Root.Culture.GetName] Madras Company"
+ TRADE_COMPANY_CEYLON_Asia_Trade_Company:0 "Madras Company"
+ trade_company_andhra:0 "Andhra Charter"
+ TRADE_COMPANY_ANDHRA_Root_Culture_GetName:0 "[Root.Culture.GetName] Andhra Company"
+ TRADE_COMPANY_ANDHRA_Asia_Trade_Company:0 "Andhra Company"

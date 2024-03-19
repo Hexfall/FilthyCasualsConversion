@@ -941,7 +941,8 @@ ceylon={
 		539 540 1947 2027 4417 #south_carnatic_area
 		536 2101 4412 #madura_area
 		2100 4408 4409 #lanka_area
-		572 2099 4407 #south_lanka_area}
+		572 2099 4407 #south_lanka_area
+	}
 }
 
 beijing={

@@ -156,14 +156,12 @@ trade_company_coromandel = {
 	color = { 50 30 210 }
 	
 	provinces = {
-		2083 4418 4419 4420 #north_carnatic_area
 		574 1101 1248 1998 1999 #indian_ocean_islands_area
 		538 2085 4414 #kongu_area
 		533 2031 4421 4422 4426 #mysore_area
 		541 1949 2090 4423 4424 #rayalaseema_area
 		534 535 537 4410 4413 #malabar_area
 		531 2029 2030 2032 4427 #kanara_area
-		543 549 2084 2080 4425 #andhra_area
 	}
 	# Generic
 	names = {
@@ -192,7 +190,6 @@ trade_company_deccan = {
 		550 551 2092 4458 4460 #gondwana_area
 		532 2033 4428 #raichur_doab_area
 		2028 4438 4444 #telingana_area
-		542 2037 4436 4439 #golconda_area
 		527 4434 4453 #khandesh_area
 		569 1948 2035 4435 #maidan_area
 		546 548 2050 4442 4443 #berar_area
@@ -1382,7 +1379,7 @@ trade_company_jerusalem = {
 		name = "TRADE_COMPANY_JERUSALEM_Root_Culture_GetName"
 	}
 	names = {
-		name = "TRADE_COMPANY_JERUSALEM_Oceania_Trade_Company"
+		name = "TRADE_COMPANY_JERUSALEM_Asia_Trade_Company"
 	}
 }
 
@@ -1399,6 +1396,21 @@ trade_company_ceylon = {
 		name = "TRADE_COMPANY_CEYLON_Root_Culture_GetName"
 	}
 	names = {
-		name = "TRADE_COMPANY_CEYLON_Oceania_Trade_Company"
+		name = "TRADE_COMPANY_CEYLON_Asia_Trade_Company"
+	}
+}
+
+trade_company_andhra = {
+	color = { 255 69 10 }
+	provinces = {
+		2083 4418 4419 4420 #north_carnatic_area
+		543 549 2084 2080 4425 #andhra_area
+		542 2037 4436 4439 #golconda_area
+	}
+	names = {
+		name = "TRADE_COMPANY_ANDHRA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_ANDHRA_Asia_Trade_Company"
 	}
 }

@@ -692,7 +692,11 @@ east_india={
 		control={}
 	}	
 
-	members={4417 2027 4420 2083 4419 543 549 2080 4436 4439 2090 539 4425 2084}
+	members={
+		2083 4418 4419 4420 #north_carnatic_area
+		543 549 2084 2080 4425 #andhra_area
+		542 2037 4436 4439 #golconda_area
+	}
 	inland=yes
 }
 
@@ -762,7 +766,15 @@ doab={
 		}
 	}
 	members={
-		522 2060 2062 2061 4498 4499 519 520 2064 4500 523 2094 4494 4495 4497 555 2055 2095 4490 524 556 2063 4496 525 528 740 4464 4465 559 2059 4459 4466 4467 2097 2098 4468 4491 4492 554 509 511 2069 4493 
+		526 2056 2057 2093 4461 #malwa_area
+		550 551 2092 4458 4460 #gondwana_area
+		532 2033 4428 #raichur_doab_area
+		2028 4438 4444 #telingana_area
+		527 4434 4453 #khandesh_area
+		569 1948 2035 4435 #maidan_area
+		546 548 2050 4442 4443 #berar_area
+		1946 2034 4431 #desh_area
+		544 545 4432 4433 4437 #ahmednagar_area
 	}
 }
 deccan={
@@ -1085,14 +1097,12 @@ comorin_cape={
 		}
 	}
 	members={
-		2083 4418 4419 4420 #north_carnatic_area
 		574 1101 1248 1998 1999 #indian_ocean_islands_area
 		538 2085 4414 #kongu_area
 		533 2031 4421 4422 4426 #mysore_area
 		541 1949 2090 4423 4424 #rayalaseema_area
 		534 535 537 4410 4413 #malabar_area
 		531 2029 2030 2032 4427 #kanara_area
-		543 549 2084 2080 4425 #andhra_area
 	}
 }
 gujarat={

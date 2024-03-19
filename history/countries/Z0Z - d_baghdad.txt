@@ -37,7 +37,7 @@ set_country_flag = ZZZ_generated_converter_nation
 	heir = {
 		name = "Sadiya"
 		monarch_name = "Sadiya"
-		dynasty = "Revel"
+		dynasty = "d'Oriental"
 		adm = 4
 		dip = 4
 		mil = 5
@@ -50,8 +50,7 @@ set_country_flag = ZZZ_generated_converter_nation
 	}
 	add_heir_personality = benevolent_personality
 	add_heir_personality = kind_hearted_personality
-}
-1444.11.11= {
+
 	add_prestige = 72
 	add_treasury = 54
 }

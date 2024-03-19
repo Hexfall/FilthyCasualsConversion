@@ -1,5 +1,5 @@
-owner = BSR
-controller = BSR
+owner = Z1U
+controller = Z1U
 capital = "Hoveyzeh"
 is_city = yes
 culture = dynamic-oghuz-culture-num2
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 5
 base_manpower = 2
-add_core = BSR
+add_core = Z1U
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

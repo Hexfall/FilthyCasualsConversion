@@ -2,4 +2,6 @@
  jerusalem:0 "Jerusalem"
  ceylon:0 "Ceylon"
  east_india:0 "Andhra"
- 
+ trade_company_jerusalem:0 "Jerusalem Charter"
+ TRADE_COMPANY_JERUSALEM_Root_Culture_GetName:0 "[Root.Culture.GetName] Jerusalem Company"
+ TRADE_COMPANY_JERUSALEM_Oceania_Trade_Company:0 "Jerusalem Company"

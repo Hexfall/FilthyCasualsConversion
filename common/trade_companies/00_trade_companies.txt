@@ -157,13 +157,8 @@ trade_company_coromandel = {
 	
 	provinces = {
 		2083 4418 4419 4420 #north_carnatic_area
-		539 540 1947 2027 4417 #south_carnatic_area
-		536 2101 4412 #madura_area
-		2100 4408 4409 #lanka_area
-		572 2099 4407 #south_lanka_area
 		574 1101 1248 1998 1999 #indian_ocean_islands_area
 		538 2085 4414 #kongu_area
-		2026 4415 4416 #tanjore_area
 		533 2031 4421 4422 4426 #mysore_area
 		541 1949 2090 4423 4424 #rayalaseema_area
 		534 535 537 4410 4413 #malabar_area
@@ -1388,5 +1383,22 @@ trade_company_jerusalem = {
 	}
 	names = {
 		name = "TRADE_COMPANY_JERUSALEM_Oceania_Trade_Company"
+	}
+}
+
+trade_company_ceylon = {
+	color = { 141 21 58 }
+	provinces = {
+		2026 4415 4416 #tanjore_area
+		539 540 1947 2027 4417 #south_carnatic_area
+		536 2101 4412 #madura_area
+		2100 4408 4409 #lanka_area
+		572 2099 4407 #south_lanka_area
+	}
+	names = {
+		name = "TRADE_COMPANY_CEYLON_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_CEYLON_Oceania_Trade_Company"
 	}
 }

@@ -936,7 +936,12 @@ ceylon={
 		}
 	}
 
-	members={4407 572 2099 4408 4409 2100 4410 2101 2026 4415 1340 1614 536 540 4416}
+	members={
+		2026 4415 4416 #tanjore_area
+		539 540 1947 2027 4417 #south_carnatic_area
+		536 2101 4412 #madura_area
+		2100 4408 4409 #lanka_area
+		572 2099 4407 #south_lanka_area}
 }
 
 beijing={
@@ -1079,7 +1084,14 @@ comorin_cape={
 		}
 	}
 	members={
-		4418 531 574 1101 1248 1998 1999 538 4414 533 2031 4421 4422 4426 541 1949  4423 4424 534 535 4413 2029 2030 2032 4427  
+		2083 4418 4419 4420 #north_carnatic_area
+		574 1101 1248 1998 1999 #indian_ocean_islands_area
+		538 2085 4414 #kongu_area
+		533 2031 4421 4422 4426 #mysore_area
+		541 1949 2090 4423 4424 #rayalaseema_area
+		534 535 537 4410 4413 #malabar_area
+		531 2029 2030 2032 4427 #kanara_area
+		543 549 2084 2080 4425 #andhra_area
 	}
 }
 gujarat={

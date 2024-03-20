@@ -829,7 +829,7 @@ trade_company_alexandria = {
 		383 2328 4268 4269 #tabuk_area
 		385 2331 2332 4277 4278 #mecca_area
 		380 381 2327
-		365 2315 2320 2321 #gulf_of_arabia_area
+		2315 2320 2321 #gulf_of_arabia_area
 		1233 2318 4323 #al_wahat_area
 		358 362 363 #delta_area
 		361 2316 4316 4317 #bahari_area
@@ -1373,7 +1373,7 @@ trade_company_polynesia = {
 trade_company_jerusalem = {
 	color = { 211 230 211 }
 	provinces = {
-		364 1854 379
+		364 365 1854 379 # palestine_area
 	}
 	names = {
 		name = "TRADE_COMPANY_JERUSALEM_Root_Culture_GetName"

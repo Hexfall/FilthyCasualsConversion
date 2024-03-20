@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
 religion = orthodox
-primary_culture = dynamic-greek-culture-num5
+primary_culture = goths
 capital = 286
 add_accepted_culture = goths
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = goths
 		mil = 5
 		birth_date = 1406.11.23
 		religion = orthodox
-		culture = dynamic-greek-culture-num5
+		culture = goths
 	}
 	add_ruler_personality = martial_educator_personality
 	add_ruler_personality = tactical_genius_personality
@@ -45,7 +45,7 @@ add_accepted_culture = goths
 		death_date = 1489.12.12
 		claim = 89
 		religion = orthodox
-		culture = dynamic-greek-culture-num1
+		culture = goths
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = free_thinker_personality

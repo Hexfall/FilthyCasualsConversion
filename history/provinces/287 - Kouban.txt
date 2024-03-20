@@ -5,6 +5,7 @@ is_city = yes
 culture = goths
 religion = orthodox
 trade_goods = livestock
+hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1

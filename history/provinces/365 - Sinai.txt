@@ -5,6 +5,7 @@ is_city = yes
 culture = outremer
 religion = catholic
 trade_goods = gems
+fort_15th = yes
 base_tax = 7
 base_production = 5
 base_manpower = 6

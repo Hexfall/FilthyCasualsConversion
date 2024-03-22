@@ -1,0 +1,6 @@
+# Gal-Vol and Cherven Cities
+vassal = {
+	first = VOL
+	second = Z1A
+	start_date = 1444.1.1
+	end_date = 1503.4.1

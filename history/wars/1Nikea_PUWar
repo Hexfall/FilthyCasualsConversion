@@ -1,0 +1,13 @@
+name = "Brother's War"
+
+war_goal = {
+	type = take_capital_throne
+	casus_belli = cb_claim_throne
+	tag = Z0D
+}
+
+1444.11.11 = {
+	add_attacker = Z0I
+	add_defender = Z0D
+	
+}

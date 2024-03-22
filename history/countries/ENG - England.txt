@@ -44,7 +44,7 @@ capital = 236
 		death_date = 1507.1.29
 		claim = 89
 		religion = converted_dynamic_faith_112
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num2
+		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = tactical_genius_personality

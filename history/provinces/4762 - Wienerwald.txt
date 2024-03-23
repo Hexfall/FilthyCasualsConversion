@@ -1,6 +1,6 @@
-owner = BAV
-controller = BAV
-capital = "Sankt Pölten"
+owner = HAB
+controller = HAB
+capital = "Sankt Pï¿½lten"
 is_city = yes
 culture = bavarian
 religion = catholic
@@ -8,6 +8,7 @@ trade_goods = wine
 base_tax = 1
 base_production = 4
 base_manpower = 3
+add_core = HAB
 add_core = BAV
 discovered_by = east_african
 discovered_by = eastern

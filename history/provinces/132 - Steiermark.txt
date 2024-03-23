@@ -5,6 +5,7 @@ is_city = yes
 culture = dynamic-bavarian-slovene-culture-num1
 religion = catholic
 trade_goods = grain
+fort_15th = yes
 base_tax = 5
 base_production = 5
 base_manpower = 1

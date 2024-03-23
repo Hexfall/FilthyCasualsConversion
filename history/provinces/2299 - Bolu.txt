@@ -1,5 +1,5 @@
-owner = Z3Z
-controller = Z3Z
+owner = Z3B
+controller = Z3B
 capital = "Bolu"
 is_city = yes
 culture = dynamic-greek-culture-num2
@@ -10,6 +10,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 add_core = Z3Z
+add_core = Z3B
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

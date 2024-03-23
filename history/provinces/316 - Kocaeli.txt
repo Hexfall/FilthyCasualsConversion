@@ -1,10 +1,11 @@
 owner = Z3B
 controller = Z3B
-capital = "Izmit"
+capital = "Izmir"
 is_city = yes
 culture = anatolian
 religion = catholic
 trade_goods = grain
+fort_15th = yes
 hre = yes
 base_tax = 6
 base_production = 5

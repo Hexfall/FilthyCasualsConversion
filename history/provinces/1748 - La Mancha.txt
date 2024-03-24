@@ -1,8 +1,8 @@
 owner = Z1C
 controller = Z1C
-capital = "Jaén"
+capital = "Jaï¿½n"
 is_city = yes
-culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+culture = dynamic-castillian-english-cosmopolitan_french-culture-num2
 religion = catholic
 trade_goods = wool
 hre = yes

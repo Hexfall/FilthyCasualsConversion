@@ -5,6 +5,7 @@ technology_group = western
 religion = catholic
 primary_culture = sardinian
 capital = 1247
+historical_friend = FRI
 1444.11.11= {
 	monarch = {
 		name = "Kitzes"

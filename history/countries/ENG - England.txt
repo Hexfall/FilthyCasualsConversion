@@ -23,11 +23,12 @@ historical_friend = CRN
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = infertile_personality
 	queen = {
 		name = "Dorothea"
 		dynasty = "Basiliakos"
-		adm = 2
-		dip = 4
+		adm = 1
+		dip = 3
 		mil = 0
 		country_of_origin = ENG
 		birth_date = 1417.6.30
@@ -37,7 +38,7 @@ historical_friend = CRN
 		culture = dynamic-greek-culture-num2
 	}
 	add_queen_personality = strict_personality
-	add_queen_personality = tactical_genius_personality
+	add_queen_personality = greedy_personality
 	heir = {
 		name = "Robert"
 		monarch_name = "Robert III"

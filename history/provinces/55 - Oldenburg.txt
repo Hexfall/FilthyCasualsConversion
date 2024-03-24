@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = HAN
+controller = HAN
 capital = "Oldenburg"
 is_city = yes
 culture = saxon
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 add_core = GER
-add_core = SAX
+add_core = HAN
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

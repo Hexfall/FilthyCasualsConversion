@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = HAN
+controller = HAN
 capital = "Verden"
 is_city = yes
 culture = lower_saxon

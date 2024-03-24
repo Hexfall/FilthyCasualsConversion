@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = HAN
+controller = HAN
 capital = "Emden"
 is_city = yes
 culture = saxon
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 2
 extra_cost = 10
 add_core = GER
-add_core = SAX
+add_core = HAN
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

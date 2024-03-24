@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = ODH
+controller = ODH
 capital = "Sugauna"
 is_city = yes
 culture = bihari
@@ -13,6 +13,7 @@ extra_cost = 8
 center_of_trade = 1
 add_core = BNG
 add_core = TRT
+add_core = ODH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

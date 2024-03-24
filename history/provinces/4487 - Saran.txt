@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = ODH
+controller = ODH
 capital = "Saran"
 is_city = yes
 culture = avadhi
@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 2
 base_manpower = 2
 add_core = BNG
+add_core = ODH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

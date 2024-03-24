@@ -1,5 +1,5 @@
-owner = NPL
-controller = NPL
+owner = ODH
+controller = ODH
 capital = "Purnia"
 is_city = yes
 culture = dynamic-nepali-culture-num1
@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 2
 add_core = NPL
+add_core = ODH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

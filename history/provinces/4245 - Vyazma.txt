@@ -1,5 +1,5 @@
-owner = KIE
-controller = KIE
+owner = SMO
+controller = SMO
 capital = "Vyazma"
 is_city = yes
 culture = ryazanian
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 1
 add_core = KIE
 add_core = RYA
+add_core = SMO
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

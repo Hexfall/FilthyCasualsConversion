@@ -1,5 +1,5 @@
-owner = SIB
-controller = SIB
+owner = Z0B
+controller = Z0B
 capital = "Baganaly"
 is_city = yes
 culture = cuman
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = CMN
 add_core = SIB
+add_core = Z0B
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

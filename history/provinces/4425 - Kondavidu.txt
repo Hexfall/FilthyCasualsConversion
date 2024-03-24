@@ -1,5 +1,5 @@
-owner = MAD
-controller = MAD
+owner = YOR
+controller = YOR
 capital = "Kondavidu"
 is_city = yes
 culture = telegu
@@ -11,6 +11,7 @@ base_production = 3
 base_manpower = 2
 add_core = GOC
 add_core = MAD
+add_core = YOR
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

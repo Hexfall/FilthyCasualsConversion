@@ -1,5 +1,5 @@
-owner = MLW
-controller = MLW
+owner = GDW
+controller = GDW
 capital = "Mayuragiri"
 is_city = yes
 culture = marathi
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = MLW
+add_core = GDW
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

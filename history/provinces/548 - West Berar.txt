@@ -1,5 +1,5 @@
-owner = MAR
-controller = MAR
+owner = GDW
+controller = GDW
 capital = "Illichpur"
 is_city = yes
 culture = dynamic-kannada-marathi-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 6
 base_production = 3
 base_manpower = 2
-add_core = MAR
+add_core = GDW
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

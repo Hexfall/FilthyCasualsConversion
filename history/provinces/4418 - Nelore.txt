@@ -1,5 +1,5 @@
-owner = MAD
-controller = MAD
+owner = YOR
+controller = YOR
 capital = "Nellore"
 is_city = yes
 culture = telegu
@@ -10,6 +10,7 @@ base_production = 5
 base_manpower = 5
 add_core = GOC
 add_core = MAD
+add_core = YOR
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

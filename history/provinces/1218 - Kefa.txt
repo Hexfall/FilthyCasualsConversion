@@ -1,5 +1,5 @@
-owner = OGD
-controller = OGD
+owner = HAR
+controller = HAR
 capital = "Irgalem"
 is_city = yes
 culture = sidamo
@@ -8,7 +8,7 @@ trade_goods = coffee
 base_tax = 2
 base_production = 3
 base_manpower = 1
-add_core = OGD
+add_core = HAR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

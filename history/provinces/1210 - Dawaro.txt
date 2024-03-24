@@ -1,5 +1,5 @@
-owner = HDY
-controller = HDY
+owner = HAR
+controller = HAR
 capital = "Gende Belo"
 is_city = yes
 culture = harari
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 2
 add_core = HDY
 add_core = Z35
+add_core = HAR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

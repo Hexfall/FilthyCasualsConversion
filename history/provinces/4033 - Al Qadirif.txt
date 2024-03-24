@@ -1,5 +1,5 @@
-owner = ETH
-controller = ETH
+owner = NBI
+controller = NBI
 capital = "Al-Qadarif"
 is_city = yes
 culture = beja
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 1
 add_core = BEJ
 add_core = ETH
+add_core = NBI
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

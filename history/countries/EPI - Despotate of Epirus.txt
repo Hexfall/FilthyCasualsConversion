@@ -6,6 +6,7 @@ religion = converted_dynamic_faith_112
 primary_culture = dynamic-greek-culture-num2
 capital = 144
 mercantilism = 25
+republican_tradition = 15
 1444.11.11= {
 	monarch = {
 		name = "Loukas II"
@@ -13,7 +14,7 @@ mercantilism = 25
 		adm = 5
 		dip = 5
 		mil = 6
-		birth_date = 1384.9.22
+		birth_date = 1425.9.22
 		religion = converted_dynamic_faith_112
 		culture = dynamic-greek-culture-num2
 	}

@@ -1,5 +1,5 @@
-owner = Z0X
-controller = Z0X
+owner = GOL
+controller = GOL
 capital = "Saraychik"
 is_city = yes
 culture = nogaybak
@@ -11,6 +11,7 @@ base_production = 1
 base_manpower = 1
 add_core = NOG
 add_core = Z0X
+add_core = GOL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

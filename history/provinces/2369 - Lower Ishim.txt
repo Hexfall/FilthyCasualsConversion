@@ -1,5 +1,5 @@
-owner = SIB
-controller = SIB
+owner = Z20
+controller = Z20
 capital = "Zhanibek"
 is_city = yes
 culture = uralic
@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 2
 add_core = SIB
+add_core = Z20
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

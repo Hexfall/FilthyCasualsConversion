@@ -1,5 +1,5 @@
-owner = Z0J
-controller = Z0J
+owner = MDV
+controller = MDV
 capital = "Tetyushi"
 is_city = yes
 culture = kazani
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 2
 add_core = KAZ
 add_core = Z0J
+add_core = MDV
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

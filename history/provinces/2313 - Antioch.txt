@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 3
 add_core = SYR
+add_permanent_claim = KOJ
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,0 +1,14 @@
+name = "Dominion Invasion"
+
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	tag = Z05
+}
+
+1444.11.11 = {
+	add_attacker = CAS
+	add_defender = Z05
+	add_defender = AFR
+	
+}

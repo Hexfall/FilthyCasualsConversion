@@ -1,8 +1,8 @@
 name = "Dominion Invasion"
 
 war_goal = {
-	type = take_core
-	casus_belli = cb_core
+	type = superiority_crusade
+	casus_belli = cb_crusade
 	tag = Z05
 }
 

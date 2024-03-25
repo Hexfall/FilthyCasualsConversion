@@ -52,9 +52,9 @@ mercantilism = 25
 	add_heir_personality = righteous_personality
 }
 1444.11.11= {
-	add_prestige = 99
+	add_prestige = 20
 	add_treasury = 750
-	add_republican_tradition = -90
+	add_republican_tradition = -75
 	add_corruption = 15
 	add_manpower = 20
 }

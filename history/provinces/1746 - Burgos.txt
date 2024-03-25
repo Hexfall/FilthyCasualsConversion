@@ -12,6 +12,7 @@ base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
 add_core = Z19
+add_permanent_claim = Z13
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

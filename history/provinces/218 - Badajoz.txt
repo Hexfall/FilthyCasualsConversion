@@ -10,6 +10,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 add_core = Z0Y
+add_core = Z13
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

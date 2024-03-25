@@ -11,10 +11,13 @@ war_goal = {
 	add_defender = TLC
 	add_defender = ALG
 	add_defender = KBA
+	add_defender = Z13
 	add_attacker = Z05
 	add_attacker = Z2J
 	add_attacker = MZB
 	add_attacker = Z2V
+	add_attacker = Z0Y
 	add_attacker = Z2I
-	
+	add_attacker = Z1C
+	add_attacker = Z2K
 }

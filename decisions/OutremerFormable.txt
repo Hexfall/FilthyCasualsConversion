@@ -1,0 +1,140 @@
+country_decisions = {
+	outremer_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = OUT }
+			culture_group = turko_semitic
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+			}
+			#OR = {
+			#	#other claimants are gone
+			#	AND = {
+			#			ROOT = { NOT = { tag = LBV } }
+			#		LBV = {
+			#			OR = {
+			#				num_of_cities = 5
+			#				NOT = { is_subject_of = ROOT }
+			#			}
+			#		}
+			#		owned_by = LBV
+			#	}
+			#	AND = {
+			#		ROOT = { NOT = { tag = ING } }
+			#		ING = {
+			#			OR = {
+			#				num_of_cities = 5
+			#				NOT = { is_subject_of = ROOT }
+			#			}
+			#		}
+			#		owned_by = ING
+			#	}
+			#	AND = {
+			#		ROOT = { NOT = { tag = UBV } }
+			#		UBV = {
+			#			OR = {
+			#				num_of_cities = 5
+			#				NOT = { is_subject_of = ROOT }
+			#			}
+			#		}
+			#		owned_by = UBV
+			#	}
+			#	#make sure you are not benefitting from others' conquests
+			#	AND = {
+			#		province_id = 65
+			#		NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			#	}
+			#	AND = {
+			#		province_id = 64
+			#		NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			#	}
+			#	AND = {
+			#		province_id = 2955
+			#		NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			#	}
+			#}
+		}
+		allow = {
+			owns_all_provinces = {
+				area = palestine_area
+			}
+		}
+		effect = {
+			change_tag = OUT
+			on_change_tag_effect = yes
+			restore_country_name_effect = yes
+			if = {
+				limit = {
+					HED = { is_subject_of = ROOT }
+				}
+				inherit = HED
+			}
+			if = {
+				limit = {
+					LBV = { is_subject_of = ROOT }
+				}
+				inherit = LBV
+			}
+			if = {
+				limit = {
+					ING = { is_subject_of = ROOT }
+				}
+				inherit = ING
+			}
+			lower_bavaria_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			upper_bavaria_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			east_bavaria_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_capital = 379
+			set_country_flag = formed_bavaria_flag
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = BAV_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					NOT = { tag = UBV }
+					NOT = { tag = LBV }
+					NOT = { tag = ING }
+					NOT = { was_tag = UBV }
+					NOT = { was_tag = LBV }
+					NOT = { was_tag = ING }
+				}
+				swap_non_generic_missions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_importance = 400
+	}
+}

@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = MLW
+controller = MLW
 capital = "Batgahora"
 is_city = yes
 culture = vindhyan
@@ -10,6 +10,7 @@ base_production = 5
 base_manpower = 3
 add_core = BND
 add_core = BNG
+add_core = MLW
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

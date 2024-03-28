@@ -9,6 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = NOR
+add_permanent_claim = Z1K
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

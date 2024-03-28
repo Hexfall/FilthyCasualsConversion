@@ -1,5 +1,5 @@
-owner = Z0W
-controller = Z0W
+owner = GOL
+controller = GOL
 capital = "Kalmyk"
 is_city = yes
 culture = cuman
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = CMN
 add_core = Z0W
+add_core = GOL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

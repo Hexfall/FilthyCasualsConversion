@@ -1,5 +1,5 @@
-owner = ODH
-controller = ODH
+owner = Z1W
+controller = Z1W
 capital = "Devalgarh"
 is_city = yes
 culture = dynamic-tibetan-nepali-culture-num1
@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 10
 base_manpower = 3
 add_core = ODH
+add_core = Z1W
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

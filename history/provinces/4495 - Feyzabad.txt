@@ -1,5 +1,5 @@
-owner = MLW
-controller = MLW
+owner = ODH
+controller = ODH
 capital = "Feyzabad"
 is_city = yes
 culture = avadhi
@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = MLW
+add_core = ODH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

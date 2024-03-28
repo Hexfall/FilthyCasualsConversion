@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = TLC
+add_permanent_claim = CAS
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

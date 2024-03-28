@@ -1,5 +1,5 @@
-owner = GDW
-controller = GDW
+owner = MLW
+controller = MLW
 capital = "Bhelsa"
 is_city = yes
 culture = gondi
@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 4
 add_core = GDW
+add_core = MLW
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

@@ -1,8 +1,8 @@
 owner = LON
 controller = LON
-capital = "León"
+capital = "Leï¿½n"
 is_city = yes
-culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
 religion = converted_dynamic_faith_112
 trade_goods = livestock
 fort_15th = yes

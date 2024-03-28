@@ -1,8 +1,8 @@
 owner = Z18
 controller = Z18
-capital = "Logroño"
+capital = "Logroï¿½o"
 is_city = yes
-culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
 religion = converted_dynamic_faith_112
 trade_goods = wine
 hre = yes

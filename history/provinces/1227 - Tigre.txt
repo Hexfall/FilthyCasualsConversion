@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 2
 add_core = MED
 add_core = Z02
+add_core = ETH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

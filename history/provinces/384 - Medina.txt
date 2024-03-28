@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 add_core = Z44
+add_permanent_claim = KOJ
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

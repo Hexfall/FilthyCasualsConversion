@@ -1,5 +1,5 @@
-owner = PUN
-controller = PUN
+owner = Z0Q
+controller = Z0Q
 capital = "Ranthambore"
 is_city = yes
 culture = vindhyan
@@ -10,6 +10,7 @@ base_production = 5
 base_manpower = 2
 add_core = BND
 add_core = PUN
+add_core = Z0Q
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

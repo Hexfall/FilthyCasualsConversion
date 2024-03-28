@@ -1,5 +1,5 @@
-owner = LOT
-controller = LOT
+owner = FRI
+controller = FRI
 capital = "Breda"
 is_city = yes
 culture = dutch
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 4
 base_production = 5
 base_manpower = 1
-add_core = LOT
+add_core = FRI
 add_core = NED
 discovered_by = east_african
 discovered_by = eastern

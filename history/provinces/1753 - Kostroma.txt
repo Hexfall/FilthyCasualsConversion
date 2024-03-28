@@ -1,5 +1,5 @@
-owner = BJA
-controller = BJA
+owner = YAR
+controller = YAR
 capital = "Kostroma"
 is_city = yes
 culture = dynamic-meshchera-russian_culture-culture-num1
@@ -9,6 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = BJA
+add_core = YAR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

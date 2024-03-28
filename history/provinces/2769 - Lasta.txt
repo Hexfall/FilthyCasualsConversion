@@ -10,6 +10,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 1
 add_core = Z02
+add_core = ETH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

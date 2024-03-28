@@ -1,5 +1,5 @@
-owner = Z0K
-controller = Z0K
+owner = ZUN
+controller = ZUN
 capital = "Monkhkhairkhan"
 is_city = yes
 culture = khazak
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = KZH
 add_core = Z0K
+add_core = ZUN
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

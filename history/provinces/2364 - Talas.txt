@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = Z2X
+controller = Z2X
 capital = "Talas"
 is_city = yes
 culture = dynamic-uzbehk-tajik-culture-num1
@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 3
 base_manpower = 1
 add_core = Z0H
+add_core = Z2X
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,8 +1,8 @@
 owner = Z13
 controller = Z13
-capital = "Santarém"
+capital = "Santarï¿½m"
 is_city = yes
-culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
 religion = converted_dynamic_faith_112
 trade_goods = grain
 hre = yes

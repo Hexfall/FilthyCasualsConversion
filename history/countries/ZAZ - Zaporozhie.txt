@@ -5,7 +5,9 @@ technology_group = eastern
 religion = orthodox
 primary_culture = goths
 capital = 286
+historical_friend = Z0I
 add_accepted_culture = goths
+add_accepted_culture = turkish
 1444.11.11= {
 	monarch = {
 		name = "Antonios"
@@ -15,7 +17,7 @@ add_accepted_culture = goths
 		mil = 5
 		birth_date = 1406.11.23
 		religion = orthodox
-		culture = goths
+		culture = turkish
 	}
 	add_ruler_personality = martial_educator_personality
 	add_ruler_personality = tactical_genius_personality
@@ -45,7 +47,7 @@ add_accepted_culture = goths
 		death_date = 1489.12.12
 		claim = 89
 		religion = orthodox
-		culture = goths
+		culture = turkish
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = free_thinker_personality

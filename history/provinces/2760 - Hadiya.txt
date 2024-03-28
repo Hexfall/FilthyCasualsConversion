@@ -1,5 +1,5 @@
-owner = HDY
-controller = HDY
+owner = Z02
+controller = Z02
 capital = "Angacha"
 is_city = yes
 culture = sidamo
@@ -11,6 +11,7 @@ base_production = 1
 base_manpower = 2
 add_core = HDY
 add_core = KAF
+add_core = Z02
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

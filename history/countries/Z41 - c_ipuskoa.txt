@@ -7,7 +7,6 @@ primary_culture = welsh
 capital = 209
 fixed_capital = 209
 add_accepted_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
-elector = yes
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {

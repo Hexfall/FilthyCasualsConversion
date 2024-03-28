@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 add_core = Z4M
+add_claim = BOH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

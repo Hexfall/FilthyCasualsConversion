@@ -1,0 +1,191 @@
+country_decisions = {
+	outremer_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = OUT }
+			culture_group = turko_semitic
+			OR = {
+				religion = catholic
+				religion = orthodox
+				religion = golden_path
+				religion = chalcedonian
+			}
+		}
+		provinces_to_highlight = {
+			AND = {
+				NOT = { # Don't bother showing provinces already own by root
+					country_or_non_sovereign_subject_holds = root
+				}
+				OR = { # Must be in either Mashriq or Arabiq
+					region = mashriq_region
+					region = arabia_region
+				}
+				OR = {
+					AND = { # If already owns all important provinces, show provinces in regions needed for threshold
+						root = {
+							owns_or_non_sovereign_subject_of = 379
+							owns_or_non_sovereign_subject_of = 385
+							owns_or_non_sovereign_subject_of = 395
+							owns_or_non_sovereign_subject_of = 410
+							OR = {
+								owns_or_non_sovereign_subject_of = 390
+								owns_or_non_sovereign_subject_of = 400
+								owns_or_non_sovereign_subject_of = 411
+							}
+						}
+						root = {
+							NOT = {
+								num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+									country_or_non_sovereign_subject_holds = ROOT
+									OR = {
+										region = mashriq_region
+										region = arabia_region
+									}
+									value = 55
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							root = {
+								owns_or_non_sovereign_subject_of = 379
+								owns_or_non_sovereign_subject_of = 385
+								owns_or_non_sovereign_subject_of = 395
+								owns_or_non_sovereign_subject_of = 410
+								OR = {
+									owns_or_non_sovereign_subject_of = 390
+									owns_or_non_sovereign_subject_of = 400
+									owns_or_non_sovereign_subject_of = 411
+								}
+							}
+						}
+						OR = {
+							province_id = 379
+							province_id = 385
+							province_id = 390
+							province_id = 395
+							province_id = 400
+							province_id = 410
+							province_id = 411
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_or_non_sovereign_subject_of = 379
+			owns_or_non_sovereign_subject_of = 385
+			owns_or_non_sovereign_subject_of = 395
+			owns_or_non_sovereign_subject_of = 410
+			OR = {
+				owns_or_non_sovereign_subject_of = 390
+				owns_or_non_sovereign_subject_of = 400
+				owns_or_non_sovereign_subject_of = 411
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					region = mashriq_region
+					region = arabia_region
+				}
+				value = 55
+			}
+		}
+		effect = {
+			change_tag = OUT
+			on_change_tag_effect = yes
+			restore_country_name_effect = yes
+			if = {
+				limit = {
+					KOJ = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = KOJ
+			}
+			if = {
+				limit = {
+					HED = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = HED
+			}
+			if = {
+				limit = {
+					Z0Z = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = Z0Z
+			}
+			if = {
+				limit = {
+					ALH = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = ALH
+			}
+			if = {
+				limit = {
+					YEM = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = YEM
+			}
+			if = {
+				limit = {
+					OMA = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = OMA
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			arabia_region = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_capital = 379
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_importance = 400
+	}
+}

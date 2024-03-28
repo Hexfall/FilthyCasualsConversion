@@ -1,0 +1,98 @@
+graphical_culture = westerngfx
+
+color = { 180 180 180 }
+revolutionary_colors = { 13 0 13 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Abas #0" = 0
+	"Amalric #0" = 0
+	"Blanca #0" = -1
+	"Bouveret #0" = 0
+	"Budziwuj #0" = 0
+	"Christine #0" = -1
+	"Edith #0" = -1
+	"Flaín #0" = 0
+	"Folquet #0" = 0
+	"Frederi #2" = 10
+	"Gorm #0" = 0
+	"Guillaume #0" = 0
+	"Iordanes #0" = 0
+	"Jehanne #0" = -1
+	"Mansur #0" = 0
+	"Neophytos #0" = 0
+	"Nicole #0" = -1
+	"Odd #0" = 0
+	"Radhi #0" = 0
+	"Robèrt #1" = 10
+	"Smbat #0" = 0
+	"Taimur #0" = 0
+	"Tõeleid #0" = 0
+	"Ugues #1" = 10
+	"Wautier #0" = 0
+}
+
+ship_names = {
+	"The Holy Cross"
+	"The Grail"
+	"The Faithful"
+	"Hammer of God"
+	"True Believer"
+	"The Cleansing"
+	"Baldwin's Gate"
+	"The Rapture"
+	"God Will Know His Own"
+	Paladin
+	Purifier
+	Crusader
+	Guardian
+	Pilgrim
+	Absolution
+	Avenger
+	Vindicator
+	"The Scourge"
+}
+
+leader_names = {
+	Bragadin
+	Crispo
+	Doria
+	Fadrigue
+	Lusignans
+	Melissinos
+	Plethon
+	Rendis
+	Saraceno
+	Tocco
+	Maxwell
+	Duncan Douglas Selkirk
+	Schrüder Sauerzapff Minucci Sulerzycki Stichsenstein Hagedorn Arenberg
+	"de La Barthe" "de La Ferrandie" "de La Galissonière" "de La Mothe" "de La Motte d'Airan" "de La Porte" "Le Tellier" "de Lhéry" "de Luynes"
+	"di Paesana" "Paleologi Montferrato" Pallavicini Paradisi Petrucci Pico Pignatelli "dalla Rosa" "della Rovere"
+}

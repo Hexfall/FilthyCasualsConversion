@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = converted_dynamic_faith_113
+religion = golden_path
 primary_culture = dynamic-outremer-culture-num2
 capital = 410
 set_country_flag = ZZZ_generated_converter_nation
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 3
 		birth_date = 1406.6.20
 		female = yes
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-outremer-culture-num2
 	}
 	add_ruler_personality = free_thinker_personality
@@ -29,7 +29,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		country_of_origin = Z0Z
 		birth_date = 1406.6.28
 		death_date = 1466.6.28
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-outremer-culture-num2
 	}
 	add_queen_personality = greedy_personality
@@ -45,7 +45,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1497.11.4
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-outremer-culture-num2
 	}
 	add_heir_personality = benevolent_personality

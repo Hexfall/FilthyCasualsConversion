@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = muslim
-religion = converted_dynamic_faith_113
+religion = golden_path
 primary_culture = dynamic-bedouin_arabic-outremer-culture-num1
 capital = 4286
 mercantilism = 15
@@ -14,7 +14,7 @@ mercantilism = 15
 		dip = 5
 		mil = 3
 		birth_date = 1421.11.13
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-bedouin_arabic-outremer-culture-num1
 	}
 	add_ruler_personality = strict_personality
@@ -29,7 +29,7 @@ mercantilism = 15
 		birth_date = 1406.5.26
 		death_date = 1466.5.26
 		female = yes
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = sindhi
 	}
 	add_queen_personality = expansionist_personality
@@ -44,7 +44,7 @@ mercantilism = 15
 		birth_date = 1443.5.8
 		death_date = 1508.5.8
 		claim = 89
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-bedouin_arabic-outremer-culture-num1
 	}
 	add_heir_personality = bold_fighter_personality

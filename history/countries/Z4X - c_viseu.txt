@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
 capital = 228
 fixed_capital = 228
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		dip = 3
 		mil = 3
 		birth_date = 1424.8.18
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
 	}
 	add_ruler_personality = strict_personality
@@ -31,7 +31,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1412.12.15
 		death_date = 1472.12.15
 		female = yes
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
 	}
 	add_queen_personality = free_thinker_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1444.2.24
 		death_date = 1509.2.24
 		claim = 89
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
 	}
 	add_heir_personality = charismatic_negotiator_personality

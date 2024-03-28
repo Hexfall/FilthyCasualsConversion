@@ -1,5 +1,5 @@
-owner = HDY
-controller = HDY
+owner = HAR
+controller = HAR
 capital = "Assela"
 is_city = yes
 culture = harari

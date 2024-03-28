@@ -1,5 +1,5 @@
-owner = ZAZ
-controller = ZAZ
+owner = GOL
+controller = GOL
 capital = "Hajitarkhan"
 is_city = yes
 culture = goths
@@ -12,6 +12,7 @@ base_manpower = 1
 extra_cost = 10
 add_core = FEO
 add_core = ZAZ
+add_core = GOL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = WES
+controller = WES
 capital = "Arnsberg"
 is_city = yes
 culture = hannoverian

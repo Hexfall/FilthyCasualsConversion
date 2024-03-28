@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = ETH
+controller = ETH
 capital = "Antalo"
 is_city = yes
 culture = afar
@@ -10,6 +10,7 @@ base_production = 6
 base_manpower = 3
 add_core = AFA
 add_core = Z02
+add_core = ETH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

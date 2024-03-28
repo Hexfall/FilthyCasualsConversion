@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = western
-religion = converted_dynamic_faith_113
+religion = golden_path
 primary_culture = outremer
 capital = 379
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 379
 		dip = 5
 		mil = 5
 		birth_date = 1414.11.3
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = outremer
 	}
 	add_ruler_personality = free_thinker_personality
@@ -28,7 +28,7 @@ capital = 379
 		birth_date = 1415.4.10
 		death_date = 1475.4.10
 		female = yes
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dalmatian
 	}
 	add_queen_personality = fertile_personality
@@ -44,7 +44,7 @@ capital = 379
 		death_date = 1501.8.30
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = outremer
 	}
 	add_heir_personality = free_thinker_personality

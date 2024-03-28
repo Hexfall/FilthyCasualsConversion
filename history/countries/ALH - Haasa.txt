@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = converted_dynamic_faith_113
+religion = golden_path
 primary_culture = dynamic-bedouin_arabic-culture-num3
 capital = 395
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 395
 		dip = 4
 		mil = 4
 		birth_date = 1426.9.9
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-bedouin_arabic-culture-num3
 	}
 	add_ruler_personality = free_thinker_personality
@@ -28,7 +28,7 @@ capital = 395
 		birth_date = 1430.1.22
 		death_date = 1495.1.22
 		claim = 89
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = dynamic-outremer-yemeni_culture-culture-num1
 	}
 	add_heir_personality = free_thinker_personality

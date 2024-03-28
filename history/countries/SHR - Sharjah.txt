@@ -30,7 +30,7 @@ add_accepted_culture = dynamic-bedouin_arabic-outremer-culture-num1
 		birth_date = 1414.11.3
 		death_date = 1479.11.3
 		claim = 89
-		religion = converted_dynamic_faith_113
+		religion = golden_path
 		culture = outremer
 	}
 	add_heir_personality = free_thinker_personality

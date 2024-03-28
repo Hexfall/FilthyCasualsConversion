@@ -1,5 +1,5 @@
 ﻿l_english:
- province_is_or_accepts_converted_dynamic_faith_112_tt:0 "The Religion of §Y[Root.GetName]§! is §YChalcedonian§! and is either the State or the Syncretic Religion of the owner."
- province_is_or_accepts_converted_dynamic_faith_113_tt:0 "The Religion of §Y[Root.GetName]§! is §YGolden Path§! and is either the State or the Syncretic Religion of the owner."
+ province_is_or_accepts_chalcedonian_tt:0 "The Religion of §Y[Root.GetName]§! is §YChalcedonian§! and is either the State or the Syncretic Religion of the owner."
+ province_is_or_accepts_golden_path_tt:0 "The Religion of §Y[Root.GetName]§! is §YGolden Path§! and is either the State or the Syncretic Religion of the owner."
  province_is_or_accepts_sunni_tt:0 "The Religion of §Y[Root.GetName]§! is §YSunni§! and is either the State or the Syncretic Religion of the owner."
  province_is_or_accepts_ibadi_tt:0 "The Religion of §Y[Root.GetName]§! is §YIbadi§! and is either the State or the Syncretic Religion of the owner."

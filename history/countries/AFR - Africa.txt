@@ -5,6 +5,7 @@ technology_group = muslim
 religion = shiite
 primary_culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
 capital = 4566
+historical_friend = ETH
 religious_school = ismaili_school
 add_accepted_culture = tunisian
 1444.11.11= {

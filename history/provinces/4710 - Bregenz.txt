@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = Z0O
+controller = Z0O
 capital = "Bregenz"
 is_city = yes
 culture = bavarian
@@ -9,6 +9,7 @@ base_tax = 1
 base_production = 2
 base_manpower = 2
 add_core = BAV
+add_core = Z0O
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

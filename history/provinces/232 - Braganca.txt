@@ -1,9 +1,9 @@
 owner = POR
 controller = POR
-capital = "Bragança"
+capital = "Braganï¿½a"
 is_city = yes
-culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
-religion = converted_dynamic_faith_112
+culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+religion = chalcedonian
 trade_goods = wine
 hre = yes
 base_tax = 5

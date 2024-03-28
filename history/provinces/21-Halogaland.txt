@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 5
 base_manpower = 1
 add_core = SMI
+add_core = NOR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

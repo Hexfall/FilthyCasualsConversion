@@ -1,5 +1,5 @@
-owner = ZAZ
-controller = ZAZ
+owner = MDV
+controller = MDV
 capital = "Sary-Su"
 is_city = yes
 culture = goths
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 1
 add_core = FEO
 add_core = ZAZ
+add_core = MDV
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

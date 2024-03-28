@@ -1,5 +1,5 @@
-owner = KRK
-controller = KRK
+owner = YOR
+controller = YOR
 capital = "Raichur"
 is_city = yes
 culture = telegu
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 2
 add_core = GOC
-add_core = KRK
+add_core = YOR
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

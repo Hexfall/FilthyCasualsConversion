@@ -1,5 +1,5 @@
-owner = BNG
-controller = BNG
+owner = ODH
+controller = ODH
 capital = "Rangpur"
 is_city = yes
 culture = kochi
@@ -10,6 +10,7 @@ base_production = 4
 base_manpower = 4
 add_core = BNG
 add_core = KMT
+add_core = ODH
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

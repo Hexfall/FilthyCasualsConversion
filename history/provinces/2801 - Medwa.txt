@@ -1,5 +1,5 @@
-owner = NBI
-controller = NBI
+owner = Z3Q
+controller = Z3Q
 capital = "Medowa"
 is_city = yes
 culture = daju
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 2
 add_core = DAR
 add_core = NBI
+add_core = Z3Q
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

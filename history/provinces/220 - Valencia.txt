@@ -1,9 +1,9 @@
 owner = VAL
 controller = VAL
-capital = "València"
+capital = "Valï¿½ncia"
 is_city = yes
 culture = andalucian
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 trade_goods = cloth
 hre = yes
 base_tax = 6

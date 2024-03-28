@@ -1,5 +1,5 @@
 christian = {
-	converted_dynamic_faith_113 = {
+	golden_path = {
 		color = { 189 175 25 }
 		icon =  177
 		country = {

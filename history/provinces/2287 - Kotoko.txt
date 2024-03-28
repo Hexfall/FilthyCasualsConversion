@@ -1,5 +1,5 @@
-owner = WAD
-controller = WAD
+owner = Z0G
+controller = Z0G
 capital = "Kotoko"
 is_city = yes
 culture = kanuri
@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 3
 base_manpower = 1
 add_core = WAD
+add_core = Z0G
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

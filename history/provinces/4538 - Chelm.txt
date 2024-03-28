@@ -1,5 +1,5 @@
-owner = Z1A
-controller = Z1A
+owner = VOL
+controller = VOL
 capital = "Chelm"
 is_city = yes
 culture = dynamic-estonian-lithuanian-culture-num3
@@ -8,6 +8,7 @@ trade_goods = wool
 base_tax = 5
 base_production = 5
 base_manpower = 3
+add_core = VOL
 add_core = Z1A
 discovered_by = east_african
 discovered_by = eastern

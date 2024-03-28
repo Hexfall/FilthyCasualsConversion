@@ -2,7 +2,7 @@ government = republic
 add_government_reform = signoria_reform
 government_rank = 1
 technology_group = eastern
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 primary_culture = dynamic-greek-culture-num3
 capital = 2983
 mercantilism = 15
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		dip = 3
 		mil = 3
 		birth_date = 1402.4.18
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-greek-culture-num3
 	}
 	add_ruler_personality = strict_personality

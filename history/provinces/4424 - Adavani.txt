@@ -1,5 +1,5 @@
-owner = KRK
-controller = KRK
+owner = YOR
+controller = YOR
 capital = "Adavani"
 is_city = yes
 culture = kannada
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 6
 base_production = 4
 base_manpower = 3
-add_core = KRK
+add_core = YOR
 add_core = MYS
 discovered_by = chinese
 discovered_by = east_african

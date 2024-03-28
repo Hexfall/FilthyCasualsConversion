@@ -1,6 +1,6 @@
-owner = LOT
-controller = LOT
-capital = "Münster"
+owner = WES
+controller = WES
+capital = "Monsborg"
 is_city = yes
 culture = hannoverian
 religion = catholic

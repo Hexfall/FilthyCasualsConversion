@@ -1,5 +1,5 @@
-owner = MAR
-controller = MAR
+owner = GDW
+controller = GDW
 capital = "Handia"
 is_city = yes
 culture = gondi
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 6
 base_production = 4
 base_manpower = 4
-add_core = MAR
+add_core = GDW
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

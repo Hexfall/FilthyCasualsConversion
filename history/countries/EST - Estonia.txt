@@ -5,6 +5,7 @@ technology_group = eastern
 religion = converted_dynamic_faith_110
 primary_culture = dynamic-estonian-lithuanian-culture-num1
 capital = 36
+historical_friend = Z01
 1444.11.11= {
 	monarch = {
 		name = "Gintautas III"

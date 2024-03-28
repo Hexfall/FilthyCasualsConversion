@@ -14,6 +14,7 @@ extra_cost = 8
 center_of_trade = 1
 add_core = ALB
 add_core = DAL
+add_core = EPI
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

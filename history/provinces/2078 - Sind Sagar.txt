@@ -1,5 +1,5 @@
-owner = Z00
-controller = Z00
+owner = MUL
+controller = MUL
 capital = "Bannu"
 is_city = yes
 culture = hindustani_proper
@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 5
 base_manpower = 2
 add_core = HIN
+add_core = MUL
 add_core = Z00
 discovered_by = chinese
 discovered_by = east_african

@@ -11,6 +11,7 @@ base_manpower = 9
 extra_cost = 8
 center_of_trade = 1
 add_core = SIL
+add_claim = BOH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

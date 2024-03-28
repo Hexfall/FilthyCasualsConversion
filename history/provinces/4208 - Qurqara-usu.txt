@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = Z2X
+controller = Z2X
 capital = "Balikul"
 is_city = yes
 culture = uyghur
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 1
 add_core = Z0H
 add_core = Z0L
+add_core = Z2X
 discovered_by = chinese
 discovered_by = east_african
 discovered_by = eastern

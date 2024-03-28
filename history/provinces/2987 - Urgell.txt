@@ -1,9 +1,9 @@
 owner = Z11
 controller = Z11
-capital = "Tàrrega"
+capital = "Tï¿½rrega"
 is_city = yes
 culture = aragonese
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 trade_goods = wool
 hre = yes
 base_tax = 5

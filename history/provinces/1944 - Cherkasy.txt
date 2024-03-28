@@ -1,5 +1,5 @@
-owner = ZAZ
-controller = ZAZ
+owner = KIE
+controller = KIE
 capital = "Cherkasy"
 is_city = yes
 culture = goths
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 1
 add_core = FEO
 add_core = ZAZ
+add_core = KIE
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

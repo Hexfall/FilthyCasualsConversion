@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = english_monarchy
 government_rank = 1
 technology_group = western
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 capital = 181
 add_accepted_culture = cosmopolitan_french
@@ -14,7 +14,7 @@ add_accepted_culture = cosmopolitan_french
 		dip = 5
 		mil = 4
 		birth_date = 1416.6.15
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 	}
 	add_ruler_personality = intricate_web_weaver_personality
@@ -29,7 +29,7 @@ add_accepted_culture = cosmopolitan_french
 		birth_date = 1409.3.25
 		death_date = 1469.3.25
 		female = yes
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = occitain
 	}
 	add_queen_personality = fierce_negotiator_personality
@@ -44,7 +44,7 @@ add_accepted_culture = cosmopolitan_french
 		birth_date = 1433.10.26
 		death_date = 1498.10.26
 		claim = 89
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 	}
 	add_heir_personality = industrious_personality

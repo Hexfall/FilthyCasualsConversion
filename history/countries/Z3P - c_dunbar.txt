@@ -2,7 +2,7 @@ government = republic
 add_government_reform = free_city
 government_rank = 1
 technology_group = western
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 capital = 4361
 fixed_capital = 4361
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 1
 		birth_date = 1.1.1
 		regent = yes
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 	}
 	heir = {
@@ -29,7 +29,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1501.9.4
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
 	}
 }

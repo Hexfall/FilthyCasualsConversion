@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 primary_culture = dynamic-greek-culture-num2
 capital = 4698
 add_accepted_culture = dalmatian
@@ -14,7 +14,7 @@ add_accepted_culture = dalmatian
 		dip = 3
 		mil = 4
 		birth_date = 1420.2.15
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-greek-culture-num2
 	}
 	add_ruler_personality = bold_fighter_personality
@@ -29,7 +29,7 @@ add_accepted_culture = dalmatian
 		birth_date = 1417.3.18
 		death_date = 1477.3.18
 		female = yes
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-greek-culture-num1
 	}
 	add_queen_personality = charismatic_negotiator_personality
@@ -44,7 +44,7 @@ add_accepted_culture = dalmatian
 		birth_date = 1443.1.18
 		death_date = 1508.1.18
 		claim = 89
-		religion = converted_dynamic_faith_112
+		religion = chalcedonian
 		culture = dynamic-greek-culture-num2
 	}
 	add_heir_personality = free_thinker_personality

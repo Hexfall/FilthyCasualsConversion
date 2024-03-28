@@ -35,7 +35,7 @@ hagia_sophia = {
 				religion = catholic
 			}
 			province_is_or_accepts_religion = {
-				religion = converted_dynamic_faith_112
+				religion = chalcedonian
 			}
 			province_is_or_accepts_religion = {
 				religion = golden_path
@@ -81,7 +81,7 @@ hagia_sophia = {
 				religion = catholic
 			}
 			province_is_or_accepts_religion = {
-				religion = converted_dynamic_faith_112
+				religion = chalcedonian
 			}
 			province_is_or_accepts_religion = {
 				religion = golden_path
@@ -109,7 +109,7 @@ hagia_sophia = {
 				religion = catholic
 			}
 			province_is_or_accepts_religion = {
-				religion = converted_dynamic_faith_112
+				religion = chalcedonian
 			}
 			province_is_or_accepts_religion = {
 				religion = golden_path
@@ -629,7 +629,7 @@ rila_monasteries = {
 				religion = catholic
 			}
 			province_is_or_accepts_religion = {
-				religion = converted_dynamic_faith_112
+				religion = chalcedonian
 			}
 		}
 	}
@@ -649,7 +649,7 @@ rila_monasteries = {
 				religion = catholic
 			}
 			province_is_or_accepts_religion = {
-				religion = converted_dynamic_faith_112
+				religion = chalcedonian
 			}
 		}
 	}
@@ -663,7 +663,7 @@ rila_monasteries = {
 				religion = catholic
 			}
 			province_is_or_accepts_religion = {
-				religion = converted_dynamic_faith_112
+				religion = chalcedonian
 			}
 		}
 	}

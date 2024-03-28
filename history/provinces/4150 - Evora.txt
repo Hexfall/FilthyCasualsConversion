@@ -1,9 +1,9 @@
 owner = Z13
 controller = Z13
-capital = "Évora"
+capital = "ï¿½vora"
 is_city = yes
 culture = visigothic
-religion = converted_dynamic_faith_112
+religion = chalcedonian
 trade_goods = wine
 hre = yes
 fort_15th = yes

@@ -1,12 +1,12 @@
 government = republic
 government_rank = 1
 technology_group = western
-religion = protestant
+religion = catholic
 primary_culture = hannoverian
 capital = 81
 1807.7.9= {
 	monarch = {
-		name = "Jérôme"
+		name = "Jï¿½rï¿½me"
 		dynasty = "Bonaparte"
 		culture = sardinian #Corsican
 		religion = catholic

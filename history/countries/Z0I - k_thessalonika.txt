@@ -58,5 +58,5 @@ set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	add_prestige = 100
 	add_treasury = 420
-	add_corruption 4
+	add_corruption = 4
 }

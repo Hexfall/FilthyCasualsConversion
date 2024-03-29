@@ -1,5 +1,5 @@
-owner = Z0X
-controller = Z0X
+owner = Z2M
+controller = Z2M
 capital = "Bayuly"
 is_city = yes
 culture = nogaybak
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = NOG
-add_core = Z0X
+add_core = Z2M
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = BSH
-controller = BSH
+owner = Z2M
+controller = Z2M
 capital = "Bashgird"
 is_city = yes
 culture = bashkir
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = BSH
+add_core = Z2M
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

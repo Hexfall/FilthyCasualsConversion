@@ -1,0 +1,35 @@
+christian = {
+	chalcedonian = {
+		color = { 255 0 0 }
+		icon =  176
+		allowed_conversion = {
+			reformed
+			protestant
+		}
+		country = {
+			warscore_cost_vs_other_religion = -0.25
+			tolerance_heathen = -1
+			tolerance_heretic = -1
+			global_missionary_strength = 0.02
+			missionary_maintenance_cost = -0.4
+			tolerance_heathen = -1
+		}
+		country_as_secondary = {
+			warscore_cost_vs_other_religion = -0.25
+			global_missionary_strength = 0.01
+		}
+
+		hre_religion = yes
+
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		fervor = yes
+	
+		
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
+
+	}
+}
+

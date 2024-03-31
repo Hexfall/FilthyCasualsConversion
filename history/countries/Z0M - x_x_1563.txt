@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = western
 religion = golden_path
-primary_culture = dynamic-outremer-culture-num2
+primary_culture = mesopotamien
 capital = 411
 add_accepted_culture = kurdish
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 5
 		birth_date = 1392.3.4
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_ruler_personality = scholar_personality
 	add_ruler_personality = tolerant_personality
@@ -31,7 +31,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1454.4.2
 		female = yes
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_queen_personality = fertile_personality
 	add_queen_personality = intricate_web_weaver_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1481.9.13
 		claim = 89
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_heir_personality = fertile_personality
 	add_heir_personality = righteous_personality

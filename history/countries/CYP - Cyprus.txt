@@ -3,7 +3,7 @@ add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = western
 religion = golden_path
-primary_culture = dynamic-outremer-culture-num1
+primary_culture = cypriot
 capital = 321
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 321
 		mil = 3
 		birth_date = 1403.7.19
 		religion = golden_path
-		culture = dynamic-outremer-culture-num1
+		culture = cypriot
 	}
 	add_ruler_personality = embezzler_personality
 	add_ruler_personality = greedy_personality

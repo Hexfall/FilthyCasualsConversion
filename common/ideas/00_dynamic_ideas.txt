@@ -2261,13 +2261,13 @@ dynamic-aka-culture-num1_ideas = {
 }
 
 
-dynamic-outremer-culture-num1_ideas = {
+cypriot_ideas = {
 	start = {
 		 same_culture_advisor_cost = -0.25
 		 global_heretic_missionary_strength = 0.03
 	}
 	trigger = {
-		culture = dynamic-outremer-culture-num1
+		culture = cypriot
 	}
 	free = yes
 
@@ -2301,13 +2301,13 @@ dynamic-outremer-culture-num1_ideas = {
 }
 
 
-dynamic-outremer-yemeni_culture-culture-num1_ideas = {
+yemeni_outremer_ideas = {
 	start = {
 		 same_culture_advisor_cost = -0.25
 		 global_heretic_missionary_strength = 0.03
 	}
 	trigger = {
-		culture = dynamic-outremer-yemeni_culture-culture-num1
+		culture = yemeni_outremer
 	}
 	free = yes
 
@@ -2341,13 +2341,13 @@ dynamic-outremer-yemeni_culture-culture-num1_ideas = {
 }
 
 
-dynamic-bedouin_arabic-culture-num3_ideas = {
+gulfe_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-bedouin_arabic-culture-num3
+		culture = gulfe
 	}
 	free = yes
 
@@ -2380,13 +2380,13 @@ dynamic-bedouin_arabic-culture-num3_ideas = {
 }
 
 
-dynamic-outremer-culture-num2_ideas = {
+mesopotamien_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	free = yes
 
@@ -2461,13 +2461,13 @@ dynamic-nupe-culture-num1_ideas = {
 }
 
 
-dynamic-outremer-culture-num3_ideas = {
+meccan_ideas = {
 	start = {
 		 monarch_lifespan = 0.1
 		 all_estate_loyalty_equilibrium = 0.05
 	}
 	trigger = {
-		culture = dynamic-outremer-culture-num3
+		culture = meccan
 	}
 	free = yes
 
@@ -2539,13 +2539,13 @@ dynamic-greek-uzbehk-tajik-culture-num1_ideas = {
 }
 
 
-dynamic-oghuz-culture-num2_ideas = {
+persane_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-oghuz-culture-num2
+		culture = persane
 	}
 	free = yes
 
@@ -2766,13 +2766,13 @@ dynamic-greek-culture-num5_ideas = {
 }
 
 
-dynamic-bedouin_arabic-outremer-culture-num1_ideas = {
+omane_ideas = {
 	start = {
 		 monarch_lifespan = 0.1
 		 all_estate_loyalty_equilibrium = 0.05
 	}
 	trigger = {
-		culture = dynamic-bedouin_arabic-outremer-culture-num1
+		culture = omane
 	}
 	free = yes
 

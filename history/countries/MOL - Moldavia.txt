@@ -29,7 +29,7 @@ capital = 2405
 		death_date = 1466.5.1
 		female = yes
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num2
+		culture = romanian
 	}
 	add_queen_personality = bold_fighter_personality
 	add_queen_personality = drunkard_personality

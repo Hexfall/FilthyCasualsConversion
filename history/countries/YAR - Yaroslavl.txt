@@ -29,7 +29,7 @@ capital = 308
 		death_date = 1486.1.27
 		female = yes
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num3
+		culture = baltoruth
 	}
 	add_queen_personality = infertile_personality
 	add_queen_personality = naive_personality

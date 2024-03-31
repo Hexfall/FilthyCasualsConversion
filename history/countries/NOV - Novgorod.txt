@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
 religion = vidilist
-primary_culture = dynamic-estonian-lithuanian-culture-num1
+primary_culture = baltic_culture
 capital = 310
 add_accepted_culture = novgorodian
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = novgorodian
 		mil = 3
 		birth_date = 1403.10.16
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num1
+		culture = baltic_culture
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = tactical_genius_personality
@@ -45,7 +45,7 @@ add_accepted_culture = novgorodian
 		death_date = 1497.2.16
 		claim = 89
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num1
+		culture = baltic_culture
 	}
 	add_heir_personality = loose_lips_personality
 	add_heir_personality = righteous_personality

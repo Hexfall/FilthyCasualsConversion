@@ -3,7 +3,7 @@ add_government_reform = english_monarchy
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = dynamic-bavarian-czech-culture-num1
+primary_culture = ceskobavorsky
 capital = 2965
 add_accepted_culture = sorbian
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = sorbian
 		mil = 3
 		birth_date = 1422.9.26
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = righteous_personality
@@ -30,7 +30,7 @@ add_accepted_culture = sorbian
 		death_date = 1485.1.8
 		female = yes
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_queen_personality = tactical_genius_personality
 	add_queen_personality = zealot_personality
@@ -46,7 +46,7 @@ add_accepted_culture = sorbian
 		female = yes
 		claim = 89
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_heir_personality = kind_hearted_personality
 	add_heir_personality = lawgiver_personality

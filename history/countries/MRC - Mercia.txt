@@ -30,7 +30,7 @@ historical_friend = ENG
 		death_date = 1464.5.16
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_queen_personality = drunkard_personality
 	add_queen_personality = intricate_web_weaver_personality

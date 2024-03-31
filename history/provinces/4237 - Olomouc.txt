@@ -1,8 +1,8 @@
 owner = Z4M
 controller = Z4M
-capital = "Olmütz"
+capital = "Olmï¿½tz"
 is_city = yes
-culture = dynamic-bavarian-czech-culture-num1
+culture = ceskobavorsky
 religion = catholic
 trade_goods = grain
 base_tax = 6

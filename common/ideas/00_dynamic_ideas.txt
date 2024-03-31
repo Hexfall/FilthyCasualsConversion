@@ -1327,13 +1327,13 @@ dynamic-uzbehk-uralic-culture-num1_ideas = {
 }
 
 
-dynamic-franconian-sorbian-culture-num1_ideas = {
+franaczky_ideas = {
 	start = {
 		 monthly_splendor = 1
 		 power_projection_from_insults = 0.2
 	}
 	trigger = {
-		culture = dynamic-franconian-sorbian-culture-num1
+		culture = franaczky
 	}
 	free = yes
 
@@ -1638,13 +1638,13 @@ carinthian_ideas = {
 }
 
 
-dynamic-bavarian-czech-culture-num1_ideas = {
+ceskobavorsky_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	free = yes
 

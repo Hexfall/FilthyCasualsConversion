@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+primary_culture = lusitanian
 capital = 228
 fixed_capital = 228
 add_accepted_culture = visigothic
@@ -17,7 +17,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 3
 		birth_date = 1424.8.18
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = zealot_personality
@@ -32,7 +32,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1472.12.15
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 	add_queen_personality = free_thinker_personality
 	add_queen_personality = righteous_personality
@@ -47,7 +47,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1509.2.24
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = zealot_personality

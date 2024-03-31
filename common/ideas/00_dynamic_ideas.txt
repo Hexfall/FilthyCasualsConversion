@@ -2846,13 +2846,13 @@ dynamic-castillian-english-cosmopolitan_french-culture-num2_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num3_ideas = {
+lusitanian_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 	free = yes
 

@@ -1365,13 +1365,13 @@ dynamic-aka-yorumba-culture-num1_ideas = {
 }
 
 
-dynamic-franconian-culture-num1_ideas = {
+rhinelander_ideas = {
 	start = {
 		 monthly_splendor = 1
 		 power_projection_from_insults = 0.2
 	}
 	trigger = {
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	free = yes
 
@@ -1754,13 +1754,13 @@ dynamic-mali-dyola-culture-num1_ideas = {
 }
 
 
-dynamic-bavarian-slovene-culture-num1_ideas = {
+carinthian_ideas = {
 	start = {
 		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
-		culture = dynamic-bavarian-slovene-culture-num1
+		culture = carinthian
 	}
 	free = yes
 

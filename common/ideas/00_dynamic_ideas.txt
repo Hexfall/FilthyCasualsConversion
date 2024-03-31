@@ -39,44 +39,6 @@ dynamic-bedouin_arabic-somali-culture-num1_ideas = {
 }
 
 
-dynamic-bedouin_arabic-berber-culture-num1_ideas = {
-	start = {
-		 monarch_lifespan = 0.1
-		 all_estate_loyalty_equilibrium = 0.05
-	}
-	trigger = {
-		culture = dynamic-bedouin_arabic-berber-culture-num1
-	}
-	free = yes
-
-	tradition_desert_ribat = {
-		special_unit_forcelimit = 0.05
-		fort_maintenance_modifier = -0.05
-	}
-	tradition_tribe_unity = {
-		governing_cost = 0.8
-	}
-	tradition_equal_inheritance = {
-		female_advisor_chance = 0.5
-	}
-	tradition_african_tolerance = {
-		religious_unity = 0.5
-	}
-	tradition_caravaneers = {
-		caravan_power = 0.2
-	}
-	tradition_desert_nomads = {
-		cavalry_shock = 1
-	}
-	tradition_modest = {
-		administrative_efficiency = 0.1
-	}
-	bonus = {
-		discipline = 0.025
-	}
-}
-
-
 dynamic-andalucian-culture-num1_ideas = {
 	start = {
 		 monthly_splendor = 1
@@ -270,44 +232,6 @@ dynamic-tibetan-kashmiri-culture-num1_ideas = {
 	}
 	bonus = {
 		global_prov_trade_power_modifier = 0.1
-	}
-}
-
-
-dynamic-bedouin_arabic-culture-num1_ideas = {
-	start = {
-		 num_accepted_cultures = 1
-		 advisor_pool = 1
-	}
-	trigger = {
-		culture = dynamic-bedouin_arabic-culture-num1
-	}
-	free = yes
-
-	tradition_tribe_unity = {
-		governing_cost = 0.8
-	}
-	tradition_mubarizuns = {
-		special_unit_forcelimit = 0.05
-		reserves_organisation = 0.05
-	}
-	tradition_ep2_avid_falconers = {
-		prestige = 0.5
-	}
-	tradition_dryland_dwellers = {
-		development_cost = -0.1
-	}
-	tradition_charitable = {
-		monthly_favor_modifier = 0.1
-	}
-	tradition_xenophilic = {
-		num_accepted_cultures = 1
-	}
-	tradition_astute_diplomats = {
-		diplomats = 1
-	}
-	bonus = {
-		discipline = 0.025
 	}
 }
 

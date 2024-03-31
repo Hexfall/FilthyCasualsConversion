@@ -6,7 +6,6 @@ religion = catholic
 primary_culture = yemeni_outremer
 capital = 4284
 fixed_capital = 4284
-add_accepted_culture = dynamic-bedouin_arabic-culture-num1
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	add_prestige = 49

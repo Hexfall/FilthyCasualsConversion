@@ -29,7 +29,7 @@ capital = 79
 		death_date = 1462.2.15
 		female = yes
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_queen_personality = strict_personality
 	add_queen_personality = zealot_personality

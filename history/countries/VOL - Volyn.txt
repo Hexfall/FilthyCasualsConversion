@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
 religion = vidilist
-primary_culture = dynamic-estonian-lithuanian-culture-num3
+primary_culture = baltoruth
 capital = 279
 add_accepted_culture = ruthenian
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = ruthenian
 		mil = 4
 		birth_date = 1404.9.23
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num3
+		culture = baltoruth
 	}
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = drunkard_personality
@@ -45,7 +45,7 @@ add_accepted_culture = ruthenian
 		death_date = 1498.9.28
 		claim = 89
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num3
+		culture = baltoruth
 	}
 	add_heir_personality = kind_hearted_personality
 	add_heir_personality = naive_personality

@@ -3,7 +3,7 @@ add_government_reform = feudal_theocracy
 government_rank = 1
 technology_group = western
 religion = sunni
-primary_culture = dynamic-franconian-culture-num1
+primary_culture = rhinelander
 capital = 4516
 religious_school = hanbali_school
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 6
 		birth_date = 1413.6.30
 		religion = sunni
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = well_connected_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1498.11.12
 		claim = 89
 		religion = sunni
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_heir_personality = cruel_personality
 	add_heir_personality = zealot_personality

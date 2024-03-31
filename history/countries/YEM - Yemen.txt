@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = western
 religion = golden_path
-primary_culture = dynamic-outremer-yemeni_culture-culture-num1
+primary_culture = yemeni_outremer
 capital = 390
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 390
 		mil = 5
 		birth_date = 1405.4.2
 		religion = golden_path
-		culture = dynamic-outremer-yemeni_culture-culture-num1
+		culture = yemeni_outremer
 	}
 	add_ruler_personality = just_personality
 	add_ruler_personality = strict_personality
@@ -29,7 +29,7 @@ capital = 390
 		death_date = 1459.3.8
 		female = yes
 		religion = golden_path
-		culture = dynamic-outremer-yemeni_culture-culture-num1
+		culture = yemeni_outremer
 	}
 	add_queen_personality = pious_personality
 	add_queen_personality = righteous_personality
@@ -44,7 +44,7 @@ capital = 390
 		death_date = 1491.9.9
 		claim = 89
 		religion = golden_path
-		culture = dynamic-outremer-yemeni_culture-culture-num1
+		culture = yemeni_outremer
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = kind_hearted_personality

@@ -20,7 +20,7 @@ capital = 264
 	add_ruler_personality = zealot_personality
 	queen = {
 		name = "Isobel"
-		dynasty = "Þórshöfn"
+		dynasty = "ï¿½ï¿½rshï¿½fn"
 		adm = 3
 		dip = 4
 		mil = 3
@@ -29,7 +29,7 @@ capital = 264
 		death_date = 1471.7.4
 		female = yes
 		religion = catholic
-		culture = dynamic-norwegian-scottish-culture-num1
+		culture = halendingur
 	}
 	add_queen_personality = drunkard_personality
 	add_queen_personality = intricate_web_weaver_personality

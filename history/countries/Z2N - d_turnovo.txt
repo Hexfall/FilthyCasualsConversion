@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num2
+primary_culture = latin_culture
 capital = 4704
 add_accepted_culture = bulgarian
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1.1.1
 		regent = yes
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	heir = {
 		name = "Ioustinos"
@@ -28,7 +28,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1506.1.28
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 }
 1444.11.11= {

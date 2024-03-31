@@ -45,7 +45,7 @@ add_accepted_culture = dynamic-mordvin-culture-num1
 		death_date = 1481.3.20
 		claim = 89
 		religion = orthodox
-		culture = dynamic-finnish-culture-num1
+		culture = bothnian
 	}
 	add_heir_personality = obsessive_perfectionist_personality
 	add_heir_personality = tactical_genius_personality

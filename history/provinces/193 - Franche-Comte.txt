@@ -1,8 +1,8 @@
 owner = LOT
 controller = LOT
-capital = "Besançon"
+capital = "Besanï¿½on"
 is_city = yes
-culture = dynamic-franconian-culture-num1
+culture = rhinelander
 religion = catholic
 trade_goods = salt
 base_tax = 4

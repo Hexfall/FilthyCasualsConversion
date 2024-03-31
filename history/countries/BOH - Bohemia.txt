@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = dynamic-bavarian-czech-culture-num1
+primary_culture = ceskobavorsky
 capital = 266
 1444.11.11= {
 	monarch = {
@@ -15,7 +15,7 @@ capital = 266
 		birth_date = 1376.6.19
 		female = yes
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = drunkard_personality
@@ -44,7 +44,7 @@ capital = 266
 		death_date = 1487.9.26
 		claim = 89
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = righteous_personality

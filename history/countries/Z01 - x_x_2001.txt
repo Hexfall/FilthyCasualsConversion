@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 3
 technology_group = eastern
 religion = vidilist
-primary_culture = dynamic-estonian-lithuanian-culture-num3
+primary_culture = baltoruth
 capital = 271
 historical_friend = FIN
 historical_friend = EST
@@ -18,7 +18,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1418.10.21
 		female = yes
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num3
+		culture = baltoruth
 	}
 	add_ruler_personality = martial_educator_personality
 	add_ruler_personality = tactical_genius_personality
@@ -32,7 +32,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1380.1.6
 		death_date = 1440.1.6
 		religion = vidilist
-		culture = dynamic-finnish-culture-num1
+		culture = bothnian
 	}
 	add_queen_personality = infertile_personality
 	add_queen_personality = intricate_web_weaver_personality
@@ -47,7 +47,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1505.2.23
 		claim = 89
 		religion = vidilist
-		culture = dynamic-estonian-lithuanian-culture-num3
+		culture = baltoruth
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = tactical_genius_personality

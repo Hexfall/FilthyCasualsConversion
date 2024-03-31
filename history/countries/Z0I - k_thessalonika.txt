@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num2
+primary_culture = latin_culture
 capital = 151
 historical_rival = Z0D
 historical_friend = ENG
@@ -20,7 +20,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 5
 		birth_date = 1395.7.19
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_ruler_personality = drunkard_personality
 	add_ruler_personality = scholar_personality
@@ -35,7 +35,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1451.2.4
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_queen_personality = bold_fighter_personality
 	add_queen_personality = silver_tongue_personality
@@ -50,7 +50,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1485.6.9
 		claim = 89
 		religion = catholic
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_heir_personality = righteous_personality
 	add_heir_personality = zealot_personality

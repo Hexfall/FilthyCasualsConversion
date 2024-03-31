@@ -3,7 +3,7 @@ add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = muslim
 religion = golden_path
-primary_culture = dynamic-bedouin_arabic-outremer-culture-num1
+primary_culture = omane
 capital = 4286
 mercantilism = 15
 1444.11.11= {
@@ -15,7 +15,7 @@ mercantilism = 15
 		mil = 3
 		birth_date = 1421.11.13
 		religion = golden_path
-		culture = dynamic-bedouin_arabic-outremer-culture-num1
+		culture = omane
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = zealot_personality
@@ -45,7 +45,7 @@ mercantilism = 15
 		death_date = 1508.5.8
 		claim = 89
 		religion = golden_path
-		culture = dynamic-bedouin_arabic-outremer-culture-num1
+		culture = omane
 	}
 	add_heir_personality = bold_fighter_personality
 	add_heir_personality = inspiring_leader_personality

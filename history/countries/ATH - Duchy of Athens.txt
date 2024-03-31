@@ -31,7 +31,7 @@ mercantilism = 25
 		death_date = 1464.12.21
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_queen_personality = fertile_personality
 	add_queen_personality = greedy_personality

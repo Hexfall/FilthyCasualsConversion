@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = sub_saharan
-religion = converted_dynamic_faith_111
+religion = aladura
 primary_culture = aka
 capital = 1138
 add_accepted_culture = dynamic-aka-culture-num1
@@ -17,7 +17,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 3
 		birth_date = 1402.4.24
 		female = yes
-		religion = converted_dynamic_faith_111
+		religion = aladura
 		culture = aka
 	}
 	add_ruler_personality = righteous_personality
@@ -31,7 +31,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		country_of_origin = Z03
 		birth_date = 1409.5.7
 		death_date = 1469.5.7
-		religion = converted_dynamic_faith_111
+		religion = aladura
 		culture = dynamic-berber-soninke-culture-num1
 	}
 	add_queen_personality = intricate_web_weaver_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1426.8.6
 		death_date = 1491.8.6
 		claim = 89
-		religion = converted_dynamic_faith_111
+		religion = aladura
 		culture = aka
 	}
 	add_heir_personality = just_personality

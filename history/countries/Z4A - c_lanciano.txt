@@ -3,7 +3,7 @@ add_government_reform = signoria_reform
 government_rank = 1
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num3
+primary_culture = neopolitan
 capital = 4733
 fixed_capital = 4733
 mercantilism = 15
@@ -18,7 +18,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1402.2.11
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num3
+		culture = neopolitan
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = fertile_personality

@@ -33,7 +33,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		female = yes
 		claim = 89
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = drunkard_personality

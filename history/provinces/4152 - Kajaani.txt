@@ -1,9 +1,9 @@
 owner = FIN
 controller = FIN
-capital = "Maanselkä"
+capital = "Maanselkï¿½"
 is_city = yes
 culture = dynamic-finnish-culture-num1
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = fur
 base_tax = 1
 base_production = 4

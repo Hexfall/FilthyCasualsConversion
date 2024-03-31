@@ -1,9 +1,9 @@
 owner = FIN
 controller = FIN
-capital = "Messukylä"
+capital = "Messukylï¿½"
 is_city = yes
 culture = dynamic-finnish-culture-num1
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = fur
 base_tax = 3
 base_production = 1

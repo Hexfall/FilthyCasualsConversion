@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = dynamic-estonian-lithuanian-culture-num3
 capital = 279
 add_accepted_culture = ruthenian
@@ -14,7 +14,7 @@ add_accepted_culture = ruthenian
 		dip = 5
 		mil = 4
 		birth_date = 1404.9.23
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num3
 	}
 	add_ruler_personality = bold_fighter_personality
@@ -29,7 +29,7 @@ add_accepted_culture = ruthenian
 		birth_date = 1404.4.11
 		death_date = 1464.4.11
 		female = yes
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = romanian
 	}
 	add_queen_personality = malevolent_personality
@@ -44,7 +44,7 @@ add_accepted_culture = ruthenian
 		birth_date = 1433.9.28
 		death_date = 1498.9.28
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num3
 	}
 	add_heir_personality = kind_hearted_personality

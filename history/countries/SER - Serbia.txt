@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = dynamic-estonian-lithuanian-culture-num2
 capital = 1827
 add_accepted_culture = dalmatian
@@ -15,7 +15,7 @@ add_accepted_culture = dalmatian
 		mil = 4
 		birth_date = 1392.4.23
 		female = yes
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num2
 	}
 	add_ruler_personality = obsessive_perfectionist_personality
@@ -31,7 +31,7 @@ add_accepted_culture = dalmatian
 		death_date = 1468.2.3
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num3
 	}
 	add_heir_personality = cruel_personality

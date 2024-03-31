@@ -1,9 +1,9 @@
 owner = FIN
 controller = FIN
-capital = "Borgå"
+capital = "Borgï¿½"
 is_city = yes
 culture = dynamic-finnish-culture-num1
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = naval_supplies
 base_tax = 4
 base_production = 3

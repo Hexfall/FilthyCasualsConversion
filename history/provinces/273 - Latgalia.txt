@@ -1,9 +1,9 @@
 owner = Z01
 controller = Z01
-capital = "Dünaburg"
+capital = "Dï¿½naburg"
 is_city = yes
 culture = latvian
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = livestock
 base_tax = 4
 base_production = 1

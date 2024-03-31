@@ -1,9 +1,9 @@
 owner = POL
 controller = POL
-capital = "Kraków"
+capital = "Krakï¿½w"
 is_city = yes
 culture = polish
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = salt
 fort_15th = yes
 base_tax = 4

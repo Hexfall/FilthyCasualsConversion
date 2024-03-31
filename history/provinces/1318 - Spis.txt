@@ -1,9 +1,9 @@
 owner = HUN
 controller = HUN
-capital = "Spiš"
+capital = "Spiï¿½"
 is_city = yes
 culture = hungarian
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = copper
 base_tax = 1
 base_production = 4

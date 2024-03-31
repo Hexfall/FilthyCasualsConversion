@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = dynamic-estonian-lithuanian-culture-num2
 capital = 1955
 add_accepted_culture = dynamic-samoyed-vepsian-culture-num1
@@ -14,7 +14,7 @@ add_accepted_culture = dynamic-samoyed-vepsian-culture-num1
 		dip = 4
 		mil = 4
 		birth_date = 1411.4.11
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num2
 	}
 	add_ruler_personality = drunkard_personality
@@ -29,7 +29,7 @@ add_accepted_culture = dynamic-samoyed-vepsian-culture-num1
 		birth_date = 1418.12.5
 		death_date = 1478.12.5
 		female = yes
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = sapmi
 	}
 	add_queen_personality = obsessive_perfectionist_personality
@@ -44,7 +44,7 @@ add_accepted_culture = dynamic-samoyed-vepsian-culture-num1
 		birth_date = 1437.12.10
 		death_date = 1502.12.10
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num2
 	}
 	add_heir_personality = inspiring_leader_personality

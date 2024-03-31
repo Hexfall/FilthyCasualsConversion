@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = dynamic-finnish-culture-num1
 capital = 27
 historical_friend = SWE
@@ -18,7 +18,7 @@ add_accepted_culture = sami
 		dip = 2
 		mil = 3
 		birth_date = 1387.3.22
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-finnish-culture-num1
 	}
 	add_ruler_personality = intricate_web_weaver_personality
@@ -33,7 +33,7 @@ add_accepted_culture = sami
 		birth_date = 1415.1.1
 		death_date = 1475.1.1
 		female = yes
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num1
 	}
 	add_queen_personality = cruel_personality
@@ -48,7 +48,7 @@ add_accepted_culture = sami
 		birth_date = 1436.11.16
 		death_date = 1501.11.16
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-finnish-culture-num1
 	}
 	add_heir_personality = cruel_personality

@@ -22,14 +22,14 @@ set_country_flag = ZZZ_generated_converter_nation
 	heir = {
 		name = "Kalju"
 		monarch_name = "Kalju"
-		dynasty = "kohta Läänemaa"
+		dynasty = "kohta Lï¿½ï¿½nemaa"
 		adm = 6
 		dip = 6
 		mil = 6
 		birth_date = 1389.1.1
 		death_date = 1454.1.1
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num2
 	}
 	add_heir_personality = drunkard_personality

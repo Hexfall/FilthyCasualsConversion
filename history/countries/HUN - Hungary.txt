@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = dynamic-estonian-lithuanian-culture-num2
 capital = 153
 add_accepted_culture = hungarian
@@ -15,7 +15,7 @@ add_accepted_culture = transylvanian
 		dip = 3
 		mil = 5
 		birth_date = 1424.2.1
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num2
 	}
 	add_ruler_personality = kind_hearted_personality
@@ -30,7 +30,7 @@ add_accepted_culture = transylvanian
 		birth_date = 1421.5.14
 		death_date = 1481.5.14
 		female = yes
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = bosnian
 	}
 	add_queen_personality = bold_fighter_personality
@@ -46,7 +46,7 @@ add_accepted_culture = transylvanian
 		death_date = 1487.10.9
 		female = yes
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-estonian-lithuanian-culture-num2
 	}
 	add_heir_personality = martial_educator_personality

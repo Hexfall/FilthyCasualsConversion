@@ -32,7 +32,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1400.12.12
 		death_date = 1460.12.12
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_queen_personality = expansionist_personality
 	add_queen_personality = tactical_genius_personality

@@ -35,7 +35,7 @@ historical_friend = CRN
 		death_date = 1477.6.30
 		female = yes
 		religion = catholic
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_queen_personality = strict_personality
 	add_queen_personality = greedy_personality

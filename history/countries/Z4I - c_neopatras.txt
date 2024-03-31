@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num2
+primary_culture = latin_culture
 capital = 147
 fixed_capital = 147
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1369.1.28
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_ruler_personality = entrepreneur_personality
 	add_ruler_personality = scholar_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1463.7.26
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_heir_personality = drunkard_personality
 	add_heir_personality = strict_personality

@@ -29,7 +29,7 @@ capital = 4174
 		death_date = 1442.5.24
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-franconian-italian-culture-num1
+		culture = tuscan
 	}
 	add_queen_personality = secretive_personality
 	add_queen_personality = silver_tongue_personality

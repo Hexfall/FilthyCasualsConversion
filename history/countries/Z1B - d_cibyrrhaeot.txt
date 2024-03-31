@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num2
+primary_culture = latin_culture
 capital = 2298
 add_accepted_culture = anatolian
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1405.12.6
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = tactical_genius_personality
@@ -47,7 +47,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		female = yes
 		claim = 89
 		religion = orthodox
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_heir_personality = just_personality
 	add_heir_personality = strict_personality

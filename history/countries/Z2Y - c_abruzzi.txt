@@ -3,7 +3,7 @@ add_government_reform = free_city
 government_rank = 1
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num2
+primary_culture = latin_culture
 capital = 120
 fixed_capital = 120
 mercantilism = 25
@@ -17,7 +17,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 3
 		birth_date = 1401.3.2
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_ruler_personality = naive_personality
 	add_ruler_personality = righteous_personality

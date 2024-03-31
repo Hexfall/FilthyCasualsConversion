@@ -30,7 +30,7 @@ add_accepted_culture = cosmopolitan_french
 		death_date = 1473.6.20
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_queen_personality = drunkard_personality
 	add_queen_personality = just_personality

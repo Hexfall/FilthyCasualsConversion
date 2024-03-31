@@ -2459,13 +2459,13 @@ meccan_ideas = {
 }
 
 
-dynamic-greek-uzbehk-tajik-culture-num1_ideas = {
+rumaioi_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-greek-uzbehk-tajik-culture-num1
+		culture = rumaioi
 	}
 	free = yes
 

@@ -2765,13 +2765,13 @@ omane_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num2_ideas = {
+betican_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num2
+		culture = betican
 	}
 	free = yes
 
@@ -2845,13 +2845,13 @@ lusitanian_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num4_ideas = {
+terraconense_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
+		culture = terraconense
 	}
 	free = yes
 

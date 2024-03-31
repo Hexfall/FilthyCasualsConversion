@@ -1,8 +1,8 @@
 owner = Z1C
 controller = Z1C
-capital = "Córdoba"
+capital = "Cï¿½rdoba"
 is_city = yes
-culture = dynamic-castillian-english-cosmopolitan_french-culture-num2
+culture = betican
 religion = catholic
 trade_goods = grain
 hre = yes

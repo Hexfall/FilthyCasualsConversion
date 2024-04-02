@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 1
-technology_group = muslim
+technology_group = ottoman
 religion = golden_path
 primary_culture = omane
 capital = 4286

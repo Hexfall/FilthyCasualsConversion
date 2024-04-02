@@ -1910,13 +1910,13 @@ dynamic-mali-culture-num1_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num1_ideas = {
+west_latin_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	free = yes
 

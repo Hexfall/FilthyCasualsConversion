@@ -29,7 +29,7 @@ capital = 1765
 		death_date = 1431.5.24
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_heir_personality = strict_personality
 	add_heir_personality = tactical_genius_personality

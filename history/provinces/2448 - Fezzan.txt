@@ -1,5 +1,5 @@
-owner = Z0F
-controller = Z0F
+owner = AFR
+controller = AFR
 capital = "Murzuk"
 is_city = yes
 culture = tunisian
@@ -8,7 +8,7 @@ trade_goods = ivory
 base_tax = 2
 base_production = 3
 base_manpower = 1
-add_core = Z0F
+add_core = AFR
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = BSH
-controller = BSH
+owner = Z2M
+controller = Z2M
 capital = "Bashkort"
 is_city = yes
 culture = nogaybak
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = BSH
+add_core = Z2M
 add_core = NOG
 discovered_by = east_african
 discovered_by = eastern

@@ -1,6 +1,5 @@
-government = tribal
-add_government_reform = steppe_horde
-add_government_reform = raze_province
+government = republic
+add_government_reform = cossacks_reform
 government_rank = 2
 technology_group = western
 religion = catholic
@@ -10,7 +9,7 @@ add_accepted_culture = cuman
 1444.11.11= {
 	monarch = {
 		name = "Matou�"
-		dynasty = "Rurikid-Itil"
+		dynasty = "Rurikid"
 		adm = 6
 		dip = 6
 		mil = 6

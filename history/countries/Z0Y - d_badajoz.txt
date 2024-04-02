@@ -49,7 +49,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		religion = chalcedonian
 		culture = betican
 	}
-	add_heir_personality = free_thinker_personality
+	add_heir_personality = free_thinker_personality	
 	add_heir_personality = tactical_genius_personality
 }
 1444.11.11= {

@@ -5,6 +5,7 @@ technology_group = western
 religion = chalcedonian
 primary_culture = dalmatian
 capital = 124
+elector = yes
 add_accepted_culture = neopolitan
 add_accepted_culture = siculo_norman
 1444.11.11= {

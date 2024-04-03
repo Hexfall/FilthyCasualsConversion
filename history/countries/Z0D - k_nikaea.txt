@@ -8,7 +8,6 @@ capital = 317
 national_focus = DIP
 add_accepted_culture = anatolian
 historical_rival = Z0I
-elector = yes
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {

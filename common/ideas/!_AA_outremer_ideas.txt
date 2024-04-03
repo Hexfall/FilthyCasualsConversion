@@ -1,0 +1,51 @@
+outremer_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		land_morale = 0.15
+	}
+
+	bonus = {
+		culture_conversion_cost = -0.15
+	}
+
+	trigger = {
+		OR = {
+			tag = OUT
+			tag = KOJ
+			tag = YEM
+			tag = OMA
+			tag = Z0Z
+			tag = ALH
+			tag = HED
+		}
+	}
+	free = yes
+
+	outremer_tech_cost = {
+		technology_cost = -0.05
+		innovativeness_gain = 0.5
+	}
+	latin_patriarch = {
+		papal_influence = 2
+		curia_powers_cost = -0.1
+        yearly_patriarch_authority = 0.005
+	}
+	frontier_state = {
+		discipline = 0.05
+	}
+	land_of_the_heathen = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.25
+	}
+	guns_of_hebron = {
+		siege_ability = 0.2
+	}
+	crossroads_diplomats = {
+		diplomats = 1
+ 		envoy_travel_time = -0.20
+	}
+	cosmopolitan_nobility = {
+		global_prov_trade_power_modifier = 0.1
+		caravan_power = 0.2
+	}
+}

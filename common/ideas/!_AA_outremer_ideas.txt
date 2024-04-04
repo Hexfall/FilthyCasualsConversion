@@ -2,6 +2,8 @@ outremer_ideas = {
 	start = {
 		global_missionary_strength = 0.02
 		land_morale = 0.15
+		female_advisor_chance = .5
+		may_recruit_female_generals = yes
 	}
 
 	bonus = {
@@ -22,13 +24,15 @@ outremer_ideas = {
 	free = yes
 
 	outremer_tech_cost = {
-		technology_cost = -0.05
-		innovativeness_gain = 0.5
+		technology_cost = -0.1
+		innovativeness_gain = 0.333
 	}
-	latin_patriarch = {
+	costodians_of_the_holy_land = {
 		papal_influence = 2
 		curia_powers_cost = -0.1
         yearly_patriarch_authority = 0.005
+		monthly_fervor_increase = 2
+		church_power_modifier = 0.25
 	}
 	frontier_state = {
 		discipline = 0.05
@@ -44,7 +48,7 @@ outremer_ideas = {
 		diplomats = 1
  		envoy_travel_time = -0.20
 	}
-	cosmopolitan_nobility = {
+	gateway_of_christendom = {
 		global_prov_trade_power_modifier = 0.1
 		caravan_power = 0.2
 	}

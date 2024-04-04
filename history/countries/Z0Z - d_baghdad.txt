@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
+technology_group = ottoman
 religion = golden_path
-primary_culture = dynamic-outremer-culture-num2
+primary_culture = mesopotamien
 capital = 410
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1406.6.20
 		female = yes
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_ruler_personality = free_thinker_personality
 	add_ruler_personality = sinner_personality
@@ -30,7 +30,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1406.6.28
 		death_date = 1466.6.28
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_queen_personality = greedy_personality
 	add_queen_personality = righteous_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		female = yes
 		claim = 89
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_heir_personality = benevolent_personality
 	add_heir_personality = kind_hearted_personality

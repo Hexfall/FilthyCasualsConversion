@@ -44,7 +44,7 @@ capital = 53
 		death_date = 1503.2.21
 		claim = 89
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = free_thinker_personality

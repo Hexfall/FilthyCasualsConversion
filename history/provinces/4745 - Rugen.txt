@@ -1,9 +1,9 @@
 owner = POM
 controller = POM
-capital = "Bergen auf Rügen"
+capital = "Bergen auf Rï¿½gen"
 is_city = yes
 culture = saxon
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = fish
 base_tax = 1
 base_production = 1

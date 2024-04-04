@@ -3,7 +3,7 @@ add_government_reform = free_city
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-franconian-italian-culture-num2
+primary_culture = anconan
 capital = 4730
 mercantilism = 25
 set_country_flag = ZZZ_generated_converter_nation
@@ -17,7 +17,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1405.3.13
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-franconian-italian-culture-num2
+		culture = anconan
 	}
 	add_ruler_personality = midas_touched_personality
 	add_ruler_personality = pious_personality

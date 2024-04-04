@@ -3,9 +3,9 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+primary_culture = lusitanian
 capital = 231
-add_accepted_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+add_accepted_culture = west_latin
 1444.11.11= {
 	monarch = {
 		name = "(Regency Council)"
@@ -15,7 +15,7 @@ add_accepted_culture = dynamic-castillian-english-cosmopolitan_french-culture-nu
 		birth_date = 1.1.1
 		regent = yes
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 	heir = {
 		name = "Eleanor"
@@ -28,7 +28,7 @@ add_accepted_culture = dynamic-castillian-english-cosmopolitan_french-culture-nu
 		female = yes
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 }
 1444.11.11= {

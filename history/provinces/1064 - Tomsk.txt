@@ -1,5 +1,5 @@
-owner = Z06
-controller = Z06
+owner = 
+controller = 
 capital = "Tomsk"
 is_city = yes
 culture = buryat
@@ -8,7 +8,7 @@ trade_goods = unknown
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = Z06
+add_core = 
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

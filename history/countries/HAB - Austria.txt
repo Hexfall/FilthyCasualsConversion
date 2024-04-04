@@ -3,7 +3,7 @@ add_government_reform = austrian_archduchy_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = dynamic-franconian-culture-num1
+primary_culture = rhinelander
 capital = 134
 add_accepted_culture = austrian
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = austrian
 		mil = 2
 		birth_date = 1399.2.18
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_ruler_personality = craven_personality
 	add_ruler_personality = kind_hearted_personality
@@ -45,7 +45,7 @@ add_accepted_culture = austrian
 		death_date = 1491.1.16
 		claim = 89
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_heir_personality = greedy_personality
 	add_heir_personality = kind_hearted_personality

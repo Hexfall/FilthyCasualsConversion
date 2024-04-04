@@ -1,5 +1,5 @@
-owner = SIB
-controller = SIB
+owner = BSH
+controller = BSH
 capital = "Yugan"
 is_city = yes
 culture = ostyaki
@@ -8,7 +8,7 @@ trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = SIB
+add_core = BSH
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

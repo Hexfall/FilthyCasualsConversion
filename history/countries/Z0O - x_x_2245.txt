@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = dynamic-franconian-culture-num1
+primary_culture = rhinelander
 capital = 1873
 add_accepted_culture = swabian
 set_country_flag = ZZZ_generated_converter_nation
@@ -17,7 +17,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		birth_date = 1421.10.28
 		female = yes
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = tolerant_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1459.11.7
 		claim = 89
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_heir_personality = obsessive_perfectionist_personality
 	add_heir_personality = pious_personality

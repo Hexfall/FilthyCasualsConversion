@@ -272,7 +272,7 @@ renaissance = {
 		is_year = 1450
 		is_institution_enabled = feudalism
 		region = mashriq_region
-		development = 21
+		development = 20
 		is_state = yes
 		NOT = { province_id = 126 }
 		is_island = no
@@ -329,7 +329,12 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.1
+			scale = yes
+			region = mashriq_region
+		}
+		modifier = {
+			factor = 0.07
 			scale = yes
 			development = 10
 			has_port = yes
@@ -341,7 +346,26 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.07
+			scale = yes
+			development = 20
+			has_port = yes
+			sea_zone = {
+				OR = {
+					area = western_mediterrenean_area
+					area = eastern_mediterrenean_area
+				}
+			}
+		}
+		modifier = {
+			factor = 0.07
+			scale = yes
+			development = 10
+			religion_group = christian
+			province_has_center_of_trade_of_level = 2
+		}
+		modifier = {
+			factor = 0.07
 			scale = yes
 			development = 20
 			religion_group = christian

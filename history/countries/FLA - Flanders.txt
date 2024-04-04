@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+primary_culture = west_latin
 capital = 1865
 add_accepted_culture = cosmopolitan_french
 add_accepted_culture = flemish
@@ -16,7 +16,7 @@ add_accepted_culture = flemish
 		birth_date = 1.1.1
 		regent = yes
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	heir = {
 		name = "G�raud"
@@ -28,7 +28,7 @@ add_accepted_culture = flemish
 		death_date = 1505.1.30
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 }
 1444.11.11= {

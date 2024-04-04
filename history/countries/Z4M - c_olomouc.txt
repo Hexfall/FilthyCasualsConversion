@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = dynamic-bavarian-czech-culture-num1
+primary_culture = ceskobavorsky
 capital = 4237
 fixed_capital = 4237
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1381.9.29
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_ruler_personality = industrious_personality
 	add_ruler_personality = martial_educator_personality
@@ -31,7 +31,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1443.1.17
 		female = yes
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_queen_personality = pious_personality
 	add_queen_personality = zealot_personality
@@ -46,7 +46,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1470.9.21
 		claim = 89
 		religion = catholic
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	add_heir_personality = martial_educator_personality
 	add_heir_personality = zealot_personality

@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
+technology_group = ottoman
 religion = catholic
-primary_culture = dynamic-outremer-culture-num2
+primary_culture = mesopotamien
 capital = 406
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1413.3.2
 		religion = catholic
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_ruler_personality = malevolent_personality
 	add_ruler_personality = obsessive_perfectionist_personality
@@ -30,7 +30,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1479.11.3
 		claim = 89
 		religion = golden_path
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = midas_touched_personality

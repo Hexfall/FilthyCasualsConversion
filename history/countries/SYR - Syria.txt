@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = western
+technology_group = ottoman
 religion = catholic
-primary_culture = dynamic-outremer-culture-num1
+primary_culture = cypriot
 capital = 377
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 377
 		mil = 4
 		birth_date = 1404.3.25
 		religion = catholic
-		culture = dynamic-outremer-culture-num1
+		culture = cypriot
 	}
 	add_ruler_personality = naive_personality
 	add_ruler_personality = tolerant_personality

@@ -1,9 +1,9 @@
 owner = HUN
 controller = HUN
-capital = "Fehérvár"
+capital = "Fehï¿½rvï¿½r"
 is_city = yes
 culture = hungarian
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = livestock
 base_tax = 4
 base_production = 1

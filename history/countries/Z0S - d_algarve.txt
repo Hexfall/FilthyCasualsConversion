@@ -31,7 +31,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1471.1.18
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_queen_personality = secretive_personality
 	add_queen_personality = silver_tongue_personality

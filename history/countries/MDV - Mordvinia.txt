@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = romanian
 capital = 2422
 add_accepted_culture = dynamic-mordvin-culture-num1
@@ -14,7 +14,7 @@ add_accepted_culture = dynamic-mordvin-culture-num1
 		dip = 3
 		mil = 2
 		birth_date = 1411.1.14
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = romanian
 	}
 	add_ruler_personality = just_personality
@@ -29,7 +29,7 @@ add_accepted_culture = dynamic-mordvin-culture-num1
 		birth_date = 1421.11.13
 		death_date = 1481.11.13
 		female = yes
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = dynamic-meshchera-russian_culture-culture-num1
 	}
 	add_queen_personality = craven_personality
@@ -45,7 +45,7 @@ add_accepted_culture = dynamic-mordvin-culture-num1
 		death_date = 1481.3.20
 		claim = 89
 		religion = orthodox
-		culture = dynamic-finnish-culture-num1
+		culture = bothnian
 	}
 	add_heir_personality = obsessive_perfectionist_personality
 	add_heir_personality = tactical_genius_personality

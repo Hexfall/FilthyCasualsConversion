@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = chalcedonian
-primary_culture = dynamic-greek-culture-num2
+primary_culture = latin_culture
 capital = 4698
 add_accepted_culture = dalmatian
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = dalmatian
 		mil = 4
 		birth_date = 1420.2.15
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = martial_educator_personality
@@ -45,7 +45,7 @@ add_accepted_culture = dalmatian
 		death_date = 1508.1.18
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = tactical_genius_personality

@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = english_monarchy
 government_rank = 1
-technology_group = western
+technology_group = ottoman
 religion = catholic
-primary_culture = dynamic-outremer-culture-num3
+primary_culture = meccan
 capital = 4269
 fixed_capital = 4269
 set_country_flag = ZZZ_generated_converter_nation
@@ -16,7 +16,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1427.6.21
 		religion = catholic
-		culture = dynamic-outremer-culture-num3
+		culture = meccan
 	}
 	add_ruler_personality = careful_personality
 	add_ruler_personality = cruel_personality

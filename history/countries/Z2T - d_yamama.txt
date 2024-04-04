@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = muslim
+technology_group = ottoman
 religion = catholic
-primary_culture = dynamic-bedouin_arabic-culture-num3
+primary_culture = gulfe
 capital = 4275
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 1
 		birth_date = 1410.7.11
 		religion = catholic
-		culture = dynamic-bedouin_arabic-culture-num3
+		culture = gulfe
 	}
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = fertile_personality

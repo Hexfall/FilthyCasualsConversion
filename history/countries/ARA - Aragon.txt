@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+primary_culture = west_latin
 capital = 214
 add_accepted_culture = andalucian
 1444.11.11= {
@@ -16,7 +16,7 @@ add_accepted_culture = andalucian
 		birth_date = 1417.4.1
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = zealot_personality
@@ -45,7 +45,7 @@ add_accepted_culture = andalucian
 		death_date = 1506.4.6
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = tactical_genius_personality

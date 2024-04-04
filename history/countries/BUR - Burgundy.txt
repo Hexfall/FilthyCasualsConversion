@@ -31,7 +31,7 @@ add_accepted_culture = cosmopolitan_french
 		death_date = 1493.4.19
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_heir_personality = embezzler_personality
 	add_heir_personality = infertile_personality

@@ -1,9 +1,9 @@
 owner = SWE
 controller = SWE
-capital = "Linköping"
+capital = "Linkï¿½ping"
 is_city = yes
-culture = dynamic-finnish-culture-num1
-religion = converted_dynamic_faith_110
+culture = bothnian
+religion = vidilist
 trade_goods = grain
 base_tax = 3
 base_production = 4

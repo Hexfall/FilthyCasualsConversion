@@ -1,11 +1,11 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
+technology_group = ottoman
 religion = catholic
 primary_culture = outremer
 capital = 383
-add_accepted_culture = dynamic-outremer-culture-num3
+add_accepted_culture = meccan
 1444.11.11= {
 	monarch = {
 		name = "Emmeline"

@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+primary_culture = west_latin
 capital = 4373
 historical_friend = ENG
 1444.11.11= {
@@ -15,7 +15,7 @@ historical_friend = ENG
 		mil = 4
 		birth_date = 1425.11.8
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_ruler_personality = infertile_personality
 	add_ruler_personality = zealot_personality
@@ -30,7 +30,7 @@ historical_friend = ENG
 		death_date = 1498.1.2
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	add_heir_personality = infertile_personality
 	add_heir_personality = pious_personality

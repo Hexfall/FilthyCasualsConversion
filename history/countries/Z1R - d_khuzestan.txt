@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = nomad_group
+technology_group = ottoman
 religion = catholic
-primary_culture = dynamic-oghuz-culture-num2
+primary_culture = persane
 capital = 412
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 4
 		birth_date = 1417.1.12
 		religion = catholic
-		culture = dynamic-oghuz-culture-num2
+		culture = persane
 	}
 	add_ruler_personality = intricate_web_weaver_personality
 	add_ruler_personality = secretive_personality
@@ -30,7 +30,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1447.6.5
 		female = yes
 		religion = catholic
-		culture = dynamic-oghuz-culture-num2
+		culture = persane
 	}
 	add_queen_personality = cruel_personality
 	add_queen_personality = drunkard_personality

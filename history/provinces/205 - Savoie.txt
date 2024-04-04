@@ -1,8 +1,8 @@
 owner = LOT
 controller = LOT
-capital = "Chambéry"
+capital = "Chambï¿½ry"
 is_city = yes
-culture = dynamic-franconian-culture-num1
+culture = rhinelander
 religion = catholic
 trade_goods = cloth
 fort_15th = yes

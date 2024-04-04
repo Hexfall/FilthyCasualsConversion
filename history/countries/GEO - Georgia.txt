@@ -30,7 +30,7 @@ add_accepted_culture = armenian
 		death_date = 1463.9.5
 		female = yes
 		religion = orthodox
-		culture = dynamic-greek-uzbehk-tajik-culture-num1
+		culture = rumaioi
 	}
 	add_queen_personality = secretive_personality
 	add_queen_personality = silver_tongue_personality

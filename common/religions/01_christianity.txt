@@ -66,7 +66,6 @@ christian = {
 			heir_chance = 1
 			manpower_recovery_speed = 0.1
 		}
-		hre_heretic_religion = yes
 		
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		
@@ -120,7 +119,6 @@ christian = {
 			global_unrest = -2
 			global_autonomy = -0.05
 		}
-		hre_heretic_religion = yes
 		
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		
@@ -142,7 +140,6 @@ christian = {
 			diplomatic_reputation = 1
 			advisor_pool = 1
 		}
-		hre_religion = yes
 		
 		
 		on_convert = {
@@ -436,7 +433,6 @@ christian = {
 			yearly_corruption = -0.1
 			advisor_pool = 1
 		}
-		hre_heretic_religion = yes
 		
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		
@@ -487,8 +483,7 @@ christian = {
 			global_unrest = -1
 			technology_cost = -0.1
 		}
-		
-		hre_heretic_religion = yes
+
 		fervor = yes
 		
 		heretic = { BOGOMILIST FRATICELLI HUSSITE LOLLARD SOCINIAN }
@@ -524,7 +519,6 @@ christian = {
 		country_as_secondary = {
 			stability_cost_modifier = -0.2
 		}
-		hre_heretic_religion = yes
 		
 		fervor = yes
 		

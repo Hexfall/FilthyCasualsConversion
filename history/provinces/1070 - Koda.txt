@@ -1,5 +1,5 @@
-owner = Z0R
-controller = Z0R
+owner = 
+controller = 
 capital = "Narim"
 is_city = yes
 culture = georgian
@@ -8,7 +8,7 @@ trade_goods = gold
 base_tax = 2
 base_production = 8
 base_manpower = 1
-add_core = Z0R
+add_core = 
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

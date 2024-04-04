@@ -1,0 +1,22 @@
+pagan = {
+	vidilist = {
+		color = { 112 84 160 }
+		icon =  174
+		country = {
+			land_morale = 0.1
+			diplomatic_reputation = 1
+			build_cost = 0.1
+			war_exhaustion = -0.1
+			tolerance_heathen = -1
+		}
+		country_as_secondary = {
+			land_morale = 0.1
+			diplomatic_reputation = 1
+		}
+		province = {
+			local_manpower_modifier = 0.1
+		}
+		heretic = { DIEVANS }
+	}
+}
+

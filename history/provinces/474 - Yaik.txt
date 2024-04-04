@@ -1,5 +1,5 @@
-owner = Z0W
-controller = Z0W
+owner = Z2M
+controller = Z2M
 capital = "Yaik"
 is_city = yes
 culture = cuman
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = CMN
-add_core = Z0W
+add_core = Z2M
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

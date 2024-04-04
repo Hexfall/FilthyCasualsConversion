@@ -1,9 +1,9 @@
 owner = POL
 controller = POL
-capital = "Tarnów"
+capital = "Tarnï¿½w"
 is_city = yes
 culture = polish
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = grain
 fort_15th = yes
 base_tax = 1

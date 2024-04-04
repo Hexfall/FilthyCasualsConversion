@@ -1,9 +1,9 @@
 owner = Z1K
 controller = Z1K
-capital = "Frösön"
+capital = "Frï¿½sï¿½n"
 is_city = yes
 culture = norwegian
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = fur
 base_tax = 1
 base_production = 3

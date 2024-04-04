@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
+technology_group = ottoman
 religion = golden_path
-primary_culture = dynamic-outremer-culture-num3
+primary_culture = meccan
 capital = 385
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 385
 		mil = 5
 		birth_date = 1389.10.11
 		religion = golden_path
-		culture = dynamic-outremer-culture-num3
+		culture = meccan
 	}
 	add_ruler_personality = architectural_visionary_personality
 	add_ruler_personality = obsessive_perfectionist_personality
@@ -44,7 +44,7 @@ capital = 385
 		death_date = 1509.8.27
 		claim = 89
 		religion = golden_path
-		culture = dynamic-outremer-culture-num3
+		culture = meccan
 	}
 	add_heir_personality = free_thinker_personality
 	add_heir_personality = tactical_genius_personality

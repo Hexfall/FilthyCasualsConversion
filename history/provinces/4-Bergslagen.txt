@@ -1,9 +1,9 @@
 owner = SWE
 controller = SWE
-capital = "Västerås"
+capital = "Vï¿½sterï¿½s"
 is_city = yes
-culture = dynamic-finnish-culture-num1
-religion = converted_dynamic_faith_110
+culture = bothnian
+religion = vidilist
 trade_goods = iron
 base_tax = 5
 base_production = 4

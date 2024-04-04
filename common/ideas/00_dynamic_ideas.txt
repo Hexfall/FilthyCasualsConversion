@@ -39,44 +39,6 @@ dynamic-bedouin_arabic-somali-culture-num1_ideas = {
 }
 
 
-dynamic-bedouin_arabic-berber-culture-num1_ideas = {
-	start = {
-		 monarch_lifespan = 0.1
-		 all_estate_loyalty_equilibrium = 0.05
-	}
-	trigger = {
-		culture = dynamic-bedouin_arabic-berber-culture-num1
-	}
-	free = yes
-
-	tradition_desert_ribat = {
-		special_unit_forcelimit = 0.05
-		fort_maintenance_modifier = -0.05
-	}
-	tradition_tribe_unity = {
-		governing_cost = 0.8
-	}
-	tradition_equal_inheritance = {
-		female_advisor_chance = 0.5
-	}
-	tradition_african_tolerance = {
-		religious_unity = 0.5
-	}
-	tradition_caravaneers = {
-		caravan_power = 0.2
-	}
-	tradition_desert_nomads = {
-		cavalry_shock = 1
-	}
-	tradition_modest = {
-		administrative_efficiency = 0.1
-	}
-	bonus = {
-		discipline = 0.025
-	}
-}
-
-
 dynamic-andalucian-culture-num1_ideas = {
 	start = {
 		 monthly_splendor = 1
@@ -274,84 +236,6 @@ dynamic-tibetan-kashmiri-culture-num1_ideas = {
 }
 
 
-dynamic-norse-culture-num1_ideas = {
-	start = {
-		 same_culture_advisor_cost = -0.25
-		 global_heretic_missionary_strength = 0.03
-	}
-	trigger = {
-		culture = dynamic-norse-culture-num1
-	}
-	free = yes
-
-	tradition_things = {
-		reform_progress_growth = 0.1
-		nobles_influence_modifier = 0.05
-	}
-	tradition_isolationist = {
-		stability_cost_modifier = -0.25
-		diplomatic_upkeep = -1
-	}
-	tradition_fishermen = {
-		center_of_trade_upgrade_cost = -0.1
-	}
-	tradition_eye_for_an_eye = {
-		spy_offence = 0.1
-		power_projection_from_insults = 0.2
-	}
-	tradition_poetry = {
-		dip_tech_cost_modifier = -0.15
-	}
-	tradition_noble_adoption = {
-		heir_chance = 0.50
-	}
-	tradition_swords_for_hire = {
-		possible_condottieri = 1
-	}
-	bonus = {
-		institution_spread_from_true_faith = 0.15
-	}
-}
-
-
-dynamic-bedouin_arabic-culture-num1_ideas = {
-	start = {
-		 num_accepted_cultures = 1
-		 advisor_pool = 1
-	}
-	trigger = {
-		culture = dynamic-bedouin_arabic-culture-num1
-	}
-	free = yes
-
-	tradition_tribe_unity = {
-		governing_cost = 0.8
-	}
-	tradition_mubarizuns = {
-		special_unit_forcelimit = 0.05
-		reserves_organisation = 0.05
-	}
-	tradition_ep2_avid_falconers = {
-		prestige = 0.5
-	}
-	tradition_dryland_dwellers = {
-		development_cost = -0.1
-	}
-	tradition_charitable = {
-		monthly_favor_modifier = 0.1
-	}
-	tradition_xenophilic = {
-		num_accepted_cultures = 1
-	}
-	tradition_astute_diplomats = {
-		diplomats = 1
-	}
-	bonus = {
-		discipline = 0.025
-	}
-}
-
-
 dynamic-mali-bozo-culture-num1_ideas = {
 	start = {
 		 same_culture_advisor_cost = -0.25
@@ -390,13 +274,13 @@ dynamic-mali-bozo-culture-num1_ideas = {
 }
 
 
-dynamic-estonian-lithuanian-culture-num1_ideas = {
+baltic_culture_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-estonian-lithuanian-culture-num1
+		culture = baltic_culture
 	}
 	free = yes
 
@@ -821,13 +705,13 @@ dynamic-buryat-kirgiz-culture-num1_ideas = {
 }
 
 
-dynamic-irish-norwegian-culture-num1_ideas = {
+vestmenn_ideas = {
 	start = {
 		 monthly_splendor = 1
 		 power_projection_from_insults = 0.2
 	}
 	trigger = {
-		culture = dynamic-irish-norwegian-culture-num1
+		culture = vestmenn
 	}
 	free = yes
 
@@ -862,54 +746,13 @@ dynamic-irish-norwegian-culture-num1_ideas = {
 }
 
 
-dynamic-estonian-lithuanian-culture-num2_ideas = {
-	start = {
-		 same_culture_advisor_cost = -0.25
-		 global_heretic_missionary_strength = 0.03
-	}
-	trigger = {
-		culture = dynamic-estonian-lithuanian-culture-num2
-	}
-	free = yes
-
-	tradition_winter_warriors = {
-		land_attrition = -0.10
-	}
-	tradition_druzhina = {
-		special_unit_forcelimit = 0.05
-		infantry_shock = 1
-	}
-	tradition_zealous_people = {
-		cb_on_religious_enemies = yes
-	}
-	tradition_fp1_coastal_warriors = {
-		global_sailors_modifier = 0.1
-		sailors_recovery_speed = 0.1
-	}
-	tradition_forest_wardens = {
-		special_unit_forcelimit = 0.05
-		infantry_fire = 1
-	}
-	tradition_sacred_groves = {
-		monthly_splendor = 1.5
-		development_cost = 0.05
-	}
-	tradition_hard_working = {
-		build_cost = -0.1
-	}
-	bonus = {
-		possible_condottieri = 1
-	}
-}
-
-
-dynamic-franconian-italian-culture-num1_ideas = {
+tuscan_ideas = {
 	start = {
 		 monthly_splendor = 1
 		 power_projection_from_insults = 0.2
 	}
 	trigger = {
-		culture = dynamic-franconian-italian-culture-num1
+		culture = tuscan
 	}
 	free = yes
 
@@ -1013,43 +856,6 @@ dynamic-sumpa-culture-num1_ideas = {
 	}
 	bonus = {
 		global_tax_modifier = 0.05
-	}
-}
-
-
-dynamic-highland_scottish-norwegian-culture-num1_ideas = {
-	start = {
-		 yearly_army_professionalism = 0.01
-		 land_forcelimit = 4
-	}
-	trigger = {
-		culture = dynamic-highland_scottish-norwegian-culture-num1
-	}
-	free = yes
-
-	tradition_highland_warriors = {
-		global_supply_limit_modifier = 0.10
-	}
-	tradition_strong_kinship = {
-		diplomatic_reputation = 2
-	}
-	tradition_maritime_mercantilism = {
-		mercantilism_cost = -0.2
-	}
-	tradition_sacred_hunts = {
-		tolerance_own = 2
-	}
-	tradition_runestones = {
-		great_project_upgrade_cost = -0.2
-	}
-	tradition_storytellers = {
-		possible_dip_policy = 1
-	}
-	tradition_fishermen = {
-		center_of_trade_upgrade_cost = -0.1
-	}
-	bonus = {
-		may_explore = yes
 	}
 }
 
@@ -1173,13 +979,13 @@ dynamic-bashkir-uralic-culture-num1_ideas = {
 }
 
 
-dynamic-norwegian-scottish-culture-num1_ideas = {
+halendingur_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-norwegian-scottish-culture-num1
+		culture = halendingur
 	}
 	free = yes
 
@@ -1406,13 +1212,13 @@ dynamic-aka-yorumba-culture-num1_ideas = {
 }
 
 
-dynamic-franconian-culture-num1_ideas = {
+rhinelander_ideas = {
 	start = {
 		 monthly_splendor = 1
 		 power_projection_from_insults = 0.2
 	}
 	trigger = {
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	free = yes
 
@@ -1521,13 +1327,13 @@ dynamic-uzbehk-uralic-culture-num1_ideas = {
 }
 
 
-dynamic-franconian-sorbian-culture-num1_ideas = {
+franaczky_ideas = {
 	start = {
 		 monthly_splendor = 1
 		 power_projection_from_insults = 0.2
 	}
 	trigger = {
-		culture = dynamic-franconian-sorbian-culture-num1
+		culture = franaczky
 	}
 	free = yes
 
@@ -1795,13 +1601,13 @@ dynamic-mali-dyola-culture-num1_ideas = {
 }
 
 
-dynamic-bavarian-slovene-culture-num1_ideas = {
+carinthian_ideas = {
 	start = {
 		 missionaries = 1
 		 religious_unity = 0.10
 	}
 	trigger = {
-		culture = dynamic-bavarian-slovene-culture-num1
+		culture = carinthian
 	}
 	free = yes
 
@@ -1832,13 +1638,13 @@ dynamic-bavarian-slovene-culture-num1_ideas = {
 }
 
 
-dynamic-bavarian-czech-culture-num1_ideas = {
+ceskobavorsky_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-bavarian-czech-culture-num1
+		culture = ceskobavorsky
 	}
 	free = yes
 
@@ -1947,13 +1753,13 @@ dynamic-aka-bozo-culture-num1_ideas = {
 }
 
 
-dynamic-greek-culture-num2_ideas = {
+latin_culture_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-greek-culture-num2
+		culture = latin_culture
 	}
 	free = yes
 
@@ -1984,13 +1790,13 @@ dynamic-greek-culture-num2_ideas = {
 }
 
 
-dynamic-finnish-culture-num1_ideas = {
+bothnian_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-finnish-culture-num1
+		culture = bothnian
 	}
 	free = yes
 
@@ -2024,13 +1830,13 @@ dynamic-finnish-culture-num1_ideas = {
 }
 
 
-dynamic-estonian-lithuanian-culture-num3_ideas = {
+baltoruth_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-estonian-lithuanian-culture-num3
+		culture = baltoruth
 	}
 	free = yes
 
@@ -2104,13 +1910,13 @@ dynamic-mali-culture-num1_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num1_ideas = {
+west_latin_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num1
+		culture = west_latin
 	}
 	free = yes
 
@@ -2261,13 +2067,13 @@ dynamic-aka-culture-num1_ideas = {
 }
 
 
-dynamic-outremer-culture-num1_ideas = {
+cypriot_ideas = {
 	start = {
 		 same_culture_advisor_cost = -0.25
 		 global_heretic_missionary_strength = 0.03
 	}
 	trigger = {
-		culture = dynamic-outremer-culture-num1
+		culture = cypriot
 	}
 	free = yes
 
@@ -2301,13 +2107,13 @@ dynamic-outremer-culture-num1_ideas = {
 }
 
 
-dynamic-outremer-yemeni_culture-culture-num1_ideas = {
+yemeni_outremer_ideas = {
 	start = {
 		 same_culture_advisor_cost = -0.25
 		 global_heretic_missionary_strength = 0.03
 	}
 	trigger = {
-		culture = dynamic-outremer-yemeni_culture-culture-num1
+		culture = yemeni_outremer
 	}
 	free = yes
 
@@ -2341,13 +2147,13 @@ dynamic-outremer-yemeni_culture-culture-num1_ideas = {
 }
 
 
-dynamic-bedouin_arabic-culture-num3_ideas = {
+gulfe_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-bedouin_arabic-culture-num3
+		culture = gulfe
 	}
 	free = yes
 
@@ -2380,13 +2186,13 @@ dynamic-bedouin_arabic-culture-num3_ideas = {
 }
 
 
-dynamic-outremer-culture-num2_ideas = {
+mesopotamien_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-outremer-culture-num2
+		culture = mesopotamien
 	}
 	free = yes
 
@@ -2461,13 +2267,13 @@ dynamic-nupe-culture-num1_ideas = {
 }
 
 
-dynamic-outremer-culture-num3_ideas = {
+meccan_ideas = {
 	start = {
 		 monarch_lifespan = 0.1
 		 all_estate_loyalty_equilibrium = 0.05
 	}
 	trigger = {
-		culture = dynamic-outremer-culture-num3
+		culture = meccan
 	}
 	free = yes
 
@@ -2500,13 +2306,13 @@ dynamic-outremer-culture-num3_ideas = {
 }
 
 
-dynamic-greek-uzbehk-tajik-culture-num1_ideas = {
+rumaioi_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-greek-uzbehk-tajik-culture-num1
+		culture = rumaioi
 	}
 	free = yes
 
@@ -2539,13 +2345,13 @@ dynamic-greek-uzbehk-tajik-culture-num1_ideas = {
 }
 
 
-dynamic-oghuz-culture-num2_ideas = {
+persane_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-oghuz-culture-num2
+		culture = persane
 	}
 	free = yes
 
@@ -2578,13 +2384,13 @@ dynamic-oghuz-culture-num2_ideas = {
 }
 
 
-dynamic-greek-culture-num3_ideas = {
+neopolitan_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-greek-culture-num3
+		culture = neopolitan
 	}
 	free = yes
 
@@ -2615,13 +2421,13 @@ dynamic-greek-culture-num3_ideas = {
 }
 
 
-dynamic-greek-culture-num4_ideas = {
+ravennan_ideas = {
 	start = {
 		 yearly_army_professionalism = 0.01
 		 land_forcelimit = 4
 	}
 	trigger = {
-		culture = dynamic-greek-culture-num4
+		culture = ravennan
 	}
 	free = yes
 
@@ -2652,13 +2458,13 @@ dynamic-greek-culture-num4_ideas = {
 }
 
 
-dynamic-franconian-italian-culture-num2_ideas = {
+anconan_ideas = {
 	start = {
 		 yearly_corruption = -0.1
 		 state_maintenance_modifier = -0.1
 	}
 	trigger = {
-		culture = dynamic-franconian-italian-culture-num2
+		culture = anconan
 	}
 	free = yes
 
@@ -2686,44 +2492,6 @@ dynamic-franconian-italian-culture-num2_ideas = {
 	}
 	bonus = {
 		heir_chance = 0.50
-	}
-}
-
-
-dynamic-italian-culture-num1_ideas = {
-	start = {
-		 monthly_splendor = 1
-		 power_projection_from_insults = 0.2
-	}
-	trigger = {
-		culture = dynamic-italian-culture-num1
-	}
-	free = yes
-
-	tradition_republican_legacy = {
-		burghers_loyalty_modifier = 0.1
-		republican_tradition = 0.5
-	}
-	tradition_mountain_homes = {
-		development_cost = -0.1
-	}
-	tradition_maritime_mercantilism = {
-		mercantilism_cost = -0.2
-	}
-	tradition_mountaineers = {
-		global_supply_limit_modifier = 0.10
-	}
-	tradition_ep2_avid_falconers = {
-		prestige = 0.5
-	}
-	tradition_hard_working = {
-		build_cost = -0.1
-	}
-	tradition_zealous_people = {
-		cb_on_religious_enemies = yes
-	}
-	bonus = {
-		discipline = 0.025
 	}
 }
 
@@ -2766,13 +2534,13 @@ dynamic-greek-culture-num5_ideas = {
 }
 
 
-dynamic-bedouin_arabic-outremer-culture-num1_ideas = {
+omane_ideas = {
 	start = {
 		 monarch_lifespan = 0.1
 		 all_estate_loyalty_equilibrium = 0.05
 	}
 	trigger = {
-		culture = dynamic-bedouin_arabic-outremer-culture-num1
+		culture = omane
 	}
 	free = yes
 
@@ -2806,13 +2574,13 @@ dynamic-bedouin_arabic-outremer-culture-num1_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num2_ideas = {
+betican_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num2
+		culture = betican
 	}
 	free = yes
 
@@ -2846,13 +2614,13 @@ dynamic-castillian-english-cosmopolitan_french-culture-num2_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num3_ideas = {
+lusitanian_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num3
+		culture = lusitanian
 	}
 	free = yes
 
@@ -2886,13 +2654,13 @@ dynamic-castillian-english-cosmopolitan_french-culture-num3_ideas = {
 }
 
 
-dynamic-castillian-english-cosmopolitan_french-culture-num4_ideas = {
+terraconense_ideas = {
 	start = {
 		 num_accepted_cultures = 1
 		 advisor_pool = 1
 	}
 	trigger = {
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
+		culture = terraconense
 	}
 	free = yes
 

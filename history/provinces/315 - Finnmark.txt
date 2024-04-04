@@ -1,9 +1,9 @@
 owner = SMI
 controller = SMI
-capital = "Vardø"
+capital = "Vardï¿½"
 is_city = yes
 culture = sapmi
-religion = converted_dynamic_faith_110
+religion = vidilist
 trade_goods = fish
 base_tax = 1
 base_production = 2

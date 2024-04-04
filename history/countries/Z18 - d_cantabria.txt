@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = chalcedonian
-primary_culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
+primary_culture = terraconense
 capital = 1745
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
@@ -15,7 +15,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		mil = 5
 		birth_date = 1369.7.6
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
+		culture = terraconense
 	}
 	add_ruler_personality = entrepreneur_personality
 	add_ruler_personality = scholar_personality
@@ -30,7 +30,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1481.9.7
 		female = yes
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
+		culture = terraconense
 	}
 	add_queen_personality = fertile_personality
 	add_queen_personality = kind_hearted_personality
@@ -45,7 +45,7 @@ set_country_flag = ZZZ_generated_converter_nation
 		death_date = 1489.6.25
 		claim = 89
 		religion = chalcedonian
-		culture = dynamic-castillian-english-cosmopolitan_french-culture-num4
+		culture = terraconense
 	}
 	add_heir_personality = infertile_personality
 	add_heir_personality = martial_educator_personality

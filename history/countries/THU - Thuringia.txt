@@ -31,7 +31,7 @@ add_accepted_culture = hessian
 		death_date = 1480.12.19
 		claim = 89
 		religion = catholic
-		culture = dynamic-franconian-culture-num1
+		culture = rhinelander
 	}
 	add_heir_personality = pious_personality
 	add_heir_personality = zealot_personality

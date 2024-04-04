@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
-religion = converted_dynamic_faith_110
+religion = vidilist
 primary_culture = romanian
 capital = 2405
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 2405
 		dip = 5
 		mil = 2
 		birth_date = 1398.9.8
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = romanian
 	}
 	add_ruler_personality = infertile_personality
@@ -28,8 +28,8 @@ capital = 2405
 		birth_date = 1406.5.1
 		death_date = 1466.5.1
 		female = yes
-		religion = converted_dynamic_faith_110
-		culture = dynamic-estonian-lithuanian-culture-num2
+		religion = vidilist
+		culture = romanian
 	}
 	add_queen_personality = bold_fighter_personality
 	add_queen_personality = drunkard_personality
@@ -43,7 +43,7 @@ capital = 2405
 		birth_date = 1434.2.24
 		death_date = 1499.2.24
 		claim = 89
-		religion = converted_dynamic_faith_110
+		religion = vidilist
 		culture = romanian
 	}
 	add_heir_personality = industrious_personality

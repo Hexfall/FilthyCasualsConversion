@@ -10,7 +10,6 @@ base_tax = 5
 base_production = 3
 base_manpower = 3
 add_core = GUY
-add_core = PRO
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

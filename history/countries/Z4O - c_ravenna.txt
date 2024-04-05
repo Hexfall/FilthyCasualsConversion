@@ -7,7 +7,6 @@ primary_culture = west_latin
 capital = 114
 fixed_capital = 114
 add_accepted_culture = tuscan
-elector = yes
 set_country_flag = ZZZ_generated_converter_nation
 1444.11.11= {
 	monarch = {

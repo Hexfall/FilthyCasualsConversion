@@ -11,7 +11,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 3
 add_core = LOT
-add_core = PRO
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western

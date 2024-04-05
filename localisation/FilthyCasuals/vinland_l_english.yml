@@ -1,2 +1,9 @@
-l_english:
+﻿l_english:
  vinlander:0 "Vinlander"
+ marklander:0 "Marklander"
+ hellulander:0 "Hellulander"
+ silvmenn:0 "Silvmenn"
+ stillemenn:0 "Stillemenn"
+ random_event.EVTDESC2G:1 "As time goes by the ties between the our former homeland and the colonies grow weaker. The settlers in [vinlander_province.GetName] barely associate themselves with their ancestral home any more. They now prefer to think of themselves as something new, and this sentiment is beginning to spread throughout [vinlander_province.GetAreaName]."
+ random_event.EVTOPTA2G:1 "Embrace colonial Scandinavian culture."
+ vinland_events.1.b:1 "We should maintain our traditional culture."

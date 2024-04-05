@@ -1,55 +1,47 @@
-outremer_ideas = {
+vestland_ideas = {
 	start = {
-		global_missionary_strength = 0.02
-		land_morale = 0.15
-		female_advisor_chance = .5
-		may_recruit_female_generals = yes
+		range = 0.4
+		may_explore = yes
 	}
 
 	bonus = {
-		culture_conversion_cost = -0.15
+		free_maintenance_on_expl_conq = yes
+		reduced_liberty_desire_on_other_continent = 30
 	}
 
 	trigger = {
 		OR = {
 			tag = IRE
 			tag = SCO
-			tag = 
-			tag = 
-			tag = 
-			tag = 
-			tag = 
 		}
 	}
 	free = yes
 
-	outremer_tech_cost = {
-		technology_cost = -0.1
-		innovativeness_gain = 0.333
+	huscarl_sailors = {
+		naval_maintenance_modifier = -0.1
+		global_sailors_modifier = 0.2	
+		infantry_power = 0.20
 	}
-	costodians_of_the_holy_land = {
-		papal_influence = 2
-		curia_powers_cost = -0.1
-        yearly_patriarch_authority = 0.005
-		monthly_fervor_increase = 2
-		church_power_modifier = 0.25
+	merchant_jarls = {
+		global_ship_trade_power = 0.2
+		ship_power_propagation = 0.1
+        trade_value_modifier = 0.1
 	}
-	frontier_state = {
+	go_vest = {
+		global_colonial_growth = 25
+	}
+	for_green_and_country = {
+		land_morale = 0.10
+	}
+	sell_the_taters = {
+		trade_efficiency = 0.1
+	}
+	crossroad_diplomat = {
 		discipline = 0.05
 	}
-	land_of_the_heathen = {
-		missionaries = 1
-		missionary_maintenance_cost = -0.25
-	}
-	guns_of_hebron = {
-		siege_ability = 0.2
-	}
-	crossroads_diplomats = {
-		diplomats = 1
- 		envoy_travel_time = -0.20
-	}
-	gateway_of_christendom = {
-		global_prov_trade_power_modifier = 0.1
-		caravan_power = 0.2
+	invest_in_the_homeland = {
+		global_prosperity_growth = 0.2
+	    expand_infrastructure_cost_modifier = -0.25
+		core_creation = 0.1
 	}
 }

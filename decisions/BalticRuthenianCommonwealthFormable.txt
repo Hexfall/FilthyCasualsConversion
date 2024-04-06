@@ -5,7 +5,12 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { exists = BRC }
-			culture_group = baltic
+			OR = {
+				tag = Z01
+				tag = KIE
+				tag = VOL
+			}
+			culture = baltoruth
 			religion = vidilist
 		}
 		provinces_to_highlight = {
@@ -129,19 +134,34 @@ country_decisions = {
 				value = 48
 			}
 			KIE = {
-				NOT = { liberty_desire = 25 } 
+				OR = {
+					NOT = { liberty_desire = 25 }
+					NOT = { is_subject_of = ROOT }
+				}
 			}
 			SMO = {
-				NOT = { liberty_desire = 25 } 
+				OR = {
+					NOT = { liberty_desire = 25 }
+					NOT = { is_subject_of = ROOT }
+				}
 			}
 			VOL = {
-				NOT = { liberty_desire = 25 } 
+				OR = {
+					NOT = { liberty_desire = 25 }
+					NOT = { is_subject_of = ROOT }
+				}
 			}
 			Z1A = {
-				NOT = { liberty_desire = 25 } 
+				OR = {
+					NOT = { liberty_desire = 25 } 
+					NOT = { is_subject_of = ROOT }
+				}
 			}
 			YAR = {
-				NOT = { liberty_desire = 25 } 
+				OR = {
+					NOT = { liberty_desire = 25 } 
+					NOT = { is_subject_of = ROOT }
+				}
 			}
 		}
 		effect = {

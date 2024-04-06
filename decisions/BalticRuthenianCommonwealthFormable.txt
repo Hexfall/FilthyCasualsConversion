@@ -128,6 +128,21 @@ country_decisions = {
                 }
 				value = 48
 			}
+			KIE = {
+				NOT = { liberty_desire = 25 } 
+			}
+			SMO = {
+				NOT = { liberty_desire = 25 } 
+			}
+			VOL = {
+				NOT = { liberty_desire = 25 } 
+			}
+			Z1A = {
+				NOT = { liberty_desire = 25 } 
+			}
+			YAR = {
+				NOT = { liberty_desire = 25 } 
+			}
 		}
 		effect = {
             change_tag = BRC

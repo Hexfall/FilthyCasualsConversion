@@ -1,0 +1,233 @@
+country_decisions = {
+	baltoruth_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = BRC }
+			culture_group = baltic
+			religion = vidilist
+		}
+		provinces_to_highlight = {
+			AND = {
+				NOT = { # Don't bother showing provinces already own by root
+					country_or_non_sovereign_subject_holds = root
+				}
+				OR = {
+					AND = { # If already owns all important provinces, show provinces in regions needed for threshold
+						root = {
+							owns_or_non_sovereign_subject_of = 1841
+							owns_or_non_sovereign_subject_of = 271
+							owns_or_non_sovereign_subject_of = 4534
+							owns_or_non_sovereign_subject_of = 272
+							owns_or_non_sovereign_subject_of = 1941
+							owns_or_non_sovereign_subject_of = 280
+							owns_or_non_sovereign_subject_of = 293
+							owns_or_non_sovereign_subject_of = 411
+							OR = {
+								owns_or_non_sovereign_subject_of = 261
+								owns_or_non_sovereign_subject_of = 308
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 4538
+								owns_or_non_sovereign_subject_of = 301
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 257
+								owns_or_non_sovereign_subject_of = 1935
+							}
+						}
+						root = {
+							NOT = {
+								num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+									country_or_non_sovereign_subject_holds = ROOT
+									OR = {
+										region = baltic_region
+										region = ruthenia_region
+									}
+									value = 48
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							root = {
+								owns_or_non_sovereign_subject_of = 1841
+								owns_or_non_sovereign_subject_of = 271
+								owns_or_non_sovereign_subject_of = 4534
+								owns_or_non_sovereign_subject_of = 272
+								owns_or_non_sovereign_subject_of = 1941
+								owns_or_non_sovereign_subject_of = 280
+								owns_or_non_sovereign_subject_of = 293
+								owns_or_non_sovereign_subject_of = 411
+								OR = {
+									owns_or_non_sovereign_subject_of = 261
+									owns_or_non_sovereign_subject_of = 308
+								}
+								OR = {
+									owns_or_non_sovereign_subject_of = 4538
+									owns_or_non_sovereign_subject_of = 301
+								}
+								OR = {
+									owns_or_non_sovereign_subject_of = 257
+									owns_or_non_sovereign_subject_of = 1935
+								}
+							}
+						}
+						OR = {
+							province_id = 1841	# Marienburg
+							province_id = 271	# Samogitia
+							province_id = 4534	# Upita
+							province_id = 272	# Vilna
+							province_id = 1941	# Turov
+							province_id = 280	# Kiev
+							province_id = 293	# Smolensk
+							province_id = 270	# Trakai
+							province_id = 261
+                            province_id = 308
+							province_id = 4538
+                            province_id = 301
+							province_id = 257
+                            province_id = 1935
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_or_non_sovereign_subject_of = 1841	# Marienburg
+            owns_or_non_sovereign_subject_of = 271	# Samogitia
+            owns_or_non_sovereign_subject_of = 4534	# Upita
+            owns_or_non_sovereign_subject_of = 272	# Vilna
+            owns_or_non_sovereign_subject_of = 1941	# Turov
+            owns_or_non_sovereign_subject_of = 280	# Kiev
+            owns_or_non_sovereign_subject_of = 293	# Smolensk
+            owns_or_non_sovereign_subject_of = 270	# Trakai
+			OR = {
+				owns_or_non_sovereign_subject_of = 261 
+				owns_or_non_sovereign_subject_of = 308
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 4538
+				owns_or_non_sovereign_subject_of = 301
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 257
+				owns_or_non_sovereign_subject_of = 1935	
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    region = baltic_region
+                    region = ruthenia_region
+                }
+				value = 48
+			}
+			KIE = {
+				NOT = { liberty_desire = 25 } 
+			}
+			SMO = {
+				NOT = { liberty_desire = 25 } 
+			}
+			VOL = {
+				NOT = { liberty_desire = 25 } 
+			}
+			Z1A = {
+				NOT = { liberty_desire = 25 } 
+			}
+			YAR = {
+				NOT = { liberty_desire = 25 } 
+			}
+		}
+		effect = {
+            change_tag = BRC
+			on_change_tag_effect = yes
+			restore_country_name_effect = yes
+			if = {
+				limit = {
+					SMO = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = SMO
+			}
+			if = {
+				limit = {
+					KIE = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = KIE
+			}
+			if = {
+				limit = {
+					VOL = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = VOL
+			}
+			if = {
+				limit = {
+					Z1A = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = Z1A
+			}
+			if = {
+				limit = {
+					YAR = {
+						is_subject_of = ROOT
+						NOT = { total_development = 201 }
+					}
+				}
+				inherit = YAR
+			}
+			baltic_region = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			ruthenia_region = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            270 = {
+                change_trade_goods = glass
+				center_of_trade = 2
+            }
+			add_prestige = 10
+			set_capital = 270
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = baltica_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_importance = 400
+	}
+}

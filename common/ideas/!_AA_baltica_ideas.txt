@@ -6,6 +6,8 @@ baltica_ideas = {
 	trigger = {
 		OR = {
 			tag = Z01
+			tag = BRC
+			culture = baltoruth
 		}
 	}
 	free = yes

@@ -954,3 +954,4 @@ caliphate_reform = {
 		enables_aristocratic_idea_group = no
 		maintain_dynasty = yes
 	}
+}

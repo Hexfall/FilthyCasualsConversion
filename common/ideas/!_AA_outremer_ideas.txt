@@ -2,7 +2,7 @@ outremer_ideas = {
 	start = {
 		global_missionary_strength = 0.02
 		land_morale = 0.15
-		female_advisor_chance = .5
+		female_advisor_chance = 0.5
 		may_recruit_female_generals = yes
 	}
 

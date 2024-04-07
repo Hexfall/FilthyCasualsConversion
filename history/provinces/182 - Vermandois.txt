@@ -1,8 +1,8 @@
-owner = NRM
-controller = NRM
+owner = CHP
+controller = CHP
 capital = "Soissons"
 is_city = yes
-culture = normand
+culture = cosmopolitan_french
 religion = catholic
 trade_goods = livestock
 hre = yes

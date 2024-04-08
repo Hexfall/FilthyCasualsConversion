@@ -9,6 +9,7 @@ historical_friend = Z0I
 historical_rival = CAS
 historical_friend = Z13
 historical_friend = MRC
+historical_friend = NRM
 historical_friend = CRN
 1444.11.11= {
 	monarch = {

@@ -5,6 +5,7 @@ technology_group = western
 religion = chalcedonian
 primary_culture = normand
 capital = 167
+historical_friend = ENG
 1444.11.11= {
 	monarch = {
 		name = "Henri"

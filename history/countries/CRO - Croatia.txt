@@ -5,6 +5,11 @@ technology_group = eastern
 religion = vidilist
 primary_culture = bosnian
 capital = 140
+
+historical_friend = SER
+historical_friend = HUN
+historical_rival = Z0O
+
 1444.11.11= {
 	monarch = {
 		name = "Prijezda"

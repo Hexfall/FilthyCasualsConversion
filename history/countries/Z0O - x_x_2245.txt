@@ -7,6 +7,7 @@ primary_culture = rhinelander
 capital = 1873
 add_accepted_culture = swabian
 set_country_flag = ZZZ_generated_converter_nation
+historical_rival = CRO
 1444.11.11= {
 	monarch = {
 		name = "Katharina"

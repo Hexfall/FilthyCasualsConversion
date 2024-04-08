@@ -1,0 +1,45 @@
+mercantile_vidilist_ideas = {
+	start = {
+		trade_range_modifier = 0.25
+		trade_steering = 0.2
+	}
+	trigger = {
+		OR = {
+			tag = EST
+			tag = NOV
+            tag = FIN
+			tag = SWE
+		}
+	}
+	free = yes
+
+	defend_trade = {
+		galley_cost = -0.1
+		galley_power = 0.1
+	}
+	loyalty_through_vidilism = {
+		tolerance_own = 2
+	}
+	invest_in_trade = {
+		global_trade_power = 0.1
+	}
+	establish_relations = {
+		diplomats = 1
+		envoy_travel_time = -0.2
+	}
+	varangian_veterans2 = {
+		military_tactics = 0.1
+		infantry_power = 0.05
+	}
+	forest_construction2 = {
+		local_build_cost = -0.05
+		local_build_time = -0.10
+	}
+	table_of_ranks = {
+		advisor_cost = -0.10
+        leader_land_shock = 1
+	}
+	bonus = {
+		merchants = 1
+	}
+}

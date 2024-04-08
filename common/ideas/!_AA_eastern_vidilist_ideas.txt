@@ -1,0 +1,44 @@
+eastern_vidilist_ideas = {
+	start = {
+		 war_exhaustion = -0.10
+         warscore_from_battles_modifier = 0.1
+	}
+	trigger = {
+		OR = {
+			tag = BJA
+			tag = YAR
+            tag = MDV
+		}
+	}
+	free = yes
+
+	storage_culture = {
+		supply_limit_modifier = 0.25
+	}
+	loyalty_through_vidilism = {
+		tolerance_own = 2
+	}
+	winter_warfare = {
+		land_attrition = -0.20
+		attack_bonus_in_capital_terrain = 1
+	}
+	establish_relations = {
+		diplomats = 1
+		envoy_travel_time = -0.2
+	}
+	varangian_veterans2 = {
+		military_tactics = 0.1
+		infantry_power = 0.05
+	}
+	forest_construction2 = {
+		local_build_cost = -0.05
+		local_build_time = -0.10
+	}
+	table_of_ranks = {
+		advisor_cost = -0.10
+        leader_land_shock = 1
+	}
+	bonus = {
+        may_establish_frontier = yes
+	}
+}

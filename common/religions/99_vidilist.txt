@@ -11,18 +11,18 @@ pagan = {
 		}
 		heretic = { DIEVANS }
 		uses_judaism_power = yes
-		aspects_name = JEWISH_ASPECTS
+		aspects_name = VIDILIST_ASPECTS
 
 		aspects = {
-			judaism_rosh_hashanah_aspect
-			judaism_simchat_torah_aspect
-			judaism_sukkot_aspect
-			judaism_communities_aspect
-			jewish_abrahamic_aspect
-			judaism_diplomatic_rabbi_aspect
-			judaism_yom_kippur_aspect
-			judaism_remember_passover_aspect
-			judaism_purim_teachings_aspect
+			vidilist_aspect_adm_1
+			vidilist_aspect_adm_2
+			vidilist_aspect_adm_3
+			vidilist_aspect_dip_1
+			vidilist_aspect_dip_2
+			vidilist_aspect_dip_3
+			vidilist_aspect_mil_1
+			vidilist_aspect_mil_2
+			vidilist_aspect_mil_3
 		}
 
 		celebrate = {
@@ -33,14 +33,14 @@ pagan = {
 				custom_trigger_tooltip = {
 					tooltip = JUDAISM_HAS_ADM_ASPECT
 					OR = {
-						has_church_aspect = judaism_rosh_hashanah_aspect
-						has_church_aspect = judaism_simchat_torah_aspect
-						has_church_aspect = judaism_sukkot_aspect
+						has_church_aspect = vidilist_aspect_adm_1
+						has_church_aspect = vidilist_aspect_adm_2
+						has_church_aspect = vidilist_aspect_adm_3
 					}
 				}
 				if = {
 					limit = {
-						has_church_aspect = judaism_rosh_hashanah_aspect
+						has_church_aspect = vidilist_aspect_adm_1
 					}
 					NOT = { stability = 3 }
 				}
@@ -48,13 +48,13 @@ pagan = {
 			effect = {
 				if = {
 					limit = {
-						has_church_aspect = judaism_rosh_hashanah_aspect
+						has_church_aspect = vidilist_aspect_adm_1
 					}
 					add_stability = 1
 				}
 				if = {
 					limit = {
-						has_church_aspect = judaism_simchat_torah_aspect
+						has_church_aspect = vidilist_aspect_adm_2
 					}
 					change_government_reform_progress = 25
 					add_legitimacy_equivalent = {
@@ -70,7 +70,7 @@ pagan = {
 				}
 				if = {
 					limit = {
-						has_church_aspect = judaism_sukkot_aspect
+						has_church_aspect = vidilist_aspect_adm_3
 					}
 					add_years_of_income = 0.3
 					add_inflation = -1
@@ -97,14 +97,14 @@ pagan = {
 					factor = 0
 					OR = {
 						AND = {
-							NOT = { has_church_aspect = judaism_communities_aspect }
-							NOT = { has_church_aspect = jewish_abrahamic_aspect }
-							NOT = { has_church_aspect = judaism_diplomatic_rabbi_aspect }
+							NOT = { has_church_aspect = vidilist_aspect_dip_1 }
+							NOT = { has_church_aspect = vidilist_aspect_dip_2 }
+							NOT = { has_church_aspect = vidilist_aspect_dip_3 }
 						}
 						AND = {
-							NOT = { has_church_aspect = judaism_yom_kippur_aspect }
-							NOT = { has_church_aspect = judaism_remember_passover_aspect }
-							NOT = { has_church_aspect = judaism_purim_teachings_aspect }
+							NOT = { has_church_aspect = vidilist_aspect_mil_1 }
+							NOT = { has_church_aspect = vidilist_aspect_mil_2 }
+							NOT = { has_church_aspect = vidilist_aspect_mil_3 }
 						}
 					}
 				}

@@ -1,0 +1,39 @@
+tunisrepublic_ideas = {
+	start = {
+		no_religion_penalty = yes
+		may_not_convert_territories = yes
+		religious_unity = 0.2
+	}
+	
+	bonus = {
+		merchants = 1
+	}
+	
+	trigger = {
+		tag = TUN
+	}
+	free = yes		#will be added at load.
+
+	defend_the_republic = {
+		land_morale = 0.20
+	}
+	empower_the_citizen = {
+		burghers_loyalty_modifier = 0.1
+		burghers_privilege_slots = 1
+	}
+	trading_connections = {
+		global_trade_power = 0.1
+	}
+	protect_the_med = {
+		naval_morale = 0.2
+	}
+	reform_the_republic = {
+		reform_progress_growth = 0.2
+	}
+	reaffirm_the_rights_of_people = {
+		republican_tradition = 0.5
+	}
+	we_the_people = {
+		morale_damage_received = -0.1
+	}
+}

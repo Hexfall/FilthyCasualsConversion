@@ -21,6 +21,7 @@ vestland_ideas = {
 		naval_maintenance_modifier = -0.1
 		global_sailors_modifier = 0.2	
 		infantry_power = 0.20
+		local_tax_modifier = -0.05
 	}
 	merchant_jarls = {
 		global_ship_trade_power = 0.2

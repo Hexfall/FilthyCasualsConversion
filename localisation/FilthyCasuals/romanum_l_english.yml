@@ -12,7 +12,7 @@
  diplomatic_ties_desc:0 "Diplomacy and such"
  imperial_trading_offices:0 "Imperial Trading Office"
  imperial_trading_offices_desc:0 "Trade in the empire..."
- eunuch_advisors_offices:0 "Eunuch Advisors"
+ eunuch_advisors:0 "Eunuch Advisors"
  eunuch_advisors_desc:0 "Trust them"
  big_morale:0 "For Constantinople!"
  big_morale_desc:0 "Glory"

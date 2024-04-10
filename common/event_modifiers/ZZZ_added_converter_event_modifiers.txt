@@ -138,3 +138,35 @@ spreading_norse_rituals = {
 	religion = yes
 }
 
+#Vidilist diplo and mil aspect modifiers
+
+pagan_roots = {
+	trade_goods_size_modifier = 0.1
+	local_tax_modifier = 0.1
+	local_missionary_strength = -0.01
+	local_religious_unity_contribution = -0.5
+	religion = yes
+}
+
+vidilist_community_same_culture_group = {
+	local_tax_modifier = 0.07
+	local_manpower_modifier = 0.07
+	local_sailors_modifier = 0.07
+	religion = yes
+}
+
+vidilist_community_wrong_culture = {
+	local_unrest = -1
+	local_tax_modifier = 0.16
+	local_manpower_modifier = 0.16
+	local_sailors_modifier = 0.1
+	religion = yes
+}
+
+vidilist_forest_development  = {
+	local_development_cost = -0.20
+}
+
+vidilist_woods_development  = {
+	local_development_cost = -0.15
+}

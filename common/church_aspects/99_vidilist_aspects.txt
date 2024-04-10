@@ -52,28 +52,45 @@ vidilist_aspect_dip_1 = {	#DIP aspect
 	cost = 100
 	effect = {
 		hidden_effect = {
-			every_country = {
+			every_known_country = {
 				limit = {
 					has_opinion_modifier = {
 						who = ROOT
-						modifier = diplomatic_rabbi_opinion
+						modifier = diplomatic_vidilist_opinion
 					}
 				}
 				remove_opinion = {
 					who = ROOT
-					modifier = diplomatic_rabbi_opinion
+					modifier = diplomatic_vidilist_opinion
 				}
 				reverse_remove_opinion = {
 					who = ROOT
-					modifier = diplomatic_rabbi_opinion_reverse
+					modifier = diplomatic_vidilist_opinion_reverse
 				}
 			}
 			every_owned_province = {
 				limit = {
-					has_province_modifier = judaism_abrahamic_roots
+					has_province_modifier = pagan_roots
 				}
-				remove_province_modifier = judaism_abrahamic_roots
+				remove_province_modifier = pagan_roots
 			}
+			every_owned_province = {
+				if = {
+						limit = { 
+							has_province_modifier = vidilist_forest_development 
+						}
+						remove_province_modifier = vidilist_forest_development
+				}
+			}
+			every_owned_province = {
+				if = {
+						limit = { 
+							has_province_modifier = vidilist_woods_development 
+						}
+						remove_province_modifier = vidilist_woods_development 
+				}
+			}
+
 			every_owned_province = {
 				limit = {
 					religion = vidilist
@@ -85,7 +102,7 @@ vidilist_aspect_dip_1 = {	#DIP aspect
 						has_owner_culture = no
 					}
 					add_province_modifier = {
-						name = judaism_community_wrong_culture
+						name = vidilist_community_wrong_culture
 						duration = -1
 					}
 				}
@@ -98,7 +115,7 @@ vidilist_aspect_dip_1 = {	#DIP aspect
 						has_owner_accepted_culture = no
 					}
 					add_province_modifier = {
-						name = judaism_community_same_culture_group
+						name = vidilist_community_same_culture_group
 						duration = -1
 					}
 				}
@@ -126,20 +143,26 @@ vidilist_aspect_dip_2 = {	#DIP aspect
 	cost = 100
 	effect = {
 		hidden_effect = {
-			every_country = {
+			every_known_country = {
 				limit = {
-					has_opinion_modifier = {
-						who = ROOT
-						modifier = diplomatic_rabbi_opinion
+					OR = {
+						religion_group = muslim
+						religion_group = christian
+					}
+					NOT = {
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = diplomatic_vidilist_opinion
+						}
 					}
 				}
-				remove_opinion = {
+				add_opinion = {
 					who = ROOT
-					modifier = diplomatic_rabbi_opinion
+					modifier = diplomatic_vidilist_opinion
 				}
-				reverse_remove_opinion = {
+				reverse_add_opinion = {
 					who = ROOT
-					modifier = diplomatic_rabbi_opinion_reverse
+					modifier = diplomatic_vidilist_opinion_reverse
 				}
 			}
 			every_owned_province = {
@@ -150,24 +173,34 @@ vidilist_aspect_dip_2 = {	#DIP aspect
 					}
 				}
 				add_province_modifier = {
-					name = judaism_abrahamic_roots
+					name = pagan_roots
 					duration = -1
 				}
 			}
 			every_owned_province = {
 				limit = {
 					OR = {
-						has_province_modifier = judaism_community_wrong_culture
-						has_province_modifier = judaism_community_same_culture_group
+						has_province_modifier = vidilist_community_wrong_culture
+						has_province_modifier = vidilist_community_same_culture_group
+						has_province_modifier = vidilist_forest_development
+						has_province_modifier = vidilist_woods_development
 					}
 				}
 				if = {
-					limit = { has_province_modifier = judaism_community_wrong_culture }
-					remove_province_modifier = judaism_community_wrong_culture
+					limit = { has_province_modifier = vidilist_community_wrong_culture }
+					remove_province_modifier = vidilist_community_wrong_culture
 				}
 				if = {
-					limit = { has_province_modifier = judaism_community_same_culture_group }
-					remove_province_modifier = judaism_community_same_culture_group
+					limit = { has_province_modifier = vidilist_community_same_culture_group }
+					remove_province_modifier = vidilist_community_same_culture_group
+				}
+				if = {
+					limit = { has_province_modifier = vidilist_forest_development }
+					remove_province_modifier = vidilist_forest_development
+				}
+				if = {
+					limit = { has_province_modifier = vidilist_woods_development }
+					remove_province_modifier = vidilist_woods_development
 				}
 			}
 		}
@@ -180,11 +213,11 @@ vidilist_aspect_dip_2 = {	#DIP aspect
 		factor = 15
 		modifier = {
 			factor = 0
-			dominant_religion = jewish
+			dominant_religion = vidilist
 		}
 		modifier = {
 			factor = 10
-			NOT = { dominant_religion = jewish }
+			NOT = { dominant_religion = vidilist }
 		}
 	}
 }
@@ -195,54 +228,69 @@ vidilist_aspect_dip_3 = {	#DIP aspect
 		hidden_effect = {
 			every_known_country = {
 				limit = {
-					OR = {
-						religion_group = muslim
-						religion_group = christian
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = diplomatic_vidilist_opinion
 					}
-					NOT = {
-						has_opinion_modifier = {
-							who = ROOT
-							modifier = diplomatic_rabbi_opinion
-						}
-					}
-					NOT = { government = theocracy }
 				}
-				add_opinion = {
+				remove_opinion = {
 					who = ROOT
-					modifier = diplomatic_rabbi_opinion
+					modifier = diplomatic_vidilist_opinion
 				}
-				reverse_add_opinion = {
+				reverse_remove_opinion = {
 					who = ROOT
-					modifier = diplomatic_rabbi_opinion_reverse
+					modifier = diplomatic_vidilist_opinion_reverse
 				}
 			}
 			every_owned_province = {
 				limit = {
-					has_province_modifier = judaism_abrahamic_roots
+					OR = {
+						has_terrain = forest
+						has_terrain = woods
+					}
 				}
-				remove_province_modifier = judaism_abrahamic_roots
+				if = {
+					limit = {has_terrain = forest }
+					add_province_modifier = {
+						name = vidilist_forest_development
+						duration = -1
+					}
+				}
+				if = {
+					limit = {has_terrain = woods }
+					add_province_modifier = {
+						name = vidilist_woods_development
+						duration = -1
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = pagan_roots
+				}
+
 			}
 			every_owned_province = {
 				limit = {
 					OR = {
-						has_province_modifier = judaism_community_wrong_culture
-						has_province_modifier = judaism_community_same_culture_group
+						has_province_modifier = vidilist_community_wrong_culture
+						has_province_modifier = vidilist_community_same_culture_group
 					}
 				}
 				if = {
-					limit = { has_province_modifier = judaism_community_wrong_culture }
-					remove_province_modifier = judaism_community_wrong_culture
+					limit = { has_province_modifier = vidilist_community_wrong_culture }
+					remove_province_modifier = vidilist_community_wrong_culture
 				}
 				if = {
-					limit = { has_province_modifier = judaism_community_same_culture_group }
-					remove_province_modifier = judaism_community_same_culture_group
+					limit = { has_province_modifier = vidilist_community_same_culture_group }
+					remove_province_modifier = vidilist_community_same_culture_group
 				}
 			}
 		}
 	}
 	modifier = {
 		#improve_relation_modifier = 0.2
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	monarch_power = dip
 	ai_will_do = {

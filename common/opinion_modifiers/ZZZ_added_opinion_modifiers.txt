@@ -1,0 +1,10 @@
+#Casuals added
+#Vidilism added
+
+diplomatic_vidilist_opinion = {
+	opinion = 15
+}
+
+diplomatic_vidilist_opinion_reverse = {
+	opinion = 15
+}

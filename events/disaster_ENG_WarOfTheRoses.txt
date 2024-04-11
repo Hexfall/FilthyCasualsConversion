@@ -23,44 +23,34 @@ country_event = {
 	option = {		# Support the House of Lancaster
 		name = war_of_the_roses.1.a
 
-		add_stability = -2
+		add_stability = -1
 		set_country_flag = war_of_the_roses
-		set_country_flag = supports_house_of_lancaster
-
+		set_country_flag = wotr_supports_mercia
 
 		define_ruler = {
-			name = "Henri"
+			regency = yes
+			male = yes
+			name = "King-Regent Geoffroy"
 			dynasty = "de Normandie"
-			adm = 4
-			dip = 3
-			mil = 5
-			age = 31
-			claim = 50
+			adm = 3
+			dip = 2
+			mil = 4
+			age = 26
+			religion = chalcedonian
+			culture = west_latin
 		}
-		if = {
-			limit = {
-				has_states_general_mechanic = yes
-			}
-			change_statists_vs_orangists = 1
-		}
-		if = {
-			limit = {
-				has_dlc = "Rights of Man" 
-			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = well_connected } }
-		}
-		kill_heir = { allow_new_heir = no }
+
 
 		add_yearly_manpower = -2.5
 
 		if = {
 			limit = {
-				owns = 245		# Yorkshire
-				245 = {
+				owns = 234		# Yorkshire
+				234 = {
 					NOT = { units_in_province = 1 }
 				}
 			}
-			245 = {
+			234 = {
 				add_province_modifier = {
 					name = wotr_local_support_for_york
 					duration = 3650
@@ -68,8 +58,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Richard"
-					leader_dynasty = "York"
+					leader = "Henri"
+					leader_dynasty = "de Normandie"
 					win = yes
 				}
 			}
@@ -122,7 +112,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "Rights of Man" 
+				has_dlc = "Rights of Man"
 			}
 			hidden_effect = { add_ruler_personality_ancestor = { key = tactical_genius } }
 		}
@@ -1492,95 +1482,6 @@ country_event = {
 			}
 		}
 		clr_country_flag = no_support_for_rose_rebels
-	}
-}
-
-# An unrelated dynasty triumphs in the war of the roses.
-country_event = {
-	id = war_of_the_roses.106
-	title = war_of_the_roses.106.t
-	desc = war_of_the_roses.106.d
-	picture = WAR_OF_THE_ROSES_eventPicture
-	
-	major = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	trigger = {
-		tag = ENG
-		has_disaster = war_of_the_roses
-		NOT = { dynasty = York }
-		NOT = { dynasty = Lancaster }
-	}
-	
-	immediate = {
-		hidden_effect = {
-			set_country_flag = war_of_the_roses_was_had
-			# Clear Flags
-			clr_country_flag = supports_house_of_lancaster
-			clr_country_flag = supports_house_of_york
-
-			# Clear Country Modifiers
-			remove_country_modifier = importing_food
-			remove_country_modifier = plundering_soldiers
-			remove_country_modifier = legitimacy_questioned
-			remove_country_modifier = low_fertility
-
-			# Clear Province Modifiers
-			every_owned_province = {
-				if = {
-					limit = {
-						has_province_modifier = wotr_local_support
-					}
-					remove_province_modifier = wotr_local_support
-				}
-				if = {
-					limit = {
-						has_province_modifier = wotr_local_support_for_lancaster
-					}
-					remove_province_modifier = wotr_local_support_for_lancaster
-				}
-				if = {
-					limit = {
-						has_province_modifier = wotr_local_support_for_york
-					}
-					remove_province_modifier = wotr_local_support_for_york
-				}
-				if = {
-					limit = {
-						has_province_modifier = rebel_refugees
-					}
-					remove_province_modifier = rebel_refugees
-				}
-				if = {
-					limit = {
-						has_province_modifier = rebel_stronghold
-					}
-					remove_province_modifier = rebel_stronghold
-				}
-			}
-			
-		}
-		set_country_flag = war_of_the_roses_ended
-		end_disaster = war_of_the_roses
-	}
-	
-	option = {		# Long Live the X dynasty
-		name = war_of_the_roses.106.a
-		add_stability = -1
-		add_prestige = -50
-		every_owned_province = {
-			limit = {
-				OR = {
-					province_id = 245
-					province_id = 244
-				}
-			}
-			add_province_modifier = {
-				name = add_unrest_5_modifier
-				duration = 3650
-			}
-		}
 	}
 }
 

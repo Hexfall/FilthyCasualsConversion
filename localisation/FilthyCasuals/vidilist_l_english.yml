@@ -20,6 +20,8 @@
  desc_vidilist_forest_development:0 "utilising the benefits of the terrain to develop more efficiently"
  vidilist_woods_development:0 "Woods development"
  desc_vidilist_woods_development:0 "utilising the benefits of the terrain to develop more efficiently"
+ VIDILIST_ASPECTS_POWER_NAME:0 "Ancestor power"
+ north_pagan:0 "North Pagan"
  
  # Aspects
  vidilist_aspect_adm_1:0 "Festival of Kucios"

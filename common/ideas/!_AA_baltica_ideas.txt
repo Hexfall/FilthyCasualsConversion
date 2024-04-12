@@ -18,16 +18,16 @@ baltica_ideas = {
 		legitimacy = 1
 		diplomatic_reputation = 2
 	}
+	palemonaitis_protectorates = {
+		diplomatic_upkeep = 1
+		vassal_forcelimit_bonus = 0.20
+		vassal_manpower_bonus = 0.1
+	}
 	spreaders_of_vidilism = {
 		global_heathen_missionary_strength = 0.02
 		tolerance_own = 1
 		tolerance_heathen = -1
 		tolerance_heretic = -1
-	}
-	palemonaitis_protectorates = {
-		diplomatic_upkeep = 1
-		vassal_forcelimit_bonus = 0.20
-		vassal_manpower_bonus = 0.1
 	}
 	varangian_veterans = {
 		military_tactics = 0.1

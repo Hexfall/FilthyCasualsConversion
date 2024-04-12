@@ -24,7 +24,7 @@ outremer_ideas = {
 	free = yes
 
 	outremer_tech_cost = {
-		technology_cost = -0.1
+		adm_tech_cost_modifier = -0.1
 		innovativeness_gain = 0.333
 	}
 	costodians_of_the_holy_land = {

@@ -920,6 +920,66 @@ mossi_federal_kingdom = {
 		factor = 1
 	}
 }
+shattered_commonwealth = {
+	icon = "byzantine_rule"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			religion_group = north_pagan
+			culture = baltoruth
+		}
+	}
+	trigger = {
+		religion_group = north_pagan
+	}
+	lock_level_when_selected = yes
+	nation_designer_trigger = {
+		religion_group = north_pagan
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	modifiers = {
+		legitimacy = -1
+		governing_capacity = -50
+		liberty_desire_from_subject_development = -0.15
+		tax_income = 15
+	}
+	custom_attributes = {
+		enables_divine_idea_group = no
+		enables_aristocratic_idea_group = yes
+		maintain_dynasty = yes
+	}
+}
+restored_commonwealth = {
+	icon = "byzantine_rule"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			religion_group = north_pagan
+			culture = baltoruth
+		}
+	}
+	trigger = {
+		religion_group = north_pagan
+	}
+	lock_level_when_selected = yes
+	nation_designer_trigger = {
+		religion_group = north_pagan
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	modifiers = {
+		same_religion_advisor_cost = -0.10
+		governing_capacity = 50
+		liberty_desire_from_subject_development = -0.15
+		tax_income = 15
+	}
+	custom_attributes = {
+		enables_divine_idea_group = no
+		enables_aristocratic_idea_group = yes
+		maintain_dynasty = yes
+	}
+}
 caliphate_reform = {
 	icon = "caliphate"
 	allow_normal_conversion = yes
@@ -954,3 +1014,4 @@ caliphate_reform = {
 		enables_aristocratic_idea_group = no
 		maintain_dynasty = yes
 	}
+}

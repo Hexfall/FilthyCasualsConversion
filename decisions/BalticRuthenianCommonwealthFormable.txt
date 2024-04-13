@@ -236,6 +236,7 @@ country_decisions = {
 				center_of_trade = 2
             }
 			add_prestige = 10
+			add_government_reform = restored_commonwealth
 			set_capital = 270
 			if = {
 				limit = {

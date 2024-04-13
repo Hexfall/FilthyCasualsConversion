@@ -927,6 +927,11 @@ shattered_commonwealth = {
 		AND = {
 			religion_group = north_pagan
 			culture = baltoruth
+			OR = {
+				tag = Z01
+				tag = BRC
+			}
+
 		}
 	}
 	trigger = {
@@ -957,6 +962,13 @@ restored_commonwealth = {
 		AND = {
 			religion_group = north_pagan
 			culture = baltoruth
+			OR = {
+				has_reform = shattered_commonwealth
+				have_had_reform = shattered_commonwealth
+				has_unlocked_government_reform = {
+					government_reform = shattered_commonwealth
+				}
+			}
 		}
 	}
 	trigger = {

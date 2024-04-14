@@ -1,0 +1,1166 @@
+namespace = random_event
+
+country_event = {
+	id = random_event.2
+	title = "random_event.EVTNAME2"
+	desc = { # American
+		trigger = {
+			culture_group = british
+			any_owned_province = {
+				continent = north_america
+				OR = {
+					culture = scottish
+					culture = english
+					culture = welsh
+				}
+			}
+		}
+		desc = "random_event.EVTDESC2"
+	}
+	desc = { # Brazilian
+		trigger = {
+			OR = {
+				primary_culture = portugese
+				primary_culture = brazilian
+			}
+			any_owned_province = {
+				continent = south_america
+				culture = portugese
+			}
+		}
+		desc = "random_event.EVTDESC2B"
+	}
+	desc = { # Mexican
+		trigger = {
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = brazilian }
+			any_owned_province = {
+				continent = north_america
+				OR = {
+					culture = leonese
+					culture = castillian
+					culture = aragonese
+					culture = catalan
+					culture = galician
+					culture = andalucian
+					culture = basque
+				}
+			}
+		}
+		desc = "random_event.EVTDESC2C"
+	}
+	desc = { # Platinean
+		trigger = {
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = brazilian }
+			any_owned_province = {
+				continent = south_america
+				OR = {
+					culture = leonese
+					culture = castillian
+					culture = aragonese
+					culture = catalan
+					culture = galician
+					culture = andalucian
+					culture = basque
+				}
+			}
+		}
+		desc = "random_event.EVTDESC2D"
+	}
+	desc = { # Quebecois
+		trigger = {
+			culture_group = french
+			NOT = { primary_culture = quebecois }
+			NOT = { primary_culture = louisianans }
+			any_owned_province = {
+				OR = {
+					colonial_region = colonial_alaska
+					colonial_region = colonial_canada
+					region = northeast_america_region
+				}
+				OR = {
+					culture = cosmopolitan_french
+					culture = occitain
+					culture = normand
+					culture = gascon
+					culture = burgundian
+				}
+			}
+		}
+		desc = "random_event.EVTDESC2E"
+	}
+	desc = { # Louisianans
+		trigger = {
+			culture_group = french
+			NOT = { primary_culture = quebecois }
+			NOT = { primary_culture = louisianans }
+			any_owned_province = {
+				NOT = { colonial_region = colonial_alaska }
+				NOT = { colonial_region = colonial_canada }
+				NOT = { region = northeast_america_region }
+				continent = north_america
+				OR = {
+					culture = cosmopolitan_french
+					culture = occitain
+					culture = normand
+					culture = gascon
+					culture = burgundian
+				}
+			}
+		}
+		desc = "random_event.EVTDESC2F"
+	}
+	desc = { # Vinlander
+		trigger = {
+			culture_group = scandinavian
+			any_owned_province = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+				culture_group = scandinavian
+				OR = {
+					AND = {
+						OR = {
+							colonial_region = colonial_canada
+							colonial_region = colonial_eastern_america
+							colonial_region = colonial_louisiana
+						}
+						NOT = { culture = vinlander }
+					}
+					AND = {
+						OR = {
+							colonial_region = colonial_mexico
+							colonial_region = colonial_the_carribean
+						}
+						NOT = { culture = hellulander }
+					}
+					AND = {
+						OR = {
+							colonial_region = colonial_colombia
+							colonial_region = colonial_brazil
+						}
+						NOT = { culture = marklander }
+					}
+					AND = {
+						OR = {
+							colonial_region = colonial_peru
+							colonial_region = colonial_la_plata
+						}
+						NOT = { culture = silvmenn }
+					}
+					AND = {
+						OR = {
+							colonial_region = colonial_california
+							colonial_region = colonial_alaska
+						}
+						NOT = { culture = stillemenn }
+					}
+				}
+			}
+		}
+		desc = "random_event.EVTDESC2G"
+	}
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		capital_scope = {
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		NOT = { has_country_flag = rejected_new_colonial_culture }
+		OR = {
+			# Eligible for American culture
+			AND = {
+				culture_group = british
+				any_owned_province = {
+					continent = north_america
+					OR = {
+						culture = scottish
+						culture = english
+						culture = welsh
+					}
+				}
+			}
+			# Eligible for Brazilian culture
+			AND = {
+				OR = {
+					primary_culture = portugese
+					primary_culture = brazilian
+				}
+				any_owned_province = {
+					continent = south_america
+					culture = portugese
+				}
+			}
+			# Eligible for Mexican culture
+			AND = {
+				culture_group = iberian
+				NOT = { primary_culture = portugese }
+				any_owned_province = {
+					continent = north_america
+					OR = {
+						culture = leonese
+						culture = castillian
+						culture = aragonese
+						culture = catalan
+						culture = galician
+						culture = andalucian
+						culture = basque
+					}
+				}
+			}
+			# Eligible for Platinean culture
+			AND = {
+				culture_group = iberian
+				NOT = { primary_culture = portugese }
+				any_owned_province = {
+					continent = south_america
+					OR = {
+						culture = leonese
+						culture = castillian
+						culture = aragonese
+						culture = catalan
+						culture = galician
+						culture = andalucian
+						culture = basque
+					}
+				}
+			}
+			# Eligible for Quebecois culture
+			AND = {
+				culture_group = french
+				NOT = { primary_culture = quebecois }
+				NOT = { primary_culture = louisianans }
+				any_owned_province = {
+					OR = {
+						colonial_region = colonial_alaska
+						colonial_region = colonial_canada
+						region = northeast_america_region
+					}
+					OR = {
+						culture = cosmopolitan_french
+						culture = occitain
+						culture = normand
+						culture = gascon
+						culture = burgundian
+					}
+				}
+			}
+			# Eligible for Louisianans culture
+			AND = {
+				culture_group = french
+				NOT = { primary_culture = quebecois }
+				NOT = { primary_culture = louisianans }
+				any_owned_province = {
+					NOT = { colonial_region = colonial_alaska }
+					NOT = { colonial_region = colonial_canada }
+					NOT = { region = northeast_america_region }
+					continent = north_america
+					OR = {
+						culture = cosmopolitan_french
+						culture = occitain
+						culture = normand
+						culture = gascon
+						culture = burgundian
+					}
+				}
+			}
+            # Eligible for Scandinavian New World cultures
+			AND = {
+				culture_group = scandinavian
+				any_owned_province = {
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+					culture_group = scandinavian
+					OR = {
+						AND = {
+							OR = {
+								colonial_region = colonial_canada
+								colonial_region = colonial_eastern_america
+								colonial_region = colonial_louisiana
+							}
+							NOT = { culture = vinlander }
+						}
+						AND = {
+							OR = {
+								colonial_region = colonial_mexico
+								colonial_region = colonial_the_carribean
+							}
+							NOT = { culture = hellulander }
+						}
+						AND = {
+							OR = {
+								colonial_region = colonial_colombia
+								colonial_region = colonial_brazil
+							}
+							NOT = { culture = marklander }
+						}
+						AND = {
+							OR = {
+								colonial_region = colonial_peru
+								colonial_region = colonial_la_plata
+							}
+							NOT = { culture = silvmenn }
+						}
+						AND = {
+							OR = {
+								colonial_region = colonial_california
+								colonial_region = colonial_alaska
+							}
+							NOT = { culture = stillemenn }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					culture_group = british
+					any_owned_province = {
+						continent = north_america
+						OR = {
+							culture = scottish
+							culture = english
+							culture = welsh
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = north_america
+						OR = {
+							culture = scottish
+							culture = english
+							culture = welsh
+						}
+					}
+					save_event_target_as = american_province
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						primary_culture = portugese
+						primary_culture = brazilian
+					}
+					any_owned_province = {
+						continent = south_america
+						culture = portugese
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = south_america
+						culture = portugese
+					}
+					save_global_event_target_as = brazilian_province
+				}
+			}
+			if = {
+				limit = {
+					culture_group = iberian
+					NOT = { primary_culture = portugese }
+					any_owned_province = {
+						continent = north_america
+						OR = {
+							culture = leonese
+							culture = castillian
+							culture = aragonese
+							culture = catalan
+							culture = galician
+							culture = andalucian
+							culture = basque
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = north_america
+						OR = {
+							culture = leonese
+							culture = castillian
+							culture = aragonese
+							culture = catalan
+							culture = galician
+							culture = andalucian
+							culture = basque
+						}
+					}
+					save_event_target_as = mexican_province
+				}
+			}
+			if = {
+				limit = {
+					culture_group = iberian
+					NOT = { primary_culture = portugese }
+					any_owned_province = {
+						continent = south_america
+						OR = {
+							culture = leonese
+							culture = castillian
+							culture = aragonese
+							culture = catalan
+							culture = galician
+							culture = andalucian
+							culture = basque
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = south_america
+						OR = {
+							culture = leonese
+							culture = castillian
+							culture = aragonese
+							culture = catalan
+							culture = galician
+							culture = andalucian
+							culture = basque
+						}
+					}
+					save_event_target_as = platinean_province
+				}
+			}
+			if = {
+				limit = {
+					culture_group = french
+					NOT = { primary_culture = quebecois }
+					NOT = { primary_culture = louisianans }
+					any_owned_province = {
+						OR = {
+							colonial_region = colonial_alaska
+							colonial_region = colonial_canada
+							region = northeast_america_region
+						}
+						OR = {
+							culture = cosmopolitan_french
+							culture = occitain
+							culture = normand
+							culture = gascon
+							culture = burgundian
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							colonial_region = colonial_alaska
+							colonial_region = colonial_canada
+							region = northeast_america_region
+						}
+						OR = {
+							culture = cosmopolitan_french
+							culture = occitain
+							culture = normand
+							culture = gascon
+							culture = burgundian
+						}
+					}
+					save_event_target_as = quebecois_province
+				}
+			}
+			if = {
+				limit = {
+					culture_group = french
+					NOT = { primary_culture = quebecois }
+					NOT = { primary_culture = louisianans }
+					any_owned_province = {
+						NOT = { colonial_region = colonial_alaska }
+						NOT = { colonial_region = colonial_canada }
+						NOT = { region = northeast_america_region }
+						continent = north_america
+						OR = {
+							culture = cosmopolitan_french
+							culture = occitain
+							culture = normand
+							culture = gascon
+							culture = burgundian
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						NOT = { colonial_region = colonial_alaska }
+						NOT = { colonial_region = colonial_canada }
+						NOT = { region = northeast_america_region }
+						continent = north_america
+						OR = {
+							culture = cosmopolitan_french
+							culture = occitain
+							culture = normand
+							culture = gascon
+							culture = burgundian
+						}
+					}
+					save_event_target_as = louisianans_province
+				}
+			}
+			if = {
+				limit = {
+					culture_group = scandinavian
+					any_owned_province = {
+						culture_group = scandinavian
+						NOT = { culture = vinlander }
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						culture_group = scandinavian
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						OR = {
+							AND = {
+								OR = {
+									colonial_region = colonial_canada
+									colonial_region = colonial_eastern_america
+									colonial_region = colonial_louisiana
+								}
+								NOT = { culture = vinlander }
+							}
+							AND = {
+								OR = {
+									colonial_region = colonial_mexico
+									colonial_region = colonial_the_carribean
+								}
+								NOT = { culture = hellulander }
+							}
+							AND = {
+								OR = {
+									colonial_region = colonial_colombia
+									colonial_region = colonial_brazil
+								}
+								NOT = { culture = marklander }
+							}
+							AND = {
+								OR = {
+									colonial_region = colonial_peru
+									colonial_region = colonial_la_plata
+								}
+								NOT = { culture = silvmenn }
+							}
+							AND = {
+								OR = {
+									colonial_region = colonial_california
+									colonial_region = colonial_alaska
+								}
+								NOT = { culture = stillemenn }
+							}
+						}
+					}
+					save_event_target_as = vinlander_province
+				}
+			}
+		}
+	}
+
+    ###################################################### Options
+	option = { # Become American
+		trigger = {
+			culture_group = british
+		}
+		name = "random_event.EVTOPTA2"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = american
+				}
+			}
+			change_primary_culture = american
+		}
+		event_target:american_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = scottish
+						culture = english
+						culture = welsh
+					}
+				}
+				change_culture = american
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Reject Freedom
+		trigger = {
+			culture_group = british
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:american_province = {
+			change_culture = american
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Brazilian
+		trigger = {
+			OR = {
+				primary_culture = portugese
+				primary_culture = brazilian
+			}
+		}
+		name = "random_event.EVTOPTC2"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = brazilian
+				}
+			}
+			change_primary_culture = brazilian
+		}
+		event_target:brazilian_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					culture = portugese
+				}
+				change_culture = brazilian
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			primary_culture = portugese
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:brazilian_province = {
+			change_culture = brazilian
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Mexican
+		trigger = {
+			any_owned_province = {
+				continent = north_america
+				OR = {
+					culture = leonese
+					culture = castillian
+					culture = aragonese
+					culture = catalan
+					culture = galician
+					culture = andalucian
+					culture = basque
+				}
+			}
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = brazilian }
+		}
+		name = "random_event.EVTOPTE2"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = mexican
+				}
+			}
+			change_primary_culture = mexican
+		}
+		event_target:mexican_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = leonese
+						culture = castillian
+						culture = aragonese
+						culture = catalan
+						culture = galician
+						culture = andalucian
+						culture = basque
+					}
+				}
+				change_culture = mexican
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			any_owned_province = {
+				continent = north_america
+				OR = {
+					culture = leonese
+					culture = castillian
+					culture = aragonese
+					culture = catalan
+					culture = galician
+					culture = andalucian
+					culture = basque
+				}
+			}
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = brazilian }
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = mexican }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:mexican_province = {
+			change_culture = mexican
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Platinean
+		trigger = {
+			any_owned_province = {
+				continent = south_america
+				OR = {
+					culture = leonese
+					culture = castillian
+					culture = aragonese
+					culture = catalan
+					culture = galician
+					culture = andalucian
+					culture = basque
+				}
+			}
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = brazilian }
+		}
+		name = "random_event.EVTOPTF2"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = platinean
+				}
+			}
+			change_primary_culture = platinean
+		}
+		event_target:platinean_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = leonese
+						culture = castillian
+						culture = aragonese
+						culture = catalan
+						culture = galician
+						culture = andalucian
+						culture = basque
+					}
+				}
+				change_culture = platinean
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			any_owned_province = {
+				continent = south_america
+				OR = {
+					culture = leonese
+					culture = castillian
+					culture = aragonese
+					culture = catalan
+					culture = galician
+					culture = andalucian
+					culture = basque
+				}
+			}
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = brazilian }
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = platinean }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:platinean_province = {
+			change_culture = platinean
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Quebecois
+		trigger = {
+			culture_group = french
+			any_owned_province = {
+				OR = {
+					colonial_region = colonial_alaska
+					colonial_region = colonial_canada
+					region = northeast_america_region
+				}
+				OR = {
+					culture = cosmopolitan_french
+					culture = occitain
+					culture = normand
+					culture = gascon
+					culture = burgundian
+				}
+			}
+		}
+		name = "random_event.EVTOPTG2"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = quebecois
+				}
+			}
+			change_primary_culture = quebecois
+		}
+		event_target:quebecois_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = cosmopolitan_french
+						culture = occitain
+						culture = normand
+						culture = gascon
+						culture = burgundian
+					}
+				}
+				change_culture = quebecois
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			culture_group = french
+			any_owned_province = {
+				OR = {
+					colonial_region = colonial_alaska
+					colonial_region = colonial_canada
+					region = northeast_america_region
+				}
+				OR = {
+					culture = cosmopolitan_french
+					culture = occitain
+					culture = normand
+					culture = gascon
+					culture = burgundian
+				}
+			}
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = quebecois }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:quebecois_province = {
+			change_culture = quebecois
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Louisianans
+		trigger = {
+			culture_group = french
+			any_owned_province = {
+				NOT = { colonial_region = colonial_alaska }
+				NOT = { colonial_region = colonial_canada }
+				NOT = { region = northeast_america_region }
+				continent = north_america
+				OR = {
+					culture = cosmopolitan_french
+					culture = occitain
+					culture = normand
+					culture = gascon
+					culture = burgundian
+				}
+			}
+		}
+		name = "random_event.EVTOPTH2"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = louisianans
+				}
+			}
+			change_primary_culture = louisianans
+		}
+		event_target:louisianans_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = leonese
+						culture = castillian
+						culture = aragonese
+						culture = catalan
+						culture = galician
+						culture = andalucian
+						culture = basque
+					}
+				}
+				change_culture = louisianans
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			culture_group = french
+			any_owned_province = {
+				NOT = { colonial_region = colonial_alaska }
+				NOT = { colonial_region = colonial_canada }
+				NOT = { region = northeast_america_region }
+				continent = north_america
+				OR = {
+					culture = cosmopolitan_french
+					culture = occitain
+					culture = normand
+					culture = gascon
+					culture = burgundian
+				}
+			}
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = louisianans }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:louisianans_province = {
+			change_culture = louisianans
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Embrace neo-scandinavian culture
+		trigger = {
+			culture_group = scandinavian
+		}
+		name = "random_event.EVTOPTA2G"
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_canada
+						colonial_region = colonial_eastern_america
+						colonial_region = colonial_louisiana
+					}
+				}
+				NOT = {
+					OR = {
+						primary_culture = vinlander
+						primary_culture = marklander
+						primary_culture = hellulander
+						primary_culture = silvmenn
+						primary_culture = stillemenn
+					}
+				}
+			}
+			change_primary_culture = vinlander
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_mexico
+						colonial_region = colonial_the_carribean
+					}
+				}
+				NOT = {
+					OR = {
+						primary_culture = vinlander
+						primary_culture = marklander
+						primary_culture = hellulander
+						primary_culture = silvmenn
+						primary_culture = stillemenn
+					}
+				}
+			}
+			change_primary_culture = hellulander
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_colombia
+						colonial_region = colonial_brazil
+					}
+				}
+				NOT = {
+					OR = {
+						primary_culture = vinlander
+						primary_culture = marklander
+						primary_culture = hellulander
+						primary_culture = silvmenn
+						primary_culture = stillemenn
+					}
+				}
+			}
+			change_primary_culture = marklander
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_peru
+						colonial_region = colonial_la_plata
+					}
+				}
+				NOT = {
+					OR = {
+						primary_culture = vinlander
+						primary_culture = marklander
+						primary_culture = hellulander
+						primary_culture = silvmenn
+						primary_culture = stillemenn
+					}
+				}
+			}
+			change_primary_culture = silvmenn
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_california
+						colonial_region = colonial_alaska
+					}
+				}
+				NOT = {
+					OR = {
+						primary_culture = vinlander
+						primary_culture = marklander
+						primary_culture = hellulander
+						primary_culture = silvmenn
+						primary_culture = stillemenn
+					}
+				}
+			}
+			change_primary_culture = stillemenn
+		}
+		event_target:vinlander_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					culture_group = scandinavian
+				}
+				if = {
+					limit = {
+						OR = {
+							colonial_region = colonial_canada
+							colonial_region = colonial_eastern_america
+							colonial_region = colonial_louisiana
+						}
+					}
+					change_culture = vinlander
+				}
+				if = {
+					limit = {
+						OR = {
+							colonial_region = colonial_mexico
+							colonial_region = colonial_the_carribean
+						}
+					}
+					change_culture = hellulander
+				}
+				if = {
+					limit = {
+						OR = {
+							colonial_region = colonial_colombia
+							colonial_region = colonial_brazil
+						}
+					}
+					change_culture = marklander
+				}
+				if = {
+					limit = {
+						OR = {
+							colonial_region = colonial_peru
+							colonial_region = colonial_la_plata
+						}
+					}
+					change_culture = silvmenn
+				}
+				if = {
+					limit = {
+						OR = {
+							colonial_region = colonial_california
+							colonial_region = colonial_alaska
+						}
+					}
+					change_culture = stillemenn
+				}
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Reject Freedom
+		trigger = {
+			culture_group = scandinavian
+			ai = no
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:vinlander_province = {
+			if = {
+				limit = {
+					OR = {
+						colonial_region = colonial_canada
+						colonial_region = colonial_eastern_america
+						colonial_region = colonial_louisiana
+					}
+				}
+				change_culture = vinlander
+			}
+			if = {
+				limit = {
+					OR = {
+						colonial_region = colonial_mexico
+						colonial_region = colonial_the_carribean
+					}
+				}
+				change_culture = hellulander
+			}
+			if = {
+				limit = {
+					OR = {
+						colonial_region = colonial_colombia
+						colonial_region = colonial_brazil
+					}
+				}
+				change_culture = marklander
+			}
+			if = {
+				limit = {
+					OR = {
+						colonial_region = colonial_peru
+						colonial_region = colonial_la_plata
+					}
+				}
+				change_culture = silvmenn
+			}
+			if = {
+				limit = {
+					OR = {
+						colonial_region = colonial_california
+						colonial_region = colonial_alaska
+					}
+				}
+				change_culture = stillemenn
+			}
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+}

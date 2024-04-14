@@ -2,7 +2,7 @@ outremer_ideas = {
 	start = {
 		global_missionary_strength = 0.02
 		land_morale = 0.15
-		female_advisor_chance = .5
+		female_advisor_chance = 0.5
 		may_recruit_female_generals = yes
 	}
 
@@ -24,7 +24,7 @@ outremer_ideas = {
 	free = yes
 
 	outremer_tech_cost = {
-		technology_cost = -0.1
+		adm_tech_cost_modifier = -0.1
 		innovativeness_gain = 0.333
 	}
 	costodians_of_the_holy_land = {

@@ -1,22 +1,159 @@
-pagan = {
+north_pagan = {
+	defender_of_faith = YES
 	vidilist = {
 		color = { 112 84 160 }
 		icon =  174
 		country = {
-			land_morale = 0.1
-			diplomatic_reputation = 1
-			build_cost = 0.1
-			war_exhaustion = -0.1
-			tolerance_heathen = -1
+			defensiveness = 0.10
+			global_institution_spread = 0.1
 		}
 		country_as_secondary = {
-			land_morale = 0.1
-			diplomatic_reputation = 1
-		}
-		province = {
-			local_manpower_modifier = 0.1
+			defensiveness = 0.10
 		}
 		heretic = { DIEVANS }
+		uses_judaism_power = yes
+		aspects_name = VIDILIST_ASPECTS
+
+		aspects = {
+			vidilist_aspect_adm_1
+			vidilist_aspect_adm_2
+			vidilist_aspect_adm_3
+			vidilist_aspect_dip_1
+			vidilist_aspect_dip_2
+			vidilist_aspect_dip_3
+			vidilist_aspect_mil_1
+			vidilist_aspect_mil_2
+			vidilist_aspect_mil_3
+		}
+
+		celebrate = {
+			cost = 200
+			potential = {
+			}
+			allow = {
+				custom_trigger_tooltip = {
+					tooltip = VIDILIST_HAS_3_ASPECT
+					OR = {
+						has_church_aspect = vidilist_aspect_adm_1
+						has_church_aspect = vidilist_aspect_adm_2
+						has_church_aspect = vidilist_aspect_adm_3
+					}
+					OR = {
+						has_church_aspect = vidilist_aspect_dip_1
+						has_church_aspect = vidilist_aspect_dip_2
+						has_church_aspect = vidilist_aspect_dip_3
+					}
+					OR = {
+						has_church_aspect = vidilist_aspect_mil_1
+						has_church_aspect = vidilist_aspect_mil_2
+						has_church_aspect = vidilist_aspect_mil_3
+					}
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_adm_1
+					}
+					NOT = { stability = 3 }
+				}
+			}
+			effect = {
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_adm_1
+					}
+					add_stability = 1
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_adm_2
+					}
+					change_government_reform_progress = 25
+					add_adm_power = 40
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						add_heir_claim = 5
+					}
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_adm_3
+					}
+					add_years_of_income = 0.3
+					add_inflation = -1
+				}
+
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_dip_1
+					}
+					add_corruption = -1
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_dip_2
+					}
+					add_prestige = 10
+					add_dip_power = 40
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_dip_3
+					}
+					add_mercantilism = 1
+				}
+
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_mil_1
+					}
+					add_years_of_owned_provinces_manpower = {
+						years = 1
+						trigger = {
+							religion = ROOT
+						}
+					}
+
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_mil_2
+					}
+					add_army_tradition = 10
+				}
+				if = {
+					limit = {
+						has_church_aspect = vidilist_aspect_mil_3
+					}
+					add_army_professionalism = 0.02
+				}
+				hidden_effect = {
+					if = {
+						limit = { NOT = { has_country_flag = has_celebrated_festival } }
+						set_country_flag = has_celebrated_festival
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						AND = {
+							NOT = { has_church_aspect = vidilist_aspect_dip_1 }
+							NOT = { has_church_aspect = vidilist_aspect_dip_2 }
+							NOT = { has_church_aspect = vidilist_aspect_dip_3 }
+						}
+						AND = {
+							NOT = { has_church_aspect = vidilist_aspect_mil_1 }
+							NOT = { has_church_aspect = vidilist_aspect_mil_2 }
+							NOT = { has_church_aspect = vidilist_aspect_mil_3 }
+						}
+					}
+				}
+			}
+		}
 	}
 }
 

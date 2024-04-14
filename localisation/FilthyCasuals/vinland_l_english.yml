@@ -1,0 +1,32 @@
+﻿l_english:
+ VIN:0 "Vinland"
+ VIN_ADJ:0 "Vinlander"
+
+ # Cultures
+ vinlander:0 "Vinlander"
+ marklander:0 "Marklander"
+ hellulander:0 "Hellulander"
+ silvmenn:0 "Silvmenn"
+ stillemenn:0 "Stillemenn"
+
+ # Culture spread event
+ random_event.EVTDESC2G:1 "As time goes by the ties between the our former homeland and the colonies grow weaker. The settlers in [vinlander_province.GetName] barely associate themselves with their ancestral home any more. They now prefer to think of themselves as something new, and this sentiment is beginning to spread throughout [vinlander_province.GetAreaName]."
+ random_event.EVTOPTA2G:1 "Embrace colonial Scandinavian culture."
+ vinland_events.1.b:1 "We should maintain our traditional culture."
+
+ # Formation event
+ vinland_nation_title:0 "Form Vinland Nation"
+ vinland_nation_desc:0 "The time has come to shake off the last remains of our colonial past. We must form a proper nation and solidify our claims to this region."
+
+ # Ideas
+ vinland_ideas:0 "Vinlander Ideas"
+ vinland_ideas_start:0 "Vinlander Traditions"
+ vinland_ideas_bonus:0 "Vinlander Ambition"
+ escape_from_religious_persecution:0 "Escape from religious persecution"
+ escape_from_religious_persecution_desc:0 "The religious turmoil of Europe has left many there feeling as though they don't belong. With nothing to lose, many turned to try their luck in the New World and those shall find shelter in Vinland"
+ vinland_maritime_legacy:0 "Maritime legacy"
+ vinland_maritime_legacy_desc:0 "The history of our people is deeply intertwined with the oceans and the seas. Our forefathers made their living aboard a ship, through fishing, raiding, and, most importantly, commerce. And they were the first to cross the Atlantic to discover a new land which we now call home. No matter how far from the coast we may be, a Vinlander will always have one foot in the sea."
+ home_of_the_free:0 "Home of the Free"
+ home_of_the_free_desc:0 "We are a proud nation who fought for our freedoms and voice at the table and anyone who dares challenge that right will come to find how fiercely we value them."
+ door_to_america:0 "Door to America"
+ door_to_america_desc:0 "Our geographic location gives us unprecedented control over the flow of trade in and out of North America."

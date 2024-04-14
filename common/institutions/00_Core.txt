@@ -361,14 +361,20 @@ renaissance = {
 			factor = 0.07
 			scale = yes
 			development = 10
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				continent = europe
+			}
 			province_has_center_of_trade_of_level = 2
 		}
 		modifier = {
 			factor = 0.07
 			scale = yes
 			development = 20
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				continent = europe
+			}
 			province_has_center_of_trade_of_level = 2
 		}
 		modifier = {

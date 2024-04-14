@@ -3,15 +3,11 @@ christian = {
 		color = { 189 175 25 }
 		icon =  177
 		country = {
-			warscore_cost_vs_other_religion = -0.25
-			tolerance_heathen = -1
-			tolerance_heretic = -1
-			land_morale = 0.1
-			tolerance_heathen = -1
+			tolerance_own = 1
+			global_spy_defence = 0.1
 		}
 		country_as_secondary = {
-			warscore_cost_vs_other_religion = -0.25
-			land_morale = 0.1
+			global_spy_defence = 0.1
 		}
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
 		has_patriarchs = yes

@@ -1,0 +1,47 @@
+western_vidilist_ideas = {
+	start = {
+		yearly_corruption = -0.1
+		state_maintenance_modifier = -0.1
+	}
+	trigger = {
+		OR = {
+			tag = SER
+			tag = CRO
+            tag = MOL
+			tag = HUN
+			tag = POL
+            tag = POM
+		}
+	}
+	free = yes
+
+	bulwark_against_christiandom = {
+		fort_maintenance_modifier = -0.10
+		rival_border_fort_maintenance = -0.10
+	}
+	loyalty_through_vidilism = {
+		tolerance_own = 2
+	}
+	defensive_warfare = {
+		own_territory_dice_roll_bonus = 1
+	}
+	establish_relations = {
+		diplomats = 1
+		envoy_travel_time = -0.2
+	}
+	varangian_veterans2 = {
+		military_tactics = 0.1
+		infantry_power = 0.05
+	}
+	christian_friends = {
+		relation_with_heathens = 20
+	}
+	table_of_ranks = {
+		advisor_cost = -0.10
+        leader_land_shock = 1
+	}
+	bonus = {
+        artillery_cost = -0.10
+		artillery_power = 0.05
+	}
+}

@@ -6,6 +6,7 @@ religion = vidilist
 primary_culture = baltic_culture
 capital = 310
 add_accepted_culture = novgorodian
+historical_rival = BJA
 1444.11.11= {
 	monarch = {
 		name = "Kahar III"

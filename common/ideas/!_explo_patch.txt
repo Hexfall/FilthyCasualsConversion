@@ -1,0 +1,179 @@
+exploration_ideas = {
+	trigger = {
+		adm_tech = 7
+	}
+
+    ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_colonial_nation = yes
+		}
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			current_age = age_of_revolutions #too late
+		}
+		modifier = {
+			factor = 0
+			is_emperor_of_china = yes
+			NOT = { is_year = 1575 } # Let's give the Europeans a chance
+		}
+		modifier = { # Very likely, if bordering Norwegian Sea or North Atlantic areas
+			factor = 100
+			OR = {
+				AND = {
+					num_of_ports = 5
+					any_owned_province = {
+						has_port = yes
+						sea_zone = {
+							area = north_atlantic_area
+						}
+					}
+				}
+				AND = {
+					num_of_ports = 3
+					any_owned_province = {
+						has_port = yes
+						sea_zone = {
+							area = norwegian_sea_area
+						}
+					}
+				}
+			}
+		}
+		modifier = { # More likely if in North Sea
+			factor = 5
+			num_of_ports = 3
+			any_owned_province = {
+				has_port = yes
+				sea_zone = {
+					area = north_sea_area
+					area = bay_of_biscay_area
+				}
+			}
+		}
+		modifier = { # Less likely, if only ports are in eastern med, Baltic or Red Sea
+			factor = 0.5
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+					sea_zone = {
+						OR = {
+							NOT = { region = mediterrenean_region }
+							province_id = 1293 #Gibraltar
+							province_id = 1294 #Almeria
+						}
+						NOT = { area = red_sea_area }
+						NOT = { area = baltic_area }
+					}
+				}
+			}
+			NOT = {
+				any_owned_province = {
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = { # Don't pick explo, if you don't have any ports, or neighboring uncolonized provinces
+			factor = 0
+			NOT = { num_of_ports = 1 }
+			NOT = {
+				any_owned_province = {
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = { # Less likely if you don't have at least 3 ports, or an uncolonized neighboring province
+			factor = 0.1
+			NOT = { num_of_ports = 3 }
+			NOT = {
+				any_owned_province = {
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = { # Too late
+			factor = 0.01
+			is_year = 1650
+		}
+		#modifier = { # Have renaissance before picking explo
+		#	factor = 0.1
+		#	NOT = { has_institution = renaissance }
+		#}
+		modifier = { # Aggressive Colonizers (Asia)
+			factor = 600
+			num_of_ports = 5
+			capital_scope = {
+				OR = {
+					region = japan_region
+					region = korea_region
+				}
+			}
+		}
+		modifier = { # Secondary Colonizers (Europe)
+			factor = 6
+			num_of_ports = 5
+			capital_scope = {
+				OR = {
+					region = france_region
+					region = low_countries_region
+					region = scandinavia_region
+					region = italy_region
+					region = north_german_region
+					region = baltic_region
+					region = scandinavia_region
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			technology_group = high_american
+		}
+		modifier = {
+			factor = 0.1
+			capital_scope = {
+				NOT = {
+					region = france_region
+					region = iberia_region
+					region = british_isles_region
+					region = low_countries_region
+					region = japan_region
+					region = korea_region
+					region = scandinavia_region
+				}
+			}
+			NOT = { technology_group = high_american }
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 5
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 10
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 15
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 20
+		}
+	}
+}

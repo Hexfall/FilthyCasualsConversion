@@ -1,0 +1,98 @@
+namespace = vinland_events
+
+country_event = {
+    id = vinland_events.1
+	title = "vinland_events.1.t"
+	desc = "vinland_events.1.d"
+	picture = COLONIZATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		culture_group = scandinavian
+		capital_scope = {
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		any_owned_province = {
+			culture_group = scandinavian
+			NOT = { culture = vinlander }
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		NOT = { has_country_flag = rejected_new_colonial_culture }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					culture_group = scandinavian
+					any_owned_province = {
+						culture_group = scandinavian
+						NOT = { culture = vinlander }
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						culture_group = scandinavian
+						NOT = { culture = vinlander }
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+					}
+					save_event_target_as = vinlander_province
+				}
+			}
+		}
+	}
+
+	option = { # Become Vinlander
+		name = "vinland_events.1.a"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = vinlander
+				}
+			}
+			change_primary_culture = vinlander
+		}
+		event_target:vinlander_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					culture_group = scandinavian
+					NOT = {
+						culture = vinlander
+					}
+				}
+				change_culture = vinlander
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Reject Freedom
+		trigger = {
+			culture_group = scandinavian
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+		}
+		name = "vinland_events.1.b"
+		event_target:vinlander_province = {
+			change_culture = vinlander
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+}

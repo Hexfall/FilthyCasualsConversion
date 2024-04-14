@@ -1298,6 +1298,7 @@ kremlin = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = slavic
+			culture_group = baltic
 			culture = roman
 		}
 		province_is_or_accepts_culture = yes
@@ -1318,6 +1319,7 @@ kremlin = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = slavic
+			culture_group = baltic
 			culture = roman
 		}
 		province_is_or_accepts_culture = yes
@@ -1328,6 +1330,7 @@ kremlin = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = slavic
+			culture_group = baltic
 			culture = roman
 		}
 		province_is_or_accepts_culture = yes
@@ -7053,6 +7056,7 @@ kiev_pechersk_lavra = {
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion = {
 			religion = orthodox
+			religion_group = pagan
 		}
 	}
 
@@ -7060,6 +7064,7 @@ kiev_pechersk_lavra = {
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion = {
 			religion = orthodox
+			religion_group = pagan
 		}
 	}
 
@@ -7118,6 +7123,7 @@ kiev_pechersk_lavra = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			yearly_patriarch_authority = 0.001
+			religious_unity = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -7148,6 +7154,7 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.002
 			tolerance_own = 1
+			religious_unity = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -7179,6 +7186,7 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.005
 			tolerance_own = 2
+			religious_unity = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -15370,6 +15378,7 @@ winter_palace = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = slavic
+			culture_group = baltic
 			culture = roman
 		}
 		province_is_or_accepts_culture = yes
@@ -15385,6 +15394,7 @@ winter_palace = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = slavic
+			culture_group = baltic
 			culture = roman
 		}
 		province_is_or_accepts_culture = yes
@@ -15394,6 +15404,7 @@ winter_palace = {
 		OR = {
 			culture_group = east_slavic
 			culture_group = slavic
+			culture_group = baltic
 			culture = roman
 		}
 		province_is_or_accepts_culture = yes
@@ -17116,6 +17127,7 @@ st_basil_cathedral = {
 	build_trigger = {
 		province_is_or_accepts_religion_group = {
 			religion_group = christian
+			religion_group = pagan
 		}
 	}
 
@@ -17128,12 +17140,14 @@ st_basil_cathedral = {
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_religion_group = {
 			religion_group = christian
+			religion_group = pagan
 		}
 	}
 
 	can_upgrade_trigger = {
 		province_is_or_accepts_religion_group = {
 			religion_group = christian
+			religion_group = pagan
 		}
 	}
 

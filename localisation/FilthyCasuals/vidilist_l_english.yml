@@ -1,0 +1,52 @@
+﻿l_english:
+ SYNAGOGUE_OF:0 "Grove of $COUNTRY$"
+ building_temple_vidilist:0 "Grove"
+ building_cathedral_vidilist:0 "Sanctuary"
+ VIDILIST_ASPECTS_LONG:0 "Vidilist Aspect"
+ VIDILIST_ASPECTS_SHORT:0 "aspect"
+ VIDILIST_HAS_3_ASPECT:0 "needs one adm, dip and mil aspect."
+
+ pagan_roots:0 "Pagan Roots"
+ desc_pagan_roots:0 "This province embraces the Pagan Roots the residents and the Vidilist overlord have in common. As such, the tolerance the Christian and Muslims in this province enjoy make them more productive than otherwise."
+ vidilist_community_wrong_culture:0 "United Community"
+ desc_vidilist_community_wrong_culture:0 "This province overcame the cultural differences with its overlord and see themselves as Vidilist first, connecting with the owner of the province."
+ vidilist_community_same_culture_group:0 "United Community"
+ desc_vidilist_community_same_culture_group:0 "This province overcame the cultural differences with its overlord and see themselves as Vidilist first, connecting with the owner of the province."
+ diplomatic_vidilist_opinion:0 "Vidilist Placating"
+ desc_diplomatic_vidilist_opinion:0 "This country is placating to your religious beliefs"
+ diplomatic_vidilist_opinion_reverse:0 "Vidilist Placating"
+ desc_diplomatic_vidilist_opinion_reverse:0 "This country is placating to your religious beliefs"
+ vidilist_forest_development:0 "Forest development"
+ desc_vidilist_forest_development:0 "utilising the benefits of the terrain to develop more efficiently"
+ vidilist_woods_development:0 "Woods development"
+ desc_vidilist_woods_development:0 "utilising the benefits of the terrain to develop more efficiently"
+ VIDILIST_ASPECTS_POWER_NAME:0 "Ancestor power"
+ north_pagan:0 "North Pagan"
+ 
+ # Aspects
+ vidilist_aspect_adm_1:0 "Festival of Kucios"
+ desc_vidilist_aspect_adm_1:0 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G+1§! Stability.\n\nAmidst the flickering glow of candlelight and the comforting aroma of traditional dishes, tensions subside and grievances soften as citizens come together to honor their cultural roots. The spirit of Kūčios instills a deep sense of solidarity, inspiring a collective resolve to weather challenges and embrace the promise of the future."
+
+ vidilist_aspect_adm_2:0 "Festival to Usins"
+ desc_vidilist_aspect_adm_2:2 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G+25§! Reform Progress, §G+40§! Adm Power and §G+5§! Claim Strength of Heir.\n\nThe Festival to Usins, a revered tradition of our nation, honors the deity of fertility, abundance, and governance. During this annual celebration, our people gather to pay homage to Usins, offering prayers and sacrifices for prosperity and wise leadership. Amidst the festive atmosphere, the spirit of Usins bestows blessings upon our governance, inspiring enlightened decision-making and administrative prowess."
+
+ vidilist_aspect_adm_3:0 "Festival of Rasa"
+ desc_vidilist_aspect_adm_3:2 "£adm£ §YAspect§!\n§YCelebrate Festival§! gives us §G0.3§! Years of Income and reduces Inflation by §G-1§!.\n\nThe Festival of Rasa, a cherished tradition in our nation, celebrates the arrival of spring and the rejuvenating spirit it brings. During this joyous occasion, our people come together to revel in the blooming of new life and the promise of abundance."
+
+ vidilist_aspect_dip_1:0 "Vidilist Community"
+ desc_vidilist_aspect_dip_1:1 "£dip£ §YAspect§!\nOur §YVidilist§! provinces will only suffer half the penalties of §YNon Accepted Culture§! and §YSame Culture Group§! as long as this aspect is active. \n§YCelebrate Festival§! gives us §G-1§! corruption \n\nAs our people unite under the banner of Vidilism, embracing diversity of thought and expression, the boundaries of tolerance expand, enriching our society with a tapestry of perspectives. This inclusive ethos not only strengthens our spiritual resolve but also serves as a bulwark against the corrosive influence of corruption."
+
+ vidilist_aspect_dip_2:0 "Abrahamic Appeasement"
+ desc_vidilist_aspect_dip_2:0 "£dip£ §YAspect§!\nEvery owned §YChristian§! or §YMuslim§! province will only suffer half of the penalties of wrong religion and will decrease the Local Religious Unity Contribution by §G-50.0%§! and the Local Missionary Strength by §R-1.0%§!.\nEvery christian or muslim country will also get §G-15§! opinion of us \n§YCelebrate Festival§! gives us §G-10§! prestige and §G-40§! Dip Power \n\n Jews, Christians and Muslims might have their differences, but in the end all of our religions can be linked back to the great Abraham. Because of that the Christians and Muslims in our realm are treated as brethren - even if their path differs from ours."
+
+ vidilist_aspect_dip_3:0 "Taiga Culture"
+ desc_vidilist_aspect_dip_3:0 "£dip£ §YAspect§!\nEvery Forest province will get a §G-20%§! dev cost reduction.\nEvery Woods province will get a §G-15%§! dev cost reduction.\n§YCelebrate Festival§! gives us §G+1§! mercantilism \n\n We are a beacon for our people and as such we attract many Jews from foreign countries into our nation. As a side effect, the Christians and Muslims are glad that their "Unwanted Ones" are in our home."
+
+ vidilist_aspect_mil_1:0 "Religious Conscription"
+ desc_vidilist_aspect_mil_1:3 "£mil£ §YAspect§!\n§YCelebrate Festival§! gives us §G1 year§! worth of manpower\n\n The holiest of our days, the Yom Kippur is a day of atonement for our transgressions and repentance for our sins. During Yom Kippur, every Jew is expected to fast, confess and pray, often while servicing in the synagogue."
+
+ vidilist_aspect_mil_2:0 "Guerilla Warfare"
+ desc_vidilist_aspect_mil_2:2 "£mil£ §YAspect§!\n§YCelebrate Festival§! gives us §G+10§! Army Tradition\n\n The Passover is a major holiday in Judaism and a reminder of the time of our people under the Egyptians - and our liberation from them. Every person shall remember the endurance the people of our past had shown, and that every victory deserves celebration."
+
+ vidilist_aspect_mil_3:0 "Militant Defense"
+ desc_vidilist_aspect_mil_3:2 "£mil£ §YAspect§!\n§YCelebrate Festival§! gives us §G+2%§! Army Professionalism\n\n Purim is a Jewish holiday, and serves as a memorial for the saving of our people from Haman of the Achaemenid Persian Empire. As such we remember and honor the endurance of our people during difficult times, and live by their example."

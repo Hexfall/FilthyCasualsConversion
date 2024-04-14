@@ -7,22 +7,17 @@ christian = {
 			protestant
 		}
 		country = {
-			warscore_cost_vs_other_religion = -0.25
-			tolerance_heathen = -1
-			tolerance_heretic = -1
-			global_missionary_strength = 0.02
-			missionary_maintenance_cost = -0.4
-			tolerance_heathen = -1
+			global_tax_modifier = 0.10
+			global_heretic_missionary_strength = 0.01
 		}
 		country_as_secondary = {
-			warscore_cost_vs_other_religion = -0.25
-			global_missionary_strength = 0.01
+			global_tax_modifier = 0.10
 		}
 
 		hre_religion = yes
 
 		province = {
-			local_missionary_strength = -0.02
+			local_missionary_strength = -0.01
 		}
 		
 		fervor = yes

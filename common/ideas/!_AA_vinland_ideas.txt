@@ -1,0 +1,43 @@
+vinland_ideas = {
+	start = {
+		merchants = 2
+		colonists = 1
+	}
+
+	bonus = {
+		republican_tradition = 0.5
+		legitimacy = 1.5
+		devotion = 1.5
+		meritocracy = 1.5	#For completion's sake
+		horde_unity = 1.5
+	}
+
+	trigger = {
+		tag = VIN
+	}
+	free = yes
+
+	escape_from_religious_persecution = {
+		tolerance_heretic = 5
+		no_religion_penalty = yes
+	}
+	usa_bill_of_rights = {
+		global_unrest = -2
+	}
+	vinland_maritime_legacy = {
+		trade_efficiency = 0.10
+	}
+	home_of_the_free = {
+		land_morale = 0.20
+	}
+	workshop_of_the_world = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	door_to_america = {
+		global_prov_trade_power_modifier = 0.1
+	}
+	empire_of_liberty = {
+		min_autonomy_in_territories = -0.10
+		global_autonomy = -0.025
+ 	}
+}

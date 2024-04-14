@@ -6,6 +6,13 @@ religion = vidilist
 primary_culture = hungarian
 capital = 153
 add_accepted_culture = transylvanian
+
+historical_friend = SER
+historical_friend = CRO
+historical_friend = POL
+historical_friend = POM
+historical_rival = MOL
+
 1444.11.11= {
 	monarch = {
 		name = "Svarnas"

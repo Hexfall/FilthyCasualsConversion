@@ -1,0 +1,103 @@
+# Increase the opinion of all Christians / Muslims if picked the diplomatic rabbi aspect
+country_event = {
+	id = passive_effects_events.4
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+
+	trigger = {
+		has_church_aspect = vidilist_aspect_dip_2
+		any_known_country = {
+			OR = {
+				religion_group = muslim
+				religion_group = christian
+			}
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = diplomatic_vidilist_opinion
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		every_known_country = {
+			limit = {
+				OR = {
+					religion_group = muslim
+					religion_group = christian
+				}
+				NOT = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = diplomatic_vidilist_opinion
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = diplomatic_vidilist_opinion
+			}
+			reverse_add_opinion = {
+				who = ROOT
+				modifier = diplomatic_vidilist_opinion_reverse
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+	
+# Remove opinion when aspect gets removed
+country_event = {
+	id = passive_effects_events.5
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+
+	trigger = {
+		NOT = { has_church_aspect = vidilist_aspect_dip_2 }
+		any_known_country = {
+			has_opinion_modifier = {
+				who = ROOT
+				modifier = diplomatic_vidilist_opinion
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		every_country = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = diplomatic_vidilist_opinion
+				}
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = diplomatic_vidilist_opinion
+			}
+			reverse_remove_opinion = {
+				who = ROOT
+				modifier = diplomatic_vidilist_opinion_reverse
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

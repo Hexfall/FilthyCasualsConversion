@@ -6,6 +6,7 @@ religion = vidilist
 primary_culture = russian
 capital = 261
 set_country_flag = ZZZ_generated_converter_nation
+historical_rival = MOL
 1444.11.11= {
 	monarch = {
 		name = "Anastasia"

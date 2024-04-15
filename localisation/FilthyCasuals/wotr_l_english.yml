@@ -12,29 +12,37 @@
  war_of_the_roses.2.d:0 "Local support for the regent in the War of the Roses keeps growing among the people as peasants and nobles alike rally to our banner!"
  # 3
  war_of_the_roses.3.t:1 "[disloyal_province.GetName] Declares for the Mercian Pretenders!"
- war_of_the_roses.3.d:1 "The nobility of [disloyal_province.GetName] has long been divided over the War of the Roses, but now the faction favoring Geoffrey of Mercia has won out and is openly proclaiming its support for the rebels."
+ war_of_the_roses.3.d:1 "The nobility of [disloyal_province.GetName] has long been divided over the War of the Roses, but now the faction favoring Geoffroy of Mercia has won out and is openly proclaiming its support for the rebels."
  # 3
  war_of_the_roses.4.t:1 "[disloyal_province.GetName] Declares for the Norman Pretenders!"
  war_of_the_roses.4.d:1 "The nobility of [disloyal_province.GetName] has long been divided over the War of the Roses, but now the faction favoring Henri of Normandy has won out and is openly proclaiming its support for the rebels."
  # 10
  war_of_the_roses.10.t:0 "Mercian Stronghold"
- war_of_the_roses.10.d:0 "The rebel forces now have complete control of [Root.GetName] and have turned it into a stronghold for supporters loyal to Geoffrey of Mercia."
+ war_of_the_roses.10.d:0 "The rebel forces now have complete control of [Root.GetName] and have turned it into a stronghold for supporters loyal to Geoffroy of Mercia."
  # 11
  war_of_the_roses.11.t:0 "Norman Stronghold"
  war_of_the_roses.11.d:0 "The rebel forces now have complete control of [Root.GetName] and have turned it into a stronghold for supporters loyal to Henri of Normandy."
  # 12
- war_of_the_roses.12.t:0 "Support Geoffrey of Mercia"
- war_of_the_roses.12.d:1 "A civil war over the succession to the throne is raging in Britannia, a conflict that has become known as the War of the Roses. The revolting Geoffrey of Mercia is seeking foreign aid and has sent us an envoy requesting troops. Should they succeed in claiming the throne, our help would surely be remembered, improving our relations with Britannia."
+ war_of_the_roses.12.t:0 "Support Geoffroy of Mercia"
+ war_of_the_roses.12.d:1 "A civil war over the succession to the throne is raging in Britannia, a conflict that has become known as the War of the Roses. The revolting Geoffroy of Mercia is seeking foreign aid and has sent us an envoy requesting troops. Should they succeed in claiming the throne, our help would surely be remembered, improving our relations with Britannia."
  # 13
  war_of_the_roses.13.t:0 "Support Henri of Normandy"
  war_of_the_roses.13.d:1 "A civil war over the succession to the throne is raging in Britannia, a conflict that has become known as the War of the Roses. The revolting Henri of Normandy is seeking foreign aid and has sent us an envoy requesting troops. Should they succeed in claiming the throne, our help would surely be remembered, improving our relations with Britannia."
+ # 101
+ war_of_the_roses.101.t:0 "Geoffroy of Mercia wins the War of the Roses"
+ war_of_the_roses.101.d:0 "The War of the Roses finally comes to an end as Geoffroy of Mercia succeeds in claiming the throne, becoming the new ruler of [Root.GetName]."
+ war_of_the_roses.101.a:0 "Long live the King Geoffroy!"
+ # 102
+ war_of_the_roses.102.t:0 "Henri of Normandy wins the War of the Roses"
+ war_of_the_roses.102.d:0 "The War of the Roses finally comes to an end as Henri of Normandy succeeds in claiming the throne, becoming the new ruler of [Root.GetName]."
+ war_of_the_roses.102.a:0 "Long live the King Henri!"
  # End event
- war_of_the_roses.100.d_mercia:0 "An unnerving chill hung in the air in the palace of London. Whispers sprung up and were silenced just as quickly about the events which were about to unfold. When Geoffrey first moved into the palace, he brought his serving staff with him, and by way of bribery and blackmail he secured the loyalties of key backers of the crown. \n\n\"Isn't it about time we got this farce over with?\" were the last words spoken to the Queen-Mother before she and her son were dragged into the Tower of London, never to be seen again."
+ war_of_the_roses.100.d_mercia:0 "An unnerving chill hung in the air in the palace of London. Whispers sprung up and were silenced just as quickly about the events which were about to unfold. When Geoffroy first moved into the palace, he brought his serving staff with him, and by way of bribery and blackmail he secured the loyalties of key backers of the crown. \n\n\"Isn't it about time we got this farce over with?\" were the last words spoken to the Queen-Mother before she and her son were dragged into the Tower of London, never to be seen again."
  war_of_the_roses.100.d_normandy:0 "Henri's grip over the military grew stronger and more overt with each passing day. Those generals which hadn't been directly appointed by him had been swayed to his side out of respect and he spent many mornings drilling the Royal Guard and training alongside them. When the Queen-Mother ordered Henri removed from his post and arrested, not a single guardsman moved a muscle. \n\n\"Your services are no longer required. I've prepared a place in the country for you and your son to live out the rest of your lives. The Crown is a heavy burden. I shall bear it in this child's place.\""
  war_of_the_roses.100.d_child:0 "Robert's path to the succession has been long and covered in thorns. At many times, the crown was on the verge of falling into the hands of one of Robert's brothers, but a life fraught with danger and politics has shaped Robert into a formidable man. Even now, at this early age, glimpses can be seen of the man that is to be known as \"Robert of the Iron Crown.\""
 
  # Province modifiers
  wotr_local_support_for_lancaster:0 "Supports the Mercian claim"
  wotr_local_support_for_york:0 "Supports the Norman claim"
- desc_wotr_local_support_for_lancaster:0 "Much of the nobility and even many peasants in the province have declared their support for Geoffrey of Mercia."
+ desc_wotr_local_support_for_lancaster:0 "Much of the nobility and even many peasants in the province have declared their support for Geoffroy of Mercia."
  desc_wotr_local_support_for_york:0 "Much of the nobility and even many peasants in the province have declared their support for Henri of Normandy."

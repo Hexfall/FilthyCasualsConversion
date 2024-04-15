@@ -140,7 +140,7 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Geoffrey"
+					leader = "Geoffroy"
 					leader_dynasty = "de Normandie"
 					win = yes
 				}
@@ -169,7 +169,7 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Geoffrey"
+					leader = "Geoffroy"
 					leader_dynasty = "de Normandie"
 					win = yes
 				}
@@ -1282,7 +1282,7 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_country_flag = supports_house_of_lancaster
+					has_country_flag = wotr_supports_mercia
 				}
 				every_country = {
 					limit = {
@@ -1321,7 +1321,7 @@ country_event = {
 			}
 			kill_heir = { allow_new_heir = no }
 			define_ruler = {
-				name = "Geoffrey"
+				name = "Geoffroy"
 				dynasty = "de Normandie"
 				age = 30
 				claim = 95
@@ -1414,16 +1414,16 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_disaster = war_of_the_roses
-		has_country_flag = supports_house_of_york
-		dynasty = Lancaster
+		has_country_flag = wotr_supports_normandy
+		NOT = { has_ruler = "King-Regent Henri" }
 	}
 	
 	immediate = {
 		hidden_effect = {
 			
 			# Clear Flags
-			clr_country_flag = supports_house_of_lancaster
-			clr_country_flag = supports_house_of_york
+			clr_country_flag = wotr_supports_mercia
+			clr_country_flag = wotr_supports_normandy
 
 			# Clear Country Modifiers
 			remove_country_modifier = importing_food
@@ -1481,6 +1481,34 @@ country_event = {
 				country_event = { id = war_of_the_roses.103 days = 1 }
 			}
 		}
+
+		kill_heir = { allow_new_heir = no }
+		define_ruler = {
+			name = "Geoffroy"
+			dynasty = "de Normandie"
+			age = 30
+			claim = 95
+			adm = 3
+			dip = 4
+			mil = 2
+			male = yes
+			culture = west_latin
+			religion = chalcedonian
+		}
+		add_ruler_personality = intricate_web_weaver_personality
+		create_union = MRC
+		add_historical_friend = MRC
+		remove_historical_rival = MRC
+		MRC = {
+			add_historical_friend = ROOT
+			remove_historical_rival = ROOT
+		}
+		remove_historical_friend = NRM
+		add_historical_rival = NRM
+		NRM = {
+			remove_historical_friend = ROOT
+			add_historical_rival = ROOT
+		}
 	}
 }
 
@@ -1498,15 +1526,29 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_disaster = war_of_the_roses
-		has_country_flag = supports_house_of_lancaster
-		dynasty = York	
+		OR = {
+			AND = {
+				has_country_flag = wotr_supports_mercia
+				NOT = { has_ruler = "King-Regent Geoffroy" }
+			}
+			AND = {
+				has_country_flag = wotr_supports_child
+				NOT = {
+					OR = {
+						has_heir = "Robert"
+						has_ruler = "Robert"
+						has_ruler = "Robert 'the Iron Crown'"
+					}
+				}
+			}
+		}
 	}
 	
 	immediate = {
 		hidden_effect = {
 			# Clear Flags
-			clr_country_flag = supports_house_of_lancaster
-			clr_country_flag = supports_house_of_york
+			clr_country_flag = wotr_supports_mercia
+			clr_country_flag = wotr_supports_normandy
 
 			# Clear Country Modifiers
 			remove_country_modifier = importing_food
@@ -1563,6 +1605,33 @@ country_event = {
 				}
 				country_event = { id = war_of_the_roses.103 days = 1 }
 			}
+		}
+
+		kill_heir = { allow_new_heir = no }
+		define_ruler = {
+			name = "Henri"
+			dynasty = "de Normandie"
+			age = 34
+			claim = 95
+			adm = 3
+			dip = 4
+			mil = 2
+			male = yes
+			culture = west_latin
+			religion = chalcedonian
+		}
+		add_ruler_personality = martial_educator_personality
+		create_union = NRM
+		add_historical_friend = NRM
+		remove_historical_rival = NRM
+		NRM = {
+			add_historical_friend = ROOT
+			remove_historical_rival = ROOT
+		}
+		add_historical_rival = MRC
+		MRC = {
+			remove_historical_friend = ROOT
+			add_historical_rival = ROOT
 		}
 	}
 }
@@ -1671,13 +1740,13 @@ country_event = {
 	title = war_of_the_roses.200.name
 	desc = {
 		trigger = {
-			has_country_flag = supports_house_of_lancaster
+			has_country_flag = wotr_supports_mercia
 		}
 		desc = war_of_the_roses.200.desc.york
 	}
 	desc = {
 		trigger = {
-			has_country_flag = supports_house_of_york
+			has_country_flag = wotr_supports_normandy
 		}
 		desc = war_of_the_roses.200.desc.lancaster
 	}
@@ -1713,13 +1782,13 @@ country_event = {
 	title = war_of_the_roses.201.name
 	desc = {
 		trigger = {
-			has_country_flag = supports_house_of_lancaster
+			has_country_flag = wotr_supports_mercia
 		}
 		desc = war_of_the_roses.201.desc.york
 	}
 	desc = {
 		trigger = {
-			has_country_flag = supports_house_of_york
+			has_country_flag = wotr_supports_normandy
 		}
 		desc = war_of_the_roses.201.desc.lancaster
 	}
@@ -1800,7 +1869,7 @@ country_event = {
 		event_target:new_revolt_province = {
 			if = {
 				limit = {
-					ROOT = { has_country_flag = supports_house_of_york }
+					ROOT = { has_country_flag = wotr_supports_normandy }
 				}
 				spawn_rebels = {
 					type = pretender_rebels

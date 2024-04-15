@@ -1,5 +1,22 @@
 ﻿l_english:
  had_war_of_the_roses:0 "War of the Roses"
+
+ ### Events
+ # Start event
+ war_of_the_roses.1.d:0 "The old Emperor, Petros Augustus, has passed. His will states that the crown goes to his youngest son, Robert, bizarrely bypassing several of his older brothers. Robert, however, is too young to rule on his own, and requires a regent until he reaches age. The Queen-Mother, Dorothea, has been filling the role since her husbands death, but there are those at court who wish to invite one of Roberts older brothers to hold the reins for the child, a move which is likely to result in the circumvention of Petros' will."
  war_of_the_roses.1.a:0 "Support Geoffroy of Mercia..."
  war_of_the_roses.1.b:0 "Support Henri of Normandy..."
  war_of_the_roses.1.c:0 "The will of Petros Augustus is not to be challenged!"
+ # 2
+ war_of_the_roses.2.t:0 "Local support"
+ war_of_the_roses.2.d:0 "Local support for the regent in the War of the Roses keeps growing among the people as peasants and nobles alike rally to our banner!"
+ # End event
+ war_of_the_roses.100.d_mercia:0 "An unnerving chill hung in the air in the palace of London. Whispers sprung up and were silenced just as quickly about the events which were about to unfold. When Geoffrey first moved into the palace, he brought his serving staff with him, and by way of bribery and blackmail he secured the loyalties of key backers of the crown. \n\n\"Isn't it about time we got this farce over with?\" were the last words spoken to the Queen-Mother before she and her son were dragged into the Tower of London, never to be seen again."
+ war_of_the_roses.100.d_normandy:0 "Henri's grip over the military grew stronger and more overt with each passing day. Those generals which hadn't been directly appointed by him had been swayed to his side out of respect and he spent many mornings drilling the Royal Guard and training alongside them. When the Queen-Mother ordered Henri removed from his post and arrested, not a single guardsman moved a muscle. \n\n\"Your services are no longer required. I've prepared a place in the country for you and your son to live out the rest of your lives. The Crown is a heavy burden. I shall bear it in this child's place.\""
+ war_of_the_roses.100.d_child:0 "Robert's path to the succession has been long and covered in thorns. At many times, the crown was on the verge of falling into the hands of one of Robert's brothers, but a life fraught with danger and politics has shaped Robert into a formidable man. Even now, at this early age, glimpses can be seen of the man that is to be known as \"Robert of the Iron Crown.\""
+
+ # Province modifiers
+ wotr_local_support_for_lancaster:0 "Supports the Mercian claim"
+ wotr_local_support_for_york:0 "Supports the Norman claim"
+ desc_wotr_local_support_for_lancaster:0 "Much of the nobility and even many peasants in the province have declared their support for Geoffrey of Mercia."
+ desc_wotr_local_support_for_york:0 "Much of the nobility and even many peasants in the province have declared their support for Henri of Normandy."

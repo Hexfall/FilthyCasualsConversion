@@ -20,7 +20,7 @@ country_event = {
 		set_country_flag = had_war_of_the_roses
 	}
 	
-	option = {		# Support the House of Lancaster
+	option = {		# Support Mercia
 		name = war_of_the_roses.1.a
 
 		add_stability = -1
@@ -33,9 +33,9 @@ country_event = {
 			name = "King-Regent Geoffroy"
 			dynasty = "de Normandie"
 			adm = 3
-			dip = 2
-			mil = 4
-			age = 26
+			dip = 4
+			mil = 2
+			age = 28
 			religion = chalcedonian
 			culture = west_latin
 		}
@@ -45,7 +45,7 @@ country_event = {
 
 		if = {
 			limit = {
-				owns = 234		# Yorkshire
+				owns = 234		# Hampshire
 				234 = {
 					NOT = { units_in_province = 1 }
 				}
@@ -53,7 +53,7 @@ country_event = {
 			234 = {
 				add_province_modifier = {
 					name = wotr_local_support_for_york
-					duration = 3650
+					duration = 1095
 				}
 				spawn_rebels = {
 					type = pretender_rebels
@@ -82,58 +82,58 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = wotr_local_support_for_york
-					duration = 3650
+					duration = 1095
 				}
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Richard"
-					leader_dynasty = "York"
+					leader = "Henri"
+					leader_dynasty = "de Normandie"
 					win = yes
 				}
 			}
 		}
 	}
 
-	option = {		# Support the House of York
+	option = {		# Support Normandy
 		name = war_of_the_roses.1.b
 
-		add_stability = -2
-		set_country_flag = supports_house_of_york
+		add_stability = -1
+		set_country_flag = wotr_supports_normandy
+
+
 		define_ruler = {
-			dynasty = York
-			age = 31
+			regency = yes
+			male = yes
+			name = "King-Regent Henri"
+			dynasty = "de Normandie"
+			adm = 3
+			dip = 2
+			mil = 4
+			age = 32
+			religion = chalcedonian
+			culture = west_latin
 		}
-		if = {
-			limit = {
-				has_states_general_mechanic = yes
-			}
-			change_statists_vs_orangists = 1
-		}
-		if = {
-			limit = {
-				has_dlc = "Rights of Man"
-			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = tactical_genius } }
-		}
+
 		add_yearly_manpower = -2.5
+
 		if = {
 			limit = {
-				owns = 244		# Lancashire
-				244 = {
+				owns = 239		# Gloucester
+				239 = {
 					NOT = { units_in_province = 1 }
 				}
 			}
-			244 = {
+			239 = {
 				add_province_modifier = {
 					name = wotr_local_support_for_lancaster
-					duration = 3650
+					duration = 1095
 				}
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Edward"
-					leader_dynasty = "Lancaster"
+					leader = "Geoffrey"
+					leader_dynasty = "de Normandie"
 					win = yes
 				}
 			}
@@ -156,13 +156,74 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = wotr_local_support_for_lancaster
-					duration = 3650
+					duration = 1095
 				}
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Edward"
-					leader_dynasty = "Lancaster"
+					leader = "Geoffrey"
+					leader_dynasty = "de Normandie"
+					win = yes
+				}
+			}
+		}
+	}
+
+	option = { # Support the Emperor's will
+		name = war_of_the_roses.1.c
+
+
+		add_stability = -1
+		set_country_flag = wotr_supports_child
+
+		add_yearly_manpower = -2.5
+
+		if = {
+			limit = {
+				owns = 234		# Hampshire
+				234 = {
+					NOT = { units_in_province = 1 }
+				}
+			}
+			234 = {
+				add_province_modifier = {
+					name = wotr_local_support_for_york
+					duration = 1095
+				}
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 3
+					leader = "Henri"
+					leader_dynasty = "de Normandie"
+					win = yes
+				}
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					region = british_isles_region
+					OR = {
+						NOT = {
+							root = {
+								any_owned_province = {
+									region = british_isles_region
+									NOT = { units_in_province = 1 }
+								}
+							}
+						}
+						NOT = { units_in_province = 1 }
+					}
+				}
+				add_province_modifier = {
+					name = wotr_local_support_for_york
+					duration = 1095
+				}
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 3
+					leader = "Henri"
+					leader_dynasty = "de Normandie"
 					win = yes
 				}
 			}
@@ -1110,8 +1171,25 @@ country_event = {
 country_event = {
 	id = war_of_the_roses.100
 	title = war_of_the_roses.100.t
-	desc = war_of_the_roses.100.d
 	picture = WAR_OF_THE_ROSES_eventPicture
+	desc = { # Mercia
+		trigger = {
+			has_country_flag = wotr_supports_mercia
+		}
+		desc = war_of_the_roses.100.d_mercia
+	}
+	desc = { # Normandy
+		trigger = {
+			has_country_flag = wotr_supports_normandy
+		}
+		desc = war_of_the_roses.100.d_normandy
+	}
+	desc = { # Child
+		trigger = {
+			has_country_flag = wotr_supports_child
+		}
+		desc = war_of_the_roses.100.d_child
+	}
 	
 	major = yes
 	
@@ -1174,7 +1252,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_country_flag = supports_house_of_york
+					has_country_flag = wotr_supports_normandy
 				}
 				every_country = {
 					limit = {
@@ -1182,7 +1260,7 @@ country_event = {
 					}
 					country_event = { id = war_of_the_roses.104 days = 1 }
 				}
-				clr_country_flag = supports_house_of_york
+				clr_country_flag = wotr_supports_normandy
 			}
 			if = {
 				limit = {
@@ -1194,11 +1272,11 @@ country_event = {
 					}
 					country_event = { id = war_of_the_roses.105 days = 1 }
 				}
-				clr_country_flag = supports_house_of_lancaster
+				clr_country_flag = wotr_supports_mercia
 			}
 			if = {
 				limit = {
-					has_country_flag = supports_house_of_york
+					has_country_flag = wotr_supports_normandy
 				}
 				every_country = {
 					limit = {
@@ -1209,7 +1287,7 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_country_flag = supports_house_of_lancaster
+					has_country_flag = wotr_supports_mercia
 				}
 				every_country = {
 					limit = {
@@ -1218,6 +1296,89 @@ country_event = {
 					country_event = { id = war_of_the_roses.105 days = 1 }
 				}
 			}
+		}
+		if = {
+			limit = {
+				has_country_flag = wotr_supports_mercia
+			}
+			kill_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "Geoffrey"
+				dynasty = "de Normandie"
+				age = 30
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 2
+				male = yes
+				culture = west_latin
+				religion = chalcedonian
+			}
+			add_ruler_personality = intricate_web_weaver_personality
+			create_union = MRC
+			add_historical_friend = MRC
+			remove_historical_rival = MRC
+			MRC = {
+				add_historical_friend = ROOT
+				remove_historical_rival = ROOT
+			}
+			remove_historical_friend = NRM
+			add_historical_rival = NRM
+			NRM = {
+				remove_historical_friend = ROOT
+				add_historical_rival = ROOT
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = wotr_supports_normandy
+			}
+			kill_heir = { allow_new_heir = no }
+			define_ruler = {
+				name = "Henri"
+				dynasty = "de Normandie"
+				age = 34
+				claim = 95
+				adm = 3
+				dip = 4
+				mil = 2
+				male = yes
+				culture = west_latin
+				religion = chalcedonian
+			}
+			add_ruler_personality = martial_educator_personality
+			create_union = NRM
+			add_historical_friend = NRM
+			remove_historical_rival = NRM
+			NRM = {
+				add_historical_friend = ROOT
+				remove_historical_rival = ROOT
+			}
+			remove_historical_friend = MRC
+			add_historical_rival = MRC
+			MRC = {
+				remove_historical_friend = ROOT
+				add_historical_rival = ROOT
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = wotr_supports_child
+			}
+			add_ruler_personality = iron_crowned_personality
+
+			add_casus_belli = {
+				target = MRC
+				type = cb_restore_personal_union
+				months = 60
+			}
+			add_casus_belli = {
+				target = NRM
+				type = cb_restore_personal_union
+				months = 60
+			}
+
+			add_legitimacy = 40
 		}
 	}
 }

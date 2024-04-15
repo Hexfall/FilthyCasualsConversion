@@ -1,5 +1,5 @@
-owner = Z0I
-controller = Z0I
+owner = ORT
+controller = ORT
 capital = "Kastoria"
 is_city = yes
 culture = latin_culture
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 4
 base_manpower = 4
-add_core = Z0I
+add_core = ORT
 add_core = EPI
 discovered_by = east_african
 discovered_by = eastern

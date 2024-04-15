@@ -927,7 +927,7 @@
  Z0H_ideas_bonus:3 "ambitions des Alid"
  Z0H_ideas_start:3 "traditions des Alid"
  canonical:3 "Syr Darya"
- Z0I:3 "Romanum Orientis"
+ ORT:3 "Romanum Orientis"
  Z0I_ADJ:3 "Latin"
  Z0I_ideas:3 "Doctrines Latin"
  Z0I_ideas_bonus:3 "ambitions Latin"

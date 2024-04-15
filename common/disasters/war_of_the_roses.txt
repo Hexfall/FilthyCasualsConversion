@@ -1,0 +1,119 @@
+war_of_the_roses = {
+	potential = {
+		tag = ENG
+		current_age = age_of_discovery
+		normal_or_historical_nations = yes
+		government = monarchy
+		is_free_or_tributary_trigger = yes
+		uses_doom = no
+		NOT = { has_country_flag = had_war_of_the_roses  }
+		is_tutorial_active = no
+	}
+
+
+
+	can_start = {
+		current_age = age_of_discovery
+		has_any_disaster = no
+		has_regency = yes
+		NOT = { is_year = 1460 }
+		is_lesser_in_union = no
+	}
+	
+	can_stop = { 
+		OR = {
+			has_regency = no
+			is_lesser_in_union = yes
+		}
+	}
+	
+	ended_by_country_breaking_to_rebels = no
+	
+	
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = { legitimacy = 90 }
+		}
+		modifier = {
+			factor = 2.5
+			NOT = { heir_age = 8 }
+		}
+		modifier = {
+			factor = 2.5
+			NOT = { heir_age = 12 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { stability = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { ADM = 2 }
+		}		
+		modifier = {
+			factor = 0.5
+			NOT = { DIP = 2 }
+		}		
+		modifier = {
+			factor = 0.5
+			NOT = { MIL = 2 }
+		}
+	}
+	
+	can_end = {
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { has_spawned_rebels = pretender_rebels }
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_country_flag = wotr_supports_normandy
+						has_country_flag = wotr_supports_mercia
+					}
+				}
+			}
+			has_regency = no
+		}
+		hidden_trigger = {
+			NOT = { has_country_modifier = just_lost_to_rebels }
+		}
+		custom_trigger_tooltip = {
+			tooltip = disaster_active_for_3_years_tooltip
+			had_country_flag = { flag = had_war_of_the_roses days = 1095 } # Three years
+		}
+		had_country_flag = { flag = had_war_of_the_roses days = 1095 } # Three years
+	}
+	
+
+
+
+	modifier = {
+		global_unrest = 5
+		mercenary_manpower = 0.125
+	}	
+	
+	
+	on_start = war_of_the_roses.1
+	on_end = war_of_the_roses.100
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+			100 = war_of_the_roses.2		
+			100 = war_of_the_roses.3		
+			100 = war_of_the_roses.4
+			100 = war_of_the_roses.5
+			#6 is triggere from on battle	
+			100 = war_of_the_roses.7
+			100 = war_of_the_roses.8	
+			100 = war_of_the_roses.9
+			#10 & 11 is triggered from siege won
+			#12 % 13 triggers for other nations, and fires 14.
+			#101 & 102 are endings for rebel victory.
+		}
+	}
+}
+

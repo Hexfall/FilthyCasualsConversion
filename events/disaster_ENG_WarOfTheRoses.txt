@@ -39,6 +39,10 @@ country_event = {
 			religion = chalcedonian
 			culture = west_latin
 		}
+		remove_historical_friend = NRM
+		NRM = {
+			remove_historical_friend = ROOT
+		}
 
 
 		add_yearly_manpower = -2.5
@@ -114,6 +118,10 @@ country_event = {
 			religion = chalcedonian
 			culture = west_latin
 		}
+		remove_historical_friend = MRC
+		MRC = {
+			remove_historical_friend = ROOT
+		}
 
 		add_yearly_manpower = -2.5
 
@@ -177,6 +185,14 @@ country_event = {
 		set_country_flag = wotr_supports_child
 
 		add_yearly_manpower = -2.5
+		remove_historical_friend = NRM
+		NRM = {
+			remove_historical_friend = ROOT
+		}
+		remove_historical_friend = MRC
+		MRC = {
+			remove_historical_friend = ROOT
+		}
 
 		if = {
 			limit = {
@@ -1354,7 +1370,6 @@ country_event = {
 				add_historical_friend = ROOT
 				remove_historical_rival = ROOT
 			}
-			remove_historical_friend = MRC
 			add_historical_rival = MRC
 			MRC = {
 				remove_historical_friend = ROOT
@@ -1370,12 +1385,12 @@ country_event = {
 			add_casus_belli = {
 				target = MRC
 				type = cb_restore_personal_union
-				months = 60
+				months = 120
 			}
 			add_casus_belli = {
 				target = NRM
 				type = cb_restore_personal_union
-				months = 60
+				months = 120
 			}
 
 			add_legitimacy = 40

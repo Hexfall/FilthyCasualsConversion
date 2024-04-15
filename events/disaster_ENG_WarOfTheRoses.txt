@@ -323,7 +323,7 @@ country_event = {
 			has_spawned_rebels = pretender_rebels
 			has_country_flag = war_of_the_roses_pretender_fled
 		}
-		has_country_flag = supports_house_of_york
+		NOT = { has_country_flag = wotr_supports_mercia }
 		any_owned_province = {
 			is_overseas = no
 			is_capital = no
@@ -389,7 +389,7 @@ country_event = {
 			has_spawned_rebels = pretender_rebels
 			has_country_flag = war_of_the_roses_pretender_fled
 		}
-		has_country_flag = supports_house_of_lancaster
+		NOT = { has_country_flag = wotr_supports_normandy }
 		any_owned_province = {
 			is_overseas = no
 			is_capital = no
@@ -741,7 +741,7 @@ country_event = {
 	trigger = {
 		ENG = {
 			has_disaster = war_of_the_roses
-			has_country_flag = supports_house_of_york
+			NOT = { has_country_flag = wotr_supports_normandy }
 			has_spawned_rebels = pretender_rebels
 		}
 		NOT = { tag = ENG }
@@ -763,6 +763,7 @@ country_event = {
 				}
 				236 = { range = root }
 			}
+			tag = CAS
 		}
 		is_subject = no
 		NOT = { alliance_with = ENG }
@@ -914,7 +915,7 @@ country_event = {
 	trigger = {
 		ENG = {
 			has_disaster = war_of_the_roses
-			has_country_flag = supports_house_of_lancaster
+			NOT = { has_country_flag = wotr_supports_mercia }
 			has_spawned_rebels = pretender_rebels
 		}
 		NOT = { tag = ENG }
@@ -936,6 +937,7 @@ country_event = {
 				}
 				236 = { range = root }
 			}
+			tag = CAS
 		}
 		is_subject = no
 		NOT = { alliance_with = ENG }

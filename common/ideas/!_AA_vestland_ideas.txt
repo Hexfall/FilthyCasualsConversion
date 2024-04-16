@@ -18,16 +18,12 @@ vestland_ideas = {
 	free = yes
 
 	huscarl_sailors = {
-		naval_maintenance_modifier = -0.1
 		global_sailors_modifier = 0.2	
 		infantry_power = 0.20
-		local_tax_modifier = -0.05
 	}
 	merchant_jarls = {
-		global_ship_trade_power = 0.2
 		ship_power_propagation = 0.1
-        trade_value_modifier = 0.1
-		legitimacy = -0.2
+		naval_maintenance_modifier = -0.1
 	}
 	go_vest = {
 		global_colonial_growth = 25
@@ -38,12 +34,11 @@ vestland_ideas = {
 	sell_the_taters = {
 		trade_efficiency = 0.1
 	}
-	crossroad_diplomat = {
-		discipline = 0.05
+	great_nordic_navy = {
+		heavy_ship_power = 0.1
 	}
-	invest_in_the_homeland = {
-		global_prosperity_growth = 0.2
-	    expand_infrastructure_cost_modifier = -0.25
-		core_creation = 0.1
+	enlist_the_colonials = {
+ 	vassal_sailors_bonus = 0.1
+	vassal_manpower_bonus = 0.1
 	}
 }

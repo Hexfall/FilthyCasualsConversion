@@ -12,7 +12,6 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = ATH
-add_core = DAL
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

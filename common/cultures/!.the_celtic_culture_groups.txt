@@ -49,7 +49,7 @@ celts = {
 		Galbid Iacid Marganid Sinatid Vodenosian Indutian Dumnid Epatticid
 		Teutomalian Viridorrian Magunnid Brennid Boian Tannid Iccian Galanid
 	}
-	belgian = { primary = BEL } # Fallback
+	wallonian = { primary = BEL } # Fallback
 	gaulish = { primary = FRA } # Fallback
 	auscian = { primary = GUY }
 	armorican = { primary = BRI }

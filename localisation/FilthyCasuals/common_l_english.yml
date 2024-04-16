@@ -1,3 +1,8 @@
 ﻿l_english:
  disaster_active_for_3_years_tooltip:0 "Disaster has been active for 3 years"
  disaster_active_for_5_years_tooltip:0 "Disaster has been active for 5 years"
+
+ imperial_dyad:0 "Imperial Dyad"
+ imperial_dyad_desc:0 "When the Romanum Occidentis and Romanum Orientis united, they did so under a union of equals. The imperial seat is to alternate between the two founding families."
+ imperial_dyad_off_season:0 "Imperial Dyad - Off Season"
+ imperial_dyad_off_season_desc:0 "The imperial seat is currently held by our allies. We can no longer wield the imperial administration at full capacity."

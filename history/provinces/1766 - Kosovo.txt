@@ -9,7 +9,7 @@ trade_goods = gold
 base_tax = 7
 base_production = 4
 base_manpower = 6
-add_core = DAL
+
 add_core = SER
 discovered_by = eastern
 discovered_by = muslim

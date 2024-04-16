@@ -9,7 +9,6 @@ hre = yes
 base_tax = 10
 base_production = 5
 base_manpower = 8
-add_core = DAL
 add_core = EPI
 discovered_by = east_african
 discovered_by = eastern

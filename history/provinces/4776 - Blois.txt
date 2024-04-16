@@ -10,7 +10,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 add_core = BER
-add_core = FRA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

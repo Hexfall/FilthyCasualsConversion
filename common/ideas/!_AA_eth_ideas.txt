@@ -10,17 +10,74 @@ ETH_ideas = {
 
 	trigger = {
 		tag = ETH
+		has_dlc = "Origins"
 	}
 	free = yes
-	
+	 
 	fatimid_solomon = { #Better development
-		administrative_efficiency = -0.025
+		administrative_efficiency = 0.02
 		build_cost = -0.05
 	}		
 	
 	fatimid_true_caliphate = { #Better missionary
 		missionaries = 1
 		tolerance_own = 2
+
+	}
+
+	fatimid_negusa_nagast = { 
+		global_unrest = -1
+		land_attrition = -0.1
+		prestige = 0.1
+	}
+
+	fatimid_one_state = { #Offensive faith
+		diplomatic_annexation_cost = -0.05
+	}	
+
+	fatimid_wall_of_africa = { #Defensive faith
+		discipline = 0.05
+		defensiveness = 0.2
+		hostile_attrition = 1
+	}
+
+	crossroads_merchants = { #Merchants
+		merchants = 1
+		trade_steering = 0.05
+	}
+
+	fatimid_goods_of_nile = { #developer
+		global_trade_goods_size_modifier = 0.10
+	}
+}
+
+ETH_idea_no_dlc = {
+	start = {
+		trade_efficiency = 0.1
+		reinforce_speed = 0.1
+	}
+
+	bonus = {
+		religious_unity = 0.1
+	}
+
+	trigger = {
+		tag = ETH
+		NOT={
+			has_dlc = "Origins"
+		}
+	}
+	free = yes
+	
+	fatimid_solomon = { #Better development
+		administrative_efficiency = 0.02
+		build_cost = -0.05
+	}		
+	
+	fatimid_true_caliphate = { #Better missionary
+		missionaries = 1
+		tolerance_own = 2
+
 	}
 
 	fatimid_negusa_nagast = { 

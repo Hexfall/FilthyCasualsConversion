@@ -32,7 +32,7 @@ country_decisions = {
 							OR = {
 								owns_or_non_sovereign_subject_of = 390
 								owns_or_non_sovereign_subject_of = 400
-								owns_or_non_sovereign_subject_of = 411
+								owns_or_non_sovereign_subject_of = 2313
 							}
 						}
 						root = {
@@ -58,7 +58,7 @@ country_decisions = {
 								OR = {
 									owns_or_non_sovereign_subject_of = 390
 									owns_or_non_sovereign_subject_of = 400
-									owns_or_non_sovereign_subject_of = 411
+									owns_or_non_sovereign_subject_of = 2313
 								}
 							}
 						}
@@ -69,7 +69,7 @@ country_decisions = {
 							province_id = 395
 							province_id = 400
 							province_id = 410
-							province_id = 411
+							province_id = 2313
 						}
 					}
 				}
@@ -87,7 +87,7 @@ country_decisions = {
 			OR = {
 				owns_or_non_sovereign_subject_of = 390
 				owns_or_non_sovereign_subject_of = 400
-				owns_or_non_sovereign_subject_of = 411
+				owns_or_non_sovereign_subject_of = 2313
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				country_or_non_sovereign_subject_holds = ROOT

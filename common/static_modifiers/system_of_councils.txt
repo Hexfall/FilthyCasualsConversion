@@ -1,0 +1,23 @@
+council_of_state_mod = {
+    stability_cost_modifier = -0.25
+}
+
+council_of_commerce_mod = {
+    improve_relation_modifier = 0.10
+}
+
+council_of_war_mod = {
+    global_regiment_cost = -0.1
+}
+
+council_of_india_mod = {
+    trade_efficiency = 0.10
+}
+
+council_of_military_orders_mod2 = {
+    defensiveness = 0.20
+}
+
+council_of_commanders_mod = {
+    leader_land_fire = 1
+}

@@ -1,8 +1,12 @@
 ﻿l_english:
  ottoman:0 "Outremer"
  OUT:0 "Outremer Empire"
+
+ # Decision
  outremer_nation_title:0 "Reforge the Outremer Empire"
  outremer_nation_desc:0 "The deposition of the Pope in Rome shook the Outremer world to it's core. In a move to distance themselves from the Empire and any undue influence from the no-longer infallible Pope, the house of d'Oriental moved to install a patriarch in Jerusalem to head the church of the Golden Path. The decision would splinter and fragment the Outremer Empire, as many of the nations peoples still clung to the Pope as a figurehead. The undeniable truth of the matter, however, is that fragmented or not, a Christian nation now resides in the Mashriq, and it's only a matter of time before it reunites again under one church or the other and begins to wield its might outwards again."
+
+ # Ideas
  outremer_ideas:0 "Outremer Ideas"
  outremer_ideas_start:0 "Outremer Traditions"
  outremer_ideas_bonus:0 "Outremer Ambition"
@@ -16,3 +20,47 @@
  crossroads_diplomats_desc:0 "The Outremer nation occupies a great artery of the world, through which many exotic goods and peoples travel. To maintain our privileged position in the world, our diplomats are trained to handle a wide variety of cultures and various structures of efficient communications are maintained throughout our nation."
  gateway_of_christendom:0 "The Gateway of Christendom"
  gateway_of_christendom_desc:0 "Though the foundation of the Outremer state lay in the reclamation of the Holy Land, its expansion lay as much in the spread of Christendom as it does the pursuit of domination of the trade between Asia and the Christian world. Although the purpose was always to proliferate trade between Asia and Europe, without the need to cross Moorish lands, but with the establishment of a heretic church in the Empire, the Outremer might instead seek to cut them off from the trade. A move none of Europe can contest, lest they find way to India which circumvents Outremer lands, if such a thing even exists..."
+
+ # System of Councils
+ council_of_state_mod:0 "Council of State called"
+ council_of_commerce_mod:0 "Council of Commerce called"
+ council_of_war_mod:0 "Council of War called"
+ system_of_councils_mechanic_desc:0 "The System of Councils was developed by the Hispanic Monarchy to enable the government of very distant and different lands through a complex bureaucracy, structured in thematic or territorial councils. This system reached its peak in the reign of Philip II, also known as 'the Bureaucrat King'."
+ royal_council_interaction:0 "Call the Council of State"
+ royal_council_interaction_desc:0 ""
+ royal_council_interaction_tooltip:0 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of the Chamber§!:\n    Possible Advisors: §G+1§!\n    Advisor Cost: §G-10.0%§!\n\n§YCouncil of Finance§!:\n    Yearly Inflation Reduction: §G-0.05§!\n    Interest per Annum: §G-1.00§!\n\n§YCouncil of the Inquisition§!:\n    Missionaries: §G+1§!\n    Missionary Strength against Heretics: §G+2.0%§!"
+ state_council_interaction:0 "Call the Council of Commerce"
+ state_council_interaction_desc:0 ""
+ council_of_commerce_interaction_tooltip:1 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of Foreign Affairs§!:\n    Diplomatic Reputation: §G+2.00§!\n\n§YCouncil of Maritime Authority§!:\n    Galley Combat Ability: §G+15.0%§!\n\n§YCouncil of India§!:\n    Trade Efficiency: §G+10.0%§!"
+ war_council_interaction:0 "Call the Council of War"
+ war_council_interaction_desc:0 ""
+ war_council_interaction_tooltip:0 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of the Crusade§!:\n    Manpower Recovery Speed: §G+15.0%§!\n\n§YCouncil of Military Orders§!:\n    Fort Defense: §G+20.0%§!\n\n§YCouncil of Commanders§!:\n    Land Leader Fire: §G+1.00§!"
+
+ council_of_the_chamber_mod:0 "Council of the Chamber"
+ council_of_finance_mod:0 "Council of Finance"
+ council_of_the_inquisition_mod:0 "Council of the Inquisition"
+
+ council_of_europe_mod:0 "Council of Foreign Affairs"
+ council_of_mediterranean_mod:0 "Council of Maritime Authority"
+ council_of_india_mod:0 "Council of India"
+
+ council_of_the_crusade_mod:0 "Council of the Crusade"
+ council_of_military_orders_mod2:0 "Council of Military Orders"
+ council_of_commanders_mod:0 "Council of Commanders"
+
+ # System of Councils events
+ system_of_councils.1.t:0 "Focus on the Council of State"
+ system_of_councils.1.d:0 "After thoughtful deliberations, the secretaries of the different councils have come to the consensus that we must focus the efforts of our government during the coming years on internal affairs, their actions being coordinated by the Council of State. It is up to us to decide which specific council should lead the government actions."
+ system_of_councils.1.a:0 "The Council of the Chamber will dispense the royal will and justice."
+ system_of_councils.1.b:0 "The Council of Finance will put the treasury in order and increase our income."
+ system_of_councils.1.c:0 "Nobody will expect the Council of the Inquisition!"
+ system_of_councils.2.t:0 "Focus on the Council of Commerce"
+ system_of_councils.2.d:0 "After thoughtful deliberations, the secretaries of the different councils have come to the consensus that we must focus the efforts of our government during the coming years on diplomatic affairs, their actions being coordinated by the Council of Commerce. It is up to us to decide which specific council should lead the government actions."
+ system_of_councils.2.a:0 "The Council of Foreign Affairs will carry out will on the international stage."
+ system_of_councils.2.b:0 "Appoint the Council of Maritime Authority to wrest control of the waves."
+ system_of_councils.2.c:0 "Tighten control of Asian trade through the Council of India."
+ system_of_councils.3.t:0 "Focus on the Council of War"
+ system_of_councils.3.d:0 "After thoughtful deliberations, the secretaries of the different councils have come to the consensus that we must focus the efforts of our government during the coming years on war, their actions being coordinated by the Council of War. It is up to us to decide which specific council should lead the government actions."
+ system_of_councils.3.a:0 "The Council of Crusade will lead our efforts against the infidels!"
+ system_of_councils.3.b:0 "The Council of Military Orders will provide our gears of war with more resources."
+ system_of_councils.3.c:0 "Allow the Council of Commanders to reorganize the cabinet."

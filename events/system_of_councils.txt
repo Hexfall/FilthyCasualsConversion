@@ -1,0 +1,177 @@
+namespace = system_of_councils
+
+# Council of State Meeting
+country_event = {
+    id = system_of_councils.1
+    title = system_of_councils.1.t
+    desc = system_of_councils.1.d
+    picture = HISPANIC_MONARCHY_eventPICTURE
+
+    is_triggered_only = yes
+
+	option = {
+		name = system_of_councils.1.a
+		add_country_modifier = {
+			name = council_of_the_chamber_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = system_of_councils.1.b
+		add_country_modifier = {
+			name = council_of_finance_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { num_of_loans = 3 }
+				NOT = { inflation = 1 }
+			}
+		}
+	}
+
+	option = {
+		name = system_of_councils.1.c
+		add_country_modifier = {
+			name = council_of_the_inquisition_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				religious_unity = 0.8
+			}
+		}
+	}
+}
+
+# Council of Commerce Meeting
+country_event = {
+	id = system_of_councils.2
+	title = system_of_councils.2.t
+	desc = system_of_councils.2.d
+	picture = HISPANIC_MONARCHY_eventPICTURE
+	is_triggered_only = yes
+
+	option = {
+		name = system_of_councils.2.a
+		add_country_modifier = {
+			name = council_of_europe_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = system_of_councils.2.b
+		add_country_modifier = {
+			name = council_of_mediterranean_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_at_war = no
+			}
+			modifier = {
+				factor = 0
+				NOT = { galley_fraction = 0.3 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+		}
+	}
+
+	option = {
+		name = system_of_councils.2.c
+		add_country_modifier = {
+			name = council_of_india_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_year = 1600
+			}
+			modifier = {
+				factor = 0
+				NOT = { num_of_colonists = 1 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+		}
+	}
+}
+
+# Council of War Meeting
+country_event = {
+	id = system_of_councils.3
+	title = system_of_councils.3.t
+	desc = system_of_councils.3.d
+	picture = HISPANIC_MONARCHY_eventPICTURE
+	is_triggered_only = yes
+
+	option = {
+		name = system_of_councils.3.a
+		add_country_modifier = {
+			name = council_of_the_crusade_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				manpower_percentage = 0.8
+			}
+		}
+	}
+
+	option = {
+		name = system_of_councils.3.b
+		add_country_modifier = {
+			name = council_of_military_orders_mod2
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { manpower_percentage = 0.8 }
+			}
+		}
+	}
+
+	option = {
+		name = system_of_councils.3.c
+		add_country_modifier = {
+			name = council_of_commanders_mod
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+			modifier = {
+				factor = 0
+				navy_tradition = 75
+			}
+		}
+	}
+}

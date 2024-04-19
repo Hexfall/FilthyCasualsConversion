@@ -100,6 +100,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = OUT
+			set_government_rank = 3
+			add_government_reform = outremer_unified_reform
 			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			if = {

@@ -1,5 +1,5 @@
-owner = Z2G
-controller = Z2G
+owner = BIS
+controller = BIS
 capital = "Qunfudhah"
 is_city = yes
 culture = meccan
@@ -8,7 +8,7 @@ trade_goods = incense
 base_tax = 3
 base_production = 4
 base_manpower = 1
-add_core = Z2G
+add_core = BIS
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = Z2G
-controller = Z2G
+owner = BIS
+controller = BIS
 capital = "Al-Lidam"
 is_city = yes
 culture = bedouin_arabic
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = Z2G
+add_core = BIS
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

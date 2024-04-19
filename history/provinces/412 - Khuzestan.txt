@@ -1,5 +1,5 @@
-owner = Z1R
-controller = Z1R
+owner = KHU
+controller = KHU
 capital = "Ahvaz"
 is_city = yes
 culture = persane
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 5
 base_manpower = 5
-add_core = Z1R
+add_core = KHU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = Z2T
-controller = Z2T
+owner = YAM
+controller = YAM
 capital = "Aflaj"
 is_city = yes
 culture = bedouin_arabic
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 2
 base_manpower = 2
-add_core = Z2T
+add_core = YAM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

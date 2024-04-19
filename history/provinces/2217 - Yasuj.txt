@@ -1,5 +1,5 @@
-owner = Z1R
-controller = Z1R
+owner = KHU
+controller = KHU
 capital = "Yasuj"
 is_city = yes
 culture = persane
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 1
 base_production = 5
 base_manpower = 2
-add_core = Z1R
+add_core = KHU
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

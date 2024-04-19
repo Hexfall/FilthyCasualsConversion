@@ -16,7 +16,7 @@ outremer_ideas = {
 			tag = KOJ
 			tag = YEM
 			tag = OMA
-			tag = Z0Z
+			tag = MES
 			tag = ALH
 			tag = HED
 		}

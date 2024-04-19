@@ -1,5 +1,5 @@
-owner = Z0M
-controller = Z0M
+owner = EDE
+controller = EDE
 capital = "Urfa"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 4
 base_production = 5
 base_manpower = 2
-add_core = Z0M
+add_core = EDE
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

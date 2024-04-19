@@ -1,5 +1,5 @@
-owner = Z2G
-controller = Z2G
+owner = BIS
+controller = BIS
 capital = "Bishah"
 is_city = yes
 culture = yemeni_outremer
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 add_core = ADE
-add_core = Z2G
+add_core = BIS
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

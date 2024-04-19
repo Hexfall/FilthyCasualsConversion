@@ -32,7 +32,7 @@ country_decisions = {
 							OR = {
 								owns_or_non_sovereign_subject_of = 390
 								owns_or_non_sovereign_subject_of = 400
-								owns_or_non_sovereign_subject_of = 411
+								owns_or_non_sovereign_subject_of = 2313
 							}
 						}
 						root = {
@@ -58,7 +58,7 @@ country_decisions = {
 								OR = {
 									owns_or_non_sovereign_subject_of = 390
 									owns_or_non_sovereign_subject_of = 400
-									owns_or_non_sovereign_subject_of = 411
+									owns_or_non_sovereign_subject_of = 2313
 								}
 							}
 						}
@@ -69,7 +69,7 @@ country_decisions = {
 							province_id = 395
 							province_id = 400
 							province_id = 410
-							province_id = 411
+							province_id = 2313
 						}
 					}
 				}
@@ -87,7 +87,7 @@ country_decisions = {
 			OR = {
 				owns_or_non_sovereign_subject_of = 390
 				owns_or_non_sovereign_subject_of = 400
-				owns_or_non_sovereign_subject_of = 411
+				owns_or_non_sovereign_subject_of = 2313
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -100,6 +100,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = OUT
+			set_government_rank = 3
+			add_government_reform = outremer_unified_reform
 			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			if = {
@@ -122,12 +124,12 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					Z0Z = {
+					MES = {
 						is_subject_of = ROOT
 						NOT = { total_development = 201 }
 					}
 				}
-				inherit = Z0Z
+				inherit = MES
 			}
 			if = {
 				limit = {

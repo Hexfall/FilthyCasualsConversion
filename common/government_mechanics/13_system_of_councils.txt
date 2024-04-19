@@ -1,0 +1,98 @@
+system_of_councils_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 13
+	available = {
+		has_dlc = "Domination"
+	}
+
+	powers = {
+		council_consensus = {
+			max = 200
+			base_monthly_growth = 0
+			scaled_modifier = {
+				end_value = 200
+				modifier = {
+					monthly_splendor = 4
+				}
+			}
+			scaled_modifier = {
+				start_value = 150
+				end_value = 200
+				modifier = {
+					all_estate_loyalty_equilibrium = 0.10
+				}
+			}
+			reverse_scaled_modifier = {
+				end_value = 150
+				modifier = {
+					all_estate_loyalty_equilibrium = -0.10
+				}
+			}
+		}
+	}
+	interactions = {
+		royal_council_interaction = {
+			icon = GFX_system_of_councils_adm_button
+			cost_type = council_consensus
+			cost = 100
+			trigger = { 
+                NOT = { has_country_modifier = council_of_state_mod }
+            }
+			effect = {
+				add_country_modifier = {
+					name = council_of_state_mod
+					duration = 3650
+				}
+				country_event = {
+					id = system_of_councils.1
+					tooltip = royal_council_interaction_tooltip
+				}
+			}
+			ai_chance = {
+				factor = 0	#5% Admin Efficiency is alwasy best
+			}
+		}
+		state_council_interaction = {
+			icon = GFX_system_of_councils_dip_button
+			cost_type = council_consensus
+			cost = 100
+			trigger = {
+                NOT = { has_country_modifier = council_of_commerce_mod }
+            }
+			effect = {
+				add_country_modifier = {
+					name = council_of_commerce_mod
+					duration = 3650
+				}
+				country_event = {
+					id = system_of_councils.2
+					tooltip = council_of_commerce_interaction_tooltip
+				}
+			}
+			ai_chance = {
+				factor = 0	#5% Admin Efficiency is alwasy best
+			}
+		}
+		war_council_interaction = {
+			icon = GFX_system_of_councils_mil_button
+			cost_type = council_consensus
+			cost = 100
+			trigger = {
+                NOT = { has_country_modifier = council_of_war_mod }
+            }
+			effect = {
+				add_country_modifier = {
+					name = council_of_war_mod
+					duration = 3650
+				}
+				country_event = {
+					id = system_of_councils.3
+					tooltip = war_council_interaction_tooltip
+				}
+			}
+			ai_chance = {
+				factor = 0	#5% Admin Efficiency is alwasy best
+			}
+		}
+	}
+}

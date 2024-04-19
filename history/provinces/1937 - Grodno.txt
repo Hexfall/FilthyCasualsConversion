@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = BLT
+controller = BLT
 capital = "Grodno"
 is_city = yes
 culture = baltoruth
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 1
 base_manpower = 2
-add_core = Z01
+add_core = BLT
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

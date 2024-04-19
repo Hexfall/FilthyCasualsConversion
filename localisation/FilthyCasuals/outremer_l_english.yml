@@ -21,6 +21,12 @@
  gateway_of_christendom:0 "The Gateway of Christendom"
  gateway_of_christendom_desc:0 "Though the foundation of the Outremer state lay in the reclamation of the Holy Land, its expansion lay as much in the spread of Christendom as it does the pursuit of domination of the trade between Asia and the Christian world. Although the purpose was always to proliferate trade between Asia and Europe, without the need to cross Moorish lands, but with the establishment of a heretic church in the Empire, the Outremer might instead seek to cut them off from the trade. A move none of Europe can contest, lest they find way to India which circumvents Outremer lands, if such a thing even exists..."
 
+ # Governments
+ outremer_shattered_reform:0 "Warring Outremer State"
+ outremer_shattered_reform_desc:0 "The Outremer realm has been been shattered and the many warring states left in it's wake vye for dominance of the remains."
+ outremer_unified_reform:0 "Seven Cities of Outremer"
+ outremer_unified_reform_desc:0 "The Outremer state is centered around a series of councils based in the so-called Seven Cities of Outremer. This allows for rapid regional response and although gridlock between the councils can cause dysfunction, when the councils act in unison the whole realm can be mobilized towards a common goal in a capacity few other states can emulate."
+
  # System of Councils
  council_of_state_mod:0 "Council of State called"
  council_of_commerce_mod:0 "Council of Commerce called"

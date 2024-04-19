@@ -13,9 +13,7 @@ outremer_shattered_reform = {
 		global_autonomy = 0.05
         autonomy_change_time = -0.3333
 		monthly_reform_progress_modifier = -0.25
-	}
-	government_abilities = {
-		system_of_councils_mechanic
+		leader_siege = 1
 	}
 }
 
@@ -23,7 +21,7 @@ outremer_unified_reform = {
     icon = "church_and_state_reform"
     allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 0
+	nation_designer_cost = 100
 	potential = {
         OR = {
 			tag = OUT
@@ -31,8 +29,10 @@ outremer_unified_reform = {
         }
     }
 	modifiers = {
-		burghers_influence_modifier = 0.10
-		burghers_loyalty_modifier = 0.10
-		monthly_reform_progress_modifier = 0.15
+		monthly_reform_progress_modifier = 0.10
+		global_manpower_modifier = 0.10
+	}
+	government_abilities = {
+		system_of_councils_mechanic
 	}
 }

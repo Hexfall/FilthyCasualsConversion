@@ -1,5 +1,5 @@
-owner = Z0Z
-controller = Z0Z
+owner = MES
+controller = MES
 capital = "Baghdad"
 is_city = yes
 culture = mesopotamien
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 7
 extra_cost = 8
 center_of_trade = 1
-add_core = Z0Z
+add_core = MES
 add_permanent_claim = KOJ
 discovered_by = east_african
 discovered_by = eastern

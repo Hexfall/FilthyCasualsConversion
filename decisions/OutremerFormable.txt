@@ -124,12 +124,12 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					Z0Z = {
+					MES = {
 						is_subject_of = ROOT
 						NOT = { total_development = 201 }
 					}
 				}
-				inherit = Z0Z
+				inherit = MES
 			}
 			if = {
 				limit = {

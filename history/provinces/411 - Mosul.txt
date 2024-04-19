@@ -1,5 +1,5 @@
-owner = Z0M
-controller = Z0M
+owner = EDE
+controller = EDE
 capital = "Al Mawsil"
 is_city = yes
 culture = mesopotamien
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 4
 base_manpower = 4
-add_core = Z0M
+add_core = EDE
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

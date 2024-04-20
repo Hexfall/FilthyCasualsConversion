@@ -16661,30 +16661,18 @@ edinburgh_castle = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			AND = {
-				culture = scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = british
+				culture = anglois
+				culture = west_latin
+				culture = angevin
 				culture = highland_scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = halendingur
+				culture = vestmenn
 			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
-			}
-			#custom_trigger_tooltip = {
-			#	tooltip = enabled_via_mission
-			#	owner = { has_country_flag = enable_edinburgh_castle_flag }
-			#}
 		}
 	}
 
@@ -16695,58 +16683,34 @@ edinburgh_castle = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
-				culture = scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = british
+				culture = anglois
+				culture = west_latin
+				culture = angevin
 				culture = highland_scottish
-				province_is_or_accepts_culture = yes
+				culture = roman
+				culture = halendingur
+				culture = vestmenn
 			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
-			}
-			#custom_trigger_tooltip = {
-			#	tooltip = enabled_via_mission
-			#	owner = { has_country_flag = enable_edinburgh_castle_flag }
-			#}
 		}
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
-				culture = scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = british
+				culture = anglois
+				culture = west_latin
+				culture = angevin
 				culture = highland_scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = halendingur
+				culture = vestmenn
 			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
-			}
-			#custom_trigger_tooltip = {
-			#	tooltip = enabled_via_mission
-			#	owner = { has_country_flag = enable_edinburgh_castle_flag }
-			#}
 		}
 	}
 

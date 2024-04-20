@@ -17098,9 +17098,14 @@ st_basil_cathedral = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-			religion_group = pagan
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
 		}
 	}
 
@@ -17111,16 +17116,26 @@ st_basil_cathedral = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-			religion_group = pagan
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
 		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-			religion_group = pagan
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
 		}
 	}
 

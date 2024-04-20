@@ -94,6 +94,7 @@ monarchy = {
 				scottish_monarchy_reform
 				sharifate_reform
 				caliphate_reform
+				fatimid_caliphate_reform
 				barbary_sultanate_reform
 				roman_empire_reform
 				persian_government_reform

@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = caliphate_reform
+add_government_reform = fatimid_caliphate_reform
 government_rank = 3
 technology_group = muslim
 religion = shiite
@@ -51,8 +51,13 @@ religious_school = ismaili_school
 	}
 	add_heir_personality = intricate_web_weaver_personality
 	add_heir_personality = tolerant_personality
+
+
 }
 1444.11.11= {
 	add_prestige = 108
-	add_treasury = 81
+	add_treasury = 81	
+	capital_scope = {
+		cawa_infantry=1
+	}
 }

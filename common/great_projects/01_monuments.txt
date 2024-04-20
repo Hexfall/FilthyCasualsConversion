@@ -8378,14 +8378,15 @@ el_escorial = {
 
 	#can we build it?
 	build_trigger = {
-		OR = {
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture_group = iberian
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = terraconense
+				culture = betican
+				culture = lusitanian
+				culture = visigothic
 			}
 		}
 	}
@@ -8402,28 +8403,30 @@ el_escorial = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture_group = iberian
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = terraconense
+				culture = betican
+				culture = lusitanian
+				culture = visigothic
 			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture_group = iberian
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = terraconense
+				culture = betican
+				culture = lusitanian
+				culture = visigothic
 			}
 		}
 	}

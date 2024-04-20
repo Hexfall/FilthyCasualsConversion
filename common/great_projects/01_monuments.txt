@@ -32,15 +32,15 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = roman
 				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				OR = {
+					culture_group = gaelic
+					culture_group = british
+					culture = roman
 					culture = anglois
-					culture = english
+					culture = west_latin
+					culture = angevin
 				}
-				province_is_or_accepts_culture = yes
 			}
 		}
 	}
@@ -62,17 +62,17 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = roman
 				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				OR = {
+					culture_group = gaelic
+					culture_group = british
+					culture = roman
 					culture = anglois
-					culture = english
+					culture = west_latin
+					culture = angevin
 				}
-				province_is_or_accepts_culture = yes
 			}
-		}	
+		}
 	}
 
 	#can our country upgrade it?
@@ -82,15 +82,15 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = roman
 				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				OR = {
+					culture_group = gaelic
+					culture_group = british
+					culture = roman
 					culture = anglois
-					culture = english
+					culture = west_latin
+					culture = angevin
 				}
-				province_is_or_accepts_culture = yes
 			}
 		}
 	}

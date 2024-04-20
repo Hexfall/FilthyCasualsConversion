@@ -14307,9 +14307,6 @@ spiral_minaret_samarra = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	on_built = {
@@ -14319,15 +14316,9 @@ spiral_minaret_samarra = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	keep_trigger = {

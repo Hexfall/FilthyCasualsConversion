@@ -251,21 +251,15 @@ tower_of_london = {
 
 	#can we build it?
 	build_trigger = {
-		OR = {
-			AND = {
-				culture = normand
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
+				culture_group = british
+				culture = anglois
+				culture = normand
+				culture = angevin
+				culture = west_latin
 			}
 		}
 	}
@@ -282,42 +276,30 @@ tower_of_london = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
-				culture = normand
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
+				culture_group = british
+				culture = anglois
+				culture = normand
+				culture = angevin
+				culture = west_latin
 			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
-				culture = normand
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
+				culture_group = british
+				culture = anglois
+				culture = normand
+				culture = angevin
+				culture = west_latin
 			}
 		}
 	}

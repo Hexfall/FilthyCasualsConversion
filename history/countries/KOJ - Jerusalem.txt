@@ -4,6 +4,7 @@ government_rank = 2
 technology_group = ottoman
 religion = golden_path
 primary_culture = outremer
+historical_rival = ETH
 capital = 379
 1429.11.11= {
 	monarch = {

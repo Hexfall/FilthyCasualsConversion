@@ -8,3 +8,6 @@ base_manpower = 1
 native_size = 30
 native_ferocity = 4
 native_hostileness = 9
+discovered_by = 
+discovered_by = 
+discovered_by = sub_saharan

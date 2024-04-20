@@ -5,7 +5,7 @@ baltica_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = Z01
+			tag = BLT
 			tag = BRC
 		}
 	}

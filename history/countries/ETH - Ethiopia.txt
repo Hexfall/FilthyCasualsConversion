@@ -6,7 +6,7 @@ religion = shiite
 primary_culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
 capital = 361
 historical_friend = AFR
-
+historical_rival = KOJ
 religious_school = ismaili_school
 1444.11.11= {
 	monarch = {

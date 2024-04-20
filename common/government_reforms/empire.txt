@@ -1,0 +1,32 @@
+imperial_dyad = {
+	icon = "admiral_king_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ENG
+            tag = ORT
+			has_reform = imperial_dyad
+			have_had_reform = imperial_dyad
+		}
+		is_part_of_hre = yes
+	}
+	lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 150
+	fixed_rank = 3
+	modifiers = {
+		liberty_desire_from_subject_development = -0.1
+		improve_relation_modifier = 0.05
+		diplomatic_upkeep = 1
+		nobles_influence_modifier = 0.1
+		maratha_exclusive_influence_modifier = 0.1
+		rajput_exclusive_influence_modifier = 0.1
+		reasons_to_elect = 100
+	}
+	custom_attributes = {
+		maintain_dynasty = yes
+	}
+	ai = {
+		factor = 1
+	}
+}

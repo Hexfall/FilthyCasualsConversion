@@ -10,7 +10,7 @@ base_tax = 4
 base_production = 1
 base_manpower = 1
 add_core = ALB
-add_core = DAL
+
 add_core = EPI  
 discovered_by = east_african
 discovered_by = eastern

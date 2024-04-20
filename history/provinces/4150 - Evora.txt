@@ -1,5 +1,5 @@
-owner = Z13
-controller = Z13
+owner = BEA
+controller = BEA
 capital = "�vora"
 is_city = yes
 culture = visigothic
@@ -10,7 +10,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
-add_core = Z13
+add_core = BEA
 add_claim = Z0Y
 discovered_by = east_african
 discovered_by = eastern

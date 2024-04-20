@@ -10,7 +10,6 @@ base_tax = 12
 base_production = 1
 base_manpower = 2
 add_core = FLA
-add_core = FRA
 add_core = PIC
 discovered_by = eastern
 discovered_by = muslim

@@ -1,0 +1,25 @@
+imperial_dyad = {
+	potential = {
+		has_reform = imperial_dyad
+	}
+
+	trigger = {
+		has_reform = imperial_dyad
+        is_emperor = yes
+	}
+
+	reasons_to_elect = -200
+}
+
+imperial_dyad_off_season = {
+	potential = {
+		has_reform = imperial_dyad
+	}
+
+	trigger = {
+		has_reform = imperial_dyad
+		is_emperor = no
+	}
+
+	governing_capacity = -200
+}

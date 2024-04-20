@@ -1,5 +1,5 @@
-owner = Z2T
-controller = Z2T
+owner = YAM
+controller = YAM
 capital = "Kharj"
 is_city = yes
 culture = gulfe
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 4
 base_manpower = 1
-add_core = Z2T
+add_core = YAM
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

@@ -119,6 +119,9 @@ monarchy = {
 				#Casuals
 				shattered_commonwealth
 				restored_commonwealth
+				imperial_dyad
+				outremer_shattered_reform
+				outremer_unified_reform
 			}
 		}
 		hereditary_vs_nobility = {

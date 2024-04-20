@@ -9,8 +9,8 @@ bookmark =
 	country = CAS
 	country = ENG
 	country = BOH
-	country = Z01
-	country = Z0I
+	country = BLT
+	country = ORT
 	country = ETH
 	country = KOJ
 }

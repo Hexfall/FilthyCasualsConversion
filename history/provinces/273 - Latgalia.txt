@@ -1,5 +1,5 @@
-owner = Z01
-controller = Z01
+owner = BLT
+controller = BLT
 capital = "D�naburg"
 is_city = yes
 culture = latvian
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 1
 base_manpower = 1
 add_core = LTG
-add_core = Z01
+add_core = BLT
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

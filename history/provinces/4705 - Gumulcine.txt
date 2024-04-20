@@ -1,5 +1,5 @@
-owner = Z0I
-controller = Z0I
+owner = ORT
+controller = ORT
 capital = "Gumulcine"
 is_city = yes
 culture = latin_culture
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 6
 base_production = 5
 base_manpower = 4
-add_core = Z0I
+add_core = ORT
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

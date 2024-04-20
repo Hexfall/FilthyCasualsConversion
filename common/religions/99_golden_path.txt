@@ -1,6 +1,6 @@
 christian = {
 	golden_path = {
-		color = { 189 175 25 }
+		color = { 255 223 0 }
 		icon =  177
 		country = {
 			tolerance_own = 1

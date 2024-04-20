@@ -1,5 +1,5 @@
-owner = Z13
-controller = Z13
+owner = BEA
+controller = BEA
 capital = "Lisboa"
 is_city = yes
 culture = lusitanian
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 2
 extra_cost = 26
 center_of_trade = 2
-add_core = Z13
+add_core = BEA
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

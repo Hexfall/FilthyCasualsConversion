@@ -1,0 +1,192 @@
+namespace = flavor_spa
+
+# The Iberian Wedding
+country_event = {
+	id = flavor_spa.3716
+	title = "flavor_spa.EVTNAME3716"
+	desc = "flavor_spa.EVTDESC3716"
+	picture = DIPLOMACY_eventPicture
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		NOT = { exists = SPA }
+		OR = {
+			AND = {
+				tag = CAS
+				NOT = { war_with = BEA }
+				is_subject = no
+				BEA = {
+					exists = yes
+					ai = yes
+					was_player = no
+					is_subject = no
+					NOT = { is_in_war = { attacker_leader = BEA } }
+					NOT = { is_in_war = { defender_leader = BEA } }
+					NOT = { is_in_war = { casus_belli = cb_independence_war } }
+					government = monarchy
+				}
+			}
+			AND = {
+				tag = BEA
+				NOT = { war_with = CAS }
+				is_subject = no
+				ai = no
+				CAS = {
+					exists = yes
+					ai = yes
+					was_player = no
+					is_subject = no
+					NOT = { is_in_war = { attacker_leader = CAS } }
+					NOT = { is_in_war = { defender_leader = CAS } }
+					NOT = { is_in_war = { casus_belli = cb_independence_war } }
+					government = monarchy
+				}
+			}
+		}
+		government = monarchy
+		is_year = 1450
+		NOT = { is_year = 1530 }
+		is_subject = no
+		OR = {
+			AND = {
+				CAS = { is_female = yes }
+				BEA = { is_female = no }
+			}
+			AND = {
+				CAS = { is_female = no }
+				BEA = { is_female = yes }
+			}
+			BEA = {
+				ai = yes
+				has_regency = yes
+			}
+			CAS = {
+				ai = yes
+				has_regency = yes
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			OR = {
+				AND = {
+					tag = CAS
+					BEA = {
+						has_regency = no 
+					}
+				}
+				AND = {
+					tag = BEA
+					CAS = { 
+						has_regency = no 
+					}
+				}
+			}
+		}
+	}
+	
+	
+	option = {		# Let us bind their Dynasty to ours
+		name = "flavor_spa.EVTOPTA3716"
+		ai_chance = { factor = 90 }
+		if = {
+			limit = { tag = CAS }
+			create_union = BEA
+			add_opinion = {
+				who = BEA
+				modifier = spa_iberian_wedding
+			}
+			BEA = {
+				add_opinion = {
+					who = ROOT
+					modifier = spa_iberian_wedding
+				}
+				add_liberty_desire = -50
+			}
+			every_known_country = {
+				limit = {
+					marriage_with = BEA
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = spa_iberian_wedding_negative
+				}
+			}
+		}
+		if = {
+			limit = { tag = BEA }
+			create_union = CAS
+			add_opinion = {
+				who = CAS
+				modifier = spa_iberian_wedding
+			}
+			CAS = {
+				add_opinion = {
+					who = ROOT
+					modifier = spa_iberian_wedding
+				}
+				add_liberty_desire = -50
+			}
+			every_known_country = {
+				limit = {
+					marriage_with = CAS
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = spa_iberian_wedding_negative
+				}
+			}
+		}
+		random_owned_province = {
+			limit = {
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+	}
+	option = {		# No let us marry a local talent instead
+		name = "flavor_spa.EVTOPTB3716"
+		ai_chance = { factor = 10 }
+		add_stability_or_adm_power = yes
+		if = {
+			limit = { tag = CAS }
+			BEA = {
+				add_opinion = {
+					who = ROOT
+					modifier = spa_declined_iberian_wedding
+				}
+			}
+		}
+		if = {
+			limit = { tag = BEA }
+			CAS = {
+				add_opinion = {
+					who = ROOT
+					modifier = spa_declined_iberian_wedding
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_regency = no
+				has_consort = no
+				has_government_attribute = queen
+			}
+			define_consort = {
+				ADM = 2
+				MIL = 2
+				DIP = 2
+			}
+		}
+	}
+}

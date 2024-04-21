@@ -32,15 +32,15 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = roman
 				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				OR = {
+					culture_group = gaelic
+					culture_group = british
+					culture = roman
 					culture = anglois
-					culture = english
+					culture = west_latin
+					culture = angevin
 				}
-				province_is_or_accepts_culture = yes
 			}
 		}
 	}
@@ -62,17 +62,17 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = roman
 				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				OR = {
+					culture_group = gaelic
+					culture_group = british
+					culture = roman
 					culture = anglois
-					culture = english
+					culture = west_latin
+					culture = angevin
 				}
-				province_is_or_accepts_culture = yes
 			}
-		}	
+		}
 	}
 
 	#can our country upgrade it?
@@ -82,15 +82,15 @@ stonehenge = {
 				religion_group = pagan
 			}
 			AND = {
-				culture = roman
 				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				OR = {
+					culture_group = gaelic
+					culture_group = british
+					culture = roman
 					culture = anglois
-					culture = english
+					culture = west_latin
+					culture = angevin
 				}
-				province_is_or_accepts_culture = yes
 			}
 		}
 	}
@@ -251,21 +251,15 @@ tower_of_london = {
 
 	#can we build it?
 	build_trigger = {
-		OR = {
-			AND = {
-				culture = normand
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
+				culture_group = british
+				culture = anglois
+				culture = normand
+				culture = angevin
+				culture = west_latin
 			}
 		}
 	}
@@ -282,42 +276,30 @@ tower_of_london = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
-				culture = normand
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
+				culture_group = british
+				culture = anglois
+				culture = normand
+				culture = angevin
+				culture = west_latin
 			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
-				culture = normand
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
+				culture_group = british
+				culture = anglois
+				culture = normand
+				culture = angevin
+				culture = west_latin
 			}
 		}
 	}
@@ -2247,8 +2229,13 @@ stpeters_cathedral = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion = {
-			religion = catholic
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = catholic
+			}
+			province_is_or_accepts_religion = {
+				religion = chalcedonian
+			}
 		}
 	}
 
@@ -2264,15 +2251,25 @@ stpeters_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion = {
-			religion = catholic
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = catholic
+			}
+			province_is_or_accepts_religion = {
+				religion = chalcedonian
+			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion = {
-			religion = catholic
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = catholic
+			}
+			province_is_or_accepts_religion = {
+				religion = chalcedonian
+			}
 		}
 	}
 
@@ -2331,7 +2328,8 @@ stpeters_cathedral = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			appoint_cardinal_cost = -0.05
-			curia_powers_cost = -0.05			
+			curia_powers_cost = -0.05
+			monthly_fervor_increase = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -2362,6 +2360,7 @@ stpeters_cathedral = {
 		country_modifiers = {
 			appoint_cardinal_cost = -0.1
 			curia_powers_cost = -0.1
+			monthly_fervor_increase = 1
 			idea_cost = -0.05
 		}
 
@@ -2399,6 +2398,7 @@ stpeters_cathedral = {
 		country_modifiers = {
 			appoint_cardinal_cost = -0.2
 			curia_powers_cost = -0.1
+			monthly_fervor_increase = 1
 			idea_cost = -0.1
 			church_influence_modifier = 0.1
 		}
@@ -7968,8 +7968,16 @@ heddal_stave_church = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
+			province_is_or_accepts_religion = {
+				religion = norse
+			}
 		}
 	}
 
@@ -7985,15 +7993,31 @@ heddal_stave_church = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
+			province_is_or_accepts_religion = {
+				religion = norse
+			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
+			province_is_or_accepts_religion = {
+				religion = norse
+			}
 		}
 	}
 
@@ -8378,14 +8402,15 @@ el_escorial = {
 
 	#can we build it?
 	build_trigger = {
-		OR = {
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture_group = iberian
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = terraconense
+				culture = betican
+				culture = lusitanian
+				culture = visigothic
 			}
 		}
 	}
@@ -8402,28 +8427,30 @@ el_escorial = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture_group = iberian
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = terraconense
+				culture = betican
+				culture = lusitanian
+				culture = visigothic
 			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
 				culture_group = iberian
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = terraconense
+				culture = betican
+				culture = lusitanian
+				culture = visigothic
 			}
 		}
 	}
@@ -13739,8 +13766,13 @@ churches_lalibela = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion = {
-			religion = coptic
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = coptic
+			}
+			province_is_or_accepts_religion = {
+				religion = shiite
+			}
 		}
 	}
 
@@ -13751,14 +13783,24 @@ churches_lalibela = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion = {
-			religion = coptic
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = coptic
+			}
+			province_is_or_accepts_religion = {
+				religion = shiite
+			}
 		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion = {
-			religion = coptic
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = coptic
+			}
+			province_is_or_accepts_religion = {
+				religion = shiite
+			}
 		}
 	}
 
@@ -14298,9 +14340,6 @@ spiral_minaret_samarra = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	on_built = {
@@ -14310,15 +14349,9 @@ spiral_minaret_samarra = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = muslim
-		}
 	}
 
 	keep_trigger = {
@@ -16676,30 +16709,18 @@ edinburgh_castle = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			AND = {
-				culture = scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = british
+				culture = anglois
+				culture = west_latin
+				culture = angevin
 				culture = highland_scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = halendingur
+				culture = vestmenn
 			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
-			}
-			#custom_trigger_tooltip = {
-			#	tooltip = enabled_via_mission
-			#	owner = { has_country_flag = enable_edinburgh_castle_flag }
-			#}
 		}
 	}
 
@@ -16710,58 +16731,34 @@ edinburgh_castle = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
-				culture = scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
-				culture = roman
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = british
+				culture = anglois
+				culture = west_latin
+				culture = angevin
 				culture = highland_scottish
-				province_is_or_accepts_culture = yes
+				culture = roman
+				culture = halendingur
+				culture = vestmenn
 			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
-			}
-			#custom_trigger_tooltip = {
-			#	tooltip = enabled_via_mission
-			#	owner = { has_country_flag = enable_edinburgh_castle_flag }
-			#}
 		}
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
-				culture = scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
+		AND = {
+			province_is_or_accepts_culture = yes
+			OR = {
+				culture_group = british
+				culture = anglois
+				culture = west_latin
+				culture = angevin
 				culture = highland_scottish
-				province_is_or_accepts_culture = yes
-			}
-			AND = {
 				culture = roman
-				province_is_or_accepts_culture = yes
+				culture = halendingur
+				culture = vestmenn
 			}
-			AND = {
-				OR = {
-					culture_group = british
-					culture = anglois
-				}
-				province_is_or_accepts_culture = yes
-			}
-			#custom_trigger_tooltip = {
-			#	tooltip = enabled_via_mission
-			#	owner = { has_country_flag = enable_edinburgh_castle_flag }
-			#}
 		}
 	}
 
@@ -17125,9 +17122,14 @@ st_basil_cathedral = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-			religion_group = pagan
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
 		}
 	}
 
@@ -17138,16 +17140,26 @@ st_basil_cathedral = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-			religion_group = pagan
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
 		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
-			religion_group = christian
-			religion_group = pagan
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			province_is_or_accepts_religion = {
+				religion = vidilist
+			}
 		}
 	}
 

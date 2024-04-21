@@ -11,6 +11,4 @@ base_manpower = 1
 add_core = HAU
 add_core = KTS
 add_core = Z1P
-discovered_by = east_african
-discovered_by = muslim
 discovered_by = sub_saharan

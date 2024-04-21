@@ -10,6 +10,4 @@ base_production = 3
 base_manpower = 2
 add_core = NBI
 add_core = NUB
-discovered_by = east_african
-discovered_by = muslim
 discovered_by = sub_saharan

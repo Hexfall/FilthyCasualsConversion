@@ -12,6 +12,4 @@ extra_cost = 16
 center_of_trade = 2
 add_core = NBI
 add_core = NUB
-discovered_by = east_african
-discovered_by = muslim
 discovered_by = sub_saharan

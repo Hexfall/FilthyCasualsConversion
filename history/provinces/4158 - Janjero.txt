@@ -11,7 +11,5 @@ base_manpower = 2
 add_core = HDY
 add_core = JJI
 add_core = Z02
-discovered_by = east_african
-discovered_by = muslim
 discovered_by = sub_saharan
 discovered_by = ottoman

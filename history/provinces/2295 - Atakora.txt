@@ -1,6 +1,6 @@
 owner = Z07
 controller = Z07
-capital = "Sansanné Mango"
+capital = "Sansannï¿½ Mango"
 is_city = yes
 culture = fon
 religion = sunni
@@ -9,8 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = Z07
-discovered_by = east_african
-discovered_by = muslim
 discovered_by = sub_saharan
 native_size = 40
 native_ferocity = 4

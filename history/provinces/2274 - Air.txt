@@ -1,6 +1,6 @@
 owner = Z0F
 controller = Z0F
-capital = "Asodé"
+capital = "Asodï¿½"
 is_city = yes
 culture = berber
 religion = shiite
@@ -10,8 +10,6 @@ base_tax = 3
 base_production = 4
 base_manpower = 1
 add_core = Z0F
-discovered_by = east_african
-discovered_by = muslim
 discovered_by = sub_saharan
 native_size = 40
 native_ferocity = 4

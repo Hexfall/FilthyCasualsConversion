@@ -13,7 +13,7 @@ britannia_ideas = {
 			tag = ENG
 			tag = MRC
 			tag = CRN
-			tag = 
+			tag = NRM
 		}
 	}
 	free = yes
@@ -23,6 +23,7 @@ britannia_ideas = {
 	}
 	normandie_rep = {
 		diplomatic_reputation = 2
+		envoy_travel_time = -0.15
 	}
 	britannic_legion  = {
 		discipline = 0.05
@@ -31,7 +32,7 @@ britannia_ideas = {
 		global_own_trade_power = 0.1
 	}
 	imperial_merchant_offices = {
-		trade_efficiency = 0.15
+		trade_efficiency = 0.10
 	}
 	normandie_advisors = {
 		advisor_cost = -0.10

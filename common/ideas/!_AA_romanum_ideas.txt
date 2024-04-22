@@ -1,7 +1,7 @@
 romanum_ideas = {
 	start = {
 		development_cost = -0.1
-		galley_cost = -0.2
+		global_own_trade_power = 0.1
 	}
 
 	bonus = {
@@ -30,7 +30,7 @@ romanum_ideas = {
 		diplomatic_reputation = 2
 	}
 	imperial_trading_offices = {
-		trade_efficiency = 0.15
+		trade_efficiency = 0.10
 	}
 	eunuch_advisors = {
 		advisor_cost = -0.10

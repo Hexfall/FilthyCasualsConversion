@@ -8,3 +8,11 @@
  imperial_dyad_off_season_desc:0 "The imperial seat is currently held by our allies. We can no longer wield the imperial administration at full capacity."
 
  had_court_and_country:0 "Court and Country"
+
+ LEAVE_HRE_CONFIRM:0 "Leave the Empire"
+ HRE_LEAVE_NOT_AS_EMPEROR:0 "The Emperor cannot leave the Empire!"
+ HRE_LEAVE:0 "Leave Empire"
+ HRE_HRE:0 "The Imperium Romanum"
+ HRE_DISMANTLE:0 "Dismantle Empire"
+ HRE_MEMBERS:0 "Imperium Members"
+ HRE_EMPEROR:0 "The Imperium Romanum"

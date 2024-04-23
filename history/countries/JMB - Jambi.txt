@@ -8,11 +8,15 @@ capital = 2677
 religious_school = shafii_school
 1444.1.1= {
 	monarch = {
-		name = "Achmad"
-		dynasty = "Jambi"
-		adm = 4
-		dip = 0
-		mil = 0
+		name = "Roe Sanna"
+		dynasty = "Sól"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1420.5.23
+		female = yes
+		religion = sunni
+		culture = sumatran
 	}
 }
 1480.1.1= {

@@ -1,0 +1,7 @@
+﻿l_english:
+ # Center of Reformation event
+ hussite_cor.1.t:0 "The Evangelicals of [hussite_province.GetName]"
+ hussite_cor.1.d:0 "I can't really be bothered to write a proper description in here."
+ hussite_cor.1.a:0 "Let the people of [hussite_province.GetName] spread their message."
+ hussite_cor.1.b:0 "The people of [hussite_province.GetName] are loud enough as is."
+ hussite_cor_tooltip:0 "Create a §YHussite§! Center of Reformation in [hussite_province.GetName]"

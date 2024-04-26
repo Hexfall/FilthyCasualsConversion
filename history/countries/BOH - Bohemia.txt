@@ -14,7 +14,7 @@ capital = 266
 		mil = 4
 		birth_date = 1376.6.19
 		female = yes
-		religion = catholic
+		religion = hussite
 		culture = ceskobavorsky
 	}
 	add_ruler_personality = charismatic_negotiator_personality
@@ -43,11 +43,10 @@ capital = 266
 		birth_date = 1422.9.26
 		death_date = 1487.9.26
 		claim = 89
-		religion = catholic
+		religion = hussite
 		culture = ceskobavorsky
 	}
 	add_heir_personality = charismatic_negotiator_personality
-	add_heir_personality = righteous_personality
 
 	add_prestige = 123
 	add_treasury = 64

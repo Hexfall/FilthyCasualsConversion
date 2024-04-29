@@ -10,7 +10,7 @@ boh_expanded_dev = {
 	}
 	lock_level_when_selected = yes
 	modifiers = {
-		culture_conversion_cost = 0.25
+		culture_conversion_cost = 0.75
 		development_cost_in_primary_culture = -0.05
 	}
 	effect = {

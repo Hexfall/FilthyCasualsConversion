@@ -1,5 +1,5 @@
 boh_expanded_dev = {
-	icon = "warrior_monks_reform"
+	icon = "mission_to_kill_pirates_reform"
 	allow_normal_conversion = yes
 	potential = {
 		OR = {

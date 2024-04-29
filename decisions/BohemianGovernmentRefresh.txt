@@ -4,7 +4,6 @@ country_decisions = {
 			has_reform = boh_expanded_dev
 		}
 		allow = {
-			has_reform = boh_expanded_dev
 			custom_trigger_tooltip = {
 				tooltip = boh_gov_cooldown_tooltip
 				OR = {

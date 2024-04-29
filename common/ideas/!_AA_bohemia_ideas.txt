@@ -19,13 +19,13 @@ bohemian_ideas = {
 		shock_damage_received = -0.1
 		land_morale = 0.05
 	}
-	centralisied_tax_offices = {
+	centralised_tax_offices = {
 		global_tax_modifier = 0.1	
 	}
 	industrialisation_of_prague = {
 		production_efficiency = 0.1
 	}
-	diplomatic_corp = {
+	diplomatic_corps = {
 		diplomats = 1
 	}
 	plentiful_land = {
@@ -33,7 +33,7 @@ bohemian_ideas = {
 		manpower_recovery_speed = 0.1
 		reinforce_speed = 0.1
 	}
-	trade_aperatus = {
+	trade_apparatus = {
 		global_prov_trade_power_modifier = 0.1
 	}
 	hussite_peasants = {

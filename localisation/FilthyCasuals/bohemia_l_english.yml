@@ -2,8 +2,33 @@
  # Government
  boh_gov_tooltip:0 "Every province of §YCeskobavorsky§! culture gets a modifier depending on it's development:\n  10-19 development:\n    §Y-5% Local Development Cost§!\n  20-29 development:\n    §Y-10% Local Development Cost§!\n  30-39 development:\n    §Y-10% Local Development Cost§!\n    §Y-5% Local Development Cost Modifier§!\n  40+ development:\n    §Y-10% Local Development Cost§!\n    §Y-10% Local Development Cost Modifier§!"
  boh_gov_cooldown_tooltip:0 "At least one day passed since last refresh."
+ boh_expanded_dev_mod_1:0 "Union of Bohemian Cities"
+ boh_expanded_dev_mod_2:0 "Union of Bohemian Cities"
+ boh_expanded_dev_mod_3:0 "Union of Bohemian Cities"
+ boh_expanded_dev_mod_4:0 "Union of Bohemian Cities"
+ boh_gov_refresh_decision_title:0 "Refresh Bohemian province modifier."
+ boh_gov_refresh_decision_desc:0 ""
+ boh_expanded_dev:0 "Union of Bohemian Cities"
+ boh_expanded_dev_desc:0 ""
 
  # Ideas
+ bohemian_ideas:0 "Bohemian Ideas"
+ bohemian_ideas_start:0 "Bohemian Traditions"
+ bohemian_ideas_bonus:0 "Bohemian Ambition"
+ legacy_of_the_landsknecht:0 "Legacy of the Landsknecht"
+ legacy_of_the_landsknecht_desc:0 "Legacy of the Landsknecht description"
+ centralised_tax_offices:0 "Centralised Tax Offices"
+ centralised_tax_offices_desc:0 "Centralised Tax Offices description"
+ industrialisation_of_prague:0 "Industrialisation of Prague"
+ industrialisation_of_prague_desc:0 "Industrialisation of Prague description"
+ diplomatic_corps:0 "Diplomatic Corps"
+ diplomatic_corps_desc:0 "Diplomatic Corps description"
+ plentiful_land:0 "Plentiful Land"
+ plentiful_land_desc:0 "Plentiful Land description"
+ trade_apparatus:0 "Trade Apparatus"
+ trade_apparatus_desc:0 "Trade Apparatus description"
+ hussite_peasants:0 "Hussite Peasants"
+ hussite_peasants_desc:0 "Hussite Peasants description"
 
 
  # Center of Reformation event

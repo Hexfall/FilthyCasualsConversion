@@ -122,6 +122,7 @@ monarchy = {
 				imperial_dyad
 				outremer_shattered_reform
 				outremer_unified_reform
+				boh_expanded_dev
 			}
 		}
 		hereditary_vs_nobility = {

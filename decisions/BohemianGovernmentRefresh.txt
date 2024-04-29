@@ -1,0 +1,94 @@
+country_decisions = {
+	boh_gov_refresh_decision = {
+		potential = {
+			has_reform = boh_expanded_dev
+		}
+		allow = {
+			has_reform = boh_expanded_dev
+			custom_trigger_tooltip = {
+				tooltip = boh_gov_cooldown_tooltip
+				OR = {
+					NOT = { has_country_flag = boh_gov_refresh_flag }
+					if = {
+						limit = { ai = yes }
+						had_country_flag = { flag = boh_gov_refresh_flag days = 31 }
+					}
+					else = {
+						had_country_flag = { flag = boh_gov_refresh_flag days = 1 }
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = boh_gov_tooltip
+			hidden_effect = {
+				clr_country_flag = boh_gov_refresh_flag
+				set_country_flag = boh_gov_refresh_flag
+				every_owned_province = {
+					limit = {
+						has_owner_culture = yes
+					}
+					if = {
+						limit = {
+							development = 10
+							NOT = { development = 20 }
+							NOT = { has_province_modifier = boh_expanded_dev_mod_1 }
+						}
+						remove_province_modifier = boh_expanded_dev_mod_2
+						remove_province_modifier = boh_expanded_dev_mod_3
+						remove_province_modifier = boh_expanded_dev_mod_4
+						add_province_modifier = {
+							name = boh_expanded_dev_mod_1
+							duration = -1
+						}
+					}
+					else_if = {
+						limit = {
+							development = 20
+							NOT = { development = 30 }
+							NOT = { has_province_modifier = boh_expanded_dev_mod_2 }
+						}
+						remove_province_modifier = boh_expanded_dev_mod_1
+						remove_province_modifier = boh_expanded_dev_mod_3
+						remove_province_modifier = boh_expanded_dev_mod_4
+						add_province_modifier = {
+							name = boh_expanded_dev_mod_2
+							duration = -1
+						}
+					}
+					else_if = {
+						limit = {
+							development = 30
+							NOT = { development = 40 }
+							NOT = { has_province_modifier = boh_expanded_dev_mod_3 }
+						}
+						remove_province_modifier = boh_expanded_dev_mod_2
+						remove_province_modifier = boh_expanded_dev_mod_1
+						remove_province_modifier = boh_expanded_dev_mod_4
+						add_province_modifier = {
+							name = boh_expanded_dev_mod_3
+							duration = -1
+						}
+					}
+					else_if = {
+						limit = {
+							development = 40
+							NOT = { has_province_modifier = boh_expanded_dev_mod_4 }
+						}
+						remove_province_modifier = boh_expanded_dev_mod_2
+						remove_province_modifier = boh_expanded_dev_mod_3
+						remove_province_modifier = boh_expanded_dev_mod_1
+						add_province_modifier = {
+							name = boh_expanded_dev_mod_4
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_importance = 400
+	}
+}

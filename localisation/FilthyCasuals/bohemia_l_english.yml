@@ -1,4 +1,11 @@
 ﻿l_english:
+ # Government
+ boh_gov_tooltip:0 "Every province of §YCeskobavorsky§! culture gets a modifier depending on it's development:\n  10-19 development:\n    §Y-5% Local Development Cost§!\n  20-29 development:\n    §Y-10% Local Development Cost§!\n  30-39 development:\n    §Y-10% Local Development Cost§!\n    §Y-5% Local Development Cost Modifier§!\n  40+ development:\n    §Y-10% Local Development Cost§!\n    §Y-10% Local Development Cost Modifier§!"
+ boh_gov_cooldown_tooltip:0 "At least one day passed since last refresh."
+
+ # Ideas
+
+
  # Center of Reformation event
  hussite_cor.1.t:0 "The Evangelicals of [hussite_province.GetName]"
  hussite_cor.1.d:0 "I can't really be bothered to write a proper description in here."

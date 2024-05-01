@@ -31,8 +31,17 @@ age_of_discovery = {
 			}
 		}
 
-		obj_colonial_empire = {
-			colony = 5
+		obj_30_development_city = {
+			custom_trigger_tooltip = {
+				tooltip = obj_30_development_city_tooltip
+				any_owned_province = {
+					exclude_from_progress = {
+						is_core = ROOT
+						controlled_by = owner
+					}
+					development_discounting_tribal = 30
+				}
+			}
 		}
 
 		obj_force_converted = {
@@ -42,27 +51,11 @@ age_of_discovery = {
 			}
 		}
 
-		obj_asian_trade = {
-			OR = {
-				trading_bonus = {
-					trade_goods = spices
-					value = yes
-				}
-				trading_bonus = {
-					trade_goods = cloves
-					value = yes
-				}
-				trading_bonus = {
-					trade_goods = chinaware
-					value = yes
-				}
-				trading_bonus = {
-					trade_goods = silk
-					value = yes
-				}
-			}
-
-
+		obj_renaissance = {
+	 		has_institution = renaissance
+	 		all_state_province = {
+	 			renaissance = 100
+	 		}
 		}
 
 		obj_unify_culture = {
@@ -152,7 +145,6 @@ age_of_discovery = {
 					AND = {
 						government_rank = 2
 						culture_group = iberian
-						num_of_colonies = 2
 					}
 				}
 			}
@@ -163,45 +155,18 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-		ab_mughal_artillery = {
+
+		ab_ottoman_siege_ability = {
 			allow = {
 				OR = {
-					tag = MUG
 					AND = {
-						government_rank = 3
-						OR = {
-							religion_group = zoroastrian_group
-							religion_group = muslim
-							religion = buddhism
-						}
-						calc_true_if = { #One controls a substantial amount of India
-							amount = 2
-							deccan_region = {
-								type = all
-								country_or_non_sovereign_subject_holds = ROOT
-							}
-							coromandel_region = {
-								type = all
-								country_or_non_sovereign_subject_holds = ROOT
-							}
-							bengal_region = {
-								type = all
-								country_or_non_sovereign_subject_holds = ROOT
-							}
-							hindusthan_region = {
-								type = all
-								country_or_non_sovereign_subject_holds = ROOT
-							}
-							west_india_region = {
-								type = all
-								country_or_non_sovereign_subject_holds = ROOT
-							}
-						}
+						technology_group = ottoman
+						government_rank = 2
 					}
 				}
 			}
 			modifier = {
-				artillery_power = 0.15
+				leader_siege = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -318,23 +283,30 @@ age_of_reformation = {
 				amount = 5
 			}
 		}
-		obj_30_development_city = {
-			custom_trigger_tooltip = {
-				tooltip = obj_30_development_city_tooltip
-				any_owned_province = {
-					exclude_from_progress = {
-						is_core = ROOT
-						controlled_by = owner
-					}
-					development_discounting_tribal = 30
+
+		obj_colonial_empire = {
+			colony = 5
+		}
+
+		obj_asian_trade = {
+			OR = {
+				trading_bonus = {
+					trade_goods = spices
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = chinaware
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = silk
+					value = yes
 				}
 			}
-		}
-		obj_renaissance = {
-	 		has_institution = renaissance
-	 		all_state_province = {
-	 			renaissance = 100
-	 		}
 		}
 
 		obj_two_unions = {
@@ -434,32 +406,13 @@ age_of_reformation = {
 			}
 		}
 
-		ab_ottoman_siege_ability = {
-			allow = {
-				OR = {
-					tag = TUR
-					AND = {
-						technology_group = ottoman
-						government_rank = 2
-					}
-				}
-			}
-			modifier = {
-				leader_siege = 1
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-
 		ab_portugal_colonial_growth = {
 
 			allow = {
 				OR = {
-					tag = POR
+					tag = IRE
 					AND = {
 						has_idea_group = exploration_ideas
-						num_of_total_ports = 15
 					}
 				}
 			}
@@ -474,7 +427,8 @@ age_of_reformation = {
 
 			allow = {
 				OR = {
-					tag = DAN
+					tag = BLT
+					tag = BRC
 					personal_union = 2
 				}
 			}
@@ -509,6 +463,50 @@ age_of_reformation = {
 			}
 			modifier = {
 				global_ship_trade_power = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_mughal_artillery = {
+			allow = {
+				OR = {
+					tag = MUG
+					AND = {
+						government_rank = 3
+						OR = {
+							religion_group = zoroastrian_group
+							religion_group = muslim
+							religion = buddhism
+						}
+						calc_true_if = { #One controls a substantial amount of India
+							amount = 2
+							deccan_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							coromandel_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							bengal_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							hindusthan_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+							west_india_region = {
+								type = all
+								country_or_non_sovereign_subject_holds = ROOT
+							}
+						}
+					}
+				}
+			}
+			modifier = {
+				artillery_power = 0.15
 			}
 			ai_will_do = {
 				factor = 100

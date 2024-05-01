@@ -40,6 +40,6 @@ dominion_ideas = {
 		discipline = 0.05
 	}
 	dominion_reforms = {
-		free_dip_policy = 1
+		free_adm_policy = 1
 	}
 }

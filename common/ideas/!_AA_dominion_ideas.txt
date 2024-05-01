@@ -1,0 +1,45 @@
+dominion_ideas = {
+	start = {
+		papal_influence = 2
+		curia_powers_cost = -0.1
+		curia_treasury_contribution = 1.00
+        yearly_patriarch_authority = 0.005
+		culture_conversion_cost = -0.20
+	}
+
+	bonus = {
+		free_dip_policy = 1
+	}
+
+	trigger = {
+		OR = {
+			tag = CAS
+		}
+	}
+	free = yes
+
+	tercio_formations = {
+		infantry_power = 0.2
+	}
+	one_faith = {
+		missionaries = 1
+		global_missionary_strength = 0.02
+		global_religious_conversion_resistance = 0.5
+	}
+	scarcity_driven_innovation = {
+		reform_progress_growth = 0.3
+	}
+	scorch_trials = {
+		fire_damage_received = -0.10
+	}
+	legacy_of_castile = {
+		prestige_decay = -0.01
+		army_tradition_decay = -0.01
+	}
+	age_of_hardship = {
+		discipline = 0.05
+	}
+	dominion_reforms = {
+		free_adm_policy = 1
+	}
+}

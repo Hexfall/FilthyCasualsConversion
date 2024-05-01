@@ -1,0 +1,109 @@
+boh_expanded_dev = {
+	icon = "mission_to_kill_pirates_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			primary_culture = ceskobavorsky
+			has_reform = boh_expanded_dev
+		}
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+	}
+	lock_level_when_selected = yes
+	modifiers = {
+		culture_conversion_cost = 0.75
+		development_cost_in_primary_culture = -0.05
+	}
+	effect = {
+		custom_tooltip = boh_gov_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					AND = {
+						has_owner_culture = yes
+						development = 10
+					NOT = {
+						development = 20
+					}
+					}
+				}
+				add_province_modifier = {
+					name = boh_expanded_dev_mod_1
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					AND = {
+						has_owner_culture = yes
+						development = 20
+					NOT = {
+						development = 30
+					}
+					}
+				}
+				add_province_modifier = {
+					name = boh_expanded_dev_mod_2
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					AND = {
+						has_owner_culture = yes
+						development = 30
+					NOT = {
+						development = 40
+					}
+					}
+				}
+				add_province_modifier = {
+					name = boh_expanded_dev_mod_3
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					AND = {
+						has_owner_culture = yes
+						development = 40
+					}
+					add_province_modifier = {
+						name = boh_expanded_dev_mod_4
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	post_removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = boh_expanded_dev_mod_1
+				}
+				remove_province_modifier = boh_expanded_dev_mod_1
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = boh_expanded_dev_mod_2
+				}
+				remove_province_modifier = boh_expanded_dev_mod_2
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = boh_expanded_dev_mod_3
+				}
+				remove_province_modifier = boh_expanded_dev_mod_3
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = boh_expanded_dev_mod_4
+				}
+				remove_province_modifier = boh_expanded_dev_mod_4
+			}
+		}
+	}
+	ai = {
+		factor = 10
+	}
+}

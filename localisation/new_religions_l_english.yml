@@ -3,3 +3,5 @@
  province_is_or_accepts_golden_path_tt:0 "The Religion of §Y[Root.GetName]§! is §YGolden Path§! and is either the State or the Syncretic Religion of the owner."
  province_is_or_accepts_sunni_tt:0 "The Religion of §Y[Root.GetName]§! is §YSunni§! and is either the State or the Syncretic Religion of the owner."
  province_is_or_accepts_ibadi_tt:0 "The Religion of §Y[Root.GetName]§! is §YIbadi§! and is either the State or the Syncretic Religion of the owner."
+ province_is_or_accepts_vidilist_tt:0 "The Religion of §Y[Root.GetName]§! is §YVidilist§! and is either the State or the Syncretic Religion of the owner."
+ province_is_or_accepts_norse_tt:0 "The Religion of §Y[Root.GetName]§! is §YNorse§! and is either the State or the Syncretic Religion of the owner."

@@ -1,0 +1,106 @@
+estate_burghers_hydraulic_rights = {
+	icon = privilege_dev_cost_desert
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.05
+	loyalty = 0.05
+	is_valid = {
+        OR = {
+			has_unlocked_estate_privilege = { estate_privilege = estate_burghers_hydraulic_rights }
+			tag = OUT
+		}
+	}
+	can_select = {
+		any_owned_province = {
+			OR = {
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = steppe
+				has_terrain = savannah
+			}
+		}
+	}
+	on_granted = {
+		custom_tooltip = estate_burghers_enslaving_rights_gt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_terrain = desert
+				}
+				add_province_modifier = {
+					name = estate_burghers_hydraulic_rights_desert
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_terrain = coastal_desert
+				}
+				add_province_modifier = {
+					name = estate_burghers_hydraulic_rights_coastal_desert
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_terrain = steppe
+				}
+				add_province_modifier = {
+					name = estate_burghers_hydraulic_rights_steppes
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_terrain = savannah
+				}
+				add_province_modifier = {
+					name = estate_burghers_hydraulic_rights_savanna
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_burghers_enslaving_rights_rt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = estate_burghers_hydraulic_rights_desert
+						has_province_modifier = estate_burghers_hydraulic_rights_coastal_desert
+						has_province_modifier = estate_burghers_hydraulic_rights_steppes
+						has_province_modifier = estate_burghers_hydraulic_rights_savanna
+					}
+				}
+				remove_province_modifier = estate_burghers_hydraulic_rights_desert
+				remove_province_modifier = estate_burghers_hydraulic_rights_coastal_desert
+				remove_province_modifier = estate_burghers_hydraulic_rights_steppes
+				remove_province_modifier = estate_burghers_hydraulic_rights_savanna
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			num_of_owned_provinces_with = {
+				OR = {
+					has_terrain = desert
+					has_terrain = coastal_desert
+					has_terrain = steppe
+					has_terrain = savannah
+				}
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}

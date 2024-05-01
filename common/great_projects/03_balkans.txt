@@ -180,6 +180,7 @@ hagia_sophia = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			imperial_authority_value = 0.05
 			tolerance_own = 0.25
 			tolerance_heretic = 0.25
 			church_loyalty_modifier = 0.05
@@ -211,6 +212,7 @@ hagia_sophia = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			imperial_authority_value = 0.10
 			tolerance_own = 0.5
 			tolerance_heretic = 0.5
 			monthly_piety_accelerator = 0.001
@@ -251,6 +253,7 @@ hagia_sophia = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			imperial_authority_value = 0.15
 			tolerance_own = 1
 			tolerance_heretic = 1
 			monthly_piety_accelerator = 0.002

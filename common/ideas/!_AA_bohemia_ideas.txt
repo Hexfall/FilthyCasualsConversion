@@ -1,0 +1,43 @@
+bohemian_ideas = {
+	start = {
+		development_cost = -0.1
+		global_prosperity_growth = 0.1
+		global_monthly_devastation = -0.1
+
+	}
+	
+	bonus = {
+		global_allowed_num_of_buildings = 1
+	}
+	
+	trigger = {
+		tag = BOH
+	}
+	free = yes
+	
+	legacy_of_the_landsknecht = {
+		shock_damage_received = -0.1
+		land_morale = 0.05
+	}
+	centralised_tax_offices = {
+		global_tax_modifier = 0.1	
+	}
+	industrialisation_of_prague = {
+		production_efficiency = 0.1
+	}
+	diplomatic_corps = {
+		diplomats = 1
+	}
+	plentiful_land = {
+		global_supply_limit_modifier = 0.5
+		manpower_recovery_speed = 0.1
+		reinforce_speed = 0.1
+	}
+	trade_apparatus = {
+		global_prov_trade_power_modifier = 0.1
+	}
+	hussite_peasants = {
+		infantry_fire = 0.1
+		fire_damage = 0.05
+	}
+}

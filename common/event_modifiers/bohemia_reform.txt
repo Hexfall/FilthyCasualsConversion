@@ -1,0 +1,17 @@
+boh_expanded_dev_mod_1 = {
+	local_development_cost = -0.05
+}
+
+boh_expanded_dev_mod_2 = {
+	local_development_cost = -0.10
+}
+
+boh_expanded_dev_mod_3 = {
+	local_development_cost_modifier = -0.05
+	local_development_cost = -0.10
+}
+
+boh_expanded_dev_mod_4 = {
+	local_development_cost_modifier = -0.1
+	local_development_cost = -0.10
+}

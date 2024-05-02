@@ -1,0 +1,25 @@
+dominion_gov_reform = {
+	icon = "hispanic_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = CAS
+			has_reform = dominion_gov_reform
+			have_had_reform = dominion_gov_reform
+		}
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+	}
+	lock_level_when_selected = yes
+	modifiers = {
+		culture_conversion_cost = -0.2
+		num_accepted_cultures = -999
+		culture_conversion_time = -0.2
+		max_absolutism = -30
+	}
+	fixed_rank = 2
+	maintain_dynasty = yes
+	has_parliament = yes
+	ai = {
+		factor = 10
+	}
+}

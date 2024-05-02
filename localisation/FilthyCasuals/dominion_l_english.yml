@@ -17,3 +17,7 @@
  age_of_hardship_desc:0 "Age of Hardships description"
  dominion_reforms:0 "Dominion Reforms"
  dominion_reforms_desc:0 "Dominion Reforms description"
+
+ # Government
+ dominion_gov_reform:0 "Dominion Reform"
+ dominion_gov_reform_desc:0 "Dominion Reform Description"

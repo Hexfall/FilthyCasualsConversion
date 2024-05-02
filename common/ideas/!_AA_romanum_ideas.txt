@@ -31,7 +31,7 @@ romanum_ideas = {
 		development_cost = -0.1
 	}
 	roman_legion  = {
-		discipline = 0.1
+		discipline = 0.05
 	}
 	imperial_trading_offices = {
 		trade_efficiency = 0.10

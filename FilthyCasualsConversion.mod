@@ -10,3 +10,8 @@ replace_path="common/bookmarks/"
 replace_path="common/technologies/"
 supported_version="1.36.*"
 path="mod/FilthyCasualsConversion"
+
+tags = {
+"Converted From CKIII"
+}
+picture="FilthyCasualsConversion.png"

@@ -32,6 +32,7 @@ romanum_ideas = {
 	}
 	roman_legion  = {
 		discipline = 0.05
+		army_tradition_from_battle = 0.5
 	}
 	imperial_trading_offices = {
 		trade_efficiency = 0.10

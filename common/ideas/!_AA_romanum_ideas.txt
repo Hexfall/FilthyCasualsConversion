@@ -2,7 +2,7 @@ romanum_ideas = {
 	start = {
 		diplomatic_reputation = 2
 		cavalry_power = 0.20
-		cavalry_cost = -0.05
+		cavalry_cost = -0.10
 	}
 
 	bonus = {
@@ -26,6 +26,7 @@ romanum_ideas = {
 	}
 	patriarch_of_constantinople = {
 		monthly_fervor_increase = 2
+		global_missionary_strength = 0.015
 	}
 	diplomatic_ties = {
 		development_cost = -0.1
@@ -35,7 +36,7 @@ romanum_ideas = {
 		army_tradition_from_battle = 0.5
 	}
 	imperial_trading_offices = {
-		trade_efficiency = 0.10
+		trade_efficiency = 0.20
 	}
 	big_morale = {
 		land_morale = 0.10

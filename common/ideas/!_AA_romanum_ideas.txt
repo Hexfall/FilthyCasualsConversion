@@ -1,7 +1,8 @@
 romanum_ideas = {
 	start = {
-		development_cost = -0.1
-		global_own_trade_power = 0.1
+		diplomatic_reputation = 2
+		cavalry_power = 0.20
+		cavalry_cost = -0.05
 	}
 
 	bonus = {
@@ -17,23 +18,23 @@ romanum_ideas = {
 	free = yes
 
 	latin1_knights = {
-		cavalry_power = 0.20
-		cavalry_cost = -0.05
+		spy_action_cost_modifier = -0.2
+		improve_relation_modifier = 0.1
+	}
+	eunuch_advisors = {
+		advisor_cost = -0.10
 	}
 	patriarch_of_constantinople = {
 		monthly_fervor_increase = 2
 	}
-	roman_legion  = {
-		discipline = 0.1
-	}
 	diplomatic_ties = {
-		diplomatic_reputation = 2
+		development_cost = -0.1
+	}
+	roman_legion  = {
+		discipline = 0.05
 	}
 	imperial_trading_offices = {
 		trade_efficiency = 0.10
-	}
-	eunuch_advisors = {
-		advisor_cost = -0.10
 	}
 	big_morale = {
 		land_morale = 0.10

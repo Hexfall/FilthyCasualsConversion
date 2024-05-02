@@ -10,7 +10,7 @@ romanum_ideas = {
 
 	trigger = {
 		OR = {
-			tag = Z0I
+			tag = ORT
 			tag = Z0D
 		}
 	}

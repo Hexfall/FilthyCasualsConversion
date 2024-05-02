@@ -160,3 +160,24 @@ fara = {
 		government = monarchy
 	}
 }
+imperial_dyad = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = KING
+		3 = IMPERATOR
+	}
+	ruler_female = {
+		1 = PRINCESS
+		2 = QUEEN
+		3 = IMPERATRIX
+	}
+	
+	trigger = { tag = ENG tag = ORT }
+
+}

@@ -10,7 +10,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 2
 add_core = Z05
-add_permanent_claim = CAS
+
 discovered_by = east_african
 discovered_by = eastern
 discovered_by = indian

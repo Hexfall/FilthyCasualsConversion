@@ -1,3 +1,25 @@
+gov_imperial_dyad = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = KING
+		3 = IMPERATOR
+	}
+	ruler_female = {
+		1 = PRINCESS
+		2 = QUEEN
+		3 = IMPERATRIX
+	}
+	
+	trigger = { has_reform = imperial_dyad }
+
+}
+
 grand_duchy_monarchy = {
 	rank = {
 		1 = GRAND_DUCHY
@@ -161,24 +183,4 @@ fara = {
 	}
 }
 
-gov_imperial_dyad = {
-	rank = {
-		1 = DUCHY
-		2 = KINGDOM
-		3 = EMPIRE
-	}
-	
-	ruler_male = {
-		1 = PRINCE
-		2 = KING
-		3 = IMPERATOR
-	}
-	ruler_female = {
-		1 = PRINCESS
-		2 = QUEEN
-		3 = IMPERATRIX
-	}
-	
-	trigger = { has_reform = imperial_dyad }
 
-}

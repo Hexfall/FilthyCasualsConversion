@@ -4,7 +4,14 @@ boh_expanded_dev = {
 	potential = {
 		OR = {
 			primary_culture = ceskobavorsky
-			has_reform = boh_expanded_dev
+			AND = {
+				primary_culture = roman
+				has_reform = boh_expanded_dev
+			}
+			AND = {
+				primary_culture = roman
+				have_had_reform = boh_expanded_dev
+			}
 		}
 		NOT = { has_government_attribute = is_pirate_republic_reform }
 	}

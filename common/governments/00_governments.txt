@@ -123,6 +123,7 @@ monarchy = {
 				outremer_shattered_reform
 				outremer_unified_reform
 				boh_expanded_dev
+				dominion_gov_reform
 			}
 		}
 		hereditary_vs_nobility = {

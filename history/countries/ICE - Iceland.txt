@@ -4,3 +4,17 @@ technology_group = western
 religion = catholic
 primary_culture = icelandic
 capital = 370
+1444.11.11= {
+	monarch = {
+		name = "Sigmundur"
+		dynasty = "Steinþórsson"
+		adm = 2
+		dip = 6
+		mil = 1
+		birth_date = 1420.1.31
+		religion = catholic
+		culture = icelandic
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+    }

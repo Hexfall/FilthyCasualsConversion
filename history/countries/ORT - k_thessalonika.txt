@@ -5,7 +5,6 @@ technology_group = eastern
 religion = chalcedonian
 primary_culture = latin_culture
 capital = 151
-historical_rival = Z0D
 historical_friend = ENG
 historical_friend = ATH
 historical_friend = ZAZ

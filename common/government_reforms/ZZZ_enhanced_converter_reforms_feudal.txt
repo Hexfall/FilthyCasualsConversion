@@ -949,7 +949,7 @@ shattered_commonwealth = {
 		legitimacy = -1
 		governing_capacity = -50
 		liberty_desire_from_subject_development = -0.15
-		tax_income = 15
+		global_tax_modifier = 0.15
 	}
 	custom_attributes = {
 		enables_divine_idea_group = no
@@ -986,7 +986,7 @@ restored_commonwealth = {
 		same_religion_advisor_cost = -0.10
 		governing_capacity = 50
 		liberty_desire_from_subject_development = -0.15
-		tax_income = 15
+		global_tax_modifier = 0.15
 	}
 	custom_attributes = {
 		enables_divine_idea_group = no

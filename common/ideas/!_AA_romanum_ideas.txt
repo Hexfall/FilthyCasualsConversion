@@ -18,7 +18,7 @@ romanum_ideas = {
 	free = yes
 
 	latin1_knights = {
-		spy_action_cost_modifier = -0.2
+		spy_offence = 0.2
 		improve_relation_modifier = 0.1
 	}
 	eunuch_advisors = {

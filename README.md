@@ -15,4 +15,4 @@ And for macOS, it's
 ```
 /Users/USER/Documents/Paradox Interactive/Europa Universalis IV/mod
 ```
-Then copy the descriptor file ([FilthyCasualsConversion.mod](FilthyCasualsConversion.mod)) to the mod folder, so it lies one level above the `FilthyCasualsConversion` folder.
+Then copy the descriptor file ([FilthyCasualsConversion.mod](descriptor.mod)) to the mod folder, so it lies one level above the `FilthyCasualsConversion` folder.

@@ -8,10 +8,11 @@ replace_path="common/countries/"
 replace_path="common/country_tags/"
 replace_path="common/bookmarks/"
 replace_path="common/technologies/"
-supported_version="1.36.*"
-path="mod/FilthyCasualsConversion"
-
-tags = {
-"Converted From CKIII"
+version="1.1"
+tags={
+	"Converted From CKIII"
 }
 picture="FilthyCasualsConversion.png"
+supported_version="1.37.*"
+path="mod/FilthyCasualsConversion"
+remote_file_id="3239285162"

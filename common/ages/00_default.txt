@@ -409,10 +409,17 @@ age_of_reformation = {
 		ab_portugal_colonial_growth = {
 
 			allow = {
-				OR = {
-					tag = IRE
-					AND = {
+				AND = {
+					OR = {
+						tag = IRE
+						tag = SCO
+						is_colonial_nation = yes
+						is_former_colonial_nation = yes
+						has_country_flag = changed_from_colonial_nation
+					}
+					OR = {
 						has_idea_group = exploration_ideas
+						has_idea_group = expansion_ideas
 					}
 				}
 			}

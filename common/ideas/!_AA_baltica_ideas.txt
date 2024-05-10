@@ -39,7 +39,7 @@ baltica_ideas = {
 	}
 	palemonaitis_puppeteering = {
 		vassal_income = 0.15
-		reduced_liberty_desire = 0.15
+		reduced_liberty_desire = 15
 	}
 	bonus = {
 		statewide_governing_cost = -0.15

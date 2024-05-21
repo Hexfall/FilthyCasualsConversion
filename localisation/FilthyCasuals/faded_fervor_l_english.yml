@@ -1,0 +1,5 @@
+﻿l_english:
+ faded_fervor.1.t:0 "Faded Fervor"
+ faded_fervor.1.d:0 "Nearly a century has passed since [reform_center_province.GetName] became a stronghold of [reform_center_province.Religion.GetName] learning. The infant religion has now entrenched itself in the area however, and now [reform_center_province.GetName] is just one [reform_center_province.Religion.GetName] city amongst many in the region."
+ faded_fervor.1.a:0 "It is time to move on."
+ faded_fervor_tooltip:0 "[reform_center_province.GetName] loses its Center of Reformation"

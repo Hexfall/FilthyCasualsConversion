@@ -34,14 +34,14 @@ baltica_ideas = {
 		infantry_power = 0.10
 	}
 	forest_construction = {
-		local_build_cost = -0.10
-		local_build_time = -0.25
+		build_cost = -0.10
+		build_time = -0.25
 	}
 	palemonaitis_puppeteering = {
 		vassal_income = 0.15
 		reduced_liberty_desire = 15
 	}
 	bonus = {
-		statewide_governing_cost = -0.15
+		state_governing_cost = -0.15
 	}
 }

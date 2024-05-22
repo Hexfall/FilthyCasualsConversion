@@ -5,7 +5,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			tag = BRC
-			NOT = { has_country_flag = marejungtis_formed}
+			NOT = { has_country_flag = Nexus_formed}
 		}
 		provinces_to_highlight = {
 			AND = {
@@ -166,11 +166,11 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = marejungtis_formed
+			set_country_flag = Nexus_formed
             change_country_color = {
 				color =	{57 93 121 } 
 			}
-			override_country_name = Marejungtis
+			override_country_name = Nexus
 
 			if = {
 				limit = {

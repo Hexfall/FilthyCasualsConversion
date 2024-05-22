@@ -74,10 +74,10 @@ boh_expanded_dev = {
 						has_owner_culture = yes
 						development = 40
 					}
-					add_province_modifier = {
-						name = boh_expanded_dev_mod_4
-						duration = -1
-					}
+				}
+				add_province_modifier = {
+					name = boh_expanded_dev_mod_4
+					duration = -1
 				}
 			}
 		}

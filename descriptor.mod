@@ -13,6 +13,6 @@ tags={
 	"Converted From CKIII"
 }
 picture="FilthyCasualsConversion.png"
-supported_version="1.37.*"
+supported_version="v1.37.*.*"
 path="mod/FilthyCasualsConversion"
 remote_file_id="3239285162"

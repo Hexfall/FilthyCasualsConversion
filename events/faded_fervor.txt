@@ -1,0 +1,49 @@
+namespace = faded_fervor
+
+country_event = {
+	id = faded_fervor.1
+	title = faded_fervor.1.t
+	desc = faded_fervor.1.d
+	picture = RELIGION_eventPicture
+
+	trigger = {
+        is_year = 1550
+		any_owned_province = {
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+			}
+            is_reformation_center = yes
+        }
+	}
+
+    immediate = {
+        hidden_effect = {
+            random_owned_province = {
+                limit = { is_reformation_center = yes }
+
+				save_event_target_as = reform_center_province
+            }
+        }
+    }
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = faded_fervor.1.a
+		goto = reform_center_province
+
+		custom_tooltip = faded_fervor_tooltip
+
+		hidden_effect = {
+			event_target:reform_center_province = {
+				remove_reform_center = protestant
+                remove_reform_center = reformed
+                remove_reform_center = hussite
+			}
+		}
+	}
+}

@@ -31,8 +31,8 @@ eastern_vidilist_ideas = {
 		infantry_power = 0.05
 	}
 	forest_construction2 = {
-		local_build_cost = -0.05
-		local_build_time = -0.10
+		build_cost = -0.05
+		build_time = -0.10
 	}
 	table_of_ranks = {
 		advisor_cost = -0.10

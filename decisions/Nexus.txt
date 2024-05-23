@@ -1,0 +1,213 @@
+country_decisions = {
+	brc_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			tag = BRC
+			NOT = { has_country_flag = Nexus_formed}
+		}
+		provinces_to_highlight = {
+			AND = {
+				NOT = { # Don't bother showing provinces already own by root
+					country_or_non_sovereign_subject_holds = root
+				}
+				OR = {
+					AND = { # If already owns all important provinces, show provinces in regions needed for threshold
+						root = {
+							OR = {
+								owns_or_non_sovereign_subject_of = 315
+								owns_or_non_sovereign_subject_of = 1777
+								owns_or_non_sovereign_subject_of = 20
+								owns_or_non_sovereign_subject_of = 1955
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 43
+								owns_or_non_sovereign_subject_of = 41
+								owns_or_non_sovereign_subject_of = 38
+								owns_or_non_sovereign_subject_of = 1
+								owns_or_non_sovereign_subject_of = 33
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 1756
+								owns_or_non_sovereign_subject_of = 282
+								owns_or_non_sovereign_subject_of = 286
+								owns_or_non_sovereign_subject_of = 285
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 421
+								owns_or_non_sovereign_subject_of = 464
+								owns_or_non_sovereign_subject_of = 4341
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 1050
+								owns_or_non_sovereign_subject_of = 2440
+								owns_or_non_sovereign_subject_of = 1047
+								owns_or_non_sovereign_subject_of = 2106
+							}
+						}
+						root = {
+							NOT = {
+								num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+									country_or_non_sovereign_subject_holds = ROOT
+									OR = {
+										region = baltic_region
+										region = ruthenia_region
+										region = scandinavia_region
+										region = crimea_region
+										region = central_asia_region
+										region = russia_region
+										region = ural_region
+										region = west_siberia_region
+										region = east_siberia_region
+										region = manchuria_region
+										region = mongolia_region
+										region = caucasia_region
+										region = poland_region
+										region = carpathia_region
+										region = north_german_region
+									}
+									value = 300
+								}
+							}
+						}
+					}
+					NOT = {
+						root = {
+							OR = {
+								owns_or_non_sovereign_subject_of = 315
+								owns_or_non_sovereign_subject_of = 1777
+								owns_or_non_sovereign_subject_of = 20
+								owns_or_non_sovereign_subject_of = 1955
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 43
+								owns_or_non_sovereign_subject_of = 41
+								owns_or_non_sovereign_subject_of = 38
+								owns_or_non_sovereign_subject_of = 1
+								owns_or_non_sovereign_subject_of = 33
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 1756
+								owns_or_non_sovereign_subject_of = 282
+								owns_or_non_sovereign_subject_of = 286
+								owns_or_non_sovereign_subject_of = 285
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 421
+								owns_or_non_sovereign_subject_of = 464
+								owns_or_non_sovereign_subject_of = 4341
+							}
+							OR = {
+								owns_or_non_sovereign_subject_of = 1050
+								owns_or_non_sovereign_subject_of = 2440
+								owns_or_non_sovereign_subject_of = 1047
+								owns_or_non_sovereign_subject_of = 2106
+							}
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				owns_or_non_sovereign_subject_of = 315
+				owns_or_non_sovereign_subject_of = 1777
+				owns_or_non_sovereign_subject_of = 20
+				owns_or_non_sovereign_subject_of = 1955
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 43
+				owns_or_non_sovereign_subject_of = 41
+				owns_or_non_sovereign_subject_of = 38
+				owns_or_non_sovereign_subject_of = 1
+				owns_or_non_sovereign_subject_of = 33
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 1756
+				owns_or_non_sovereign_subject_of = 282
+				owns_or_non_sovereign_subject_of = 286
+				owns_or_non_sovereign_subject_of = 285
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 421
+				owns_or_non_sovereign_subject_of = 464
+				owns_or_non_sovereign_subject_of = 4341
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 1050
+				owns_or_non_sovereign_subject_of = 2440
+				owns_or_non_sovereign_subject_of = 1047
+				owns_or_non_sovereign_subject_of = 2106
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    region = baltic_region
+					region = ruthenia_region
+					region = scandinavia_region
+					region = crimea_region
+					region = central_asia_region
+					region = russia_region
+					region = ural_region
+					region = west_siberia_region
+					region = east_siberia_region
+					region = manchuria_region
+					region = mongolia_region
+					region = caucasia_region
+					region = poland_region
+					region = carpathia_region
+					region = north_german_region
+                }
+				value = 300
+			}
+		}
+		effect = {
+			set_country_flag = Nexus_formed
+            change_country_color = {
+				color =	{57 93 121 } 
+			}
+			override_country_name = Nexus
+
+			if = {
+				limit = {
+					1034 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1034 = {
+					center_of_trade = 1
+				}
+			}
+			if = {
+				limit = {
+					464 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				464 = {
+					center_of_trade = 1
+				}
+			}
+			if = {
+				limit = {
+					1756 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1756 = {
+					center_of_trade = 1
+				}
+			}
+
+            add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 1
+	}
+}

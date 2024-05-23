@@ -29,6 +29,7 @@ eastern_vidilist_ideas = {
 	varangian_veterans2 = {
 		military_tactics = 0.1
 		infantry_power = 0.05
+		may_establish_frontier = yes
 	}
 	forest_construction2 = {
 		build_cost = -0.05
@@ -39,6 +40,6 @@ eastern_vidilist_ideas = {
         leader_land_shock = 1
 	}
 	bonus = {
-        may_establish_frontier = yes
+        state_governing_cost = -0.1
 	}
 }

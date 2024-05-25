@@ -388,10 +388,11 @@ trade_company_north_sea = {
 		373 374 4120 4379 #leinster_area
 		372 4121 4380 #ulster_area
 		4118 4377 4378 #munster_area
-		10 20 21 #northern_norway
+		10 20 #northern_norway
 		1978 1979 #subarctic_islands_area
 		370 371 #iceland_area
 		23 24 2752 4145 #western_norway
+		17 22 4143 4144
 	}
 	
 	# Specific
@@ -414,6 +415,7 @@ trade_company_white_sea = {
 		1777 4151 315 # laponia
 		1755 4129 1964 1963 # perm
 		1077
+		21
 	}
 	
 	# Specific
@@ -430,7 +432,7 @@ trade_company_lubeck = {
 	color = { 190 70 70 }
 	
 	provinces = {
-		6 12 13 14 15 16 17 22 26 44 45 46 47 48 53 54 55 1775 1857 1874 1858 1981 1982 1983 1984 7 2994 2995 2996 4141 4142 4143 4144 4149 4163 4164 4165 
+		6 12 13 14 15 16 26 44 45 46 47 48 53 54 55 1775 1857 1874 1858 1981 1982 1983 1984 7 2994 2995 2996 4141 4142 4149 4163 4164 4165 
 		4749 4745 4746 4771 4772 4786
 	}
 	

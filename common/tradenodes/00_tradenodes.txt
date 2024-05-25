@@ -782,10 +782,9 @@ deccan={
 	outgoing={
 		name="gujarat"
 		path={
-			4433 517 1337 
+			4433 517 4512 4457 4456 503
 		}
 		control={
-			3964.000000 943.000000 3919.000000 945.000000 
 		}
 	}
 	outgoing={
@@ -960,7 +959,7 @@ beijing={
 	outgoing={
 		name="yumen"
 		path={
-			4233 1375 1374 701 709 707 
+			1816 701 709 707 
 		}
 		control={
 		}
@@ -1087,7 +1086,7 @@ comorin_cape={
 	outgoing={
 		name="gujarat"
 		path={
-			1337 1338
+			1338 1337
 		}
 		control={
 

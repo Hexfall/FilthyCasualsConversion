@@ -655,7 +655,7 @@ east_india={
 	location = 4418
 	outgoing={
 		name="ceylon"
-		path={539 4417 540 4410 2026 536 1340}
+		path={539 4417 540 2026 536 1340}
 		control={}
 	}
 	outgoing={
@@ -691,7 +691,7 @@ ganges_delta={
 	outgoing={
 		name="burma"
 		path={
-			1345 580 585 4395
+			568 2041 580
 		}
 		control={
 		}
@@ -1082,16 +1082,15 @@ comorin_cape={
 			1451 1331 
 		}
 		control={
-			3866.000000 794.500000 3715.000000 850.000000 
 		}
 	}
 	outgoing={
 		name="gujarat"
 		path={
-			1337 
+			1337 1338
 		}
 		control={
-			3952.000000 822.000000 3895.000000 915.000000 
+
 		}
 	}
 	members={

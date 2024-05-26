@@ -89,6 +89,53 @@ north_pagan = {
 						has_church_aspect = vidilist_aspect_dip_1
 					}
 					add_corruption = -1
+					every_owned_province = {
+						limit = {
+							OR = {
+								has_province_modifier = vidilist_community_wrong_culture
+								has_province_modifier = vidilist_community_same_culture_group
+								has_province_modifier = vidilist_forest_development
+								has_province_modifier = vidilist_woods_development
+							}
+						}
+						if = {
+							limit = { has_province_modifier = vidilist_community_wrong_culture }
+							remove_province_modifier = vidilist_community_wrong_culture
+						}
+						if = {
+							limit = { has_province_modifier = vidilist_community_same_culture_group }
+							remove_province_modifier = vidilist_community_same_culture_group
+						}
+					}
+					every_owned_province = {
+						limit = {
+							religion = vidilist
+						}
+						if = {
+							limit = {
+								NOT = { culture_group = ROOT }
+								has_owner_accepted_culture = no
+								has_owner_culture = no
+							}
+							add_province_modifier = {
+								name = vidilist_community_wrong_culture
+								duration = -1
+							}
+						}
+						else_if = {
+							limit = {
+								owner = {
+									has_cultural_union = no
+								}
+								culture_group = ROOT
+								has_owner_accepted_culture = no
+							}
+							add_province_modifier = {
+								name = vidilist_community_same_culture_group
+								duration = -1
+							}
+						}
+					}
 				}
 				if = {
 					limit = {
@@ -96,12 +143,60 @@ north_pagan = {
 					}
 					add_prestige = 10
 					add_dip_power = 40
+					every_owned_province = {
+						limit = {
+							AND = {
+								OR = {
+									religion_group = christian
+									religion_group = muslim
+								}
+								NOT = {
+									has_province_modifier = pagan_roots
+								}
+							}
+						}
+						add_province_modifier = {
+							name = pagan_roots
+							duration = -1
+						}
+					}
 				}
 				if = {
 					limit = {
 						has_church_aspect = vidilist_aspect_dip_3
 					}
 					add_mercantilism = 1
+					every_owned_province = {
+						limit = {
+							AND = {
+								OR = {
+									has_terrain = forest
+									has_terrain = woods
+								}
+								NOT = {
+									OR = {
+										has_province_modifier = vidilist_forest_development
+										has_province_modifier = vidilist_woods_development
+									}
+									
+								}
+							}
+						}
+						if = {
+							limit = {has_terrain = forest }
+							add_province_modifier = {
+								name = vidilist_forest_development
+								duration = -1
+							}
+						}
+						if = {
+							limit = {has_terrain = woods }
+							add_province_modifier = {
+								name = vidilist_woods_development
+								duration = -1
+							}
+						}
+					}
 				}
 
 				if = {

@@ -7,6 +7,7 @@ baltica_ideas = {
 		OR = {
 			tag = BLT
 			tag = BRC
+			tag = NEX
 		}
 	}
 	free = yes

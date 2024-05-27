@@ -930,6 +930,7 @@ shattered_commonwealth = {
 			OR = {
 				tag = BLT
 				tag = BRC
+				tag = NEX
 				tag = KIE
 				tag = VOL
 			}

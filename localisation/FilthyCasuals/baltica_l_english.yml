@@ -6,7 +6,11 @@
  BRC_ideas:3 "Balto-Ruth Ideas"
  BRC_ideas_bonus:3 "Balto-Ruthian Ambition"
  BRC_ideas_start:3 "Balto-Ruthian Traditions"
- Nexus:0 "Nexus"
+ NEX:0 "Nexus"
+ NEX_ADJ:3 "Nexusite"
+ NEX_ideas:3 "Nexusite Ideas"
+ NEX_ideas_bonus:3 "Nexusite Ambition"
+ NEX_ideas_start:3 "Nexusite Traditions"
 
  baltoruth_nation_title:0 "Reaffirm the Commonwealth"
  baltoruth_nation_desc:0 "The Baltic-Ruthenian Commonwealth, once a bastion of political power and economic prowess, stands as a testament to the shared heritage and intertwined destinies of its constituent kingdoms. From the shores of the Baltic Sea to the vast expanses of Ruthenia, this union promises to rejuvenate the spirit of cooperation that once defined the region. For the kings and queens of the Baltic and Ruthenia, this decision represents a historic opportunity to shape the destiny of their realms and leave a lasting legacy of peace and prosperity for generations to come. By embracing the ideals of unity and cooperation, they can build a brighter future for all who call the Commonwealth home."

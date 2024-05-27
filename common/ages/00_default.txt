@@ -436,6 +436,7 @@ age_of_reformation = {
 				OR = {
 					tag = BLT
 					tag = BRC
+					tag = NEX
 					personal_union = 2
 				}
 			}

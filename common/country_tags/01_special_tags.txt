@@ -51,6 +51,7 @@ OUT = "countries/Outremer.txt"
 
 # Baltic-Ruthenian Commonwealth
 BRC = "countries/BalRuthCommonwealth.txt"
+NEX = "countries/BalRuthCommonwealth.txt"
 
 # Vinland
 VIN = "countries/Vinland.txt"

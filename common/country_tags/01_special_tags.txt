@@ -55,3 +55,6 @@ NEX = "countries/BalRuthCommonwealth.txt"
 
 # Vinland
 VIN = "countries/Vinland.txt"
+
+# Crossbell
+CBL = "countries/Garhwal.txt"

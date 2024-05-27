@@ -1,0 +1,24 @@
+country_decisions = {
+	baltoruth_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			tag = GHR
+			NOT = { exists = CBL }
+		}
+		allow = {
+			religion = vidilist
+		}
+		effect = {
+			change_tag = CBL
+			on_change_tag_effect = yes
+			restore_country_name_effect = yes
+            add_prestige = 10
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_importance = 10
+	}
+}

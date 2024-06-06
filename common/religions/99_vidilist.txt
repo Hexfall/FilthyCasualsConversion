@@ -202,13 +202,105 @@ north_pagan = {
 				if = {
 					limit = {
 						has_church_aspect = vidilist_aspect_mil_1
+						
 					}
-					add_years_of_owned_provinces_manpower = {
-						years = 1
-						trigger = {
-							religion = ROOT
+					if = {
+						limit = {
+							religious_unity = 1.3
 						}
+						add_yearly_manpower = 1.15
 					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 1.3 }
+							religious_unity = 1.2
+						}
+						add_yearly_manpower = 1.1
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 1.2 }
+							religious_unity = 1.1
+						}
+						add_yearly_manpower = 1.05
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 1.1 }
+							religious_unity = 1
+						}
+						add_yearly_manpower = 1
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 1 }
+							religious_unity = 0.9
+						}
+						add_yearly_manpower = 0.95
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.9 }
+							religious_unity = 0.8
+						}
+						add_yearly_manpower = 0.9
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.8 }
+							religious_unity = 0.7
+						}
+						add_yearly_manpower = 0.85
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.7 }
+							religious_unity = 0.6
+						}
+						add_yearly_manpower = 0.8
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.6 }
+							religious_unity = 0.5
+						}
+						add_yearly_manpower = 0.75
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.5 }
+							religious_unity = 0.4
+						}
+						add_yearly_manpower = 0.7
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.4 }
+							religious_unity = 0.3
+						}
+						add_yearly_manpower = 0.65
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.3 }
+							religious_unity = 0.2
+						}
+						add_yearly_manpower = 0.6
+					}
+					if = {
+						limit = {NOT = { religious_unity = 0.2 }
+							religious_unity = 0.1
+						}
+						add_yearly_manpower = 0.55
+					}
+					if = {
+						limit = {
+							NOT = { religious_unity = 0.1 }
+							religious_unity = 0.0
+						}
+						add_yearly_manpower = 0.5
+					}
+					
 
 				}
 				if = {

@@ -1,6 +1,8 @@
 ﻿l_english:
  ottoman:0 "Outremer"
  OUT:0 "Outremer Empire"
+ OUT_REVOLUTIONARY_NAME:0 "Mesopotamian Republic"
+ OUT_REVOLUTIONARY_SHORT_NAME:0 "Mesopotamian Rep."
 
  # Decision
  outremer_nation_title:0 "Reforge the Outremer Empire"

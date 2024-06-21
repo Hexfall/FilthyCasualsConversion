@@ -1,0 +1,4 @@
+harmonized_vidilist = {
+	tributary_conversion_cost_modifier = -0.5
+	religion = yes
+}

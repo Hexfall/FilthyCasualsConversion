@@ -1,5 +1,6 @@
 north_pagan = {
 	defender_of_faith = YES
+	harmonized_modifier = harmonized_vidilist
 	vidilist = {
 		color = { 112 84 160 }
 		icon =  174

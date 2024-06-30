@@ -50,3 +50,7 @@
 
  vidilist_aspect_mil_3:0 "Promoting Militarism"
  desc_vidilist_aspect_mil_3:2 "£mil£ §YAspect§!\n§YCelebrate Festival§! gives us §G+2%§! Army Professionalism\n\nThrough rigorous training, stringent discipline, and a steadfast dedication to duty, our military forces attain new heights of proficiency and effectiveness, poised to meet any challenge with skill and precision."
+
+ # Harmonization
+ harmonized_vidilist:0 "Harmonized with the Vidilist Faith"
+ desc_harmonized_vidilist:0 "We have incorporated the Vidilist faith in our country and national ethos."
